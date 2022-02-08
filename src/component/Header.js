@@ -9,7 +9,7 @@ function NavLink({ to, children, setIsNavOpen }) {
     <div className="header_wrappernav_link">
       <input
         type="radio"
-        defaultChecked={to === window.location.pathname}
+        // defaultChecked={to === window.location.pathname}
         className="header_wrappernavlink_input"
         name="header_wrappernavlink_input"
         onClick={() => {
@@ -81,7 +81,7 @@ export default function Header() {
             <NavLink to="/" id="careers" setIsNavOpen={setIsNavOpen}>
               Careers
             </NavLink>
-            <NavLink to="/" id="contactus" setIsNavOpen={setIsNavOpen}>
+            <NavLink to="/" id="careers" setIsNavOpen={setIsNavOpen}>
               Contact Us
             </NavLink>
           </div>
