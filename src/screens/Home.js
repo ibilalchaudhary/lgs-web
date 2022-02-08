@@ -5,6 +5,7 @@ import eventPic from "../assets/eventPic.png";
 import schoolPic from "../assets/schoolPic.png";
 import aboutPic from "../assets/aboutPic.png";
 import campusPic from "../assets/campusPic.png";
+import contactPic from "../assets/contactPic.png";
 
 function EventCard() {
   return (
@@ -158,6 +159,26 @@ export default function Home() {
           <CampusLifeCard />
           <CampusLifeCard />
           <CampusLifeCard />
+        </div>
+      </div>
+      <div className="contact__us__main__container">
+        <img
+          src={contactPic}
+          alt="contactPic"
+          className="contact__us__main__container__img"
+        />
+        <div className="contact__us__main__container__overlay">
+          <div className="contact__us__main__container__overlay__content">
+            <form
+              action=""
+              className="contact__us__main__container__overlay__content__form"
+            >
+              <input type="text" placeholder="email" />
+            </form>
+            <div className="contact__us__main__container__overlay__content__map">
+              map
+            </div>
+          </div>
         </div>
       </div>
     </>
