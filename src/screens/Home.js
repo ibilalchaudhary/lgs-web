@@ -7,6 +7,7 @@ import aboutPic from "../assets/aboutPic.png";
 import campusPic from "../assets/campusPic.png";
 import contactPic from "../assets/contactPic.png";
 import addmission_bg from "../assets/addmission_bg.png";
+import Footer from "../component/Footer";
 
 function EventCard() {
   return (
@@ -366,6 +367,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
