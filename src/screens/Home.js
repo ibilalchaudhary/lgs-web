@@ -163,6 +163,23 @@ export default function Home() {
         </div>
       </div>
       <div className="addmission__main__container">
+        <div className="addmission__main__container__content__wrapper__headings__wrapper">
+          <div className="addmission__main__container__content__wrapper__heading">
+            ADMISSIONS
+          </div>
+          <div className="addmission__main__container__content__wrapper__paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            voluptatem rem deserunt delectus velit quo quam praesentium est
+            commodi quasi, atque blanditiis vero soluta cumque. Illo magni
+            labore ipsa, eaque consectetur quisquam perferendis eius
+            accusantium, repellendus iure expedita necessitatibus commodi
+            recusandae doloribus voluptates? Reprehenderit, vitae quibusdam?
+            Labore. cumque. Illo magni labore ipsa, eaque consectetur quisquam
+            perferendis eius accusantium, repellendus iure expedita
+            necessitatibus commodi recusandae doloribus voluptates?
+            Reprehenderit, vitae quibusdam? Labore.
+          </div>
+        </div>
         <div className="addmission__main__container__content">
           <img
             src={addmission_bg}
