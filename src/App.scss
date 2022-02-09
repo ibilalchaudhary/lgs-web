@@ -118,6 +118,12 @@ body {
   position: relative;
   margin-top: -6em;
 }
+.our__school__container {
+  width: 100%;
+  height: 75vh;
+  position: relative;
+  margin-top: -6em;
+}
 .home__main__container__img {
   width: 100%;
   height: 100%;
@@ -127,6 +133,17 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our__school__container__overlay__content {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 93, 255, 0.45);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -147,6 +164,12 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 35px;
+  color: #ffffff;
+  font-weight: 600;
+  position: relative;
+}
+.our__school__overlay__content__heading {
+  font-size: 40px;
   color: #ffffff;
   font-weight: 600;
   position: relative;
@@ -178,6 +201,78 @@ body {
   margin-top: -8em;
   position: relative;
   z-index: 9999;
+}
+.our__story__main__container {
+  width: 100%;
+  height: fit-content;
+  min-height: 100vh;
+  position: relative;
+}
+.our__story__main__container__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.our__story__main__container__content {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+  height: fit-content;
+  padding: 2em;
+  border-radius: 14px 14px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -6em;
+  position: relative;
+  background: #ffffff;
+}
+.our__story__main__container__content__reverse {
+  width: 100%;
+  border-radius: 0px 0px 14px 14px;
+  max-width: 1440px;
+  margin: 0px auto;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background: #ffffff;
+  padding-top: 2em;
+}
+.our__story__main__container__content__left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.our__story__main__container__content__left__reverse {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+.our__story__main__container__content__left__heading {
+  font-size: 24px;
+  color: #1a1a1a;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.our__story__main__container__content__left__paragraph {
+  font-size: 14px;
+  color: #373737;
+  margin: 1em 0em;
+}
+.our__story__main__container__overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.our__story__main__container__content__img {
+  width: 450px;
+  aspect-ratio: 10/9;
 }
 .events__main__container__heading {
   font-size: 22px;
@@ -777,6 +872,181 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.parents__handbook__main__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background: #005dff;
+  padding: 2em;
+  margin-top: 2em;
+  border-radius: 14px;
+}
+.parents__handbook__main__container__left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.parents__handbook__main__container__left__heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.parents__handbook__main__container__left__paragraph {
+  font-size: 14px;
+  color: #fff;
+  margin: 0.6em 0em;
+}
+.parents__handbook__main__container__img {
+  width: 380px;
+}
+.assignment__main__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #022b43;
+  padding: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 14px;
+}
+.assignment__main__container__heading {
+  width: 26%;
+  margin-right: 2em;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.assignment__main__container__paragraph {
+  flex: 1;
+  font-size: 14px;
+  color: #ffffff;
+}
+.academic__main__container__content {
+  width: 100%;
+  background: #005dff;
+  height: 400px;
+}
+.academic__main__container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+}
+.academic__main__container__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.academic__main__container__content__overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.academic__main__container__content__overlay__pic {
+  width: 750px;
+}
+.academic__main__container__content__overlay__heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+}
+.academic__main__container__content__overlay__paragraph {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+.academic__main__container__content__overlay__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.further__details__our__school__main__section {
+  width: 100%;
+  max-width: 1440px;
+  height: fit-content;
+  padding: 4em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+.further__details__our__school__main__section__wrapper {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #022b43;
+  border-radius: 14px;
+  margin: 0px auto;
+}
+.further__details__our__school__main__section__wrapper__policy {
+  background: #005dff;
+  margin: 2em 0em;
+}
+.further__details__our__school__main__section__wrapper__policy__academic {
+  background: #ffffff;
+  color: #1a1a1a !important;
+}
+.further__details__our__school__main__section__wrapper__heading {
+  width: 20%;
+  margin-right: 2em;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.further__details__our__school__main__section__wrapper__paragraph {
+  font-size: 14px;
+  color: #ffffff;
+}
+.further__details__our__school__main__section__wrapper__paragraph {
+  width: 80%;
+}
+@media (max-width: 1700px) {
+  .academic__main__container {
+    height: 1100px;
+  }
+}
+@media (max-width: 1440px) {
+  .academic__main__container {
+    height: 1250px;
+  }
+  .our__story__main__container__content {
+    max-width: calc(1440px - 10em);
+  }
+  .our__story__main__container__content__reverse {
+    max-width: calc(1440px - 10em);
+  }
+  .parents__handbook__main__container {
+    max-width: calc(1440px - 10em);
+  }
+  .assignment__main__container {
+    max-width: calc(1440px - 10em);
+  }
+}
 @media (max-width: 1250px) {
   .about__main__container__content__img {
     width: 500px;
@@ -789,6 +1059,25 @@ body {
   }
 }
 @media (max-width: 1050px) {
+  .academic__main__container {
+    height: 1450px;
+  }
+  .assignment__main__container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .our__story__main__container__content__img {
+    width: 400px;
+  }
+  .assignment__main__container__heading {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .assignment__main__container {
+    min-width: 100%;
+  }
   .footer__main__container__content__buttom__content {
     flex-direction: column;
     width: 100%;
@@ -864,6 +1153,45 @@ body {
   }
 }
 @media (max-width: 850px) {
+  .further__details__our__school__main__section__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .further__details__our__school__main__section__wrapper__paragraph {
+    width: 100%;
+    margin-top: 1em;
+  }
+  .further__details__our__school__main__section__wrapper__heading {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .academic__main__container {
+    height: 1800px;
+  }
+  .our__story__main__container__content {
+    flex-direction: column;
+    min-width: 100%;
+  }
+  .our__story__main__container__content__reverse {
+    flex-direction: column-reverse;
+    min-width: 100%;
+  }
+  .parents__handbook__main__container {
+    min-width: 100%;
+    flex-direction: column;
+  }
+  .our__story__main__container__content__left {
+    width: 100%;
+  }
+  .our__story__main__container__content__left__reverse {
+    width: 100%;
+  }
+  .parents__handbook__main__container__left {
+    width: 100%;
+    margin-bottom: 2em;
+  }
   .footer__main__container__content {
     flex-direction: column;
   }
@@ -888,9 +1216,30 @@ body {
     margin-bottom: 2em;
   }
 }
+@media (max-width: 730px) {
+  .academic__main__container {
+    height: 2100px;
+  }
+}
 @media (max-width: 600px) {
+  .academic__main__container {
+    height: 2400px;
+  }
+  .assignment__main__container__paragraph {
+    text-align: justify;
+  }
   .campus__life__main__container__content__card {
     width: 100%;
+  }
+  .our__story__main__container__content__img {
+    margin-top: 1em;
+    width: 350px;
+  }
+  .parents__handbook__main__container__img {
+    width: 350px;
+  }
+  .parents__handbook__main__container__left__paragraph {
+    text-align: justify;
   }
   .about__main__container__content__right__heading {
     text-align: center;
@@ -941,5 +1290,20 @@ body {
   }
   .contact__us__main__container__overlay__content__form {
     padding: 0.5em;
+  }
+  .our__story__main__container__content__left {
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  .our__story__main__container__content__left__reverse {
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+}
+@media (max-width: 450px) {
+  .academic__main__container {
+    height: 2500px;
   }
 }

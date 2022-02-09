@@ -69,19 +69,35 @@ export default function Header() {
             <NavLink to="/" id="home" setIsNavOpen={setIsNavOpen}>
               Home
             </NavLink>
-            <NavLink to="/" id="ourschool" setIsNavOpen={setIsNavOpen}>
+            <NavLink
+              to="/our-school"
+              id="ourschool"
+              setIsNavOpen={setIsNavOpen}
+            >
               Our School
             </NavLink>
-            <NavLink to="/" id="ourcampus" setIsNavOpen={setIsNavOpen}>
+            <NavLink
+              to="/our-campus"
+              id="ourcampus"
+              setIsNavOpen={setIsNavOpen}
+            >
               Our Campus
             </NavLink>
-            <NavLink to="/" id="admissions" setIsNavOpen={setIsNavOpen}>
+            <NavLink
+              to="/admissions"
+              id="admissions"
+              setIsNavOpen={setIsNavOpen}
+            >
               Admissions
             </NavLink>
-            <NavLink to="/" id="careers" setIsNavOpen={setIsNavOpen}>
+            <NavLink to="/careers" id="careers" setIsNavOpen={setIsNavOpen}>
               Careers
             </NavLink>
-            <NavLink to="/" id="careers" setIsNavOpen={setIsNavOpen}>
+            <NavLink
+              to="/contact-us"
+              id="contactus"
+              setIsNavOpen={setIsNavOpen}
+            >
               Contact Us
             </NavLink>
           </div>
