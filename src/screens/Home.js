@@ -6,6 +6,7 @@ import schoolPic from "../assets/schoolPic.png";
 import aboutPic from "../assets/aboutPic.png";
 import campusPic from "../assets/campusPic.png";
 import contactPic from "../assets/contactPic.png";
+import addmission_bg from "../assets/addmission_bg.png";
 
 function EventCard() {
   return (
@@ -161,6 +162,74 @@ export default function Home() {
           <CampusLifeCard />
         </div>
       </div>
+      <div className="addmission__main__container">
+        <div className="addmission__main__container__content">
+          <img
+            src={addmission_bg}
+            alt="addmission_bg"
+            className="addmission__main__container__content__img"
+          />
+          <div className="addmission__main__container__content__overlay">
+            <div className="addmission__main__container__content__overlay__content">
+              <div className="addmission__main__container__content__overlay__content__paragragh">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Possimus, ex optio suscipit impedit itaque beatae inventore
+                perferendis officia tenetur fuga!
+              </div>
+              <input
+                type="text"
+                placeholder="Name"
+                className="contact__us__main__container__overlay__content__form__input"
+              />
+              <input
+                type="tel"
+                placeholder="Phone"
+                className="contact__us__main__container__overlay__content__form__input"
+              />{" "}
+              <input
+                type="text"
+                placeholder="Class"
+                className="contact__us__main__container__overlay__content__form__input"
+              />
+              <input
+                type="text"
+                placeholder="Address"
+                className="contact__us__main__container__overlay__content__form__input"
+              />
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  justifyContent: "end",
+                  alignItems: "flex-end",
+                  marginTop: "1em",
+                }}
+              >
+                <button className="primary__btn">Submit</button>
+              </div>
+            </div>
+            <div className="addmission__main__container__content__wrapper"></div>
+            <div className="addmission__main__container__content__wrapper__headings__container">
+              <div className="addmission__main__container__content__wrapper__heading">
+                ADMISSIONS
+              </div>
+              <div className="addmission__main__container__content__wrapper__paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consectetur voluptatem rem deserunt delectus velit quo quam
+                praesentium est commodi quasi, atque blanditiis vero soluta
+                cumque. Illo magni labore ipsa, eaque consectetur quisquam
+                perferendis eius accusantium, repellendus iure expedita
+                necessitatibus commodi recusandae doloribus voluptates?
+                Reprehenderit, vitae quibusdam? Labore. cumque. Illo magni
+                labore ipsa, eaque consectetur quisquam perferendis eius
+                accusantium, repellendus iure expedita necessitatibus commodi
+                recusandae doloribus voluptates? Reprehenderit, vitae quibusdam?
+                Labore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="contact__us__main__container">
         <img
           src={contactPic}
@@ -218,8 +287,6 @@ export default function Home() {
             <div className="contact__us__main__container__overlay__content__map">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.1151111002946!2d73.10139811514794!3d31.410954431405937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922680e447c274b%3A0x9c84073af7e37170!2sLahore%20Grammar%20School%2C%20Shahrahe%20Faisal%2C%20D%20Ground%20Block%20B%20People&#39;s%20Colony%20No%201%2C%20Faisalabad%2C%20Punjab!5e0!3m2!1sen!2s!4v1644349815423!5m2!1sen!2s"
-                width="550"
-                height="400"
                 style={{ borderRadius: 30, border: "none" }}
               />
             </div>
