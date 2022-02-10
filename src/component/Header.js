@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import logo from "../assets/logo.svg";
 import { Link, useNavigate } from "react-router-dom";
 import { Menu, X } from "react-feather";
+import "animate.css";
 
 function NavLink({ to, children, setIsNavOpen }) {
   const navigate = useNavigate();
@@ -65,7 +66,7 @@ export default function Header() {
           )}
         </button>
         {isNavOpen ? (
-          <div className="header_wrapper_nav">
+          <div className="header_wrapper_nav animate__animated  animate__backInDown">
             <NavLink to="/" id="home" setIsNavOpen={setIsNavOpen}>
               Home
             </NavLink>
