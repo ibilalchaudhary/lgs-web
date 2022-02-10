@@ -140,6 +140,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+.contact__main__container__overlay {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .our__school__container__overlay__content {
   width: 100%;
   height: 100%;
@@ -169,10 +180,11 @@ body {
   position: relative;
 }
 .our__school__overlay__content__heading {
-  font-size: 40px;
+  font-size: 46px;
   color: #ffffff;
   font-weight: 600;
   position: relative;
+  text-transform: uppercase;
 }
 .home__main__container__overlay__content__heading span {
   font-size: 30px;
@@ -198,7 +210,7 @@ body {
   padding: 1em;
   display: flex;
   flex-direction: column;
-  margin-top: -8em;
+  margin-top: -9em;
   position: relative;
   z-index: 9999;
 }
@@ -1179,6 +1191,87 @@ body {
   justify-content: flex-start;
   padding: 0em 1.5em;
 }
+.our__campus__banner__section {
+  width: 100%;
+  max-width: 1440px;
+  height: fit-content;
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+.our__campus__banner__section {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+}
+.admissions__content__section {
+  width: 100%;
+  max-width: 1440px;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  margin-top: -8em;
+  z-index: 999;
+  position: relative;
+  margin-bottom: 6em;
+}
+.admissions__content__section__cards__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.admissions__content__section__card__admission__procedure {
+  padding: 4em 2em;
+  width: 100%;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.proficieny__exams {
+  background: #022b43;
+  color: #ffffff !important;
+  margin-top: -1em;
+}
+.admissions__content__section__card__admission__procedure__heading {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+}
+.admissions__content__section__card__admission__procedure__heading::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0px;
+  content: "";
+  height: 3px;
+  border-radius: 3px;
+  width: 50%;
+  background: #005dff;
+}
+.proficieny__exams__heading::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0px;
+  content: "";
+  height: 3px;
+  border-radius: 3px;
+  width: 50%;
+  background: #ffffff !important;
+}
+.admissions__content__section__card__admission__procedure__paragraph {
+  font-size: 14px;
+  color: #1a1a1a;
+  margin-top: 2em;
+}
 @media (max-width: 1700px) {
   .academic__main__container {
     height: 1100px;
@@ -1458,15 +1551,15 @@ body {
   .contact__us__main__container__overlay__content__form {
     padding: 0.5em;
   }
-  .our__story__main__container__content__left {
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-  }
+  .our__story__main__container__content__left,
+  .admissions__content__section__card__admission__procedure__paragraph,
   .our__story__main__container__content__left__reverse {
     justify-content: center;
     align-items: center;
     text-align: justify;
+  }
+  .admissions__content__section__cards__wrapper {
+    padding: 0em;
   }
 }
 @media (max-width: 450px) {

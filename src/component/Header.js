@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import logo from "../assets/logo.svg";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Menu, X } from "react-feather";
 
 function NavLink({ to, children, setIsNavOpen }) {
@@ -49,9 +49,9 @@ export default function Header() {
   return (
     <div className="header">
       <div className="header__wrapper">
-        <a href="#" className="header_wrapper_logo">
+        <Link to="/" href="#" className="header_wrapper_logo">
           <img src={logo} alt="logo" className="header_wrapperlogo_img" />
-        </a>
+        </Link>
         <button
           className="header_wrapper_menu"
           onClick={() => {

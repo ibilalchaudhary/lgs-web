@@ -1,7 +1,7 @@
 import React from "react";
 import contactPic from "../assets/contactPic.png";
 
-export default function ContactUs() {
+export default function ContactUsSection() {
   return (
     <div className="contact__us__main__container">
       <img

@@ -1,27 +1,9 @@
 import React from "react";
 import ourCampusBg from "../assets/ourCampusBg.png";
 import eventPic from "../assets/eventPic.png";
-import schoolPic from "../assets/schoolPic.png";
-import aboutPic from "../assets/aboutPic.png";
 import campusPic from "../assets/campusPic.png";
 import addmission_bg from "../assets/addmission_bg.png";
-
-function CampusLifeCard() {
-  return (
-    <div className="campus__life__main__container__content__card">
-      <img
-        src={campusPic}
-        alt="campusPic"
-        className="campus__life__main__container__content__card__img"
-      />
-      <div className="campus__life__main__container__content__card__overlay">
-        <div className="campus__life__main__container__content__card__overlay__heading">
-          New Heading Here
-        </div>
-      </div>
-    </div>
-  );
-}
+import main_bg from "../assets/main_bg.png";
 
 function SportsCard() {
   return (
@@ -215,95 +197,12 @@ export default function OurCampus() {
           <SportsCard />
         </div>
       </div>
-      <div className="news__main__section">
-        <div className="news__main__section__content">
-          <div className="news__main__section__header">
-            <div className="news__main__section__heading">LATEST NEWS</div>
-            <div className="news__main__section__date">7 Dec 2022</div>
-          </div>
-          <div className="news__main__section__paragraph">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates
-            esse quod ullam dolores quisquam cupiditate libero quia ratione?
-            Voluptatem pariatur debitis eveniet ut placeat eaque eligendi
-            tempora sunt facilis. Veniam, facilis delectus. Tempore eaque magni
-            earum unde minus dolores quisquam qui reprehenderit, odit neque
-            porro! Voluptatum voluptates sunt sint id. Consequuntur aperiam
-            dicta amet vero nisi voluptates sint veniam quam.
-          </div>
-        </div>
-      </div>
-      <div className="our__school__main__container">
-        <div className="our__school__main__container__content">
-          <div className="our__school__main__container__left">
-            <div className="our__school__main__container__heading">
-              OUR SCHOOL
-            </div>
-            <div className="our__school__main__container__paragragh">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed ea
-              beatae odit quaerat laboriosam, quis laudantium eum error officia
-              est deleniti odio itaque recusandae ullam. Consectetur aliquam,
-              mollitia qui quibusdam est facere fuga provident enim, quasi vero
-              saepe adipisci suscipit ex quam? Fugiat ratione porro neque fugit
-              perspiciatis facere maiores labore corrupti? Sed nostrum iusto
-              consectetur culpa delectus deleniti blanditiis, minima corporis
-              itaque nihil unde eum officiis numquam eveniet sunt iure
-              perspiciatis repellat ipsa architecto quae commodi voluptatem
-              facere ex. Modi nam, consequuntur ut aliquam dolores voluptatem
-              labore quibusdam consequatur velit officia natus voluptatibus
-              quidem sint doloribus ullam placeat molestiae!
-            </div>
-          </div>
-          <div className="our__school__main__container__right">
-            <img
-              src={schoolPic}
-              alt="schoolPic"
-              className="our__school__main__container__right__img"
-            />
-          </div>
-        </div>
-      </div>
-      <div className="about__main__container">
-        <div className="about__main__container__content">
-          <img
-            src={aboutPic}
-            alt="aboutPic"
-            className="about__main__container__content__img"
-          />
-          <div className="about__main__container__content__right">
-            <div className="about__main__container__content__right__heading">
-              ABOUT LGS
-            </div>
-            <div className="about__main__container__content__right__paragraph">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed ea
-              beatae odit quaerat laboriosam, quis laudantium eum error officia
-              est deleniti odio itaque recusandae ullam. Consectetur aliquam,
-              mollitia qui quibusdam est facere fuga provident enim, quasi vero
-              saepe adipisci suscipit ex quam? Fugiat ratione porro neque fugit
-              perspiciatis facere maiores labore corrupti? Sed nostrum iusto
-              consectetur culpa delectus deleniti blanditiis, minima corporis
-              itaque nihil unde eum officiis numquam eveniet sunt iure
-              perspiciatis repellat ipsa architecto quae commodi voluptatem
-              facere ex. Modi nam, consequuntur ut aliquam dolores voluptatem
-              labore quibusdam consequatur velit officia natus voluptatibus
-              quidem sint doloribus ullam placeat molestiae!
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="campus__life__main__container">
-        <div className="campus__life__main__container__heading">
-          CAMPUS LIFE
-        </div>
-        <div className="campus__life__main__container__content">
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
-        </div>
+      <div className="our__campus__banner__section">
+        <img
+          src={main_bg}
+          alt="main_bg"
+          className="our__campus__banner__section"
+        />
       </div>
     </>
   );
