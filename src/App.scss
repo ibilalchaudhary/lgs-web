@@ -1229,12 +1229,151 @@ body {
   align-items: center;
   padding: 2em;
 }
-.admissions__content__section__card__admission__procedure {
-  padding: 4em 2em;
+.careers__content__section {
   width: 100%;
+  max-width: 1440px;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  margin-top: -8em;
+  z-index: 999;
+  position: relative;
+  margin-bottom: 6em;
+}
+.careers__content__section__cards__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.careers__content__section__card__public__speaking {
+  padding: 2em;
+  width: 100%;
+  height: fit-content;
+  border-radius: 14px;
+  background: #022b43;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+  position: relative;
+}
+.careers__content__section__card__international__explore {
+  width: 100%;
+  border-radius: 14px;
+  height: fit-content;
+  background: #022b43;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 2em;
+  position: relative;
+}
+.careers__content__section__card__community__service {
+  width: 100%;
+  height: fit-content;
   border-radius: 14px;
   background: #ffffff;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+  padding: 2em;
+}
+.admissions__content__section__card__admission__procedure {
+  width: 100%;
+  height: fit-content;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3em;
+  padding: 4em 2em;
+}
+.careers__content__section__card__community__service__img {
+  width: 650px;
+}
+.careers__content__section__card__community__service__right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.careers__content__section__card__international__explore__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+}
+.careers__content__section__card__international__explore__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgb(0, 93, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4em;
+  border-radius: 14px;
+}
+.careers__content__section__card__public__speaking__left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.careers__content__section__card__public__speaking__left__heading {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.careers__content__section__card__public__speaking__left__paragraph {
+  font-size: 14px;
+  margin: 0.8em 0em;
+  color: #fff;
+}
+.careers__content__section__card__community__service__right__heading {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #1a1a1a;
+}
+.careers__content__section__card__community__service__right__paragraph {
+  font-size: 14px;
+  margin: 0.8em 0em;
+  color: #1a1a1a;
+}
+.careers__content__section__card__public__speaking__img {
+  width: 350px;
+}
+.careers__content__section__campus__life {
+  width: 100%;
+  max-width: 1440px;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0px auto;
+}
+.careers__content__section__campus__life__content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 4em;
+  padding: 0em 2em;
 }
 .proficieny__exams {
   background: #022b43;
@@ -1295,6 +1434,9 @@ body {
   }
 }
 @media (max-width: 1250px) {
+  .careers__content__section__card__community__service__img {
+    width: 500px;
+  }
   .about__main__container__content__img {
     width: 500px;
   }
@@ -1306,6 +1448,20 @@ body {
   }
 }
 @media (max-width: 1050px) {
+  .careers__content__section__card__community__service {
+    flex-direction: column;
+  }
+  .careers__content__section__card__public__speaking {
+    flex-direction: column;
+  }
+  .careers__content__section__card__community__service__right {
+    width: 100%;
+    margin-top: 2em;
+  }
+  .careers__content__section__card__public__speaking__left {
+    width: 100%;
+    margin-bottom: 2em;
+  }
   .sports__main__container__content__card {
     width: 30%;
   }
@@ -1403,6 +1559,22 @@ body {
   }
 }
 @media (max-width: 850px) {
+  .careers__content__section__cards__wrapper {
+    padding: 0em;
+  }
+  .careers__content__section__card__international__explore {
+    padding: 0em;
+    height: 400px;
+  }
+  .careers__content__section__card__international__explore__overlay {
+    padding: 2em;
+  }
+  .careers__content__section__card__community__service__img {
+    width: 300px;
+  }
+  .careers__content__section__card__public__speaking__img {
+    width: 300px;
+  }
   .campus__main__container__content {
     flex-direction: column;
   }
@@ -1553,7 +1725,9 @@ body {
   }
   .our__story__main__container__content__left,
   .admissions__content__section__card__admission__procedure__paragraph,
-  .our__story__main__container__content__left__reverse {
+  .our__story__main__container__content__left__reverse,
+  .careers__content__section__card__public__speaking__left__paragraph,
+  .careers__content__section__card__community__service__right__paragraph {
     justify-content: center;
     align-items: center;
     text-align: justify;

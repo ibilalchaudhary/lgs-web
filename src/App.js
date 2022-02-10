@@ -4,6 +4,7 @@ import ContactUsSection from "./component/ContactUsSection";
 import Footer from "./component/Footer";
 import Header from "./component/Header";
 import Admissions from "./screens/Admissions";
+import Careers from "./screens/Careers";
 import ContactUs from "./screens/ContactUs";
 import Home from "./screens/Home";
 import OurCampus from "./screens/OurCampus";
@@ -19,6 +20,7 @@ function App() {
         <Route path="/our-campus" element={<OurCampus />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/admissions" element={<Admissions />} />
+        <Route path="/careers" element={<Careers />} />
       </Routes>
       <ContactUsSection />
       <Footer />
