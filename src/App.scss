@@ -1531,9 +1531,7 @@ body {
   .events__main__container__content__card {
     min-width: 23%;
   }
-  .events__main__container__content__card:nth-child(1) {
-    margin-left: 14em;
-  }
+
   .header_wrapper_menu {
     display: flex;
   }
@@ -1560,7 +1558,7 @@ body {
 }
 @media (max-width: 850px) {
   .careers__content__section__cards__wrapper {
-    padding: 0em;
+    padding: 0em 1em;
   }
   .careers__content__section__card__international__explore {
     padding: 0em;
@@ -1651,6 +1649,9 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .our__school__main__container__content {
+    margin: 1em;
+  }
   .sports__main__container__content__card {
     width: 42%;
   }
@@ -1661,7 +1662,7 @@ body {
     text-align: justify;
   }
   .campus__life__main__container__content__card {
-    width: 100%;
+    width: 90%;
   }
   .our__story__main__container__content__img {
     margin-top: 1em;
@@ -1688,9 +1689,7 @@ body {
   .events__main__container__content__card {
     min-width: 44%;
   }
-  .events__main__container__content__card:nth-child(1) {
-    margin-left: 14em;
-  }
+
   .events__main__container {
     padding: 0.5em;
   }
@@ -1705,6 +1704,9 @@ body {
   }
   .about__main__container__content__img {
     width: 320px;
+  }
+  .about__main__container__content {
+    margin: 1em;
   }
   .contact__us__main__container__overlay__content__contact__wrapper {
     flex-direction: column;
@@ -1732,8 +1734,28 @@ body {
     align-items: center;
     text-align: justify;
   }
+
   .admissions__content__section__cards__wrapper {
-    padding: 0em;
+    padding: 1em;
+  }
+  .sports__main__container__heading__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .sports__main__container__content__card {
+    width: 80%;
+  }
+  .sports__main__container__heading {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .news__main__section {
+    padding: 1em;
+  }
+  .further__details__our__school__main__section {
+    padding: 3em 1em;
   }
 }
 @media (max-width: 450px) {
