@@ -6,6 +6,8 @@ import Header from "./component/Header";
 import Admissions from "./screens/Admissions";
 import Careers from "./screens/Careers";
 import ContactUs from "./screens/ContactUs";
+import FAQ from "./screens/FAQ";
+import FaqDetails from "./screens/FAQDetails";
 import Home from "./screens/Home";
 import OurCampus from "./screens/OurCampus";
 import OurSchool from "./screens/OurSchool";
@@ -21,6 +23,8 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/admissions" element={<Admissions />} />
         <Route path="/careers" element={<Careers />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/faq-details" element={<FaqDetails />} />
       </Routes>
       <ContactUsSection />
       <Footer />

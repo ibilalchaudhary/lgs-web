@@ -1,11 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 
 export default function Footer() {
   return (
     <div className="footer__main__container">
       <div className="footer__main__container__content">
-        <div className="footer__main__container__content__entry__wrapper">
+        <Link
+          to="/"
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+          className="footer__main__container__content__entry__wrapper"
+        >
           <img
             src={logo}
             alt="logo"
@@ -101,82 +108,115 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-        </div>
+        </Link>
         <div className="footer__main__container__content__entry__wrapper">
           <div className="footer__main__container__content__entry__heading">
             Links
           </div>
-          <a
-            href=""
+          <Link
+            to="/"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
             className="footer__main__container__content__entry__wrapper__entry"
           >
             Home
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to="/admissions"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
             className="footer__main__container__content__entry__wrapper__entry"
           >
             Admissions
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to="/careers"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
             className="footer__main__container__content__entry__wrapper__entry"
           >
             Campus Life
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to="/our-campus"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
             className="footer__main__container__content__entry__wrapper__entry"
           >
             LGS Societies
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to="/"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
             className="footer__main__container__content__entry__wrapper__entry"
           >
             Guide
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to="/"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
             className="footer__main__container__content__entry__wrapper__entry"
           >
             Blog
-          </a>
+          </Link>
         </div>
         <div className="footer__main__container__content__entry__wrapper">
           <div className="footer__main__container__content__entry__heading">
             Support
           </div>
-          <a
-            href=""
+          <Link
+            to="/faq"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
             className="footer__main__container__content__entry__wrapper__entry"
           >
             FAQ
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to="/"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
             className="footer__main__container__content__entry__wrapper__entry"
           >
             How it Works
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to="/"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
             className="footer__main__container__content__entry__wrapper__entry"
           >
             Features
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to="/contact-us"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
             className="footer__main__container__content__entry__wrapper__entry"
           >
             Contact
-          </a>
-          <a
-            href=""
+          </Link>
+          <Link
+            to="/"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
             className="footer__main__container__content__entry__wrapper__entry"
           >
             Reporting
-          </a>
+          </Link>
         </div>
         <div className="footer__main__container__content__entry__wrapper">
           <div className="footer__main__container__content__entry__heading">
