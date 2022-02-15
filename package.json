@@ -12,6 +12,7 @@
     "react-feather": "^2.0.9",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-simple-image-viewer": "^1.1.1",
     "sass": "^1.49.7",
     "web-vitals": "^2.1.4"
   },

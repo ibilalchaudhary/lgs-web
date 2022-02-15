@@ -63,7 +63,7 @@ body {
 }
 .header_wrappernav_link {
   position: relative;
-  margin-right: 1em;
+  margin-right: 0.2em;
 }
 .header_wrappernavlink_input {
   position: absolute;
@@ -80,7 +80,7 @@ body {
   color: #ffffff;
   font-weight: 400;
   position: relative;
-  padding: 0.7em 1.5em;
+  padding: 0.7em 1.2em;
 }
 
 .header_wrappernavlink_input:hover ~ .header_wrappernavlink_content,
@@ -245,6 +245,18 @@ body {
   position: relative;
   z-index: 9999;
 }
+.complaints__main__container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+  height: fit-content;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-top: -12em;
+  position: relative;
+  z-index: 9999;
+}
 .our__story__main__container {
   width: 100%;
   height: fit-content;
@@ -351,7 +363,7 @@ body {
 }
 .events__main__container__content__card {
   width: 18%;
-  height: fit-content;
+  height: 350px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -362,6 +374,22 @@ body {
   margin-bottom: 1em;
 }
 .events__main__container__content__card:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  transition: 400ms ease-in-out;
+}
+.sports__main__container__content__card {
+  width: 18%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  border-radius: 14px;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.sports__main__container__content__card:hover {
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
   transition: 400ms ease-in-out;
 }
@@ -393,9 +421,9 @@ body {
   object-fit: cover;
   border-radius: 14px;
 }
-.sports__main__container__content__card {
-  width: 18%;
-  height: fit-content;
+.sports__section__main__container__content__card {
+  width: 18.5%;
+  height: 350px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -405,7 +433,7 @@ body {
   margin-right: 1em;
   margin-bottom: 1em;
 }
-.sports__main__container__content__card:hover {
+.sports__section__main__container__content__card:hover {
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
   transition: 400ms ease-in-out;
 }
@@ -599,6 +627,7 @@ body {
   margin-top: 1em;
   position: relative;
   cursor: pointer;
+  height: 320px;
 }
 .campus__life__main__container__content__card__img {
   width: 100%;
@@ -628,10 +657,17 @@ body {
   transition: 300ms ease-in-out;
 }
 .campus__life__main__container__content__card__overlay__heading {
-  font-size: 18px;
+  font-size: 22px;
   color: #ffffff;
   font-weight: 600;
+  text-align: center;
   margin-bottom: 1em;
+}
+.sports__section__main__container__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .contact__us__main__container {
   width: 100%;
@@ -1264,7 +1300,7 @@ body {
   align-items: center;
   margin: 0px auto;
   margin-bottom: 2em;
-  margin-top: 2em;
+  margin-top: 3em;
 }
 .our__campus__banner__section {
   width: 100%;
@@ -1400,10 +1436,10 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   color: #ffffff;
+  margin: 0.8em 0em;
 }
 .careers__content__section__card__public__speaking__left__paragraph {
   font-size: 14px;
-  margin: 0.8em 0em;
   color: #fff;
 }
 .careers__content__section__card__community__service__right__heading {
@@ -1614,6 +1650,37 @@ body {
   color: #1a1a1a;
   margin-bottom: 2em;
 }
+.photo__gallery__container__content__heading {
+  font-size: 30px;
+  color: #1a1a1a;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+.photo__gallery__container__content {
+  width: 100%;
+  max-width: 1440px;
+  padding: 1em 0em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.photo__gallery__container__content__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 1em;
+  border-radius: 14px;
+}
+.photo__gallery__container__content__img__wrapper {
+  width: 32.5%;
+  height: 300px;
+  margin-bottom: 1em;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+}
 
 @media (max-width: 1700px) {
   .academic__main__container {
@@ -1662,6 +1729,9 @@ body {
   }
 }
 @media (max-width: 1050px) {
+  .sports__section__main__container__content__card {
+    width: 30%;
+  }
   .faq__container__content__right {
     display: none;
   }
@@ -1783,6 +1853,9 @@ body {
   .about__main__container__content__right {
     width: 100%;
   }
+  .photo__gallery__container__content__img {
+    width: 48%;
+  }
 }
 @media (max-width: 850px) {
   .careers__content__section__cards__wrapper {
@@ -1872,6 +1945,9 @@ body {
   }
 }
 @media (max-width: 730px) {
+  .sports__section__main__container__content__card {
+    width: 45%;
+  }
   .faq__container__content__questions__container {
     flex-direction: column;
   }
@@ -1901,6 +1977,10 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .contact__us__main__container__overlay__content__office__hours {
+    margin: 0px;
+    margin-top: 2em;
+  }
   .our__school__main__container__content {
     margin: 1em;
   }
@@ -1943,6 +2023,9 @@ body {
   }
 
   .events__main__container {
+    padding: 0.5em;
+  }
+  .complaints__main__container {
     padding: 0.5em;
   }
   .news__main__section__header {
@@ -2017,6 +2100,9 @@ body {
   }
   .academic__main__container__content__overlay__pic {
     width: 400px;
+  }
+  .photo__gallery__container__content__img {
+    width: 100%;
   }
 }
 @media (max-width: 450px) {

@@ -9,8 +9,11 @@ import ContactUs from "./screens/ContactUs";
 import FAQ from "./screens/FAQ";
 import FaqDetails from "./screens/FAQDetails";
 import Home from "./screens/Home";
+import Alumini from "./screens/Alumini";
 import OurCampus from "./screens/OurCampus";
 import OurSchool from "./screens/OurSchool";
+import Sports from "./screens/Sports";
+import Complaints from "./screens/Complaints";
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
         <Route path="/careers" element={<Careers />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/faq-details" element={<FaqDetails />} />
+        <Route path="/alumini" element={<Alumini />} />
+        <Route path="/sports" element={<Sports />} />
+        <Route path="/complaints" element={<Complaints />} />
       </Routes>
       <ContactUsSection />
       <Footer />
