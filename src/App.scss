@@ -26,7 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  z-index: 999;
+  z-index: 99999;
 }
 .header__wrapper {
   display: flex;
@@ -1171,6 +1171,7 @@ body {
 .further__details__our__school__main__section__wrapper__policy__academic {
   background: #ffffff;
   color: #1a1a1a !important;
+  margin-bottom: 2em;
 }
 .further__details__our__school__main__section__wrapper__heading {
   width: 20%;
@@ -1194,12 +1195,19 @@ body {
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   min-height: 300px;
   padding: 2em;
+  text-decoration: none;
+  cursor: pointer;
 }
 .campus__main__container__content__card:nth-child(2) {
   background: #005dff;
 }
 .campus__main__container__content__card:nth-child(3) {
   background: #022b43;
+}
+.campus__main__container__content__card:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  transition: 300ms ease-in-out;
 }
 .campus__main__container__content__card__heading {
   font-size: 20px;
@@ -2103,6 +2111,12 @@ body {
   }
   .photo__gallery__container__content__img {
     width: 100%;
+  }
+  .our__school__overlay__content__heading {
+    font-size: 36px;
+  }
+  .our__school__overlay__content__heading__wrapper svg {
+    width: 320px !important;
   }
 }
 @media (max-width: 450px) {

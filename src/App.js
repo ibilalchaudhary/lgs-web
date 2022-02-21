@@ -14,6 +14,9 @@ import OurCampus from "./screens/OurCampus";
 import OurSchool from "./screens/OurSchool";
 import Sports from "./screens/Sports";
 import Complaints from "./screens/Complaints";
+import CanalCampus from "./screens/CanalCampus";
+import SeniorSchool from "./screens/SeniorSchool";
+import ALevels from "./screens/ALevels";
 
 function App() {
   return (
@@ -31,6 +34,9 @@ function App() {
         <Route path="/alumini" element={<Alumini />} />
         <Route path="/sports" element={<Sports />} />
         <Route path="/complaints" element={<Complaints />} />
+        <Route path="/canal-campus" element={<CanalCampus />} />
+        <Route path="/senior-school" element={<SeniorSchool />} />
+        <Route path="/a-levels" element={<ALevels />} />
       </Routes>
       <ContactUsSection />
       <Footer />

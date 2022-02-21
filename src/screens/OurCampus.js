@@ -4,6 +4,7 @@ import eventPic from "../assets/eventPic.png";
 import campusPic from "../assets/campusPic.png";
 import addmission_bg from "../assets/addmission_bg.png";
 import main_bg from "../assets/main_bg.png";
+import { Link } from "react-router-dom";
 
 function SportsCard() {
   return (
@@ -56,7 +57,10 @@ export default function OurCampus() {
       </div>
       <div className="events__main__container">
         <div className="campus__main__container__content">
-          <div className="campus__main__container__content__card">
+          <Link
+            to="/canal-campus"
+            className="campus__main__container__content__card"
+          >
             <div className="campus__main__container__content__card__heading">
               CANAL CAMPUS
             </div>
@@ -78,8 +82,11 @@ export default function OurCampus() {
             <div className="campus__main__container__content__card__sub__entry">
               Notice Board
             </div>
-          </div>
-          <div className="campus__main__container__content__card">
+          </Link>
+          <Link
+            to="/senior-school"
+            className="campus__main__container__content__card"
+          >
             <div className="campus__main__container__content__card__heading campus__main__container__content__card__entry__white">
               SENIOR SCHOOL
             </div>
@@ -92,8 +99,11 @@ export default function OurCampus() {
             <div className="campus__main__container__content__card__entry__center campus__main__container__content__card__entry__white">
               Student Choices
             </div>
-          </div>
-          <div className="campus__main__container__content__card">
+          </Link>
+          <Link
+            to="/a-levels"
+            className="campus__main__container__content__card"
+          >
             <div className="campus__main__container__content__card__heading campus__main__container__content__card__entry__white">
               A- lEVELS
             </div>
@@ -115,7 +125,7 @@ export default function OurCampus() {
             <div className="campus__main__container__content__card__entry campus__main__container__content__card__entry__white">
               Notice Board
             </div>
-          </div>
+          </Link>
         </div>
       </div>
       <div className="our__campus__banner__section">
