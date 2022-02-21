@@ -41,14 +41,14 @@ export default function SeniorSchool() {
         </div>
       </div>
       <div className="careers__content__section">
-        <div className="careers__content__section__cards__wrapper">
+        <div className="careers__content__section__cards__wrapper ">
           <div className="careers__content__section__card__international__explore">
             <img
               src={internetExplorePic}
               alt="internetExplorePic"
               className="careers__content__section__card__international__explore__img"
             />
-            <div className="careers__content__section__card__international__explore__overlay">
+            <div className="careers__content__section__card__international__explore__overlay senior__content__section__cards__wrapper">
               <svg
                 id="Group_218"
                 data-name="Group 218"
@@ -95,7 +95,16 @@ export default function SeniorSchool() {
                 voluptates perspiciatis eaque maiores aut ratione dolorem qui
                 sapiente cum modi, fugit ducimus, repellendus possimus! Quidem
                 nemo laborum totam quos veritatis, molestiae accusamus, fugit
-                porro et aperiam eaque nobis animi dignissimos.
+                porro et aperiam eaque nobis animi dignissimos. Lorem, ipsum
+                dolor sit amet consectetur adipisicing elit. Nemo vitae saepe
+                nostrum officiis, at, praesentium cum deleniti deserunt itaque
+                possimus sit voluptatibus ipsum consequuntur repellat corporis,
+                esse ut laudantium perspiciatis pariatur vero suscipit
+                architecto minima doloribus ipsa. Pariatur voluptate voluptates
+                perspiciatis eaque maiores aut ratione dolorem qui sapiente cum
+                modi, fugit ducimus, repellendus possimus! Quidem nemo laborum
+                totam quos veritatis, molestiae accusamus, fugit porro et
+                aperiam eaque nobis animi dignissimos.
               </div>
             </div>
           </div>

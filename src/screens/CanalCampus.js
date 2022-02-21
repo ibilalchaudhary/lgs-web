@@ -49,7 +49,7 @@ export default function CanalCampus() {
               alt="internetExplorePic"
               className="careers__content__section__card__international__explore__img"
             />
-            <div className="careers__content__section__card__international__explore__overlay">
+            <div className="careers__content__section__card__international__explore__overlay senior__content__section__cards__wrapper">
               <svg
                 id="Group_218"
                 data-name="Group 218"
@@ -96,7 +96,16 @@ export default function CanalCampus() {
                 voluptates perspiciatis eaque maiores aut ratione dolorem qui
                 sapiente cum modi, fugit ducimus, repellendus possimus! Quidem
                 nemo laborum totam quos veritatis, molestiae accusamus, fugit
-                porro et aperiam eaque nobis animi dignissimos.
+                porro et aperiam eaque nobis animi dignissimos. Lorem, ipsum
+                dolor sit amet consectetur adipisicing elit. Nemo vitae saepe
+                nostrum officiis, at, praesentium cum deleniti deserunt itaque
+                possimus sit voluptatibus ipsum consequuntur repellat corporis,
+                esse ut laudantium perspiciatis pariatur vero suscipit
+                architecto minima doloribus ipsa. Pariatur voluptate voluptates
+                perspiciatis eaque maiores aut ratione dolorem qui sapiente cum
+                modi, fugit ducimus, repellendus possimus! Quidem nemo laborum
+                totam quos veritatis, molestiae accusamus, fugit porro et
+                aperiam eaque nobis animi dignissimos.
               </div>
             </div>
           </div>
@@ -202,31 +211,7 @@ export default function CanalCampus() {
               accusantium exercitationem, cum, et quidem sequi ipsam laudantium
             </div>
           </div>
-          <div className="further__details__our__school__main__section__wrapper further__details__our__school__main__section__wrapper__policy__academic">
-            <div className="further__details__our__school__main__section__wrapper__heading further__details__our__school__main__section__wrapper__policy__academic">
-              Notice Board
-            </div>
-            <div className="further__details__our__school__main__section__wrapper__paragraph further__details__our__school__main__section__wrapper__policy__academic">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Voluptate repudiandae accusantium exercitationem, cum, et quidem
-              sequi ipsam laudantium quas provident, omnis asperiores fugiat ut
-              nulla porro? Sunt ad, et numquam illum, similique eligendi
-              doloremque odio maxime ullam accusantium doloribus fugit!
-              repudiandae accusantium exercitationem, cum, et quidem sequi ipsam
-              laudantium quas provident, omnis asperiores fugiat ut nulla porro?
-              Sunt ad, et numquam illum, similique eligendi doloremque odio
-              maxime ullam accusantium doloribus fugit! Lorem ipsum dolor sit,
-              amet consectetur adipisicing elit. Voluptate repudiandae
-              accusantium exercitationem, cum, et quidem sequi ipsam laudantium
-              quas provident, omnis asperiores fugiat ut nulla porro? Sunt ad,
-              et numquam illum, similique eligendi doloremque odio maxime ullam
-              accusantium doloribus fugit! repudiandae accusantium
-              exercitationem, cum, et quidem sequi ipsam laudantium quas
-              provident, omnis asperiores fugiat ut nulla porro? Sunt ad, et
-              numquam illum, similique eligendi doloremque odio maxime ullam
-              accusantium doloribus fugit!
-            </div>
-          </div>
+
           <PhotoGallery />
           <div className="notice__board__section">
             <div className="notice__board__section__content__heading">
