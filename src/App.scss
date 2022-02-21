@@ -1196,6 +1196,9 @@ body {
   padding: 2em;
   text-decoration: none;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .campus__main__container__content__card:nth-child(2) {
   background: #005dff;
@@ -1218,54 +1221,70 @@ body {
 .campus__main__container__content__card__entry {
   font-size: 14px;
   color: #1a1a1a;
-  margin-left: 1em;
   position: relative;
   margin-top: 0.6em;
 }
-.campus__main__container__content__card__entry::after {
-  position: absolute;
-  top: 4px;
-  left: -20px;
-  content: "";
-  width: 12px;
-  height: 12px;
-  border-radius: 12px;
-  background: #005dff;
-}
+// .campus__main__container__content__card__entry {
+//   font-size: 14px;
+//   color: #1a1a1a;
+//   margin-left: 1em;
+//   position: relative;
+//   margin-top: 0.6em;
+// }
+// .campus__main__container__content__card__entry::after {
+//   position: absolute;
+//   top: 4px;
+//   left: -20px;
+//   content: "";
+//   width: 12px;
+//   height: 12px;
+//   border-radius: 12px;
+//   background: #005dff;
+// }
 .campus__main__container__content__card__sub__entry {
   font-size: 14px;
   color: #1a1a1a;
-  margin-left: 2em;
-  position: relative;
   margin-top: 0.6em;
 }
-.campus__main__container__content__card__sub__entry::after {
-  position: absolute;
-  top: 4px;
-  left: -20px;
-  content: "";
-  width: 12px;
-  height: 12px;
-  border-radius: 12px;
-  background: #022b43;
-}
+// .campus__main__container__content__card__sub__entry {
+//   font-size: 14px;
+//   color: #1a1a1a;
+//   margin-left: 2em;
+//   position: relative;
+//   margin-top: 0.6em;
+// }
+// .campus__main__container__content__card__sub__entry::after {
+//   position: absolute;
+//   top: 4px;
+//   left: -20px;
+//   content: "";
+//   width: 12px;
+//   height: 12px;
+//   border-radius: 12px;
+//   background: #022b43;
+// }
 .campus__main__container__content__card__entry__center {
   font-size: 14px;
   color: #1a1a1a;
-  margin-left: 2em;
-  position: relative;
   margin-top: 0.6em;
 }
-.campus__main__container__content__card__entry__center::after {
-  position: absolute;
-  top: 4px;
-  left: -20px;
-  content: "";
-  width: 12px;
-  height: 12px;
-  border-radius: 12px;
-  background: #022b43;
-}
+// .campus__main__container__content__card__entry__center {
+//   font-size: 14px;
+//   color: #1a1a1a;
+//   margin-left: 2em;
+//   position: relative;
+//   margin-top: 0.6em;
+// }
+// .campus__main__container__content__card__entry__center::after {
+//   position: absolute;
+//   top: 4px;
+//   left: -20px;
+//   content: "";
+//   width: 12px;
+//   height: 12px;
+//   border-radius: 12px;
+//   background: #022b43;
+// }
 .campus__main__container__content__card__entry__white {
   color: #ffffff;
 }
