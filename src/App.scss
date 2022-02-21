@@ -1688,7 +1688,58 @@ body {
   overflow: hidden;
   cursor: pointer;
 }
-
+.notice__board__section {
+  width: 100%;
+  padding: 2em;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+.notice__board__section__content__heading {
+  font-size: 28px;
+  color: #1a1a1a;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.notice__board__section__content__paragraph {
+  margin: 1em 0em;
+  font-size: 16px;
+  color: #1a1a1a;
+  margin-bottom: 2em;
+}
+.notice__board__section__content__card {
+  width: 100%;
+  padding: 1.5em 2em;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  margin-bottom: 1em;
+  height: fit-content;
+  border: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+.notice__board__section__content__card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notice__board__section__content__card__heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  width: 100%;
+  text-align: start;
+}
+.notice__board__section__content__card__paragraph {
+  font-size: 15px;
+  color: #1a1a1a;
+  margin: 1.5em 0em;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  text-align: start;
+}
 @media (max-width: 1700px) {
   .academic__main__container {
     height: 1100px;

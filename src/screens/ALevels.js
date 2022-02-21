@@ -4,6 +4,7 @@ import AlumniRegistrationsPic from "../assets/AlumniRegistrationsPic.png";
 import ReunionsPic from "../assets/ReunionsPic.png";
 import internetExplorePic from "../assets/internetExplorePic.png";
 import PhotoGallery from "../component/PhotoGallery";
+import NoticeBoardCard from "../component/NoticeBoardCard";
 
 export default function ALevels() {
   return (
@@ -227,6 +228,26 @@ export default function ALevels() {
             </div>
           </div>
           <PhotoGallery />
+          <div className="notice__board__section">
+            <div className="notice__board__section__content__heading">
+              NOTICE BOARD
+            </div>
+            <div className="notice__board__section__content__paragraph">
+              Important Notices will be uploaded here whenever possible.
+              However, please make sure that your current cell number has been
+              entered in the School database as our primary means of
+              communication with parents and students is via SMS.Prep Curriculum
+              Outline
+            </div>
+            <NoticeBoardCard />
+            <NoticeBoardCard />
+            <NoticeBoardCard />
+            <NoticeBoardCard />
+            <NoticeBoardCard />
+            <NoticeBoardCard />
+            <NoticeBoardCard />
+            <NoticeBoardCard />
+          </div>
         </div>
       </div>
     </>
