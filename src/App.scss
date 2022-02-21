@@ -25,7 +25,9 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: absolute;
+  top: 0px;
+  left: 0px;
   z-index: 99999;
 }
 .header__wrapper {
@@ -116,19 +118,16 @@ body {
   width: 100%;
   height: 80vh;
   position: relative;
-  margin-top: -6em;
 }
 .our__school__container {
   width: 100%;
   height: 70vh;
   position: relative;
-  margin-top: -6em;
 }
 .faq__container {
   width: 100%;
   height: 100vh;
   position: relative;
-  margin-top: -6em;
 }
 .faq__container__img {
   width: 100%;
