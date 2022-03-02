@@ -22,7 +22,7 @@ function CampusLifeCard() {
   );
 }
 
-export default function Careers() {
+export default function CampusLife() {
   return (
     <>
       <div className="our__school__container">

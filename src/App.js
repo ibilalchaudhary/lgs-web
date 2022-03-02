@@ -4,7 +4,6 @@ import ContactUsSection from "./component/ContactUsSection";
 import Footer from "./component/Footer";
 import Header from "./component/Header";
 import Admissions from "./screens/Admissions";
-import Careers from "./screens/Careers";
 import ContactUs from "./screens/ContactUs";
 import FAQ from "./screens/FAQ";
 import FaqDetails from "./screens/FAQDetails";
@@ -17,6 +16,8 @@ import Complaints from "./screens/Complaints";
 import CanalCampus from "./screens/CanalCampus";
 import SeniorSchool from "./screens/SeniorSchool";
 import ALevels from "./screens/ALevels";
+import CampusLife from "./screens/CampusLife";
+import Career from "./screens/Career";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
         <Route path="/our-campus" element={<OurCampus />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/admissions" element={<Admissions />} />
-        <Route path="/careers" element={<Careers />} />
+        <Route path="/CampusLife" element={<CampusLife />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/faq-details" element={<FaqDetails />} />
         <Route path="/alumini" element={<Alumini />} />
@@ -37,6 +38,7 @@ function App() {
         <Route path="/canal-campus" element={<CanalCampus />} />
         <Route path="/senior-school" element={<SeniorSchool />} />
         <Route path="/a-levels" element={<ALevels />} />
+        <Route path="/career" element={<Career />} />
       </Routes>
       <ContactUsSection />
       <Footer />

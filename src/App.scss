@@ -5,6 +5,7 @@
 *::before {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -734,6 +735,23 @@ body {
 }
 .contact__us__main__container__overlay__content__form__input::placeholder {
   color: #ffffff;
+}
+.contact__us__main__container__overlay__content__form__input__dark {
+  padding: 0.6em 0em;
+  border: none;
+  border-bottom: 1px solid #aaa7a7;
+  outline: none;
+  background: transparent;
+  color: #272727;
+  font-size: 14px;
+  margin-top: 1em;
+  flex: 1;
+}
+.contact__us__main__container__overlay__content__form__input__dark:focus {
+  border-bottom: 2px solid #272727;
+}
+.contact__us__main__container__overlay__content__form__input__dark::placeholder {
+  color: #272727;
 }
 .primary__btn {
   border-radius: 20px;
@@ -1765,6 +1783,43 @@ body {
 .senior__content__section__cards__wrapper {
   background: #022b43;
 }
+.career__section {
+  width: 100%;
+  height: fit-content;
+  min-height: 70vh;
+  position: relative;
+  z-index: 999;
+  margin-top: -4em;
+}
+.career__section__content {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+  height: fit-content;
+  padding: 4em 2em;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+.career__section__content__input__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+.career__section__content__input__row__spacer {
+  width: 5%;
+}
+.career__section__content__input__row__heading {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  padding-top: 1.5em;
+  max-width: 1000px;
+  margin: 0px auto;
+}
 @media (max-width: 1700px) {
   .academic__main__container {
     height: 1100px;
@@ -2060,6 +2115,15 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .career__section__content__input__row {
+    flex-direction: column;
+  }
+  .career__section__content__input__row__spacer {
+    display: none;
+  }
+  .contact__us__main__container__overlay__content__form__input__dark {
+    width: 100%;
+  }
   .contact__us__main__container__overlay__content__office__hours {
     margin: 0px;
     margin-top: 2em;

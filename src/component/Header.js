@@ -91,8 +91,8 @@ export default function Header() {
             >
               Admissions
             </NavLink>
-            <NavLink to="/careers" id="careers" setIsNavOpen={setIsNavOpen}>
-              Careers
+            <NavLink to="/CampusLife" id="careers" setIsNavOpen={setIsNavOpen}>
+              Campus Life
             </NavLink>
             <NavLink to="/alumini" id="alumini" setIsNavOpen={setIsNavOpen}>
               Alumini
@@ -106,6 +106,9 @@ export default function Header() {
               setIsNavOpen={setIsNavOpen}
             >
               Complaints
+            </NavLink>
+            <NavLink to="/career" id="career" setIsNavOpen={setIsNavOpen}>
+              Career
             </NavLink>
             <NavLink
               to="/contact-us"
