@@ -314,7 +314,7 @@ body {
 .our__story__main__container__content__left__paragraph {
   font-size: 14px;
   color: #373737;
-  margin: 1em 0em;
+  margin-top: 0.5em;
 }
 .our__story__main__container__overlay {
   width: 100%;
@@ -910,6 +910,7 @@ body {
   width: 90%;
   font-size: 14px;
   color: #1a1a1a;
+  margin-top: 0.3em;
 }
 .addmission__main__container__content__overlay__content__paragragh {
   font-size: 14px;
@@ -1425,10 +1426,10 @@ body {
   padding: 4em 2em;
 }
 .careers__content__section__card__community__service__img {
-  width: 650px;
+  width: 600px;
 }
 .careers__content__section__card__community__service__right {
-  width: 40%;
+  width: 45%;
   display: flex;
   flex-direction: column;
 }
@@ -1473,10 +1474,11 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   color: #1a1a1a;
+  margin-bottom: 0.5em;
 }
 .careers__content__section__card__community__service__right__paragraph {
   font-size: 14px;
-  margin: 0.8em 0em;
+  margin: 0.4em 0em;
   color: #1a1a1a;
 }
 .careers__content__section__card__public__speaking__img {
@@ -1510,6 +1512,7 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   position: relative;
+  margin-bottom: 1em;
 }
 .admissions__content__section__card__admission__procedure__heading::after {
   position: absolute;
@@ -1518,8 +1521,8 @@ body {
   content: "";
   height: 3px;
   border-radius: 3px;
-  width: 50%;
-  background: #005dff;
+  width: 30%;
+  background: #000000;
 }
 .proficieny__exams__heading::after {
   position: absolute;
@@ -1528,13 +1531,13 @@ body {
   content: "";
   height: 3px;
   border-radius: 3px;
-  width: 50%;
+  width: 30%;
   background: #ffffff !important;
 }
 .admissions__content__section__card__admission__procedure__paragraph {
   font-size: 14px;
   color: #1a1a1a;
-  margin-top: 2em;
+  margin-top: 0.5em;
 }
 .faq__container__content {
   display: flex;

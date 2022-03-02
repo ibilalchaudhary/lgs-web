@@ -5,21 +5,6 @@ import campusPic from "../assets/campusPic.png";
 import addmission_bg from "../assets/addmission_bg.png";
 import main_bg from "../assets/main_bg.png";
 
-function SportsCard() {
-  return (
-    <div className="sports__main__container__content__card">
-      <img
-        src={eventPic}
-        alt="eventPic"
-        className="sports__main__container__content__card__img"
-      />
-      <div className="sports__main__container__content__card__overlay">
-        Football
-      </div>
-    </div>
-  );
-}
-
 export default function Complaints() {
   return (
     <>
@@ -61,16 +46,30 @@ export default function Complaints() {
               COMPLAINTS
             </div>
             <div className="addmission__main__container__content__wrapper__paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur voluptatem rem deserunt delectus velit quo quam
-              praesentium est commodi quasi, atque blanditiis vero soluta
-              cumque. Illo magni labore ipsa, eaque consectetur quisquam
-              perferendis eius accusantium, repellendus iure expedita
-              necessitatibus commodi recusandae doloribus voluptates?
-              Reprehenderit, vitae quibusdam? Labore. cumque. Illo magni labore
-              ipsa, eaque consectetur quisquam perferendis eius accusantium,
-              repellendus iure expedita necessitatibus commodi recusandae
-              doloribus voluptates? Reprehenderit, vitae quibusdam? Labore.
+              Parents wishing to raise a concern may do so by contacting the
+              relevant Administrator or Coordinator by email, telephone, or in
+              person by appointment.
+              <li className="addmission__main__container__content__wrapper__paragraph">
+                Principal
+              </li>
+              <li className="addmission__main__container__content__wrapper__paragraph">
+                Middle School Coordinator 
+              </li>
+              <li className="addmission__main__container__content__wrapper__paragraph">
+                Middle School Administrator
+              </li>
+              <li className="addmission__main__container__content__wrapper__paragraph">
+                O Level Academic Coordinato
+              </li>
+              <li className="addmission__main__container__content__wrapper__paragraph">
+                Senior School Administrator
+              </li>
+              <li className="addmission__main__container__content__wrapper__paragraph">
+                Head of A Level 
+              </li>
+              <li className="addmission__main__container__content__wrapper__paragraph">
+                Student Affairs Coordinator
+              </li>
             </div>
           </div>
           <div className="addmission__main__container__content">
@@ -82,9 +81,8 @@ export default function Complaints() {
             <div className="addmission__main__container__content__overlay">
               <div className="addmission__main__container__content__overlay__content">
                 <div className="addmission__main__container__content__overlay__content__paragragh">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Possimus, ex optio suscipit impedit itaque beatae inventore
-                  perferendis officia tenetur fuga!
+                  All concerns and complaints, even those which appear trivial,
+                  will be handled seriously and sensitively.
                 </div>
                 <input
                   type="text"
@@ -124,17 +122,33 @@ export default function Complaints() {
                   COMPLAINTS
                 </div>
                 <div className="addmission__main__container__content__wrapper__paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Consectetur voluptatem rem deserunt delectus velit quo quam
-                  praesentium est commodi quasi, atque blanditiis vero soluta
-                  cumque. Illo magni labore ipsa, eaque consectetur quisquam
-                  perferendis eius accusantium, repellendus iure expedita
-                  necessitatibus commodi recusandae doloribus voluptates?
-                  Reprehenderit, vitae quibusdam? Labore. cumque. Illo magni
-                  labore ipsa, eaque consectetur quisquam perferendis eius
-                  accusantium, repellendus iure expedita necessitatibus commodi
-                  recusandae doloribus voluptates? Reprehenderit, vitae
-                  quibusdam? Labore.
+                  Parents wishing to raise a concern may do so by contacting the
+                  relevant Administrator or Coordinator by email, telephone, or
+                  in person by appointment.
+                  <li
+                    style={{ marginTop: 10 }}
+                    className="addmission__main__container__content__wrapper__paragraph"
+                  >
+                    Principal
+                  </li>
+                  <li className="addmission__main__container__content__wrapper__paragraph">
+                    Middle School Coordinator 
+                  </li>
+                  <li className="addmission__main__container__content__wrapper__paragraph">
+                    Middle School Administrator
+                  </li>
+                  <li className="addmission__main__container__content__wrapper__paragraph">
+                    O Level Academic Coordinato
+                  </li>
+                  <li className="addmission__main__container__content__wrapper__paragraph">
+                    Senior School Administrator
+                  </li>
+                  <li className="addmission__main__container__content__wrapper__paragraph">
+                    Head of A Level 
+                  </li>
+                  <li className="addmission__main__container__content__wrapper__paragraph">
+                    Student Affairs Coordinator
+                  </li>
                 </div>
               </div>
             </div>

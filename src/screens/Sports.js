@@ -54,12 +54,12 @@ export default function Sports() {
       </div>
       <div className="events__main__container">
         <div className="sports__section__main__container__content">
-          <SportsCard title="Football" />
           <SportsCard title="Cricket" />
           <SportsCard title="Badminton" />
-          <SportsCard title="Cricket" />
-          <SportsCard title="Badminton" />
-          <SportsCard title="Cricket" />
+          <SportsCard title="Futsal" />
+          <SportsCard title="Table Tennist" />
+          <SportsCard title="Basketball" />
+          <SportsCard title="Fitness & Atheletics" />
           <SportsCard title="Badminton" />
           <SportsCard title="Hockey" />
           <SportsCard title="Badminton" />

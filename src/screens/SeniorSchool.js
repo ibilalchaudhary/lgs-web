@@ -84,27 +84,19 @@ export default function SeniorSchool() {
               </svg>
 
               <div className="careers__content__section__card__public__speaking__left__heading">
-                Primary School
+                Middle School
               </div>
               <div className="careers__content__section__card__public__speaking__left__paragraph">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                vitae saepe nostrum officiis, at, praesentium cum deleniti
-                deserunt itaque possimus sit voluptatibus ipsum consequuntur
-                repellat corporis, esse ut laudantium perspiciatis pariatur vero
-                suscipit architecto minima doloribus ipsa. Pariatur voluptate
-                voluptates perspiciatis eaque maiores aut ratione dolorem qui
-                sapiente cum modi, fugit ducimus, repellendus possimus! Quidem
-                nemo laborum totam quos veritatis, molestiae accusamus, fugit
-                porro et aperiam eaque nobis animi dignissimos. Lorem, ipsum
-                dolor sit amet consectetur adipisicing elit. Nemo vitae saepe
-                nostrum officiis, at, praesentium cum deleniti deserunt itaque
-                possimus sit voluptatibus ipsum consequuntur repellat corporis,
-                esse ut laudantium perspiciatis pariatur vero suscipit
-                architecto minima doloribus ipsa. Pariatur voluptate voluptates
-                perspiciatis eaque maiores aut ratione dolorem qui sapiente cum
-                modi, fugit ducimus, repellendus possimus! Quidem nemo laborum
-                totam quos veritatis, molestiae accusamus, fugit porro et
-                aperiam eaque nobis animi dignissimos.
+                In Middle School we aim to challenge our students, knowing they
+                will rise to the occasion. We aspire to provide as many
+                opportunities as possible to explore, make choices and learn
+                about themselves and each other. We want them to learn to
+                inquire, reflect and discuss; to think critically, ask
+                meaningful questions, listen with an open mind and to learn the
+                skills needed to find solutions and solve problems for
+                themselves. Above all else, we want them to enjoy themselves and
+                to be involved, responsible, respectful citizens of their class,
+                school and society.
               </div>
             </div>
           </div>
@@ -150,37 +142,37 @@ export default function SeniorSchool() {
               </svg>
 
               <div className="careers__content__section__card__public__speaking__left__heading">
-                Middle School
+                Senior School
               </div>
               <div className="careers__content__section__card__public__speaking__left__paragraph">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                vitae saepe nostrum officiis, at, praesentium cum deleniti
-                deserunt itaque possimus sit voluptatibus ipsum consequuntur
-                repellat corporis, esse ut laudantium perspiciatis pariatur vero
-                suscipit architecto minima doloribus ipsa. Pariatur voluptate
-                voluptates perspiciatis eaque maiores aut ratione dolorem qui
-                sapiente cum modi, fugit ducimus, repellendus possimus! Quidem
-                nemo laborum totam quos veritatis, molestiae accusamus, fugit
-                porro et aperiam eaque nobis animi dignissimos.
+                Welcome to Senior School! We take great pride in the fact that
+                we offer one of the broadest range of GCSE subject choices in
+                Pakistan. Along with a renowned Science Department, a strong
+                Liberal Arts Department with subjects such as Global
+                Perspectives, World Affairs and English Literature, are the
+                cornerstone of our program. These three years are particularly
+                important as students sit their O Levels at the end of year 11.
+                In Senior School, our aim is to help our girls discover their
+                areas of interest and talent so that they may become
+                well-rounded and well-informed individuals who are able to
+                rationalize their thoughts, formulate opinions, make arguments
+                and complement them with vigor and determination.
               </div>
             </div>
           </div>
           <div className="further__details__our__school__main__section__wrapper further__details__our__school__main__section__wrapper__policy__academic">
             <div className="further__details__our__school__main__section__wrapper__heading further__details__our__school__main__section__wrapper__policy__academic">
-              Student Choices
+              Sports
             </div>
             <div className="further__details__our__school__main__section__wrapper__paragraph further__details__our__school__main__section__wrapper__policy__academic">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Voluptate repudiandae accusantium exercitationem, cum, et quidem
-              sequi ipsam laudantium quas provident, omnis asperiores fugiat ut
-              nulla porro? Sunt ad, et numquam illum, similique eligendi
-              doloremque odio maxime ullam accusantium doloribus fugit!
-              repudiandae accusantium exercitationem, cum, et quidem sequi ipsam
-              laudantium quas provident, omnis asperiores fugiat ut nulla porro?
-              Sunt ad, et numquam illum, similique eligendi doloremque odio
-              maxime ullam accusantium doloribus fugit! Lorem ipsum dolor sit,
-              amet consectetur adipisicing elit. Voluptate repudiandae
-              accusantium exercitationem, cum, et quidem sequi ipsam laudantium
+              One of the most renowned societies of LGS FSD, the Sports Society,
+              is a space for aspiring sportswomen to polish their skills. Not
+              only does it allow girls to better themselves at sports, ranging
+              from netball to table tennis, but it also provides a network of
+              people passionate about the same goal to connect. The society has
+              hosted several successful sports festivals, the most recent one
+              being the All Girls Sportsfest in 2019, and has participated in
+              numerous local and national competitions.
             </div>
           </div>
           <PhotoGallery />

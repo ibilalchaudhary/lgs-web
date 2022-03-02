@@ -93,18 +93,23 @@ export default function Home() {
               OUR SCHOOL
             </div>
             <div className="our__school__main__container__paragragh">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed ea
-              beatae odit quaerat laboriosam, quis laudantium eum error officia
-              est deleniti odio itaque recusandae ullam. Consectetur aliquam,
-              mollitia qui quibusdam est facere fuga provident enim, quasi vero
-              saepe adipisci suscipit ex quam? Fugiat ratione porro neque fugit
-              perspiciatis facere maiores labore corrupti? Sed nostrum iusto
-              consectetur culpa delectus deleniti blanditiis, minima corporis
-              itaque nihil unde eum officiis numquam eveniet sunt iure
-              perspiciatis repellat ipsa architecto quae commodi voluptatem
-              facere ex. Modi nam, consequuntur ut aliquam dolores voluptatem
-              labore quibusdam consequatur velit officia natus voluptatibus
-              quidem sint doloribus ullam placeat molestiae!
+              In 1979, Lahore Grammar School opened its doors to a handful of
+              students with 55 Main established as its first branch. We’ve come
+              a long way since then! From the very beginning, however, the
+              philosophy of the school has been to combine collaborative
+              learning, critical and logical thinking skills and a diverse
+              co-curricular program to help create a more balanced, well-rounded
+              individual, with interests and ideas, a questioning mind and a
+              genuine love for learning. Today, Lahore Grammar School provides
+              education to girls till A Level. It has extended its network to
+              cater to the needs of the middle-income group in its Landmark
+              Schools. LGS has branches in Islamabad, Karachi, Peshawar, Quetta,
+              Multan, Gujranwala, Sialkot, Faisalabad and Gujrat. It offers
+              quality education to the low-income group through the Lahore
+              Education Society School, entirely supported and funded by LGS.
+              However, please note that this website caters only to schools
+              under the stewardship of Director and Principal, Mrs. Nasrene
+              Shah- namely LGS 31 FCC, LGS 30 Main and LGS 55 Main.
             </div>
           </div>
           <div className="our__school__main__container__right">
@@ -128,18 +133,14 @@ export default function Home() {
               ABOUT LGS
             </div>
             <div className="about__main__container__content__right__paragraph">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed ea
-              beatae odit quaerat laboriosam, quis laudantium eum error officia
-              est deleniti odio itaque recusandae ullam. Consectetur aliquam,
-              mollitia qui quibusdam est facere fuga provident enim, quasi vero
-              saepe adipisci suscipit ex quam? Fugiat ratione porro neque fugit
-              perspiciatis facere maiores labore corrupti? Sed nostrum iusto
-              consectetur culpa delectus deleniti blanditiis, minima corporis
-              itaque nihil unde eum officiis numquam eveniet sunt iure
-              perspiciatis repellat ipsa architecto quae commodi voluptatem
-              facere ex. Modi nam, consequuntur ut aliquam dolores voluptatem
-              labore quibusdam consequatur velit officia natus voluptatibus
-              quidem sint doloribus ullam placeat molestiae!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Necessitatibus nostrum praesentium quis explicabo voluptatum sequi
+              earum cumque nulla atque architecto. Ab sapiente, quod saepe est
+              dolore omnis sed repellendus voluptates repellat asperiores
+              eligendi, porro dignissimos nesciunt sint a! Dicta dolorum
+              consequuntur, ex nulla excepturi sint, veritatis hic at, nesciunt
+              quasi nisi sit soluta! Dolorum magnam quaerat accusantium minima
+              fugit nobis!
             </div>
           </div>
         </div>
@@ -165,16 +166,17 @@ export default function Home() {
             ADMISSIONS
           </div>
           <div className="addmission__main__container__content__wrapper__paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-            voluptatem rem deserunt delectus velit quo quam praesentium est
-            commodi quasi, atque blanditiis vero soluta cumque. Illo magni
-            labore ipsa, eaque consectetur quisquam perferendis eius
-            accusantium, repellendus iure expedita necessitatibus commodi
-            recusandae doloribus voluptates? Reprehenderit, vitae quibusdam?
-            Labore. cumque. Illo magni labore ipsa, eaque consectetur quisquam
-            perferendis eius accusantium, repellendus iure expedita
-            necessitatibus commodi recusandae doloribus voluptates?
-            Reprehenderit, vitae quibusdam? Labore.
+            Could LGS FSD be right for you? We seek to admit optimistic,
+            energetic, and engaged students who are ready to take advantage of
+            the world of endless opportunities and challenges we provide to our
+            students. LGS FSD offers a rigorous yet flexible curriculum enriched
+            by a wide variety of interdisciplinary courses and activities.
+          </div>
+          <div className="addmission__main__container__content__wrapper__paragraph">
+            To apply to our branch, parents must visit the school with all
+            required documents to complete the Admission Application Form. If we
+            think you are the right fit, the School Office will get in touch
+            with you regarding relevant Admission Tests.
           </div>
         </div>
         <div className="addmission__main__container__content">
@@ -186,9 +188,8 @@ export default function Home() {
           <div className="addmission__main__container__content__overlay">
             <div className="addmission__main__container__content__overlay__content">
               <div className="addmission__main__container__content__overlay__content__paragragh">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Possimus, ex optio suscipit impedit itaque beatae inventore
-                perferendis officia tenetur fuga!
+                If we think you are the right fit, the School Office will get in
+                touch with you regarding relevant Admission Tests.
               </div>
               <input
                 type="text"
@@ -228,17 +229,18 @@ export default function Home() {
                 ADMISSIONS
               </div>
               <div className="addmission__main__container__content__wrapper__paragraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur voluptatem rem deserunt delectus velit quo quam
-                praesentium est commodi quasi, atque blanditiis vero soluta
-                cumque. Illo magni labore ipsa, eaque consectetur quisquam
-                perferendis eius accusantium, repellendus iure expedita
-                necessitatibus commodi recusandae doloribus voluptates?
-                Reprehenderit, vitae quibusdam? Labore. cumque. Illo magni
-                labore ipsa, eaque consectetur quisquam perferendis eius
-                accusantium, repellendus iure expedita necessitatibus commodi
-                recusandae doloribus voluptates? Reprehenderit, vitae quibusdam?
-                Labore.
+                Could LGS FSD be right for you? We seek to admit optimistic,
+                energetic, and engaged students who are ready to take advantage
+                of the world of endless opportunities and challenges we provide
+                to our students. LGS FSD offers a rigorous yet flexible
+                curriculum enriched by a wide variety of interdisciplinary
+                courses and activities.
+              </div>
+              <div className="addmission__main__container__content__wrapper__paragraph">
+                To apply to our branch, parents must visit the school with all
+                required documents to complete the Admission Application Form.
+                If we think you are the right fit, the School Office will get in
+                touch with you regarding relevant Admission Tests.
               </div>
             </div>
           </div>

@@ -66,15 +66,18 @@ export default function Alumini() {
                 Interective Timelines
               </div>
               <div className="careers__content__section__card__public__speaking__left__paragraph">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                vitae saepe nostrum officiis, at, praesentium cum deleniti
-                deserunt itaque possimus sit voluptatibus ipsum consequuntur
-                repellat corporis, esse ut laudantium perspiciatis pariatur vero
-                suscipit architecto minima doloribus ipsa. Pariatur voluptate
-                voluptates perspiciatis eaque maiores aut ratione dolorem qui
-                sapiente cum modi, fugit ducimus, repellendus possimus! Quidem
-                nemo laborum totam quos veritatis, molestiae accusamus, fugit
-                porro et aperiam eaque nobis animi dignissimos.
+                It has been almost forty years since LGS FSD opened its doors to
+                a handful of students. Today, our Alums make #55Worldwide as
+                they cover the globe in their active involvement in a diverse
+                range of fields. Stay connected to your home at LGS through
+                Annual Reunions, The Alumane Page, the Mashal, and social media,
+                and contribute to networking opportunities as they arise. Come
+                visit! Arrange a meeting with the Alumni Relations Society,
+                mentor a current student, or simply drop in for a cup of coffee
+                with Mrs. Shah to share your experiences of the real world! We
+                would be absolutely delighted to see you and discover what you
+                have been up to! Remember to show your #55Pride and always stay
+                a Grammarian at heart.
               </div>
             </div>
             <img
@@ -125,18 +128,19 @@ export default function Alumini() {
               </svg>
 
               <div className="careers__content__section__card__public__speaking__left__heading">
-                Alumni Registrations
+                ALUMNI RELATIONS SOCIETY
               </div>
               <div className="careers__content__section__card__public__speaking__left__paragraph">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                vitae saepe nostrum officiis, at, praesentium cum deleniti
-                deserunt itaque possimus sit voluptatibus ipsum consequuntur
-                repellat corporis, esse ut laudantium perspiciatis pariatur vero
-                suscipit architecto minima doloribus ipsa. Pariatur voluptate
-                voluptates perspiciatis eaque maiores aut ratione dolorem qui
-                sapiente cum modi, fugit ducimus, repellendus possimus! Quidem
-                nemo laborum totam quos veritatis, molestiae accusamus, fugit
-                porro et aperiam eaque nobis animi dignissimos.
+                LGS FSD has produced a generation of ambitious and independent
+                young women who have sought for success and accomplished their
+                goals.
+              </div>
+              <div className="careers__content__section__card__public__speaking__left__paragraph">
+                The Alumni Relations Society at LGS FSD enables us to keep in
+                touch with our graduate students and ensures that every
+                Grammarian legacy lives on. We take great pride in our alums and
+                wish to keep them tied in this familial bond that every 55
+                Mainer shares.
               </div>
             </div>
           </div>
@@ -148,16 +152,32 @@ export default function Alumini() {
             />
             <div className="careers__content__section__card__community__service__right">
               <div className="careers__content__section__card__community__service__right__heading">
-                Reunions
+                THE REUNION
               </div>
               <div className="careers__content__section__card__community__service__right__paragraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                officiis nihil perspiciatis distinctio, animi eius tempora
-                exercitationem sit, nam voluptates, dicta deserunt quidem facere
-                repellat corporis et eveniet iste suscipit excepturi delectus
-                molestias mollitia. Repudiandae iusto dolorum porro corporis
-                reiciendis quos veritatis. Quisquam, corrupti unde optio
-                consequuntur ipsam velit. Architecto.
+                At LGS FSD, we celebrate Reunions in full bloom! Graduates from
+                all over the country and around the world join us. Together we
+                pay tribute to the institution we call home. Expectations are
+                high, but so are our efforts in making our Reunions a success.
+                The Alumni Relations Society and the Media Society join forces
+                to form a special decorations committee who manage a fantastic
+                job; handmade lamps and banners, LGS graffiti stickers, picture
+                imprinted mugs, and a fabulous entrance and stage, all made
+                possible with the tireless efforts of the Student Council. We
+                also release iconic hoodies with the School’s Head
+                Administrators serving as brand ambassadors!
+              </div>
+              <div className="careers__content__section__card__community__service__right__paragraph">
+                Each year we hope that our audience is reminded of all the
+                wonderful memories a 55 Mainer makes during her time at school.
+                Whether that is during the teachers parodies or dance
+                performances, the mood of the night is nostalgic. The Annual
+                Reunion is a great reminder of some of the principles we learn
+                at 55: teamwork, respect for one another, and the collective
+                celebration of our common love for the school. It reinforces
+                that here at 55 Main, those that are gone are never forgotten!
+                Last Reunion was held on 26th of January 2020 to mark the 40
+                years of LGS FSD . We hope you enjoyed it!
               </div>
             </div>
           </div>

@@ -85,27 +85,19 @@ export default function ALevels() {
               </svg>
 
               <div className="careers__content__section__card__public__speaking__left__heading">
-                Student Resources
+                A - Levels
               </div>
               <div className="careers__content__section__card__public__speaking__left__paragraph">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                vitae saepe nostrum officiis, at, praesentium cum deleniti
-                deserunt itaque possimus sit voluptatibus ipsum consequuntur
-                repellat corporis, esse ut laudantium perspiciatis pariatur vero
-                suscipit architecto minima doloribus ipsa. Pariatur voluptate
-                voluptates perspiciatis eaque maiores aut ratione dolorem qui
-                sapiente cum modi, fugit ducimus, repellendus possimus! Quidem
-                nemo laborum totam quos veritatis, molestiae accusamus, fugit
-                porro et aperiam eaque nobis animi dignissimos. Lorem, ipsum
-                dolor sit amet consectetur adipisicing elit. Nemo vitae saepe
-                nostrum officiis, at, praesentium cum deleniti deserunt itaque
-                possimus sit voluptatibus ipsum consequuntur repellat corporis,
-                esse ut laudantium perspiciatis pariatur vero suscipit
-                architecto minima doloribus ipsa. Pariatur voluptate voluptates
-                perspiciatis eaque maiores aut ratione dolorem qui sapiente cum
-                modi, fugit ducimus, repellendus possimus! Quidem nemo laborum
-                totam quos veritatis, molestiae accusamus, fugit porro et
-                aperiam eaque nobis animi dignissimos.
+                At LGS FSD, we began offering A’levels in 1995. Since then, our
+                students have been achieving outstanding results every year with
+                a number of students being amongst high achievers in Pakistan
+                and the World! Is our A’level Programme for you? If you value a
+                challenging yet supportive academic environment, close
+                connections with faculty and fellow students, and a broad range
+                of co-curricular activities, it most likely is. Our program is
+                known for its motivating, resourceful, and collaborative
+                environment. If you have any questions, please feel free to get
+                in touch- we look forward to your application!
               </div>
             </div>
           </div>
@@ -151,18 +143,30 @@ export default function ALevels() {
               </svg>
 
               <div className="careers__content__section__card__public__speaking__left__heading">
-                Global Perspective & Thinking Skill
+                Drama, Music, Languages and Drama
               </div>
               <div className="careers__content__section__card__public__speaking__left__paragraph">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                vitae saepe nostrum officiis, at, praesentium cum deleniti
-                deserunt itaque possimus sit voluptatibus ipsum consequuntur
-                repellat corporis, esse ut laudantium perspiciatis pariatur vero
-                suscipit architecto minima doloribus ipsa. Pariatur voluptate
-                voluptates perspiciatis eaque maiores aut ratione dolorem qui
-                sapiente cum modi, fugit ducimus, repellendus possimus! Quidem
-                nemo laborum totam quos veritatis, molestiae accusamus, fugit
-                porro et aperiam eaque nobis animi dignissimos.
+                Stage, has a philosophy that is centered on the use of symbolism
+                and abstract to deconstruct the fundamental principles of human
+                existence, and to display them using drama as a medium. Theatre
+                is a powerful tool of expression, one where boundaries have no
+                place, and any idea can be utilized to portray an emotion and
+                send a message to the masses. Lahore Grammar Stage takes pride
+                in striving to be different and promoting areas of the
+                performing arts that are neglected in this part of the world.
+                Through performing arts, we challenge our society’s deepest
+                assumptions and stereotypes while spreading awareness and
+                preserving the art and cultural identity of Pakistan. We plan to
+                involve the amateur artist in our dramatic society to build upon
+                their artistic creation and expression, to spark new ideas
+                through theatrical activities and workshops. Our expertise lies
+                in experimental theatre, abstract mimes, dark comedies, street
+                theatre, and shadow theatre. Lahore Grammar Stage reflects this
+                ideology by performing numerous plays which include “Sultana ka
+                Khawaab”, a feminist play set in a Matriarchal society, “Sun Dou
+                Hazaar Ikaasi”, a play about an equal community set in a
+                dystopian world, and “Death”, a dark comedy depicting the mind
+                of a serial killer.
               </div>
             </div>
           </div>
