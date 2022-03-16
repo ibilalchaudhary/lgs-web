@@ -407,13 +407,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(0, 93, 255, 0.5);
+  background: rgb(0, 93, 255, 0.6);
   border-radius: 14px;
 }
 .events__main__container__content__card__overlay:hover {
-  background: rgb(255, 255, 255, 0.6);
+  background: rgb(249, 204, 9, 0.7);
   transition: 400ms ease-in-out;
-  color: #1a1a1a;
 }
 .events__main__container__content__card__img {
   width: 100%;
@@ -572,26 +571,23 @@ body {
 }
 .about__main__container {
   width: 100%;
-  max-width: 1440px;
   height: fit-content;
   min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px auto;
+  margin: 4em 0em;
+  background: #005dff;
 }
 .about__main__container__content {
-  padding: 1em 2em;
+  padding: 4em 2em;
   width: 100%;
-  height: 320px;
-  margin: 2em;
+  max-width: 1440px;
+  height: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: #005dff;
-  border-radius: 20px;
-  box-shadow: 0px 0px 30px rgb(0, 93, 255, 0.06);
 }
 .about__main__container__content__right {
   width: 60%;
@@ -620,6 +616,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-top: 1em;
+  justify-content: center;
 }
 .campus__life__main__container__content__card {
   width: 23%;
@@ -653,15 +650,18 @@ body {
 }
 .campus__life__main__container__content__card__overlay:hover {
   align-items: center;
-  background: rgb(0, 93, 255, 0.5);
+  background: rgb(227, 185, 0, 0.7);
   transition: 300ms ease-in-out;
 }
 .campus__life__main__container__content__card__overlay__heading {
-  font-size: 22px;
+  font-size: 20px;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
 }
 .sports__section__main__container__content {
   display: flex;
@@ -882,7 +882,7 @@ body {
 .addmission__main__container__content__overlay {
   width: 100%;
   height: 100%;
-  background: rgb(0, 93, 255, 0.5);
+  background: rgb(248, 187, 4, 0.7);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -896,6 +896,12 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 2em 4em;
+}
+.addmission__main__container__content__overlay__content__new {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .addmission__main__container__content__wrapper {
   position: absolute;
@@ -1820,6 +1826,104 @@ body {
   max-width: 1000px;
   margin: 0px auto;
 }
+.about__main__container__content__right__nav__wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4em;
+  border-radius: 30px;
+  background: #337dff;
+  margin: 1.3em 0em;
+}
+.about__main__container__content__right__nav {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0.6em 1em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.about__main__container__content__right__nav:hover {
+  background: #fff;
+  color: #005dff;
+  transition: 300ms ease-in-out;
+}
+.about__main__container__content__right__nav__selected {
+  background: #fff;
+  color: #005dff;
+  transition: 300ms ease-in-out;
+}
+.about__main__container__content__right__enrollment__wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+}
+.about__main__container__content__right__enrollment {
+  width: 110px;
+  height: 110px;
+  border-radius: 110px;
+  background: rgb(70, 70, 70, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  overflow: hidden;
+}
+.about__main__container__content__right__enrollment__title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  animation: animatedSwipe 400ms linear;
+}
+@keyframes animatedSwipe {
+  from {
+    margin-left: 10em;
+  }
+  to {
+    margin-right: 0em;
+  }
+}
+.about__main__container__content__right__enrollment span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+}
+.addmission__main__container__content__overlay__content__new__enrollment__wrapper {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+}
+.addmission__main__container__content__overlay__content__new__enrollment {
+  width: 130px;
+  height: 130px;
+  border-radius: 130px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  overflow: hidden;
+  border: 1px solid #fff;
+}
+.addmission__main__container__content__overlay__content__new__enrollment span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+}
 @media (max-width: 1700px) {
   .academic__main__container {
     height: 1100px;
@@ -1867,6 +1971,13 @@ body {
   }
 }
 @media (max-width: 1050px) {
+  .addmission__main__container__content__overlay__content__new {
+    width: 100%;
+  }
+  .addmission__main__container__content__overlay__content__new__enrollment__wrapper {
+    width: 100%;
+    padding: 0em 1em;
+  }
   .sports__section__main__container__content__card {
     width: 30%;
   }
@@ -2113,8 +2224,26 @@ body {
   .academic__main__container {
     height: 2100px;
   }
+  .about__main__container__content__right__nav__wrapper,
+  .about__main__container__content__right__enrollment__wrapper {
+    width: 100%;
+  }
 }
 @media (max-width: 600px) {
+  .addmission__main__container__content__overlay__content__new__enrollment__wrapper {
+    flex-direction: column;
+  }
+  .addmission__main__container__content__overlay__content__new__enrollment {
+    margin-bottom: 1em;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+  }
+  .about__main__container__content__right__enrollment {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+  }
   .career__section__content__input__row {
     flex-direction: column;
   }

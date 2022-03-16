@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import main_bg from "../assets/main_bg.png";
 import eventPic from "../assets/eventPic.png";
 import schoolPic from "../assets/schoolPic.png";
 import aboutPic from "../assets/aboutPic.png";
 import campusPic from "../assets/campusPic.png";
 import addmission_bg from "../assets/addmission_bg.png";
-
 function EventCard() {
   return (
     <div className="events__main__container__content__card">
@@ -21,7 +20,7 @@ function EventCard() {
   );
 }
 
-function CampusLifeCard() {
+function CampusLifeCard({ title, subtitle }) {
   return (
     <div className="campus__life__main__container__content__card">
       <img
@@ -31,14 +30,33 @@ function CampusLifeCard() {
       />
       <div className="campus__life__main__container__content__card__overlay">
         <div className="campus__life__main__container__content__card__overlay__heading">
-          New Heading Here
+          {title}
+          <span>{subtitle}</span>
         </div>
       </div>
     </div>
   );
 }
 
+function NavLink({ title, selected, setSelected }) {
+  return (
+    <button
+      onClick={() => {
+        setSelected(title);
+      }}
+      className={
+        selected === title
+          ? "about__main__container__content__right__nav__selected about__main__container__content__right__nav"
+          : "about__main__container__content__right__nav"
+      }
+    >
+      {title}
+    </button>
+  );
+}
+
 export default function Home() {
+  const [selected, setSelected] = useState("Middle School");
   return (
     <>
       <div className="home__main__container">
@@ -132,16 +150,140 @@ export default function Home() {
             <div className="about__main__container__content__right__heading">
               ABOUT LGS
             </div>
-            <div className="about__main__container__content__right__paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Necessitatibus nostrum praesentium quis explicabo voluptatum sequi
-              earum cumque nulla atque architecto. Ab sapiente, quod saepe est
-              dolore omnis sed repellendus voluptates repellat asperiores
-              eligendi, porro dignissimos nesciunt sint a! Dicta dolorum
-              consequuntur, ex nulla excepturi sint, veritatis hic at, nesciunt
-              quasi nisi sit soluta! Dolorum magnam quaerat accusantium minima
-              fugit nobis!
+            <div className="about__main__container__content__right__nav__wrapper">
+              <NavLink
+                title="Middle School"
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <NavLink
+                title="Senior School"
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <NavLink
+                title="A-Levels"
+                selected={selected}
+                setSelected={setSelected}
+              />
             </div>
+            {selected === "Middle School" ? (
+              <>
+                <div className="about__main__container__content__right__paragraph">
+                  In Middle School we aim to challenge our students, knowing
+                  they will rise to the occasion. We aspire to provide as many
+                  opportunities as possible to explore, make choices and learn
+                  about themselves and each other. We want them to learn to
+                  inquire, reflect and discuss; to think critically, ask
+                  meaningful questions, listen with an open mind and to learn
+                  the skills needed to find solutions and solve problems for
+                  themselves. Above all else, we want them to enjoy themselves
+                  and to be involved, responsible, respectful citizens of their
+                  class, school and society.
+                </div>
+                <div className="about__main__container__content__right__enrollment__wrapper">
+                  <div className="about__main__container__content__right__enrollment">
+                    <div className="about__main__container__content__right__enrollment__title">
+                      433
+                    </div>
+                    <span>Enrollments</span>
+                    <span>2021</span>
+                  </div>
+                  <div className="about__main__container__content__right__enrollment">
+                    <div className="about__main__container__content__right__enrollment__title">
+                      42
+                    </div>
+                    <span>Enrollments</span>
+                    <span>2020</span>
+                  </div>
+                  <div className="about__main__container__content__right__enrollment">
+                    <div className="about__main__container__content__right__enrollment__title">
+                      123
+                    </div>
+                    <span>Enrollments</span>
+                    <span>2019</span>
+                  </div>
+                </div>
+              </>
+            ) : null}
+            {selected === "Senior School" ? (
+              <>
+                <div className="about__main__container__content__right__paragraph">
+                  In Senior School we aim to challenge our students, knowing
+                  they will rise to the occasion. We aspire to provide as many
+                  opportunities as possible to explore, make choices and learn
+                  about themselves and each other. We want them to learn to
+                  inquire, reflect and discuss; to think critically, ask
+                  meaningful questions, listen with an open mind and to learn
+                  the skills needed to find solutions and solve problems for
+                  themselves. Above all else, we want them to enjoy themselves
+                  and to be involved, responsible, respectful citizens of their
+                  class, school and society.
+                </div>
+                <div className="about__main__container__content__right__enrollment__wrapper">
+                  <div className="about__main__container__content__right__enrollment">
+                    <div className="about__main__container__content__right__enrollment__title">
+                      474
+                    </div>
+                    <span>Enrollments</span>
+                    <span>2021</span>
+                  </div>
+                  <div className="about__main__container__content__right__enrollment">
+                    <div className="about__main__container__content__right__enrollment__title">
+                      145
+                    </div>
+                    <span>Enrollments</span>
+                    <span>2020</span>
+                  </div>
+                  <div className="about__main__container__content__right__enrollment">
+                    <div className="about__main__container__content__right__enrollment__title">
+                      73
+                    </div>
+                    <span>Enrollments</span>
+                    <span>2019</span>
+                  </div>
+                </div>
+              </>
+            ) : null}
+            {selected === "A-Levels" ? (
+              <>
+                <div className="about__main__container__content__right__paragraph">
+                  In A-Levels we aim to challenge our students, knowing they
+                  will rise to the occasion. We aspire to provide as many
+                  opportunities as possible to explore, make choices and learn
+                  about themselves and each other. We want them to learn to
+                  inquire, reflect and discuss; to think critically, ask
+                  meaningful questions, listen with an open mind and to learn
+                  the skills needed to find solutions and solve problems for
+                  themselves. Above all else, we want them to enjoy themselves
+                  and to be involved, responsible, respectful citizens of their
+                  class, school and society.
+                </div>
+                <div className="about__main__container__content__right__enrollment__wrapper">
+                  <div className="about__main__container__content__right__enrollment">
+                    <div className="about__main__container__content__right__enrollment__title">
+                      421
+                    </div>
+                    <span>Enrollments</span>
+                    <span>2021</span>
+                  </div>
+                  <div className="about__main__container__content__right__enrollment">
+                    <div className="about__main__container__content__right__enrollment__title">
+                      142
+                    </div>
+                    <span>Enrollments</span>
+                    <span>2020</span>
+                  </div>
+                  <div className="about__main__container__content__right__enrollment">
+                    <div className="about__main__container__content__right__enrollment__title">
+                      521
+                    </div>
+                    <span>Enrollments</span>
+                    <span>2019</span>
+                  </div>
+                </div>
+              </>
+            ) : null}
           </div>
         </div>
       </div>
@@ -150,14 +292,37 @@ export default function Home() {
           CAMPUS LIFE
         </div>
         <div className="campus__life__main__container__content">
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
+          <CampusLifeCard
+            title="International
+"
+            subtitle="Exposure"
+          />
+          <CampusLifeCard
+            title="Public
+"
+            subtitle="Speaking"
+          />
+          <CampusLifeCard
+            title="Comunnity Service 
+"
+            subtitle="And The Enviroment"
+          />
+          <CampusLifeCard
+            title="Science and 
+"
+            subtitle="Technology"
+          />
+          <CampusLifeCard
+            title="Drama, Music, 
+"
+            subtitle="And Languages"
+          />
+          <CampusLifeCard title="Sports" />
+          <CampusLifeCard
+            title="Media 
+"
+            subtitle="and Publications"
+          />
         </div>
       </div>
       <div className="addmission__main__container">
@@ -186,43 +351,26 @@ export default function Home() {
             className="addmission__main__container__content__img"
           />
           <div className="addmission__main__container__content__overlay">
-            <div className="addmission__main__container__content__overlay__content">
-              <div className="addmission__main__container__content__overlay__content__paragragh">
-                If we think you are the right fit, the School Office will get in
-                touch with you regarding relevant Admission Tests.
-              </div>
-              <input
-                type="text"
-                placeholder="Name"
-                className="contact__us__main__container__overlay__content__form__input"
-              />
-              <input
-                type="tel"
-                placeholder="Phone"
-                className="contact__us__main__container__overlay__content__form__input"
-              />{" "}
-              <input
-                type="text"
-                placeholder="Class"
-                className="contact__us__main__container__overlay__content__form__input"
-              />
-              <input
-                type="text"
-                placeholder="Address"
-                className="contact__us__main__container__overlay__content__form__input"
-              />
-              <div
-                style={{
-                  width: "100%",
-                  display: "flex",
-                  justifyContent: "end",
-                  alignItems: "flex-end",
-                  marginTop: "1em",
-                }}
-              >
-                <button className="primary__btn">Submit</button>
+            <div className="addmission__main__container__content__overlay__content__new">
+              <div className="addmission__main__container__content__overlay__content__new__enrollment__wrapper">
+                <div className="addmission__main__container__content__overlay__content__new__enrollment">
+                  23 APR
+                  <span>Early Admission</span>
+                  <span>Test</span>
+                </div>
+                <div className="addmission__main__container__content__overlay__content__new__enrollment">
+                  4 JUN
+                  <span>Regular Admission</span>
+                  <span>Test I</span>
+                </div>
+                <div className="addmission__main__container__content__overlay__content__new__enrollment">
+                  6 AUG
+                  <span>Regular Admission</span>
+                  <span>Test II</span>
+                </div>
               </div>
             </div>
+
             <div className="addmission__main__container__content__wrapper"></div>
             <div className="addmission__main__container__content__wrapper__headings__container">
               <div className="addmission__main__container__content__wrapper__heading">
