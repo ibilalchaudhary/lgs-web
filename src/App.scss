@@ -262,6 +262,7 @@ body {
   height: fit-content;
   min-height: 100vh;
   position: relative;
+  background: #2b2b2b;
 }
 .our__story__main__container__img {
   width: 100%;
@@ -1105,6 +1106,17 @@ body {
   margin-bottom: 2em;
   border-radius: 14px;
 }
+.assignment__main__container__new {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 4em 2em;
+  margin-top: 2em;
+  border-radius: 14px;
+}
 .assignment__main__container__heading {
   width: 26%;
   margin-right: 2em;
@@ -1127,8 +1139,6 @@ body {
   width: 100%;
   height: 80vh;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
   position: relative;
 }
 .academic__main__container__img {
@@ -1144,17 +1154,22 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
 }
 .academic__main__container__content__overlay__pic {
-  width: 850px;
+  width: 1000px;
+  margin-top: 1.3em;
+}
+.our__school__main__content__wrapper {
+  width: 100%;
+  height: fit-content;
+  min-height: 80vh;
+  background: #2b2b2b;
 }
 .academic__main__container__content__overlay__heading {
   font-size: 22px;
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
-  margin-bottom: 0.3em;
 }
 .academic__main__container__content__overlay__paragraph {
   font-size: 18px;
@@ -1164,9 +1179,9 @@ body {
 .academic__main__container__content__overlay__content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
+  padding-top: 2em;
 }
 .further__details__our__school__main__section {
   width: 100%;
@@ -1178,6 +1193,41 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0px auto;
+}
+.behaviour__policy__container {
+  width: 100%;
+  max-width: calc(1360px - 6em);
+  height: fit-content;
+  padding: 4em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px auto;
+  background-color: #2b2b2b;
+  border-radius: 14px;
+}
+.aims__behaviour__policy__container {
+  width: 100%;
+  background: #fff;
+  transform: scale(1.1);
+  padding: 2em;
+  border-radius: 14px;
+  box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.1);
+  margin: 4em 0em;
+}
+.behaviour__policy__container__heading {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0.4em;
+}
+.behaviour__policy__container__heading__dark {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0.4em;
 }
 .further__details__our__school__main__section__wrapper {
   padding: 2em;
@@ -1208,9 +1258,15 @@ body {
 .further__details__our__school__main__section__wrapper__paragraph {
   font-size: 14px;
   color: #ffffff;
-}
-.further__details__our__school__main__section__wrapper__paragraph {
   width: 80%;
+}
+.behaviour__policy__container__para {
+  font-size: 14px;
+  color: #ffffff;
+}
+.behaviour__policy__container__para__dark {
+  font-size: 14px;
+  color: #000000;
 }
 .campus__main__container__content__card {
   width: 34%;
@@ -1857,6 +1913,22 @@ body {
   color: #005dff;
   transition: 300ms ease-in-out;
 }
+.btn__white {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  color: #000000;
+  background: #fff;
+  border: none;
+  outline: none;
+  padding: 0.6em 1em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.btn__white:hover {
+  color: #005dff;
+  transition: 300ms ease-in-out;
+}
 .about__main__container__content__right__enrollment__wrapper {
   width: 70%;
   display: flex;
@@ -1924,10 +1996,39 @@ body {
   font-weight: 500;
   color: #fff;
 }
-@media (max-width: 1700px) {
-  .academic__main__container {
-    height: 1100px;
-  }
+.from__the__pricipal__container {
+  width: 100%;
+  max-width: 1260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: fit-content;
+  padding: 4em 2em;
+  margin: 0px auto;
+  color: #fff;
+}
+.from__the__pricipal__container__img {
+  width: 180px;
+  height: 180px;
+  border-radius: 180px;
+}
+.from__the__pricipal__container__heading {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 0.7em;
+}
+.from__the__pricipal__container__sub__heading {
+  font-size: 16px;
+  color: #f9cc09;
+  font-family: 600;
+  margin: 0.4em 0em;
+}
+.from__the__pricipal__container__para {
+  font-size: 14px;
+  color: #ffffff;
 }
 @media (max-width: 1440px) {
   .home__main__container__overlay__content__heading {
@@ -1940,9 +2041,7 @@ body {
     margin-left: 1em;
     width: 50%;
   }
-  .academic__main__container {
-    height: 1250px;
-  }
+
   .our__story__main__container__content {
     max-width: calc(1440px - 10em);
   }
@@ -2008,9 +2107,7 @@ body {
   .sports__main__container__content__card {
     width: 30%;
   }
-  .academic__main__container {
-    height: 1450px;
-  }
+
   .assignment__main__container {
     flex-direction: column;
     justify-content: center;
@@ -2144,9 +2241,7 @@ body {
     margin: 0px auto;
     text-align: center;
   }
-  .academic__main__container {
-    height: 1800px;
-  }
+
   .our__story__main__container__content {
     flex-direction: column;
     min-width: 100%;
@@ -2221,9 +2316,7 @@ body {
     margin-bottom: 0em;
     margin-top: 1em;
   }
-  .academic__main__container {
-    height: 2100px;
-  }
+
   .about__main__container__content__right__nav__wrapper,
   .about__main__container__content__right__enrollment__wrapper {
     width: 100%;
@@ -2263,9 +2356,7 @@ body {
   .sports__main__container__content__card {
     width: 42%;
   }
-  .academic__main__container {
-    height: 2400px;
-  }
+
   .assignment__main__container__paragraph {
     text-align: justify;
   }
@@ -2385,10 +2476,5 @@ body {
   }
   .our__school__overlay__content__heading__wrapper svg {
     width: 320px !important;
-  }
-}
-@media (max-width: 450px) {
-  .academic__main__container {
-    height: 2500px;
   }
 }
