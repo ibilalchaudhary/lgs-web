@@ -1421,10 +1421,11 @@ body {
   max-width: 1440px;
   height: fit-content;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0px auto;
-  margin-top: -8em;
+  margin-top: -6em;
   z-index: 999;
   position: relative;
   margin-bottom: 6em;
@@ -1472,6 +1473,38 @@ body {
 .careers__content__section__card__international__explore {
   width: 100%;
   border-radius: 14px;
+  height: 200px;
+  background: #022b43;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 2em;
+  position: relative;
+}
+.registration__overlay__card {
+  width: 100%;
+  border-radius: 14px;
+  height: fit-content;
+  background: #022b43;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 2em;
+  position: relative;
+}
+.registration__overlay__card__img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+.register__form__card {
+  width: 100%;
+  border-radius: 14px;
   height: fit-content;
   background: #022b43;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
@@ -1501,8 +1534,8 @@ body {
   background: #ffffff;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 3em;
   padding: 4em 2em;
 }
@@ -1533,6 +1566,25 @@ body {
   align-items: center;
   padding: 4em;
   border-radius: 14px;
+}
+.registration__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgb(43, 43, 43, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  padding: 2em;
+  border-radius: 14px;
+}
+.registration__overlay__para {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 0.3em;
 }
 .careers__content__section__card__public__speaking__left {
   width: 60%;
@@ -1602,7 +1654,7 @@ body {
   content: "";
   height: 3px;
   border-radius: 3px;
-  width: 30%;
+  width: 100%;
   background: #000000;
 }
 .proficieny__exams__heading::after {
@@ -2214,6 +2266,186 @@ body {
   margin: 0.6em 0em;
   margin-top: 3em;
 }
+.admissions__content__section__card__admission__procedure__left {
+  width: 50%;
+}
+.admissions__content__section__btn__wrapper {
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+.section__btn__primary {
+  padding: 0.8em 1.5em;
+  border-radius: 30px;
+  background: #005dff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-right: 1em;
+}
+.section__btn__primary:hover {
+  background: #003185;
+  transition: 300ms ease-in-out;
+}
+.admissions__content__section__card__admission__procedure__img {
+  width: 500px;
+}
+.section__btn__scondary {
+  padding: 0.8em 1.5em;
+  border-radius: 30px;
+  background: #f9cc09;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-right: 1em;
+}
+.section__btn__scondary:hover {
+  background: #c9a400;
+  transition: 300ms ease-in-out;
+}
+.about__main__container__content__right__addmissions {
+  width: fit-content;
+  padding: 0.7em 2em;
+  border-radius: 30px;
+  background: #f9cc09;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 2em;
+}
+.addmission__requirment__section {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.addmission__requirment__section__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addmission__requirment__section__content__img {
+  width: 600px;
+  animation: animatedimg 600ms linear;
+}
+@keyframes animatedimg {
+  from {
+    transform: translate(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0%);
+    opacity: 1;
+  }
+}
+.addmission__requirment__section__content__right {
+  width: 50%;
+}
+.addmission__requirment__section__content__right__para {
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 1em;
+}
+@keyframes animatedpara {
+  from {
+    transform: translate(100%);
+  }
+  to {
+    transform: translate(0%);
+  }
+}
+.addmission__requirment__section__nav__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
+.addmission__requirment__section__nav__wrapper__entry__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.addmission__requirment__line {
+  width: 150px;
+  margin: 0em 0.5em;
+  height: 1px;
+  background: #cecece;
+}
+.addmission__requirment__section__nav__wrapper__entry {
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  background: #cecece;
+  border: none;
+
+  margin-bottom: 0.2em;
+}
+.addmission__requirment__section__nav__wrapper__entry__selected {
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  background: #005dff;
+  border: none;
+  margin-bottom: 0.2em;
+}
+.addmission__requirment__section__nav__wrapper__entry__container:hover
+  .addmission__requirment__section__nav__wrapper__entry {
+  background: #005dff;
+  transition: 400ms ease-in-out;
+  box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.1);
+}
+.addmission__requirment__section__nav__wrapper__entry__label {
+  font-size: 14px;
+}
+.a__level__addmission {
+  width: 100%;
+  max-width: 1360px;
+  height: fit-content;
+  padding: 4em 2em;
+  background: #2b2b2b;
+  border-radius: 20px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
+.a__level__addmission__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.a__level__addmission__content__entry {
+  width: 32%;
+  margin-top: 2em;
+}
+.a__level__addmission__content__entry__row {
+  width: 100px;
+  height: 4px;
+  border-radius: 4px;
+  background: #f9cc09;
+  margin-bottom: 1em;
+}
+.a__level__addmission__content__entry__para {
+  width: 80%;
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 1em;
+}
 @media (max-width: 1440px) {
   .home__main__container__overlay__content__heading {
     font-size: 38px;
@@ -2257,6 +2489,13 @@ body {
   }
 }
 @media (max-width: 1050px) {
+  .admissions__content__section__card__admission__procedure {
+    flex-direction: column;
+  }
+  .admissions__content__section__card__admission__procedure__left {
+    width: 100%;
+    margin-bottom: 4em;
+  }
   .drama__music__container {
     flex-direction: column-reverse;
   }
@@ -2456,6 +2695,12 @@ body {
   .photo__gallery__container__content__img {
     width: 48%;
   }
+  .addmission__requirment__section__content {
+    flex-direction: column;
+  }
+  .addmission__requirment__section__content__right {
+    width: 100%;
+  }
 }
 @media (max-width: 850px) {
   .careers__content__section__cards__wrapper {
@@ -2541,8 +2786,24 @@ body {
     width: 100%;
     margin-bottom: 2em;
   }
+  .a__level__addmission__content {
+    flex-direction: column;
+  }
+  .a__level__addmission__content__entry {
+    width: 100%;
+    margin-top: 4em;
+  }
 }
 @media (max-width: 730px) {
+  .a__level__addmission__content__entry__para {
+    width: 100%;
+  }
+  .addmission__requirment__section__content__img {
+    width: 300px;
+  }
+  .addmission__requirment__line {
+    display: none;
+  }
   .drama__music__container__img {
     width: 300px;
     margin-top: 2em;
@@ -2574,13 +2835,21 @@ body {
     margin-bottom: 0em;
     margin-top: 1em;
   }
-
+  .registration__overlay__card__img {
+    height: 400px;
+  }
   .about__main__container__content__right__nav__wrapper,
   .about__main__container__content__right__enrollment__wrapper {
-    width: 100%;
+    width: 100% !important;
   }
 }
 @media (max-width: 600px) {
+  .registration__overlay__card__img {
+    height: 600px;
+  }
+  .section__btn__primary {
+    margin-bottom: 1em;
+  }
   .addmission__main__container__content__overlay__content__new__enrollment__wrapper {
     flex-direction: column;
   }
@@ -2746,5 +3015,8 @@ body {
   }
   .international__explore__contain__new {
     margin-top: 20em;
+  }
+  .admissions__content__section__card__admission__procedure__img {
+    width: 300px;
   }
 }
