@@ -13,6 +13,7 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   background-color: #f6f6f6;
+  overflow-x: hidden;
 }
 
 .App {
@@ -2030,6 +2031,189 @@ body {
   font-size: 14px;
   color: #ffffff;
 }
+.campus__life__container__new {
+  width: 100%;
+  max-width: calc(1440px - 4em);
+  height: fit-content;
+  padding: 4em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px auto;
+  border-radius: 14px 14px 0px 0px;
+  background-color: #2b2b2b;
+  margin-top: -6em;
+  z-index: 999;
+  position: relative;
+}
+
+.campus__life__container__new__header__entry {
+  font-size: 13px;
+  color: #2b2b2b;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  max-width: 14%;
+  text-align: center;
+}
+.campus__life__container__new__header__entry__underlined {
+  width: 100%;
+  height: 2px;
+  background: #005dff;
+  margin-top: 4px;
+}
+
+.campus__life__container__new__header {
+  background: linear-gradient(#ffffff, #e4e4e4);
+  width: 100%;
+  position: absolute;
+  height: 75px;
+  top: 0;
+  left: 0;
+  border-radius: 14px 14px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em 1.5em;
+}
+.international__explore__contain__new {
+  width: 100%;
+  height: fit-content;
+  margin: 6em 0em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.international__explore__contain__new__left {
+  width: 50%;
+}
+.international__explore__contain__new__left__heading {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.international__explore__contain__new__left__heading span {
+  font-weight: bold;
+}
+.international__explore__contain__new__left__para {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 0.5em;
+}
+.international__explore__contain__new__img {
+  width: 550px;
+}
+.public__speak__new {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 2em 0em;
+}
+.public__speak__new__content {
+  position: absolute;
+  left: 50%;
+  background: #005dff;
+  width: 100%;
+  z-index: 999;
+  padding: 2em;
+}
+.public__speak__new__content__container {
+  width: 45%;
+}
+.public__speak__new__img {
+  width: 400px;
+}
+.public__speak__new__content__btn__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.public__speak__new__content__btn {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.7em 1.5em;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+.public__speak__new__content__btn:hover {
+  background: #fff;
+  color: #000000;
+  transition: 300ms ease-in-out;
+}
+.community__and__enviroment__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 4em 0em;
+  margin-top: 6em;
+}
+.science__technology__new {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  margin: 6em 0em;
+}
+.science__technology__new__content {
+  position: absolute;
+  left: -50%;
+  background: #005dff;
+  width: 100%;
+  z-index: 999;
+  padding: 2em;
+  display: flex;
+  justify-content: flex-end;
+}
+.drama__music__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 6em 0em;
+}
+.sports__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.drama__music__container__img {
+  width: 450px;
+}
+.drama__music__container__content {
+  width: 50%;
+}
+.sports__container__img {
+  width: 400px;
+}
+.media__heading {
+  width: 100%;
+
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 600;
+  margin: 0.6em 0em;
+  margin-top: 3em;
+}
 @media (max-width: 1440px) {
   .home__main__container__overlay__content__heading {
     font-size: 38px;
@@ -2054,6 +2238,9 @@ body {
   .assignment__main__container {
     max-width: calc(1440px - 10em);
   }
+  .campus__life__container__new {
+    max-width: calc(1440px - 10em) !important;
+  }
 }
 @media (max-width: 1250px) {
   .careers__content__section__card__community__service__img {
@@ -2070,6 +2257,73 @@ body {
   }
 }
 @media (max-width: 1050px) {
+  .drama__music__container {
+    flex-direction: column-reverse;
+  }
+  .drama__music__container__img {
+    margin-top: 4em;
+  }
+  .sports__container {
+    flex-direction: column;
+  }
+  .drama__music__container__content {
+    width: 100%;
+    text-align: justify;
+  }
+  .international__explore__contain__new__left__para {
+    text-align: justify;
+  }
+  .international__explore__contain__new__left__heading {
+    text-align: center;
+  }
+  .science__technology__new__content {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    margin-bottom: 2em;
+    justify-content: flex-start;
+  }
+  .science__technology__new {
+    flex-direction: column;
+  }
+  .public__speak__new__content {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    margin-bottom: 2em;
+  }
+  .public__speak__new__content__container {
+    width: 100%;
+  }
+  .public__speak__new__img {
+    width: 300px;
+  }
+  .public__speak__new {
+    flex-direction: column-reverse;
+  }
+  .international__explore__contain__new {
+    flex-direction: column;
+    margin-top: 10em;
+  }
+  .international__explore__contain__new__left {
+    width: 100%;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+  .campus__life__container__new__header__entry {
+    max-width: 100%;
+    margin-top: 2em;
+    margin-right: 3em;
+  }
+  .campus__life__container__new__header {
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .assignment__main__container__new {
+    flex-direction: column;
+  }
   .addmission__main__container__content__overlay__content__new {
     width: 100%;
   }
@@ -2289,6 +2543,10 @@ body {
   }
 }
 @media (max-width: 730px) {
+  .drama__music__container__img {
+    width: 300px;
+    margin-top: 2em;
+  }
   .sports__section__main__container__content__card {
     width: 45%;
   }
@@ -2466,7 +2724,7 @@ body {
     height: 800px;
   }
   .academic__main__container__content__overlay__pic {
-    width: 400px;
+    width: 350px;
   }
   .photo__gallery__container__content__img {
     width: 100%;
@@ -2476,5 +2734,17 @@ body {
   }
   .our__school__overlay__content__heading__wrapper svg {
     width: 320px !important;
+  }
+  .campus__life__container__new__header__entry {
+    margin-right: 0em;
+  }
+  .international__explore__contain__new__img {
+    width: 300px;
+  }
+  .campus__life__container__new__header {
+    flex-direction: column;
+  }
+  .international__explore__contain__new {
+    margin-top: 20em;
   }
 }

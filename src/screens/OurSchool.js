@@ -229,7 +229,10 @@ export default function OurSchool() {
           </div>
         </div>
       </div>
-      <div className="behaviour__policy__container">
+      <div
+        style={{ marginBottom: "4em" }}
+        className="behaviour__policy__container"
+      >
         <div className="behaviour__policy__container__heading">
           Behavior Policy
         </div>
