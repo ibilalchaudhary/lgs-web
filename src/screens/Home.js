@@ -350,7 +350,7 @@ export default function Home() {
             alt="addmission_bg"
             className="addmission__main__container__content__img"
           />
-          <div className="addmission__main__container__content__overlay">
+          <div className="addmission__main__container__content__overlay__new">
             <div className="addmission__main__container__content__overlay__content__new">
               <div className="addmission__main__container__content__overlay__content__new__enrollment__wrapper">
                 <div className="addmission__main__container__content__overlay__content__new__enrollment">

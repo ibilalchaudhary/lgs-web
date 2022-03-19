@@ -697,6 +697,18 @@ body {
   justify-content: center;
   align-items: center;
 }
+.contact__us__main__container__overlay__new {
+  width: 100%;
+  height: 100%;
+  background: rgb(43, 43, 43, 0.8);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .contact__us__main__container__overlay__content {
   display: flex;
   justify-content: space-between;
@@ -705,6 +717,42 @@ body {
   max-width: 1440px;
   height: fit-content;
   padding: 0em 2em;
+}
+.contact__us__main__container__overlay__content__new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  height: fit-content;
+  padding: 0em 2em;
+}
+.contact__us__main__container__overlay__content__new__para {
+  width: 70%;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 2em;
+}
+.contact__us__main__container__overlay__content__new__entry__wrapper {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.contact__us__main__container__overlay__content__new__entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.8em;
+  color: #ffffff;
+  font-size: 16px;
+}
+.contact__us__main__container__overlay__content__new__entry span {
+  color: #f9cc09;
+  font-weight: 600;
 }
 .contact__us__main__container__overlay__content__form {
   width: 50%;
@@ -757,7 +805,7 @@ body {
 }
 .primary__btn {
   border-radius: 20px;
-  color: #ffffff;
+  color: #000;
   font-weight: 400;
   position: relative;
   padding: 0.8em 4em;
@@ -765,12 +813,12 @@ body {
   font-size: 14px;
   cursor: pointer;
   text-decoration: none;
-  background: #005dff;
+  background: #fff;
   border: none;
   outline: none;
 }
 .primary__btn:hover {
-  background: #022b43;
+  background: rgb(218, 217, 217);
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
   transition: 300ms ease-in-out;
 }
@@ -882,6 +930,17 @@ body {
   border-radius: 14px;
 }
 .addmission__main__container__content__overlay {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 93, 255, 0.6);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 14px;
+}
+.addmission__main__container__content__overlay__new {
   width: 100%;
   height: 100%;
   background: rgb(248, 187, 4, 0.7);
@@ -1462,7 +1521,7 @@ body {
   width: 100%;
   height: fit-content;
   border-radius: 14px;
-  background: #022b43;
+  background: #2b2b2b;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
@@ -1522,6 +1581,7 @@ body {
   background: #ffffff;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2em;
@@ -1543,9 +1603,10 @@ body {
   width: 600px;
 }
 .careers__content__section__card__community__service__right {
-  width: 45%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 .careers__content__section__card__international__explore__img {
   width: 100%;
@@ -1560,6 +1621,20 @@ body {
   top: 0px;
   left: 0px;
   background: rgb(0, 93, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4em;
+  border-radius: 14px;
+}
+.careers__content__section__card__international__explore__overlay__new {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: rgb(249, 204, 9, 0.9);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1836,8 +1911,8 @@ body {
   border-radius: 14px;
 }
 .photo__gallery__container__content__img__wrapper {
-  width: 32.5%;
-  height: 300px;
+  width: 24%;
+  height: 250px;
   margin-bottom: 1em;
   border-radius: 14px;
   overflow: hidden;
@@ -2701,6 +2776,10 @@ body {
   .addmission__requirment__section__content__right {
     width: 100%;
   }
+  .contact__us__main__container__overlay__content__new__entry {
+    flex-direction: column;
+    margin-top: 1.4em;
+  }
 }
 @media (max-width: 850px) {
   .careers__content__section__cards__wrapper {
@@ -3018,5 +3097,12 @@ body {
   }
   .admissions__content__section__card__admission__procedure__img {
     width: 300px;
+  }
+  .contact__us__main__container__overlay__content__new__entry {
+    text-align: center;
+  }
+  .contact__us__main__container__overlay__content__new__para,
+  .contact__us__main__container__overlay__content__new__entry__wrapper {
+    width: 100%;
   }
 }

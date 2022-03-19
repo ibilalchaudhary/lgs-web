@@ -3,7 +3,7 @@ import ourCampusBg from "../assets/ourCampusBg.png";
 import campusPic from "../assets/campusPic.png";
 import AlumniRegistrationsPic from "../assets/AlumniRegistrationsPic.png";
 import ReunionsPic from "../assets/ReunionsPic.png";
-import communitySevicePic from "../assets/communitySevicePic.png";
+import overviewPic from "../assets/overviewPic.png";
 import InterectivePic from "../assets/InterectivePic.png";
 
 function CampusLifeCard({ title }) {
@@ -63,26 +63,26 @@ export default function Alumini() {
           <div className="careers__content__section__card__public__speaking">
             <div className="careers__content__section__card__public__speaking__left">
               <div className="careers__content__section__card__public__speaking__left__heading">
-                Interective Timelines
+                Overview
               </div>
               <div className="careers__content__section__card__public__speaking__left__paragraph">
                 It has been almost forty years since LGS FSD opened its doors to
-                a handful of students. Today, our Alums make #55Worldwide as
-                they cover the globe in their active involvement in a diverse
-                range of fields. Stay connected to your home at LGS through
-                Annual Reunions, The Alumane Page, the Mashal, and social media,
-                and contribute to networking opportunities as they arise. Come
+                a handful of students. Today, our Alums make Worldwide as they
+                cover the globe in their active involvement in a diverse range
+                of fields. Stay connected to your home at LGS through Annual
+                Reunions, The Alumane Page, the Mashal, and social media, and
+                contribute to networking opportunities as they arise. Come
                 visit! Arrange a meeting with the Alumni Relations Society,
                 mentor a current student, or simply drop in for a cup of coffee
                 with Mrs. Shah to share your experiences of the real world! We
                 would be absolutely delighted to see you and discover what you
-                have been up to! Remember to show your #55Pride and always stay
-                a Grammarian at heart.
+                have been up to! Remember to show your Pride and always stay a
+                Grammarian at heart.
               </div>
             </div>
             <img
-              src={InterectivePic}
-              alt="InterectivePic"
+              src={overviewPic}
+              alt="overviewPic"
               className="careers__content__section__card__public__speaking__img"
             />
           </div>
@@ -165,24 +165,42 @@ export default function Alumini() {
                 imprinted mugs, and a fabulous entrance and stage, all made
                 possible with the tireless efforts of the Student Council. We
                 also release iconic hoodies with the School’s Head
-                Administrators serving as brand ambassadors!
+                Administrators serving as brand ambassadors! Each year we hope
+                that our audience is reminded of all the wonderful memories a
+                they made during their time at school. Whether that is during
+                the teachers parodies or dance performances, the mood of the
+                night is nostalgic. The Annual Reunion is a great reminder of
+                some of the principles we learn at LGS: teamwork, respect for
+                one another, and the collective celebration of our common love
+                for the school. It reinforces that here at LGS, those that are
+                gone are never forgotten!
               </div>
-              <div className="careers__content__section__card__community__service__right__paragraph">
-                Each year we hope that our audience is reminded of all the
-                wonderful memories a 55 Mainer makes during her time at school.
-                Whether that is during the teachers parodies or dance
-                performances, the mood of the night is nostalgic. The Annual
-                Reunion is a great reminder of some of the principles we learn
-                at 55: teamwork, respect for one another, and the collective
-                celebration of our common love for the school. It reinforces
-                that here at 55 Main, those that are gone are never forgotten!
-                Last Reunion was held on 26th of January 2020 to mark the 40
-                years of LGS FSD . We hope you enjoyed it!
+            </div>
+          </div>
+          <div className="careers__content__section__card__international__explore">
+            <img
+              src={AlumniRegistrationsPic}
+              alt="AlumniRegistrationsPic"
+              className="careers__content__section__card__international__explore__img"
+            />
+            <div className="careers__content__section__card__international__explore__overlay__new">
+              <div
+                style={{
+                  color: "#000",
+                  fontSize: 36,
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+                className="careers__content__section__card__public__speaking__left__heading"
+              >
+                <span style={{ fontSize: 20 }}>THEME DINNER</span>
+                COMING SOON
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div className="careers__content__section__campus__life">
         <div className="careers__content__section__campus__life__content">
           <CampusLifeCard title="Alumni Dinner '22" />

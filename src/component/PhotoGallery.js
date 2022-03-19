@@ -11,12 +11,14 @@ export default function PhotoGallery() {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const images = [
-    sportsGallery1,
-    sportsGallery2,
-    sportsGallery3,
     sportsGallery4,
-    sportsGallery5,
-    sportsGallery6,
+    sportsGallery4,
+    sportsGallery4,
+    sportsGallery4,
+    sportsGallery4,
+    sportsGallery4,
+    sportsGallery4,
+    sportsGallery4,
   ];
 
   const openImageViewer = useCallback((index) => {
