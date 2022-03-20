@@ -1298,6 +1298,18 @@ body {
   border-radius: 14px;
   margin: 0px auto;
 }
+.cannal__campus__container__wrapper__card {
+  padding: 2.5em 1em;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 14px;
+  margin: 0px auto;
+  color: #000;
+  box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 1300px;
+}
 .further__details__our__school__main__section__wrapper__policy {
   background: #005dff;
   margin: 2em 0em;
@@ -1509,7 +1521,29 @@ body {
   position: relative;
   margin-bottom: 6em;
 }
+.cannal__campus__container {
+  width: 100%;
+  max-width: 1440px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  margin-top: -8em;
+  z-index: 999;
+  position: relative;
+  margin-bottom: 6em;
+  padding: 2em;
+}
 .careers__content__section__cards__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.cannal__campus__container__wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2520,6 +2554,136 @@ body {
   color: #fff;
   font-size: 15px;
   margin-bottom: 1em;
+}
+.cannal__campus__heading__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cannal__campus__sub__heading {
+  font-size: 26px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.cannal__campus__para {
+  font-size: 24px;
+  color: #f9cc09;
+  text-transform: uppercase;
+}
+.cannal__campus__heading {
+  font-size: 42px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.cannal__campus__container__wrapper__card__right {
+  width: 70%;
+  padding: 1em;
+}
+.cannal__campus__container__wrapper__card__left {
+  width: 30%;
+  padding: 1em;
+}
+.cannal__campus__container__wrapper__card__left__content {
+  display: flex;
+  align-items: center;
+}
+.cannal__campus__container__wrapper__card__left__content__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-right: 1.4em;
+}
+.cannal__campus__container__wrapper__card__left__content__heading {
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.cannal__campus__container__wrapper__card__left__content__para {
+  font-size: 14px;
+  color: #003185;
+  text-transform: uppercase;
+}
+.cannal__campus__container__wrapper__card__right {
+  position: relative;
+  font-size: 15px;
+  color: #000;
+}
+.cannal__campus__container__wrapper__card__right::before {
+  position: absolute;
+  top: 18px;
+  left: -10px;
+  content: "";
+  width: 3px;
+  height: 140px;
+  background: #c9c9c9;
+}
+.cannal__campus__nav__wrapper {
+  width: 100%;
+  max-width: 1100px;
+  padding: 1.3em 8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #005dff;
+  border-radius: 10px;
+  margin-top: -0.5em;
+  position: relative;
+  z-index: -99;
+}
+.cannal__campus__nav {
+  padding: 0.7em 2em;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  background: transparent;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+.cannal__campus__nav:hover {
+  color: #005dff;
+  background: #fff;
+  transition: 300ms ease-in-out;
+}
+.cannal__campus__btn {
+  padding: 0.7em 2em;
+  font-size: 15px;
+  color: #2b2b2b;
+  font-weight: 600;
+  border: 1px solid #c9c9c9;
+  background: transparent;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 18%;
+  margin-top: 2em;
+}
+.cannal__campus__btn:hover {
+  color: #fff;
+  background: #2b2b2b;
+  border-color: #2b2b2b;
+  transition: 300ms ease-in-out;
+}
+.cannal__campus__nav__select {
+  padding: 0.7em 2em;
+  font-size: 15px;
+  color: #005dff;
+  font-weight: 600;
+  background: #fff;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+.cannal__campus__btn__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2em;
 }
 @media (max-width: 1440px) {
   .home__main__container__overlay__content__heading {

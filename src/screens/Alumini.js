@@ -4,7 +4,7 @@ import campusPic from "../assets/campusPic.png";
 import AlumniRegistrationsPic from "../assets/AlumniRegistrationsPic.png";
 import ReunionsPic from "../assets/ReunionsPic.png";
 import overviewPic from "../assets/overviewPic.png";
-import InterectivePic from "../assets/InterectivePic.png";
+import PhotoGallery from "../component/PhotoGallery";
 
 function CampusLifeCard({ title }) {
   return (
@@ -198,6 +198,7 @@ export default function Alumini() {
               </div>
             </div>
           </div>
+          <PhotoGallery />
         </div>
       </div>
 
