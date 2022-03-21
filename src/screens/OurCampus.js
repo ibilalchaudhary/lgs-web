@@ -84,7 +84,7 @@ export default function OurCampus() {
               </svg>
             </Link>
             <Link
-              to="/"
+              to="/senior-school"
               className="campus__main__container__content__left__entry campus__main__container__content__left__entry__senior"
             >
               Senior School
@@ -173,7 +173,7 @@ export default function OurCampus() {
               </svg>
             </Link>
             <Link
-              to="/"
+              to="/senior-school"
               className="campus__main__container__content__left__entry campus__main__container__content__left__entry__senior"
             >
               Senior School

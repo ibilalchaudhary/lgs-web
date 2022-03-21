@@ -1727,13 +1727,24 @@ body {
 .cannal__campus__senior__container__card {
   width: 100%;
   height: fit-content;
-  border-radius: 14px;
-  background: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3em;
   padding: 2em 0em;
+}
+.cannal__campus__senior__container__card__reverse {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3em;
+  padding: 2em;
+  background: linear-gradient(#005dff, #00729c);
+}
+.cannal__campus__primary__container__card__left__img {
+  width: 400px;
 }
 .cannal__campus__senior__container__card__subject {
   width: 100%;
@@ -1757,6 +1768,57 @@ body {
   color: #000;
   font-weight: 600;
   text-transform: uppercase;
+}
+.cannal__campus__primary__container__card__left__heading {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  position: relative;
+}
+.cannal__campus__primary__container__card__left__heading::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 200px;
+  height: 2px;
+  background-color: #f9cc09;
+}
+.cannal__campus__primary__container__card__left__heading__reverse {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  position: relative;
+}
+.cannal__campus__primary__container__card__left__heading__reverse::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 200px;
+  height: 2px;
+  background-color: #f9cc09;
+}
+.cannal__campus__primary__container__card__left__heading__reverse__yellow {
+  font-size: 20px;
+  color: #2b2b2b;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  position: relative;
+}
+.cannal__campus__primary__container__card__left__heading__reverse__yellow::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 200px;
+  height: 2px;
+  background-color: #2b2b2b;
 }
 .cannal__campus__senior__container__card__subject__heading {
   font-size: 20px;
@@ -1927,8 +1989,13 @@ body {
   background: #ffffff !important;
 }
 .admissions__content__section__card__admission__procedure__paragraph {
-  font-size: 14px;
+  font-size: 15px;
   color: #1a1a1a;
+  margin-top: 0.5em;
+}
+.admissions__content__section__card__admission__procedure__paragraph__reverse {
+  font-size: 14px;
+  color: #ffffff;
   margin-top: 0.5em;
 }
 .faq__container__content {
@@ -2263,7 +2330,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-
   overflow: hidden;
 }
 .about__main__container__content__right__enrollment__title {
@@ -2773,8 +2839,8 @@ body {
   left: -10px;
   content: "";
   width: 3px;
-  height: 140px;
-  background: #c9c9c9;
+  height: 90px;
+  background: rgb(0, 0, 0, 0.3);
 }
 .cannal__campus__nav__wrapper {
   width: 100%;
@@ -2803,7 +2869,7 @@ body {
   z-index: -99;
 }
 .cannal__campus__nav {
-  padding: 0.7em 2em;
+  padding: 0.7em 1em;
   font-size: 15px;
   color: #fff;
   font-weight: 600;
@@ -2813,7 +2879,7 @@ body {
   cursor: pointer;
 }
 .cannal__campus__nav:hover {
-  color: #005dff;
+  color: #000000;
   background: #fff;
   transition: 300ms ease-in-out;
 }
@@ -2854,9 +2920,9 @@ body {
   transition: 300ms ease-in-out;
 }
 .cannal__campus__nav__select {
-  padding: 0.7em 2em;
+  padding: 0.7em 1em;
   font-size: 15px;
-  color: #005dff;
+  color: #000000;
   font-weight: 600;
   background: #fff;
   border-radius: 30px;
@@ -2960,6 +3026,13 @@ body {
   box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.05);
   margin-top: 3em;
 }
+.cannal__campus__primary__container {
+  width: 100%;
+  height: fit-content;
+  padding: 2em;
+  border-radius: 14px;
+  margin-top: 3em;
+}
 .cannal__campus__senior__choices__card__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -3004,12 +3077,48 @@ body {
 }
 .global__skill__section__heading::after {
   position: absolute;
-  bottom: -3px;
+  bottom: -8px;
   left: 0;
   content: "";
   width: 100%;
   height: 3px;
   background: #005dff;
+}
+.heroistic__section__heading {
+  font-size: 26px;
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.heroistic__section__heading::after {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  content: "";
+  width: 60%;
+  height: 3px;
+  background: #f9cc09;
+}
+.heroistic__section__heading__para {
+  font-size: 15px;
+  color: #373737;
+  margin-top: 0.7em;
+  position: relative;
+  margin-left: 1em;
+}
+.heroistic__section__heading__para::before {
+  position: absolute;
+  left: -25px;
+  top: 0;
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 20px;
+  background: #f9cc09;
 }
 .global__skill__section__para {
   width: 60%;
@@ -3132,13 +3241,22 @@ body {
     width: 100%;
     margin-bottom: 2em;
   }
-  .cannal__campus__senior__container__card {
+
+  .cannal__campus__senior__container__card,
+  .cannal__campus__senior__container__card__reverse {
     flex-direction: column;
     padding: 0px;
   }
   .cannal__campus__senior__container__card__left {
     width: 100%;
     margin-bottom: 2em;
+    padding: 1em;
+    text-align: center;
+    margin-top: 2em;
+  }
+  .cannal__campus__primary__container__card__left__heading__reverse::after,
+  .cannal__campus__primary__container__card__left__heading::after {
+    display: none;
   }
   .photo__gallery__container__content__img__wrapper {
     width: 32%;
@@ -3383,6 +3501,9 @@ body {
   }
 }
 @media (max-width: 850px) {
+  .cannal__campus__primary__container__card__left__heading__reverse__yellow::after {
+    display: none;
+  }
   .campus__main__container__content__right,
   .campus__main__container__content__left {
     width: 100%;
@@ -3743,13 +3864,47 @@ body {
   .cannal__campus__senior__container__card__left__img {
     width: 280px;
   }
-  .cannal__campus__senior__container {
+  .cannal__campus__primary__container__card__left__img {
+    width: 280px;
+    margin-top: 2em;
+  }
+  .cannal__campus__senior__container,
+  .cannal__campus__primary__container {
     padding: 1em;
   }
   .about__main__container__content__right__nav {
-    font-size: 14px;
+    font-size: 12px;
   }
   .faculty__section__card {
     width: 100%;
+  }
+  .cannal__campus__container__wrapper__card__right,
+  .admissions__content__section__card__admission__procedure__paragraph__reverse,
+  .cannal__campus__senior__container__card__subject__para,
+  .notice__board__section__content__paragraph,
+  .from__the__pricipal__container__para,
+  .behaviour__policy__container__para,
+  .behaviour__policy__container__para__dark,
+  .our__school__main__container__paragragh,
+  .about__main__container__content__right__paragraph {
+    text-align: justify;
+  }
+  .addmission__main__container__content__wrapper__paragraph {
+    width: 100%;
+    text-align: justify;
+  }
+  .heroistic__section__heading__para {
+    margin: 0px;
+    text-align: justify;
+    margin-bottom: 2em;
+  }
+  .heroistic__section__heading__para::before {
+    display: none;
+  }
+  .cannal__campus__senior__container__card__subject {
+    padding: 1em;
+  }
+  .notice__board__section__content__card {
+    padding: 0px;
   }
 }
