@@ -294,6 +294,9 @@ export default function Admissions() {
         </div>
       </div>
       <div className="addmission__requirment__section">
+        <div className="addmission__requirment__section__heading">
+          ADMISSION TEST REQUIREMENTS
+        </div>
         <div className="addmission__requirment__section__nav__wrapper">
           <AddmissionNav
             selectedAdmin={selectedAdmin}

@@ -33,13 +33,13 @@ export default function Header() {
   const navigate = useNavigate();
   const [isNavOpen, setIsNavOpen] = useState(true);
   useEffect(() => {
-    if (window.innerWidth < 1050) {
+    if (window.innerWidth < 1150) {
       setIsNavOpen(false);
     } else {
       setIsNavOpen(true);
     }
     window.addEventListener("resize", () => {
-      if (window.innerWidth < 1050) {
+      if (window.innerWidth < 1150) {
         setIsNavOpen(false);
       } else {
         setIsNavOpen(true);
@@ -97,8 +97,12 @@ export default function Header() {
             <NavLink to="/alumini" id="alumini" setIsNavOpen={setIsNavOpen}>
               Alumini
             </NavLink>
-            <NavLink to="/sports" id="sports" setIsNavOpen={setIsNavOpen}>
-              Sports
+            <NavLink
+              to="/counselling-center"
+              id="counselling-center"
+              setIsNavOpen={setIsNavOpen}
+            >
+              Counselling
             </NavLink>
             <NavLink
               to="/complaints"

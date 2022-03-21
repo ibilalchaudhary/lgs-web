@@ -14,11 +14,12 @@ import OurSchool from "./screens/OurSchool";
 import Sports from "./screens/Sports";
 import Complaints from "./screens/Complaints";
 import SeniorSchool from "./screens/SeniorSchool";
-import ALevels from "./screens/ALevels";
 import CampusLife from "./screens/CampusLife";
 import Career from "./screens/Career";
 import SeniorSchoolALevel from "./screens/SeniorSchoolALevel";
 import SeniorSchoolOLevel from "./screens/SeniorSchoolOLevel";
+import PrimarySchool from "./screens/PrimarySchool";
+import CounsellingCenter from "./screens/CounsellingCenter";
 
 function App() {
   return (
@@ -39,8 +40,9 @@ function App() {
         <Route path="/senior-school-a-level" element={<SeniorSchoolALevel />} />
         <Route path="/senior-school-o-level" element={<SeniorSchoolOLevel />} />
         <Route path="/senior-school" element={<SeniorSchool />} />
-        <Route path="/a-levels" element={<ALevels />} />
+        <Route path="/primary-school" element={<PrimarySchool />} />
         <Route path="/career" element={<Career />} />
+        <Route path="/counselling-center" element={<CounsellingCenter />} />
       </Routes>
       <ContactUsSection />
       <Footer />

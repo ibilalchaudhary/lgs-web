@@ -64,6 +64,12 @@ export default function OurCampus() {
             </div>
             <Link
               to="/primary-school"
+              onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
               className="campus__main__container__content__left__entry"
             >
               Primary School
@@ -85,6 +91,12 @@ export default function OurCampus() {
             </Link>
             <Link
               to="/senior-school"
+              onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
               className="campus__main__container__content__left__entry campus__main__container__content__left__entry__senior"
             >
               Senior School
@@ -106,6 +118,12 @@ export default function OurCampus() {
             </Link>
             <Link
               to="/senior-school-a-level"
+              onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
               className="campus__main__container__content__left__entry campus__main__container__content__left__entry__a__level"
             >
               Senior School(A-Level)
@@ -127,6 +145,12 @@ export default function OurCampus() {
             </Link>
             <Link
               to="/senior-school-o-level"
+              onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
               className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
             >
               Senior School(O-Level)
@@ -153,6 +177,12 @@ export default function OurCampus() {
             </div>
             <Link
               to="/primary-school"
+              onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
               className="campus__main__container__content__left__entry"
             >
               Primary School
@@ -174,6 +204,12 @@ export default function OurCampus() {
             </Link>
             <Link
               to="/senior-school"
+              onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
               className="campus__main__container__content__left__entry campus__main__container__content__left__entry__senior"
             >
               Senior School
@@ -195,6 +231,12 @@ export default function OurCampus() {
             </Link>
             <Link
               to="/senior-school-a-level"
+              onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
               className="campus__main__container__content__left__entry campus__main__container__content__left__entry__a__level"
             >
               Senior School(A-Level)
@@ -218,7 +260,13 @@ export default function OurCampus() {
               to="/senior-school-o-level"
               className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
             >
-              Senior School(O-Level)
+              Senior School(O-Level) onClick=
+              {() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
