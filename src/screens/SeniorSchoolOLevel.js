@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ourCampusBg from "../assets/ourCampusBg.png";
-import AlumniRegistrationsPic from "../assets/AlumniRegistrationsPic.png";
+import creativePic from "../assets/creativePic.png";
 import addmissionPic from "../assets/addmissionPic.png";
 import cannalCampusPricipalPic from "../assets/cannalCampusPricipalPic.png";
 import PhotoGallery from "../component/PhotoGallery";
@@ -311,6 +311,63 @@ export default function SeniorSchoolOLevel() {
             <NoticeBoardCard />
             <NoticeBoardCard />
             <NoticeBoardCard />
+          </div>
+        ) : null}
+        {select === "Global perspectives & Thinking skills" ? (
+          <div className="global__skill__section">
+            <div className="global__skill__section__heading">
+              Global perspectives & Thinking skills
+            </div>
+            <div className="global__skill__section__para">
+              Interested in taking a ground-breaking course stretching across
+              traditional subject boundaries? Explore IGCSE Global Perspectives!
+            </div>
+            <div className="global__skill__section__para">
+              There is no magic formula for getting selected for Global
+              Perspectives.{" "}
+            </div>
+            <div className="global__skill__section__card">
+              <div className="global__skill__section__card__left">
+                <div className="global__skill__section__card__left__para">
+                  However, you have a great chance of getting selected if you
+                </div>
+                <li className="global__skill__section__card__left__para">
+                  Have taken full advantage of the curricular and
+                  extracurricular opportunities available to you in school.
+                </li>
+                <li className="global__skill__section__card__left__para">
+                  Have achieved above average grades in all subjects since Grade
+                  7 Have the ability to think and work independently
+                </li>
+                <li className="global__skill__section__card__left__para">
+                  Can empathize with the needs and rights of others Can manage
+                  your time effectively
+                </li>
+                <li className="global__skill__section__card__left__para">
+                  Are able to think critically about a range of global issues
+                  where there are more than just one points of view Have well-
+                  developed essay writing skills
+                </li>
+                <li className="global__skill__section__card__left__para">
+                  Can analyze, evaluate and develop facts, ideas and opinions
+                  Have the tools and skills to research effectively
+                </li>
+                <li className="global__skill__section__card__left__para">
+                  Use a range of appropriate vocabulary
+                </li>
+                <li className="global__skill__section__card__left__para">
+                  Can communicate clearly, fluently and purposefully as an
+                  individual and in a team.
+                </li>
+              </div>
+              <div className="global__skill__section__card__right">
+                <img
+                  src={creativePic}
+                  alt="creativePic"
+                  className="global__skill__section__card__right__img"
+                />
+              </div>
+            </div>
           </div>
         ) : null}
       </div>
