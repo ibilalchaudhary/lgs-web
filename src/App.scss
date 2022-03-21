@@ -1926,7 +1926,7 @@ body {
   color: #1a1a1a;
   font-weight: 600;
   text-transform: uppercase;
-  margin-top: 1em;
+  margin-top: 3em;
 }
 .photo__gallery__container__content {
   width: 100%;
@@ -1943,6 +1943,11 @@ body {
   object-fit: cover;
   margin-bottom: 1em;
   border-radius: 14px;
+  transition: 400ms all ease-in-out;
+}
+.photo__gallery__container__content__img:hover {
+  transform: scale(1.1);
+  transition: 400ms all ease-in-out;
 }
 .photo__gallery__container__content__img__wrapper {
   width: 24%;
@@ -2685,6 +2690,86 @@ body {
   flex-wrap: wrap;
   padding: 2em;
 }
+.faculty__section__heading {
+  font-size: 20px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 3em;
+  position: relative;
+}
+.faculty__section__heading::after {
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background: #005dff;
+  content: "";
+}
+.faculty__section__card__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 4em;
+}
+.faculty__section__card {
+  width: 32%;
+  height: fit-content;
+  min-height: 300px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.05);
+  border: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 2em;
+  transition: 400ms all ease-in-out;
+}
+.faculty__section__card:hover {
+  box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.1);
+  transition: 400ms all ease-in-out;
+  transform: scale(1.04);
+}
+.faculty__section__card__filler {
+  width: 100%;
+  height: 130px;
+  background: #005dff;
+  border-radius: 14px;
+}
+.faculty__section__card__img {
+  width: 130px;
+  height: 130px;
+  border-radius: 130px;
+  position: relative;
+  margin-top: -5em;
+}
+.faculty__section__card__heading {
+  font-size: 18px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.6em;
+}
+.faculty__section__card__para {
+  font-size: 15px;
+  color: #7d7d7d;
+  text-align: start;
+}
+.faculty__section__card__para span {
+  color: #000;
+}
+.faculty__section__card__para__wrapper {
+  width: 100%;
+  padding: 2em;
+  padding-top: 1em;
+}
 @media (max-width: 1440px) {
   .home__main__container__overlay__content__heading {
     font-size: 38px;
@@ -2728,6 +2813,9 @@ body {
   }
 }
 @media (max-width: 1050px) {
+  .photo__gallery__container__content__img__wrapper {
+    width: 32%;
+  }
   .admissions__content__section__card__admission__procedure {
     flex-direction: column;
   }
@@ -2931,9 +3019,6 @@ body {
   .about__main__container__content__right {
     width: 100%;
   }
-  .photo__gallery__container__content__img {
-    width: 48%;
-  }
   .addmission__requirment__section__content {
     flex-direction: column;
   }
@@ -2943,6 +3028,31 @@ body {
   .contact__us__main__container__overlay__content__new__entry {
     flex-direction: column;
     margin-top: 1.4em;
+  }
+  .cannal__campus__container__wrapper__card {
+    flex-direction: column;
+  }
+  .cannal__campus__container__wrapper__card__left {
+    width: 100%;
+  }
+  .cannal__campus__container__wrapper__card__left__content {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .cannal__campus__container__wrapper__card__left__content__img {
+    margin-bottom: 1em;
+    margin-right: 0px;
+  }
+  .cannal__campus__container__wrapper__card__right::before {
+    display: none;
+  }
+  .cannal__campus__container__wrapper__card__right {
+    width: 100%;
+  }
+  .cannal__campus__btn {
+    width: 23%;
   }
 }
 @media (max-width: 850px) {
@@ -3038,6 +3148,20 @@ body {
   }
 }
 @media (max-width: 730px) {
+  .photo__gallery__container__content__img__wrapper {
+    width: 48%;
+  }
+  .cannal__campus__nav__wrapper {
+    padding: 1.4em 0.1em;
+    flex-direction: column;
+  }
+  .cannal__campus__nav__select,
+  .cannal__campus__nav {
+    margin-top: 1em;
+  }
+  .cannal__campus__container {
+    padding: 1em;
+  }
   .a__level__addmission__content__entry__para {
     width: 100%;
   }
@@ -3085,8 +3209,18 @@ body {
   .about__main__container__content__right__enrollment__wrapper {
     width: 100% !important;
   }
+  .cannal__campus__btn {
+    width: 30%;
+    margin-right: 0px;
+  }
 }
 @media (max-width: 600px) {
+  .cannal__campus__btn {
+    width: 100%;
+  }
+  .photo__gallery__container__content__img__wrapper {
+    width: 100%;
+  }
   .registration__overlay__card__img {
     height: 600px;
   }
@@ -3238,9 +3372,7 @@ body {
   .academic__main__container__content__overlay__pic {
     width: 350px;
   }
-  .photo__gallery__container__content__img {
-    width: 100%;
-  }
+
   .our__school__overlay__content__heading {
     font-size: 36px;
   }

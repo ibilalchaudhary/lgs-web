@@ -5,6 +5,7 @@ import ReunionsPic from "../assets/ReunionsPic.png";
 import cannalCampusPricipalPic from "../assets/cannalCampusPricipalPic.png";
 import PhotoGallery from "../component/PhotoGallery";
 import NoticeBoardCard from "../component/NoticeBoardCard";
+import FacultyCard from "../component/FacultyCard";
 
 function CampusNav({ title, select, setSelect }) {
   return (
@@ -24,8 +25,8 @@ function SubjectBtn({ title }) {
   return <button className="cannal__campus__btn">Accounting</button>;
 }
 
-export default function CanalCampus() {
-  const [select, setSelect] = useState("cannal__campus__nav");
+export default function PrimarySchoool() {
+  const [select, setSelect] = useState("Subject Choices");
   return (
     <>
       <div className="our__school__container">
@@ -89,7 +90,7 @@ export default function CanalCampus() {
           <CampusNav
             select={select}
             setSelect={setSelect}
-            title="Subject choices"
+            title="Subject Choices"
           />
           <CampusNav title="Gallery" select={select} setSelect={setSelect} />
           <CampusNav
@@ -103,7 +104,7 @@ export default function CanalCampus() {
             setSelect={setSelect}
           />
         </div>
-        {select === "Subject choices" ? (
+        {select === "Subject Choices" ? (
           <div className="cannal__campus__btn__wrapper">
             <SubjectBtn />
             <SubjectBtn />
@@ -138,6 +139,25 @@ export default function CanalCampus() {
           </div>
         ) : null}
         {select === "Gallery" ? <PhotoGallery /> : null}
+        {select === "Faculty Profiles" ? (
+          <>
+            <div className="faculty__section__heading">Faculty Profiles</div>
+            <div className="faculty__section__card__wrapper">
+              <FacultyCard />
+              <FacultyCard />
+              <FacultyCard />
+              <FacultyCard />
+              <FacultyCard />
+              <FacultyCard />
+              <FacultyCard />
+              <FacultyCard />
+              <FacultyCard />
+              <FacultyCard />
+              <FacultyCard />
+              <FacultyCard />
+            </div>
+          </>
+        ) : null}
         {select === "Notice board" ? (
           <div style={{ marginTop: "4em" }} className="notice__board__section">
             <div className="notice__board__section__content__heading">

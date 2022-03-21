@@ -19,6 +19,10 @@ export default function PhotoGallery() {
     sportsGallery4,
     sportsGallery4,
     sportsGallery4,
+    sportsGallery4,
+    sportsGallery4,
+    sportsGallery4,
+    sportsGallery4,
   ];
 
   const openImageViewer = useCallback((index) => {

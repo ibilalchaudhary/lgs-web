@@ -58,7 +58,7 @@ export default function OurCampus() {
       <div className="events__main__container">
         <div className="campus__main__container__content">
           <Link
-            to="/canal-campus"
+            to="/primary-school"
             className="campus__main__container__content__card"
           >
             <div className="campus__main__container__content__card__heading">
