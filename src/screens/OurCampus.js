@@ -286,13 +286,6 @@ export default function OurCampus() {
           </div>
         </div>
       </div>
-      <div className="our__campus__banner__section">
-        <img
-          src={main_bg}
-          alt="main_bg"
-          className="our__campus__banner__section"
-        />
-      </div>
     </>
   );
 }
