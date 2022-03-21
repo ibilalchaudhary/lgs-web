@@ -257,16 +257,16 @@ export default function OurCampus() {
               </svg>
             </Link>
             <Link
-              to="/senior-school-o-level"
-              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
-            >
-              Senior School(O-Level) onClick=
-              {() => {
+              onClick={() => {
                 window.scrollTo({
                   top: 0,
                   behavior: "smooth",
                 });
               }}
+              to="/senior-school-o-level"
+              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
+            >
+              Senior School(O-Level)
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
