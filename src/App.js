@@ -17,7 +17,8 @@ import SeniorSchool from "./screens/SeniorSchool";
 import ALevels from "./screens/ALevels";
 import CampusLife from "./screens/CampusLife";
 import Career from "./screens/Career";
-import PrimarySchoool from "./screens/PrimarySchoool";
+import SeniorSchoolALevel from "./screens/SeniorSchoolALevel";
+import SeniorSchoolOLevel from "./screens/SeniorSchoolOLevel";
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
         <Route path="/alumini" element={<Alumini />} />
         <Route path="/sports" element={<Sports />} />
         <Route path="/complaints" element={<Complaints />} />
-        <Route path="/primary-school" element={<PrimarySchoool />} />
+        <Route path="/senior-school-a-level" element={<SeniorSchoolALevel />} />
+        <Route path="/senior-school-o-level" element={<SeniorSchoolOLevel />} />
         <Route path="/senior-school" element={<SeniorSchool />} />
         <Route path="/a-levels" element={<ALevels />} />
         <Route path="/career" element={<Career />} />

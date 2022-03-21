@@ -5,6 +5,7 @@ import campusPic from "../assets/campusPic.png";
 import addmission_bg from "../assets/addmission_bg.png";
 import main_bg from "../assets/main_bg.png";
 import { Link } from "react-router-dom";
+import { ArrowRight } from "react-feather";
 
 function SportsCard() {
   return (
@@ -57,75 +58,184 @@ export default function OurCampus() {
       </div>
       <div className="events__main__container">
         <div className="campus__main__container__content">
-          <Link
-            to="/primary-school"
-            className="campus__main__container__content__card"
-          >
-            <div className="campus__main__container__content__card__heading">
-              CANAL CAMPUS
+          <div className="campus__main__container__content__left">
+            <div className="campus__main__container__content__left__heading">
+              Cannal Campus
             </div>
-            <div className="campus__main__container__content__card__entry">
+            <Link
+              to="/primary-school"
+              className="campus__main__container__content__left__entry"
+            >
               Primary School
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-arrow-right"
+              >
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </Link>
+            <Link
+              to="/"
+              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__senior"
+            >
+              Senior School
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-arrow-right"
+              >
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </Link>
+            <Link
+              to="/senior-school-a-level"
+              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__a__level"
+            >
+              Senior School(A-Level)
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-arrow-right"
+              >
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </Link>
+            <Link
+              to="/senior-school-o-level"
+              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
+            >
+              Senior School(O-Level)
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-arrow-right"
+              >
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </Link>
+          </div>
+          <div className="campus__main__container__content__right">
+            <div className="campus__main__container__content__left__heading">
+              UN-Cannal Campus
             </div>
-            <div className="campus__main__container__content__card__entry">
-              Middle School
-            </div>
-            <div className="campus__main__container__content__card__sub__entry">
-              Student Choices
-            </div>
-            <div className="campus__main__container__content__card__sub__entry">
-              Student Resources
-            </div>
-            <div className="campus__main__container__content__card__sub__entry">
-              Student life & Choice
-            </div>
-            <div className="campus__main__container__content__card__sub__entry">
-              Notice Board
-            </div>
-          </Link>
-          <Link
-            to="/senior-school"
-            className="campus__main__container__content__card"
-          >
-            <div className="campus__main__container__content__card__heading campus__main__container__content__card__entry__white">
-              SENIOR SCHOOL
-            </div>
-            <div className="campus__main__container__content__card__entry__center campus__main__container__content__card__entry__white">
+            <Link
+              to="/primary-school"
+              className="campus__main__container__content__left__entry"
+            >
               Primary School
-            </div>
-            <div className="campus__main__container__content__card__entry__center campus__main__container__content__card__entry__white">
-              Middle School
-            </div>
-            <div className="campus__main__container__content__card__entry__center campus__main__container__content__card__entry__white">
-              Student Choices
-            </div>
-          </Link>
-          <Link
-            to="/a-levels"
-            className="campus__main__container__content__card"
-          >
-            <div className="campus__main__container__content__card__heading campus__main__container__content__card__entry__white">
-              A- lEVELS
-            </div>
-            <div className="campus__main__container__content__card__entry campus__main__container__content__card__entry__white">
-              Student Resources
-            </div>
-            <div className="campus__main__container__content__card__entry campus__main__container__content__card__entry__white">
-              Global Perspective & Thinking Skill
-            </div>
-            <div className="campus__main__container__content__card__entry campus__main__container__content__card__entry__white">
-              Student Choices
-            </div>
-            <div className="campus__main__container__content__card__entry campus__main__container__content__card__entry__white">
-              Student Resources
-            </div>
-            <div className="campus__main__container__content__card__entry campus__main__container__content__card__entry__white">
-              Student life & Choice
-            </div>
-            <div className="campus__main__container__content__card__entry campus__main__container__content__card__entry__white">
-              Notice Board
-            </div>
-          </Link>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-arrow-right"
+              >
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </Link>
+            <Link
+              to="/"
+              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__senior"
+            >
+              Senior School
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-arrow-right"
+              >
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </Link>
+            <Link
+              to="/senior-school-a-level"
+              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__a__level"
+            >
+              Senior School(A-Level)
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-arrow-right"
+              >
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </Link>
+            <Link
+              to="/senior-school-o-level"
+              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
+            >
+              Senior School(O-Level)
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-arrow-right"
+              >
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </Link>
+          </div>
         </div>
       </div>
       <div className="our__campus__banner__section">

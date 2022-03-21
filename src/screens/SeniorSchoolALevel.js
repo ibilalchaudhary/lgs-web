@@ -25,7 +25,7 @@ function SubjectBtn({ title }) {
   return <button className="cannal__campus__btn">Accounting</button>;
 }
 
-export default function PrimarySchoool() {
+export default function SeniorSchoolALevel() {
   const [select, setSelect] = useState("Subject Choices");
   return (
     <>
