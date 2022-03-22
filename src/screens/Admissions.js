@@ -6,6 +6,16 @@ import AlumniRegistrationsPic from "../assets/AlumniRegistrationsPic.png";
 import aboutPic from "../assets/aboutPic.png";
 import addmissionReqiurmentPic from "../assets/addmissionReqiurmentPic.png";
 import addmissionReqiurmentPic2 from "../assets/addmissionReqiurmentPic2.png";
+import Into5 from "../assets/Into5.pdf";
+import Into6 from "../assets/Into6.pdf";
+import Into7 from "../assets/Into7.pdf";
+import Into8 from "../assets/Into8.pdf";
+import Into9 from "../assets/Into9.pdf";
+import GeneralScience from "../assets/GeneralScience.pdf";
+import Chemistry from "../assets/Chemistry.pdf";
+import Biology from "../assets/Biology.pdf";
+import Physics from "../assets/Physics.pdf";
+import AdmissionProcedure from "../assets/AdmissionProcedure.pdf";
 import "animate.css";
 
 function SportsCard() {
@@ -122,11 +132,9 @@ export default function Admissions() {
             </li>
             <div className="admissions__content__section__btn__wrapper">
               <button className="section__btn__primary">
-                Add Registration Form
+                Registration Form
               </button>
-              <button className="section__btn__scondary">
-                Add Admission Form
-              </button>
+              <button className="section__btn__scondary">Admission Form</button>
             </div>
           </div>
           <img
@@ -212,7 +220,8 @@ export default function Admissions() {
                   Urdu language skills.
                 </div>
                 <div className="about__main__container__content__right__addmissions">
-                  Admission Tests for the 2022-2023 academic year
+                  Admission Tests for the 2022-2023 academic year are scheduled
+                  for Saturday
                 </div>
                 <div className="about__main__container__content__right__paragraph">
                   Parents are required to have completed the registration
@@ -247,19 +256,17 @@ export default function Admissions() {
             {selected === "O-Levels" ? (
               <>
                 <div className="about__main__container__content__right__paragraph">
-                  In A-Levels we aim to challenge our students, knowing they
-                  will rise to the occasion. We aspire to provide as many
-                  opportunities as possible to explore, make choices and learn
-                  about themselves and each other. We want them to learn to
-                  inquire, reflect and discuss; to think critically, ask
-                  meaningful questions, listen with an open mind and to learn
-                  the skills needed to find solutions and solve problems for
-                  themselves. Above all else, we want them to enjoy themselves
-                  and to be involved, responsible, respectful citizens of their
-                  class, school and society.
+                  For admission into O’Level, the student will initially be
+                  required to sit an English and Urdu proficiency test in
+                  addition to a Mathematics test. If the student passes these
+                  tests, she will then be called in for elective subject tests
+                  the following week. These tests will vary, depending on the
+                  subjects chosen by the student, i.e Sciences, Additional
+                  Mathematics or Art.
                 </div>
                 <div className="about__main__container__content__right__addmissions">
-                  Admission Tests for the 2022-2023 academic year
+                  Admission Tests for the 2022-2023 academic year are scheduled
+                  for Saturday
                 </div>
                 <div className="about__main__container__content__right__paragraph">
                   Parents are required to have completed the registration
@@ -313,7 +320,13 @@ export default function Admissions() {
           <AddmissionNav
             selectedAdmin={selectedAdmin}
             setSelectedAdmin={setSelectedAdmin}
-            title="Math’s"
+            title="General Science"
+          />
+          <div className="addmission__requirment__line"></div>
+          <AddmissionNav
+            selectedAdmin={selectedAdmin}
+            setSelectedAdmin={setSelectedAdmin}
+            title="Physics/Chemistry/Biology"
           />
         </div>
         {selectedAdmin === "English and Urdu" ? (
@@ -325,22 +338,23 @@ export default function Admissions() {
             />
             <div className="addmission__requirment__section__content__right">
               <div className="addmission__requirment__section__content__right__para animate__animated animate__fadeInRight">
-                Comprehension: Your child will be asked to read an
+                <b style={{ fontSize: 18 }}>Comprehension:</b>
+                <br /> Your child will be asked to read an age-appropriate
+                un-seen passage and answer questions. The questions may be
+                direct or inferential, she may be asked to give her opinion and
+                support it with reasons, and she may be asked to sequence or
+                synthesize the material in the passage.
+              </div>
+              <div className="addmission__requirment__section__content__right__para animate__animated animate__fadeInRight">
+                <b style={{ fontSize: 18 }}>Creative Writing:</b>
+                <br /> Your child’s writing will be assessed on the following;
+                relevance to topic, adequate content and detail, flow of ideas
+                and imagination, organization, vocabulary, syntax, spelling and
+                punctuation. Comprehension: Your child will be asked to read an
                 age-appropriate un-seen passage and answer questions. The
                 questions may be direct or inferential, she may be asked to give
                 her opinion and support it with reasons, and she may be asked to
                 sequence or synthesize the material in the passage.
-              </div>
-              <div className="addmission__requirment__section__content__right__para animate__animated animate__fadeInRight">
-                Creative Writing: Your child’s writing will be assessed on the
-                following; relevance to topic, adequate content and detail, flow
-                of ideas and imagination, organization, vocabulary, syntax,
-                spelling and punctuation. Comprehension: Your child will be
-                asked to read an age-appropriate un-seen passage and answer
-                questions. The questions may be direct or inferential, she may
-                be asked to give her opinion and support it with reasons, and
-                she may be asked to sequence or synthesize the material in the
-                passage.
               </div>
             </div>
           </div>
@@ -354,24 +368,132 @@ export default function Admissions() {
             />
             <div className="addmission__requirment__section__content__right">
               <div className="addmission__requirment__section__content__right__para animate__animated animate__fadeInRight">
-                Comprehension: Your child will be asked to read an
-                age-appropriate un-seen passage and answer questions. The
-                questions may be direct or inferential
+                <b style={{ fontSize: 18 }}>Mathematics:</b>
+                <br />
+                Your child will be required to take a Mathematics test, which
+                will assess number and problem-solving skills. On the day of the
+                test, an adult will need to accompany the student to school and
+                hand over to the Administrator in charge of conducting the
+                Admission Test. Please ensure that the student has had breakfast
+                and has relevant stationery and a bottle of water.
               </div>
               <div className="addmission__requirment__section__content__right__para animate__animated animate__fadeInRight">
-                Creative Writing: Your child’s writing will be assessed on the
-                following; relevance to topic, adequate content and detail, flow
-                of ideas and imagination, organization, vocabulary, syntax,
-                spelling and punctuation. Comprehension: Your child will be
-                asked Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Praesentium at nihil, ullam sequi molestiae officiis inventore
-                impedit aliquid. Blanditiis velit cumque perferendis ducimus
-                adipisci qui voluptatibus optio animi nihil quas!
+                <li>
+                  <a
+                    href={Into5}
+                    style={{
+                      color: "#242424",
+                    }}
+                    target="_blank"
+                  >
+                    Class 4 into 5 Syllabus
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="13"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-link"
+                      style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
+                    >
+                      <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                      <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href={Into6} style={{ color: "#242424" }} target="_blank">
+                    Class 5 into 6 Syllabus
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="13"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-link"
+                      style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
+                    >
+                      <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                      <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href={Into7} style={{ color: "#242424" }} target="_blank">
+                    Class 6 into 7 Syllabus
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="13"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-link"
+                      style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
+                    >
+                      <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                      <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href={Into8} style={{ color: "#242424" }} target="_blank">
+                    Class 7 into 8 Syllabus
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="13"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-link"
+                      style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
+                    >
+                      <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                      <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href={Into9} style={{ color: "#242424" }} target="_blank">
+                    Class 8 into 9 Syllabus
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="13"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-link"
+                      style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
+                    >
+                      <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                      <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                    </svg>
+                  </a>
+                </li>
               </div>
             </div>
           </div>
         ) : null}
-        {selectedAdmin === "Math’s" ? (
+        {selectedAdmin === "General Science" ? (
           <div className="addmission__requirment__section__content">
             <img
               src={addmissionReqiurmentPic}
@@ -380,21 +502,135 @@ export default function Admissions() {
             />
             <div className="addmission__requirment__section__content__right">
               <div className="addmission__requirment__section__content__right__para animate__animated animate__fadeInRight">
-                Comprehension: Your child will be asked to read an
-                age-appropriate un-seen passage and answer questions. The
-                questions may be direct or inferential, she may be asked to give
-                her opinion and support it with reasons, and she may be asked to
-                sequence or synthesize the material in the passage.
-              </div>
-              <div className="addmission__requirment__section__content__right__para animate__animated animate__fadeInRight">
-                Creative Writing: Your child’s writing will be assessed on the
-                following; relevance to topic, adequate content and detail, flow
-                of ideas and imagination, organization, vocabulary, syntax,
-                spelling and punctuation. Comprehension:
+                General Science(Admissions into Grade 9)
+                <br />
+                <a
+                  href={GeneralScience}
+                  style={{ color: "#242424" }}
+                  target="_blank"
+                >
+                  Click here for the General Science syllabus.
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="13"
+                    height="13"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-link"
+                    style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
+                  >
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                  </svg>
+                </a>
+                <br />
+                Science(Admissions into Grade 10)
               </div>
             </div>
           </div>
         ) : null}
+        {selectedAdmin === "Physics/Chemistry/Biology" ? (
+          <div className="addmission__requirment__section__content">
+            <img
+              src={addmissionReqiurmentPic}
+              alt="addmissionReqiurmentPic"
+              className="addmission__requirment__section__content__img"
+            />
+            <div className="addmission__requirment__section__content__right">
+              <div className="addmission__requirment__section__content__right__para animate__animated animate__fadeInRight">
+                <a href={Physics} style={{ color: "#242424" }} target="_blank">
+                  Click here for Physics
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="13"
+                    height="13"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-link"
+                    style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
+                  >
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                  </svg>
+                </a>
+                <br />
+                <a
+                  href={Chemistry}
+                  style={{ color: "#242424" }}
+                  target="_blank"
+                >
+                  Click here for Chemistry
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="13"
+                    height="13"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-link"
+                    style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
+                  >
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                  </svg>
+                </a>
+                <br />
+                <a href={Biology} style={{ color: "#242424" }} target="_blank">
+                  Click here for Biology
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="13"
+                    height="13"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-link"
+                    style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
+                  >
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        ) : null}
+      </div>
+      <div
+        style={{
+          margin: "0em auto",
+          width: "fit-content",
+          marginBottom: "5em",
+        }}
+      >
+        <ul>
+          <li>
+            Students appearing for Admission Test for Classes 6:{" "}
+            <b>3 Hour Duration</b>
+          </li>
+          <li>
+            Students appearing for Admission Test for Classes 7 and 8:{" "}
+            <b>4 Hour Duration</b>
+          </li>
+          <li>
+            Duration Students appearing for Admission Test for Classes 9-10:{" "}
+            <b>4 Hour Duration</b>
+          </li>
+        </ul>
       </div>
       <div className="a__level__addmission">
         <div
@@ -410,7 +646,14 @@ export default function Admissions() {
             <div className="a__level__addmission__content__entry__para">
               A1 ADMISSION PROCEDURE (Academic Year 2021-22)
             </div>
-            <button className="section__btn__primary">Click here</button>
+            <a
+              href={AdmissionProcedure}
+              className="section__btn__primary"
+              style={{ marginTop: "1em", textDecoration: "none" }}
+              target="_blank"
+            >
+              Click here
+            </a>
           </div>
           <div className="a__level__addmission__content__entry">
             <div className="a__level__addmission__content__entry__row"></div>
@@ -419,9 +662,7 @@ export default function Admissions() {
               complete documents, a member of our Admission Office will get in
               touch for further processing.
             </div>
-            <button className="section__btn__primary">
-              Add Admission Form
-            </button>
+            <button className="section__btn__primary">Registration Form</button>
           </div>
           <div className="a__level__addmission__content__entry">
             <div className="a__level__addmission__content__entry__row"></div>
