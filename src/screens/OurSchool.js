@@ -7,6 +7,8 @@ import ourVisionPic from "../assets/ourVisionPic.png";
 import parentHandbookPic from "../assets/parentHandbookPic.png";
 import academicBg from "../assets/academicBg.png";
 import academicPic from "../assets/academicPic.png";
+import ParentsHandbook from "../assets/ParentsHandbook.pdf";
+import TermCalendar from "../assets/2ndTermCalendar.pdf";
 
 export default function OurSchool() {
   return (
@@ -132,27 +134,28 @@ export default function OurSchool() {
             Imran Shahid
           </div>
           <div className="from__the__pricipal__container__para">
-            Creativity, Passion and Imagination is the essence of our values at
-            55 Main and is reflected in all areas of your experience with
-            us.Come and challenge the world you live in as you break down
-            barriers that have been taken for granted. To this end, optimism is
-            the key quality we seek in young women as we select students for our
-            school. When you combine your inherent optimism with passion and
-            commitment, you will conquer!You have unparalleled opportunities in
-            the world today. Exploit them and move ahead. We will always have
-            your back and support you in your endeavors as you experience life
-            with us and find yourself. When you succeed, we rejoice; if you
-            fall, we will always be there to support you.Our programmes support
-            our values and our philosophy and is not merely a conduit for
-            passing a battery of exams. It is a journey in self-discovery, which
-            to us is the vital part of our work. When you challenge pre-existing
-            norms and cultures, and you challenge yourself, we
-            succeed!Respecting diversity in the student body is essential for
-            life at 55 Main and is at the core of our principles. Our community
-            thrives on encouragement and inspiration as we build each other up
-            and each student is accepted for who she is.You will leave us having
-            discovered your own true potential and become the best version of
-            yourself. As this happens, 55 Main will have won.
+            It gives me immense pleasure and a feeling of sheer pride and
+            accomplishment to address you as Principal of the prestigious Lahore
+            Grammar school, Faisalabad, an institution that has striven to
+            maintain high academic standards ever since its inception. Our
+            commitment is to provide our students with an array of
+            opportunities, both curricular and co-curricular, to help them
+            attain their highest potentials.
+            <br />
+            <br /> Our aim is not just giving our students an education that
+            entitles them to a job but to nurture in them lifelong love for
+            learning and inculcate in them values that will help them become
+            kind, caring and responsible individuals.
+            <br />
+            <br />I feel privileged to be working with highly qualified and
+            dedicated faculty always striving to provide students with the
+            latest skills and knowledge to help them stand out in this ever
+            evolving and fiercely competitive world. Our school life is vibrant
+            with a variety of activities, happy noises of learning and positive
+            energy.
+            <br />I welcome you to LGS, Faisalabad and assure you that it will
+            be our endeavor to make our students’ school life an enriching and
+            memorable experience!
           </div>
         </div>
         <div className="parents__handbook__main__container">
@@ -170,12 +173,19 @@ export default function OurSchool() {
               Policy, Anti- Harassment Policy) as well as other information
               about school life in general.
             </div>
-            <button
-              style={{ width: 180, marginTop: "1em" }}
+            <a
+              href={ParentsHandbook}
+              style={{
+                width: 180,
+                marginTop: "1em",
+                textAlign: "center",
+                textDecoration: "none",
+              }}
               className="btn__white"
+              target="_blank"
             >
               Download
-            </button>
+            </a>
           </div>
           <img
             src={parentHandbookPic}
@@ -188,15 +198,9 @@ export default function OurSchool() {
             Assessment Policy for Hybrid Classes
           </div>
           <div className="assignment__main__container__paragraph">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.Lorem Ipsum is simply dummy text of
-            the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and
+            In view of the ongoing challenges presented by the Covid-19
+            pandemic, we are continuing with our revised assessment policy from
+            2022.
           </div>
         </div>
       </div>
@@ -213,12 +217,19 @@ export default function OurSchool() {
               <div className="academic__main__container__content__overlay__heading">
                 academic calender
               </div>
-              <button
-                style={{ width: 180, marginTop: ".6em", marginBottom: "2em" }}
+              <a
+                href={TermCalendar}
+                target="_blank"
+                style={{
+                  width: 180,
+                  marginTop: ".6em",
+                  marginBottom: "2em",
+                  textDecoration: "none",
+                }}
                 className="btn__white"
               >
                 Download
-              </button>
+              </a>
 
               <img
                 src={academicPic}
@@ -241,32 +252,49 @@ export default function OurSchool() {
           teaching and learning can take place. This environment, managed with
           fairness and firmness, promotes the growth and development of the
           whole person, allowing each student in our care to develop personally,
-          educationally, and socially. The aim of the Behaviour Policy is to
-          safeguard both the students and the school environment. We want our
-          students to respect the ethos of the school. There are six core values
-          that the school has adopted: Respect, Tolerance, Honesty, Compassion,
-          Responsibility, and Courage. It is our hope that these will serve as
-          guiding principles for our students. We believe that good behaviour
-          flourishes in an atmosphere of high expectations, support, guidance
-          and encouragement. We feel we would have succeeded in our mission if,
-          when our students graduate, they are intellectually curious, involved
-          with their community, and demonstrate strength and resilience.
+          educationally, and socially.
+          <br />
+          <br />
+          The aim of the Behaviour Policy is to safeguard both the students and
+          the school environment. We want our students to respect the ethos of
+          the school. There are six core values that the school has adopted:
+          Respect, Tolerance, Honesty, Compassion, Responsibility, and Courage.
+          It is our hope that these will serve as guiding principles for our
+          students. We believe that good behaviour flourishes in an atmosphere
+          of high expectations, support, guidance and encouragement.
+          <br />
+          <br />
+          We feel we would have succeeded in our mission if, when our students
+          graduate, they are intellectually curious, involved with their
+          community, and demonstrate strength and resilience.
         </div>
         <div className="aims__behaviour__policy__container">
           <div className="behaviour__policy__container__heading__dark">
             Aims of the Behaviour Policy
           </div>
           <div className="behaviour__policy__container__para__dark">
-            To promote good behaviour; • To define and make clear school
-            expectations • To ensure that every student is able to benefit from
-            all that the school has to offer • To provide a framework within
-            which students may develop their own skills and interests whilst
-            becoming responsible, courteous and tolerant members of their school
-            community and society • To apprise students, faculty and parents of
-            the school’s response to any lapses in behaviour expectations and •
-            To enable the Principal, Coordinators, and members of Administration
-            and Faculty to carry out their responsibilities in maintaining order
-            and discipline in the school.
+            <ul>
+              <li>To promote good behaviour;</li>
+              <li> To define and make clear school expectations;</li>
+              <li>
+                To ensure that every student is able to benefit from all that
+                the school has to offer;
+              </li>
+              <li>
+                To provide a framework within which students may develop their
+                own skills and interests whilst becoming responsible, courteous
+                and tolerant members of their school community and society;
+              </li>
+              <li>
+                To apprise students, faculty and parents of the school’s
+                response to any lapses in behaviour expectations;
+              </li>
+              <li>
+                To enable the Principal, Coordinators, and members of
+                Administration and Faculty to carry out their responsibilities
+                in maintaining order and discipline in the school.
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -274,24 +302,45 @@ export default function OurSchool() {
           Code of Conduct
         </div>
         <div className="behaviour__policy__container__para">
-          We expect students to treat staff and each other with consideration
-          and good manners. • All behaviour should aim to support our core
-          school values. • Students are encouraged to respond positively to the
-          opportunities and challenges of school life. • Students are expected
-          to be familiar with and follow the rules set out in the Uniform,
-          Grooming, and Attendance Policy, the IT, Devices, and Social Media
-          Policy, and the Anti-Bullying Policy. • Students need to develop an
-          awareness of right and wrong and an ability to differentiate between
-          acceptable and unacceptable behaviour. • Students should understand
-          what is expected of them and why sanctions may be imposed for
-          behaviour contrary to expectations. • We expect students to be keen to
-          learn and to participate in school activities and to ensure that they
-          are not a barrier to others’ learning and participation in school
-          life. • All members of the school community: students, faculty and
-          support staff, are expected to respect the buildings, furniture,
-          equipment, and environment of the school. • We expect students to
-          behave at all times in a manner that reflects the best interest of the
-          whole community.
+          <ul>
+            <li>
+              We expect students to treat staff and each other with
+              consideration and good manners.
+            </li>
+            <li>All behaviour should aim to support our core school values.</li>
+            <li>
+              Students are encouraged to respond positively to the opportunities
+              and challenges of school life.
+            </li>
+            <li>
+              Students are expected to be familiar with and follow the rules set
+              out in the Uniform, Grooming, and Attendance Policy, the IT,
+              Devices, and Social Media Policy, and the Anti-Bullying Policy.
+            </li>
+            <li>
+              Students need to develop an awareness of right and wrong and an
+              ability to differentiate between acceptable and unacceptable
+              behaviour.
+            </li>
+            <li>
+              Students should understand what is expected of them and why
+              sanctions may be imposed for behaviour contrary to expectations.
+            </li>
+            <li>
+              We expect students to be keen to learn and to participate in
+              school activities and to ensure that they are not a barrier to
+              others’ learning and participation in school life.
+            </li>
+            <li>
+              All members of the school community: students, faculty and support
+              staff, are expected to respect the buildings, furniture,
+              equipment, and environment of the school.
+            </li>
+            <li>
+              We expect students to behave at all times in a manner that
+              reflects the best interest of the whole community.
+            </li>
+          </ul>
         </div>
       </div>
     </>
