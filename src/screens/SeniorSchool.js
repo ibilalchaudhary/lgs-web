@@ -135,13 +135,14 @@ export default function SeniorSchool() {
               />
               <div className="cannal__campus__senior__container__card__left">
                 <div className="cannal__campus__primary__container__card__left__heading__reverse">
-                  Exploratorium
+                  Multimedia
                 </div>
                 <div className="admissions__content__section__card__admission__procedure__paragraph__reverse">
-                  Based on the concept of discovery learning, this is one of the
-                  favorite rooms in the school. Here children get a chance to
-                  carry on hands-on activities and do experiments and make
-                  collective projects related to social science themes.
+                  The Multimedia facility is used to show documentaries and
+                  video clips of topics related to their work. Children find
+                  these fascinating and we feel this is an enriching experience,
+                  away from the typical cartoon and animated movies that most
+                  children are exposed to.
                 </div>
               </div>
             </div>
@@ -186,7 +187,7 @@ export default function SeniorSchool() {
             <div className="cannal__campus__senior__container__card">
               <div className="cannal__campus__senior__container__card__left">
                 <div className="cannal__campus__primary__container__card__left__heading">
-                  Art And Music
+                  Art & Music
                 </div>
                 <div className="admissions__content__section__card__admission__procedure__paragraph">
                   Art work is not limited to working in the art room alone. We
@@ -194,8 +195,8 @@ export default function SeniorSchool() {
                   mediums. Our students have ample opportunity to go outdoors
                   and use sidewalk chalk and paint brushes to help develop their
                   fine motor skills.
-                </div>
-                <div className="admissions__content__section__card__admission__procedure__paragraph">
+                  <br />
+                  <br />
                   The much loved songs, nursery rhymes and poems, both in
                   English and Urdu are incorporated in our music curriculum.
                   Besides developing a sense of rhythm and harmony, poems are a
