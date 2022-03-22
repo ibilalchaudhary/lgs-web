@@ -39,8 +39,8 @@ function App() {
         <Route path="/complaints" element={<Complaints />} />
         <Route path="/senior-school-a-level" element={<SeniorSchoolALevel />} />
         <Route path="/senior-school-o-level" element={<SeniorSchoolOLevel />} />
-        <Route path="/senior-school" element={<SeniorSchool />} />
-        <Route path="/primary-school" element={<PrimarySchool />} />
+        <Route path="/senior-school" element={<PrimarySchool />} />
+        <Route path="/primary-school" element={<SeniorSchool />} />
         <Route path="/career" element={<Career />} />
         <Route path="/counselling-center" element={<CounsellingCenter />} />
       </Routes>

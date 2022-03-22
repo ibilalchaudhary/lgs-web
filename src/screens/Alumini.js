@@ -130,17 +130,17 @@ export default function Alumini() {
               <div className="careers__content__section__card__public__speaking__left__heading">
                 ALUMNI RELATIONS SOCIETY
               </div>
+
               <div className="careers__content__section__card__public__speaking__left__paragraph">
                 LGS FSD has produced a generation of ambitious and independent
                 young women who have sought for success and accomplished their
                 goals.
-              </div>
-              <div className="careers__content__section__card__public__speaking__left__paragraph">
+                <br />
+                <br />
                 The Alumni Relations Society at LGS FSD enables us to keep in
                 touch with our graduate students and ensures that every
                 Grammarian legacy lives on. We take great pride in our alums and
-                wish to keep them tied in this familial bond that every 55
-                Mainer shares.
+                wish to keep them tied in this familial bond that every share.
               </div>
             </div>
           </div>
@@ -198,10 +198,18 @@ export default function Alumini() {
               </div>
             </div>
           </div>
-          <PhotoGallery />
         </div>
       </div>
-
+      <div
+        style={{
+          fontSize: 25,
+          fontWeight: "bold",
+          textAlign: "center",
+          marginBottom: "2em",
+        }}
+      >
+        PHOTO GALLERY
+      </div>
       <div className="careers__content__section__campus__life">
         <div className="careers__content__section__campus__life__content">
           <CampusLifeCard title="Alumni Dinner '22" />

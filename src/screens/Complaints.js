@@ -58,15 +58,23 @@ export default function Complaints() {
             <div className="addmission__main__container__content__wrapper__paragraph">
               Anonymous complaints will be recorded accordingly. It is at the
               coordinator’s discretion as to what action, if any, will be taken
-              in response to an anonymous complaint. If a student does not wish
-              to be seen entering an administrator’s/ coordinator’s office to
-              lodge a complaint or raise an issue, she is welcome to email them
-              at the addresses provided above. Note: In addition to the rules
-              outlined in this document, any action which puts or could put the
-              reputation of the School in jeopardy, or which impacts or could
-              impact negatively on the school community, will be regarded as a
-              serious breach of School Rules, whether on or off the school
-              premises or during or outside of school hours.
+              in response to an anonymous complaint.
+              <br />
+              <br />
+              If a student does not wish to be seen entering an administrator’s/
+              coordinator’s office to lodge a complaint or raise an issue, she
+              is welcome to email them at the addresses provided above.
+              <br />
+              <div style={{ width: "90%" }}>
+                <b>
+                  Note: In addition to the rules outlined in this document, any
+                  action which puts or could put the reputation of the School in
+                  jeopardy, or which impacts or could impact negatively on the
+                  school community, will be regarded as a serious breach of
+                  School Rules, whether on or off the school premises or during
+                  or outside of school hours.
+                </b>
+              </div>
             </div>
           </div>
           <div className="addmission__main__container__content">
@@ -131,16 +139,25 @@ export default function Complaints() {
                 <div className="addmission__main__container__content__wrapper__paragraph">
                   Anonymous complaints will be recorded accordingly. It is at
                   the coordinator’s discretion as to what action, if any, will
-                  be taken in response to an anonymous complaint. If a student
-                  does not wish to be seen entering an administrator’s/
-                  coordinator’s office to lodge a complaint or raise an issue,
-                  she is welcome to email them at the addresses provided above.
-                  Note: In addition to the rules outlined in this document, any
-                  action which puts or could put the reputation of the School in
-                  jeopardy, or which impacts or could impact negatively on the
-                  school community, will be regarded as a serious breach of
-                  School Rules, whether on or off the school premises or during
-                  or outside of school hours.
+                  be taken in response to an anonymous complaint.
+                  <br />
+                  <br />
+                  If a student does not wish to be seen entering an
+                  administrator’s/ coordinator’s office to lodge a complaint or
+                  raise an issue, she is welcome to email them at the addresses
+                  provided above.
+                  <br />
+                  <br />
+                  <div style={{ width: "90%" }}>
+                    <b>
+                      Note: In addition to the rules outlined in this document,
+                      any action which puts or could put the reputation of the
+                      School in jeopardy, or which impacts or could impact
+                      negatively on the school community, will be regarded as a
+                      serious breach of School Rules, whether on or off the
+                      school premises or during or outside of school hours.
+                    </b>
+                  </div>
                 </div>
               </div>
             </div>

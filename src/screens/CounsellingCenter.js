@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import ourCampusBg from "../assets/ourCampusBg.png";
 import pricipal_pic from "../assets/pricipal_pic.png";
+import zunaira from "../assets/zunaira.jpeg";
+import kanwal from "../assets/kanwal.jpeg";
 import contactPic from "../assets/contactPic.png";
 
 function ChoiceBtn({ title, select, setSelect, id }) {
@@ -68,8 +70,8 @@ export default function CounsellingCenter() {
           <div className="campus__main__container__content__counselling">
             <button className="campus__main__container__content__counselling__card">
               <img
-                src={pricipal_pic}
-                alt="pricipal_pic"
+                src={kanwal}
+                alt="kanwal"
                 className="campus__main__container__content__counselling__card__img"
               />
               <div className="campus__main__container__content__counselling__card__heading">
@@ -90,12 +92,12 @@ export default function CounsellingCenter() {
             </button>
             <button className="campus__main__container__content__counselling__card">
               <img
-                src={pricipal_pic}
-                alt="pricipal_pic"
+                src={zunaira}
+                alt="zunaira"
                 className="campus__main__container__content__counselling__card__img"
               />
               <div className="campus__main__container__content__counselling__card__heading">
-                Zunair Amjad
+                Zunaira Amjad
               </div>
               <div
                 style={{ color: "#005DFF", fontWeight: "500 " }}
@@ -136,8 +138,9 @@ export default function CounsellingCenter() {
               We are offering
             </div>
             <div className="personalized__section__wrapper__content__entry__para">
-              School based counseling Adolescent Counseling Socio-emotional
-              Adjustment
+              <li>School based counseling</li>
+              <li>Adolescent Counseling</li>
+              <li>Socio-emotional Adjustment</li>
             </div>
           </div>
           <div className="personalized__section__wrapper__content__entry">
@@ -148,10 +151,20 @@ export default function CounsellingCenter() {
               Come and share with us
             </div>
             <div className="personalized__section__wrapper__content__entry__para">
-              School adjustment Emotional disturbances and changes Peer pressure
-              Behavioral concerns, personal growth and overall development
-              Psychosexual adjustment Family Siblings rivalry Academic concerns
-              Social adjustment Sleep problems Dreaming
+              <li> School adjustment</li>
+              <li>Emotional disturbances and changes</li>
+              <li>Peer pressure</li>
+
+              <li>Psychosexual adjustment</li>
+              <li>Family</li>
+              <li>Siblings rivalry </li>
+              <li>Academic concerns</li>
+              <li>Social adjustment</li>
+              <li>Sleep problems</li>
+              <li>Dreaming</li>
+              <li>
+                Behavioral concerns, personal growth and overall development
+              </li>
             </div>
           </div>
         </div>
@@ -301,42 +314,19 @@ export default function CounsellingCenter() {
               Confidence Boosters Of <span>Personality</span>
             </div>
             <div className="learning__developmet__section__content__card__entry">
-              Date <span>3 April, 2022</span>
+              <b>Date</b> <span>3 April, 2022</span>
             </div>
             <div className="learning__developmet__section__content__card__entry">
-              Time <span>10:00 Am</span>
+              <b>Time</b> <span>10:00 AM</span>
             </div>
             <div className="learning__developmet__section__content__card__entry">
-              Venue <span>Lgs Auditorium 1</span>
+              <b>Venue</b> <span>LGS AUDITORIUM 1</span>
             </div>
             <div className="learning__developmet__section__content__card__entry">
-              Speaker <span>Dr. Phillips Baide</span>
+              <b>Speaker</b> <span>Dr. Phillips Baide</span>
             </div>
             <div className="learning__developmet__section__content__card__entry">
-              Registration <span>1000 Pkr</span>
-            </div>
-          </div>
-          <div
-            style={{ background: "#2B2B2B" }}
-            className="learning__developmet__section__content__card"
-          >
-            <div className="learning__developmet__section__content__card__heading__white">
-              Confidence Boosters Of <span>Personality</span>
-            </div>
-            <div className="learning__developmet__section__content__card__entry__white">
-              Date <span>3 April, 2022</span>
-            </div>
-            <div className="learning__developmet__section__content__card__entry__white">
-              Time <span>10:00 Am</span>
-            </div>
-            <div className="learning__developmet__section__content__card__entry__white">
-              Venue <span>Lgs Auditorium 1</span>
-            </div>
-            <div className="learning__developmet__section__content__card__entry__white">
-              Speaker <span>Dr. Phillips Baide</span>
-            </div>
-            <div className="learning__developmet__section__content__card__entry__white">
-              Registration <span>1000 Pkr</span>
+              <b>Registration</b> <span>1000 PKR</span>
             </div>
           </div>
           <div
@@ -344,22 +334,49 @@ export default function CounsellingCenter() {
             className="learning__developmet__section__content__card"
           >
             <div className="learning__developmet__section__content__card__heading__white">
-              Confidence Boosters Of <span>Personality</span>
+              Faculty Development Programs
+              <span>Assertiveness-21st Century’s decisive skill</span>
             </div>
             <div className="learning__developmet__section__content__card__entry__white">
-              Date <span>3 April, 2022</span>
+              <b>Date</b> <span>3 June, 2022</span>
             </div>
             <div className="learning__developmet__section__content__card__entry__white">
-              Time <span>10:00 Am</span>
+              <b>Time</b> <span>10:00 AM</span>
             </div>
             <div className="learning__developmet__section__content__card__entry__white">
-              Venue <span>Lgs Auditorium 1</span>
+              <b>Venue</b> <span>LGS AUDITORIUM 1</span>
             </div>
             <div className="learning__developmet__section__content__card__entry__white">
-              Speaker <span>Dr. Phillips Baide</span>
+              <b>Speaker</b>
+              <span style={{ textAlign: "right" }}>
+                Mr Sohail Cambridge Qualification Certified
+              </span>
             </div>
             <div className="learning__developmet__section__content__card__entry__white">
-              Registration <span>1000 Pkr</span>
+              <b>Registration</b> <span>Free</span>
+            </div>
+          </div>
+          <div
+            style={{ background: "#2B2B2B" }}
+            className="learning__developmet__section__content__card"
+          >
+            <div className="learning__developmet__section__content__card__heading__white">
+              Bifurcation Session for <span>Grade 8th</span>
+            </div>
+            <div className="learning__developmet__section__content__card__entry__white">
+              <b>Date</b> <span>3 May, 20222</span>
+            </div>
+            <div className="learning__developmet__section__content__card__entry__white">
+              <b>Time</b> <span>10:00 AM</span>
+            </div>
+            <div className="learning__developmet__section__content__card__entry__white">
+              <b>Venue</b> <span>LGS AUDITORIUM 1</span>
+            </div>
+            <div className="learning__developmet__section__content__card__entry__white">
+              <b>Speaker</b> <span>Ms Tahira Abbas</span>
+            </div>
+            <div className="learning__developmet__section__content__card__entry__white">
+              <b>Registration</b> <span>Free</span>
             </div>
           </div>
         </div>
@@ -414,10 +431,19 @@ export default function CounsellingCenter() {
                     <span>Email:</span> psykanwal@gmail.com
                   </div>
                   <div className="international__office__content__left__sub__para">
-                    <span>Mon-Fri:</span> 08:00 AM - 2:30 PM
+                    <span>Mon-Fri:</span> 5:00 PM – 8:00 PM
                   </div>
                   <div className="international__office__content__left__sub__para">
-                    You can make offline appointment Visiting hours
+                    You can make offline appointment
+                  </div>
+                  <div className="international__office__content__left__sub__para">
+                    Visiting hours
+                  </div>
+                  <div className="international__office__content__left__sub__para">
+                    Mon-Fri
+                  </div>
+                  <div className="international__office__content__left__sub__para">
+                    5:00 PM – 8:00 PM
                   </div>
                 </div>
               </div>

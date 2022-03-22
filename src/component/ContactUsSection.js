@@ -65,7 +65,7 @@ export default function ContactUsSection() {
           </div>
         </div>
         <div className="contact__us__main__container__overlay__content__office__hours">
-          Office Hours <span>9am - 5pm</span>
+          School Time <span>8 AM - 2 PM</span>
         </div>
         <div className="contact__us__main__container__overlay__content__contact__wrapper">
           <div className="contact__us__main__container__overlay__content__contact__line">
@@ -83,7 +83,53 @@ export default function ContactUsSection() {
                 fill="#f7c902"
               />
             </svg>
-            +92 345 7225510
+            <div style={{ marginLeft: ".5em" }}>
+              <b>Boys Canal Campus:</b>
+              <br />
+              Tel: 041-241233-34
+            </div>
+          </div>
+          <div className="contact__us__main__container__overlay__content__contact__line">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21.387"
+              height="21.387"
+              viewBox="0 0 21.387 21.387"
+            >
+              <path
+                id="Icon_awesome-phone-alt"
+                data-name="Icon awesome-phone-alt"
+                d="M20.777,15.114,16.1,13.108a1,1,0,0,0-1.17.288l-2.072,2.531a15.483,15.483,0,0,1-7.4-7.4L7.987,6.454a1,1,0,0,0,.288-1.17L6.27.606A1.009,1.009,0,0,0,5.121.026l-4.344,1A1,1,0,0,0,0,2.005,19.38,19.38,0,0,0,19.383,21.388a1,1,0,0,0,.977-.777l1-4.344a1.015,1.015,0,0,0-.585-1.153Z"
+                transform="translate(0 0)"
+                fill="#f7c902"
+              />
+            </svg>
+            <div style={{ marginLeft: ".5em" }}>
+              <b>Girls Canal Campus:</b>
+              <br />
+              Tel: 041-2421231-32
+            </div>
+          </div>
+          <div className="contact__us__main__container__overlay__content__contact__line">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="21.387"
+              height="21.387"
+              viewBox="0 0 21.387 21.387"
+            >
+              <path
+                id="Icon_awesome-phone-alt"
+                data-name="Icon awesome-phone-alt"
+                d="M20.777,15.114,16.1,13.108a1,1,0,0,0-1.17.288l-2.072,2.531a15.483,15.483,0,0,1-7.4-7.4L7.987,6.454a1,1,0,0,0,.288-1.17L6.27.606A1.009,1.009,0,0,0,5.121.026l-4.344,1A1,1,0,0,0,0,2.005,19.38,19.38,0,0,0,19.383,21.388a1,1,0,0,0,.977-.777l1-4.344a1.015,1.015,0,0,0-.585-1.153Z"
+                transform="translate(0 0)"
+                fill="#f7c902"
+              />
+            </svg>
+            <div style={{ marginLeft: ".5em" }}>
+              <b>105-C,Peoples Colony, Junior Branch:</b>
+              <br />
+              Tel: 041-8542438, 8714283, 8540935
+            </div>
           </div>
           <div className="contact__us__main__container__overlay__content__contact__line">
             <svg
@@ -100,24 +146,7 @@ export default function ContactUsSection() {
                 fill="#f7c902"
               />
             </svg>
-            ahmadarshad17@gmail.com
-          </div>
-          <div className="contact__us__main__container__overlay__content__contact__line">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="23.487"
-              height="30.8"
-              viewBox="0 0 23.487 30.8"
-            >
-              <path
-                id="Icon_map-city-hall"
-                data-name="Icon map-city-hall"
-                d="M5.438,14.067H7.675V28.44H11.03V16.12h3.355V28.44H17.74V16.12H21.1V28.44h3.355V14.067h2.236a1.076,1.076,0,0,0,1.119-1.027,1,1,0,0,0-.466-.83l0,0-.017-.01-.029-.017L16.622,6.657V5.038c1.971.906,3.594-.655,6.15.284V1.747c-2.558-.938-4.18.621-6.15-.284v-.23a.561.561,0,0,0-1.117,0V6.657L4.83,12.18,4.8,12.2l-.016.011v0a1,1,0,0,0-.465.83A1.075,1.075,0,0,0,5.438,14.067Zm1.118,15.4L4.32,31.52H27.807l-2.238-2.053Z"
-                transform="translate(-4.32 -0.72)"
-                fill="#f7c902"
-              />
-            </svg>
-            Islamabad, Pakistan
+            info@lgsfsd.edu.pk
           </div>
         </div>
       </div>

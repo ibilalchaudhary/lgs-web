@@ -178,7 +178,8 @@ export default function CampusLife() {
                 and globalization. We take immense pride in our MUNers who have
                 won Best Delegate and Outstanding Speaker Awards at both
                 national and international conferences in India and Germany. To
-                get in touch with the MUN Representatives at mun@lgsfsd.edu.pk
+                get in touch with the MUN Representatives at{" "}
+                <b>mun@lgsfsd.edu.pk</b>
               </div>
               <div className="public__speak__new__content__btn__container">
                 <button className="public__speak__new__content__btn">

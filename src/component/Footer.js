@@ -6,13 +6,7 @@ export default function Footer() {
   return (
     <div className="footer__main__container">
       <div className="footer__main__container__content">
-        <Link
-          to="/"
-          onClick={() => {
-            window.scrollTo(0, 0);
-          }}
-          className="footer__main__container__content__entry__wrapper"
-        >
+        <div className="footer__main__container__content__entry__wrapper">
           <img
             src={logo}
             alt="logo"
@@ -20,8 +14,9 @@ export default function Footer() {
           />
           <div className="footer__main__container__content__entry__wrapper__social__wrapper">
             <a
-              href=""
+              href="https://www.facebook.com/lgsfsdofficial"
               className="footer__main__container__content__entry__wrapper__social"
+              target="_blank"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,70 +40,51 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href=""
+              href="https://www.instagram.com/lgsfaisalabad/"
               className="footer__main__container__content__entry__wrapper__social"
+              target="_blank"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="21.169"
-                height="17.199"
-                viewBox="0 0 21.169 17.199"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-instagram"
               >
-                <path
-                  id="twitter_1_"
-                  data-name="twitter (1)"
-                  d="M21.169,50.036a9.048,9.048,0,0,1-2.5.685,4.315,4.315,0,0,0,1.909-2.4,8.673,8.673,0,0,1-2.752,1.05,4.339,4.339,0,0,0-7.507,2.968,4.468,4.468,0,0,0,.1.99,12.284,12.284,0,0,1-8.945-4.539,4.341,4.341,0,0,0,1.334,5.8,4.286,4.286,0,0,1-1.961-.535V54.1a4.36,4.36,0,0,0,3.477,4.264,4.331,4.331,0,0,1-1.138.143,3.837,3.837,0,0,1-.822-.074,4.381,4.381,0,0,0,4.055,3.023,8.72,8.72,0,0,1-5.381,1.851A8.128,8.128,0,0,1,0,63.252,12.218,12.218,0,0,0,6.657,65.2,12.267,12.267,0,0,0,19.009,52.85c0-.192-.007-.377-.016-.561A8.658,8.658,0,0,0,21.169,50.036Z"
-                  transform="translate(0 -48)"
-                  fill="currentColor"
-                />
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
               </svg>
             </a>
             <a
-              href=""
+              href="https://www.linkedin.com/school/lahore-grammar-school/"
               className="footer__main__container__content__entry__wrapper__social"
+              target="_blank"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16.968"
-                height="17.199"
-                viewBox="0 0 16.968 17.199"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-linkedin"
               >
-                <g
-                  id="linkedin-logo_1_"
-                  data-name="linkedin-logo (1)"
-                  transform="translate(0 -9.558)"
-                >
-                  <path
-                    id="LinkedIn"
-                    d="M16.968,20.1v6.654H13.331V20.548c0-1.56-.526-2.624-1.842-2.624a2.006,2.006,0,0,0-1.866,1.411,2.789,2.789,0,0,0-.121.941v6.481H5.864s.049-10.515,0-11.6H9.5V16.8c-.007.012-.017.026-.024.037H9.5V16.8a3.586,3.586,0,0,1,3.278-1.918C15.173,14.879,16.968,16.538,16.968,20.1ZM2.059,9.558a1.949,1.949,0,0,0-2.059,2,1.938,1.938,0,0,0,2.01,2.006h.024a1.95,1.95,0,0,0,2.058-2.006A1.942,1.942,0,0,0,2.059,9.558ZM.216,26.757H3.853v-11.6H.216Z"
-                    transform="translate(0)"
-                    fill="currentColor"
-                  />
-                </g>
-              </svg>
-            </a>
-            <a
-              href=""
-              className="footer__main__container__content__entry__wrapper__social"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14.186"
-                height="17.199"
-                viewBox="0 0 14.186 17.199"
-              >
-                <g id="XMLID_798_" transform="translate(-33.181)">
-                  <path
-                    id="XMLID_799_"
-                    d="M45.527,1.762A7.116,7.116,0,0,0,40.686,0a7.805,7.805,0,0,0-5.613,2.062,5.956,5.956,0,0,0-1.892,4.224,3.933,3.933,0,0,0,2.248,3.931.776.776,0,0,0,.283.055.622.622,0,0,0,.614-.482c.048-.17.158-.591.205-.773a.7.7,0,0,0-.2-.784,2.426,2.426,0,0,1-.6-1.708A4.409,4.409,0,0,1,40.408,2.2c2.411,0,3.908,1.306,3.908,3.407a6.811,6.811,0,0,1-.844,3.459,2.494,2.494,0,0,1-2.065,1.377,1.4,1.4,0,0,1-1.089-.474A1.15,1.15,0,0,1,40.1,8.929c.107-.433.254-.886.4-1.323A7.858,7.858,0,0,0,41,5.452a1.6,1.6,0,0,0-1.652-1.72A2.517,2.517,0,0,0,37.106,6.5a3.948,3.948,0,0,0,.308,1.548c-.158.639-1.1,4.435-1.277,5.151-.1.418-.724,3.719.3,3.982,1.155.3,2.187-2.919,2.293-3.282.085-.3.383-1.413.566-2.1a3.589,3.589,0,0,0,2.329.858,5.285,5.285,0,0,0,4.17-1.988,7.725,7.725,0,0,0,1.568-4.88A5.507,5.507,0,0,0,45.527,1.762Z"
-                    transform="translate(0 0)"
-                    fill="currentColor"
-                  />
-                </g>
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
               </svg>
             </a>
           </div>
-        </Link>
+        </div>
         <div className="footer__main__container__content__entry__wrapper">
           <div className="footer__main__container__content__entry__heading">
             Links
@@ -252,7 +228,7 @@ export default function Footer() {
                 fill="url(#linear-gradient)"
               />
             </svg>
-            +92 345 7225510
+            041-241233-34
           </a>
           <a
             href=""
@@ -284,7 +260,7 @@ export default function Footer() {
                 fill="url(#linear-gradient)"
               />
             </svg>
-            ahmadarshad17@gmail.com
+            info@lgsfsd.edu.pk
           </a>
           <a
             href=""
@@ -316,7 +292,7 @@ export default function Footer() {
                 fill="url(#linear-gradient)"
               />
             </svg>
-            Islamabad, Pakistan
+            Canal Road Campus ; 105-C,Peoples Colony, Junior Branch
           </a>
         </div>
       </div>
