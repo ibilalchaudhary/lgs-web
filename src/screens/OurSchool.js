@@ -9,6 +9,7 @@ import academicBg from "../assets/academicBg.png";
 import academicPic from "../assets/academicPic.png";
 import ParentsHandbook from "../assets/ParentsHandbook.pdf";
 import TermCalendar from "../assets/2ndTermCalendar.pdf";
+import director_pic from "../assets/director.jpg"
 
 function AcademicCard({ month, date, voca }) {
   return (
@@ -138,6 +139,30 @@ export default function OurSchool() {
               encouraged to share their skills and learn from the courage and
               resilience of those less fortunate than themselves.
             </div>
+          </div>
+        </div>
+
+        <div className="from__the__pricipal__container">
+          <img
+            src={director_pic}
+            alt="pricipal_pic"
+            className="from__the__pricipal__container__img"
+          />
+          <div className="from__the__pricipal__container__heading">
+            NOTE FROM THE Director
+          </div>
+          <div className="from__the__pricipal__container__sub__heading">
+            Mrs. Saltanat Bokhari
+          </div>
+          <div className="from__the__pricipal__container__para">
+            I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD,
+            we view diversity as our biggest strength. We aim to inspire in our
+            students the curiosity to learn, the self-confidence to lead and the
+            compassion to serve. Our primary source of insight and energy is our
+            students’ validation, critique and innovative ideas. We mutually
+            guide and encourage one another to understand the importance of not
+            just academic achievement but also values of tolerance and respect.
+            I hope our website gives you a sense of our purpose and vision. -
           </div>
         </div>
         <div className="from__the__pricipal__container">
