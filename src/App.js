@@ -24,6 +24,9 @@ import MiddleSchool105CCampus from "./screens/MiddleSchool105CCampus";
 import PrimarySchool105CCampus from "./screens/PrimarySchool105CCampus";
 import SeniorSchoolALevel105CCampus from "./screens/SeniorSchoolALevel105CCampus";
 import SeniorSchoolOLevel105CCampus from "./screens/SeniorSchoolOLevel105CCampus";
+import AluminiCardDetails from "./screens/AluminiCardDetails";
+import CampusLifeCardDetails from "./screens/CampusLifeCardDetails";
+import MediaAndPublicationDetails from "./screens/MediaAndPublicationDetails";
 
 function App() {
   return (
@@ -35,7 +38,7 @@ function App() {
         <Route path="/our-campus" element={<OurCampus />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/admissions" element={<Admissions />} />
-        <Route path="/CampusLife" element={<CampusLife />} />
+        <Route path="/campus-life" element={<CampusLife />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/faq-details" element={<FaqDetails />} />
         <Route path="/alumini" element={<Alumini />} />
@@ -75,6 +78,15 @@ function App() {
         />
         <Route path="/career" element={<Career />} />
         <Route path="/counselling-center" element={<CounsellingCenter />} />
+        <Route path="/alumni-card-details" element={<AluminiCardDetails />} />
+        <Route
+          path="/campus-life-details"
+          element={<CampusLifeCardDetails />}
+        />
+        <Route
+          path="/media-publications-details"
+          element={<MediaAndPublicationDetails />}
+        />
       </Routes>
       <ContactUsSection />
       <Footer />

@@ -2159,7 +2159,8 @@ body {
   color: #1a1a1a;
   font-weight: 600;
   text-transform: uppercase;
-  margin-top: 3em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 .photo__gallery__container__content {
   width: 100%;
@@ -3669,6 +3670,15 @@ body {
   color: #fff;
   margin: 0.7em 0em;
 }
+.alumini__photo__gallery__wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0em 2em;
+  text-align: center;
+  margin-bottom: 4em;
+  margin-top: -3em;
+}
 @media (max-width: 1440px) {
   .home__main__container__overlay__content__heading {
     font-size: 38px;
@@ -3679,6 +3689,9 @@ body {
   .faq__container__right {
     margin-left: 1em;
     width: 50%;
+  }
+  .alumini__photo__gallery__wrapper {
+    max-width: calc(1440px - 10em);
   }
   .a__level__addmission {
     max-width: calc(1440px - 10em);

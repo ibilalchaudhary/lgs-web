@@ -91,7 +91,7 @@ export default function Header() {
             >
               Admissions
             </NavLink>
-            <NavLink to="/CampusLife" id="careers" setIsNavOpen={setIsNavOpen}>
+            <NavLink to="/campus-life" id="careers" setIsNavOpen={setIsNavOpen}>
               Campus Life
             </NavLink>
             <NavLink to="/alumini" id="alumini" setIsNavOpen={setIsNavOpen}>

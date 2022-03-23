@@ -4,11 +4,20 @@ import campusPic from "../assets/campusPic.png";
 import AlumniRegistrationsPic from "../assets/AlumniRegistrationsPic.png";
 import ReunionsPic from "../assets/ReunionsPic.png";
 import overviewPic from "../assets/overviewPic.png";
-import PhotoGallery from "../component/PhotoGallery";
+import { Link } from "react-router-dom";
 
-function CampusLifeCard({ title }) {
+function AluminiGalleryCard({ title }) {
   return (
-    <div className="campus__life__main__container__content__card">
+    <Link
+      to="/alumni-card-details"
+      onClick={() => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }}
+      className="campus__life__main__container__content__card"
+    >
       <img
         src={campusPic}
         alt="campusPic"
@@ -19,7 +28,7 @@ function CampusLifeCard({ title }) {
           {title}
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 
@@ -206,16 +215,17 @@ export default function Alumini() {
           fontWeight: "bold",
           textAlign: "center",
           marginBottom: "2em",
+          textTransform: "uppercase",
         }}
       >
-        PHOTO GALLERY
+        Photo Gallery
       </div>
       <div className="careers__content__section__campus__life">
         <div className="careers__content__section__campus__life__content">
-          <CampusLifeCard title="Alumni Dinner '22" />
-          <CampusLifeCard title="Alumni Dinner'21" />
-          <CampusLifeCard title="Reunion'19" />
-          <CampusLifeCard title="Reunion'18" />
+          <AluminiGalleryCard title="Alumni Dinner '22" />
+          <AluminiGalleryCard title="Alumni Dinner'21" />
+          <AluminiGalleryCard title="Reunion'19" />
+          <AluminiGalleryCard title="Reunion'18" />
         </div>
       </div>
     </>

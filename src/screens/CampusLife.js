@@ -6,10 +6,20 @@ import publicSpeakNew from "../assets/publicSpeakNew.png";
 import scienceTechPic from "../assets/scienceTechPic.png";
 import dramaPic from "../assets/dramaPic.png";
 import sportsPic from "../assets/sportsPic.png";
+import { Link } from "react-router-dom";
 
-function CampusLifeCard() {
+function MediaPublicationCard() {
   return (
-    <div className="campus__life__main__container__content__card">
+    <Link
+      to="/media-publications-details"
+      onClick={() => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }}
+      className="campus__life__main__container__content__card"
+    >
       <img
         src={campusPic}
         alt="campusPic"
@@ -20,7 +30,7 @@ function CampusLifeCard() {
           New Heading Here
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 
@@ -368,10 +378,10 @@ export default function CampusLife() {
       </div>
       <div className="careers__content__section__campus__life">
         <div className="careers__content__section__campus__life__content">
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
-          <CampusLifeCard />
+          <MediaPublicationCard />
+          <MediaPublicationCard />
+          <MediaPublicationCard />
+          <MediaPublicationCard />
         </div>
       </div>
     </>

@@ -5,6 +5,7 @@ import schoolPic from "../assets/schoolPic.png";
 import aboutPic from "../assets/aboutPic.png";
 import campusPic from "../assets/campusPic.png";
 import addmission_bg from "../assets/addmission_bg.png";
+import { Link } from "react-router-dom";
 function EventCard() {
   return (
     <div className="events__main__container__content__card">
@@ -22,7 +23,16 @@ function EventCard() {
 
 function CampusLifeCard({ title, subtitle }) {
   return (
-    <div className="campus__life__main__container__content__card">
+    <Link
+      to="/campus-life-details"
+      onClick={() => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }}
+      className="campus__life__main__container__content__card"
+    >
       <img
         src={campusPic}
         alt="campusPic"
@@ -34,7 +44,7 @@ function CampusLifeCard({ title, subtitle }) {
           <span>{subtitle}</span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 
