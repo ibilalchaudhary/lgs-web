@@ -10,6 +10,25 @@ import academicPic from "../assets/academicPic.png";
 import ParentsHandbook from "../assets/ParentsHandbook.pdf";
 import TermCalendar from "../assets/2ndTermCalendar.pdf";
 
+function AcademicCard({ month, date, voca }) {
+  return (
+    <div className="academic__main__container__content__entry__card">
+      <div className="academic__main__container__content__entry__card__para">
+        {month}
+      </div>
+      <div className="academic__main__container__content__entry__card__heading">
+        {date}
+      </div>
+      <div
+        style={{ color: "#FACD09" }}
+        className="academic__main__container__content__entry__card__para"
+      >
+        {voca}
+      </div>
+    </div>
+  );
+}
+
 export default function OurSchool() {
   return (
     <>
@@ -236,6 +255,15 @@ export default function OurSchool() {
                 alt="academicPic"
                 className="academic__main__container__content__overlay__pic"
               />
+              <div className="academic__main__container__content__entry__wrapper">
+                <AcademicCard
+                  month="Dec-Jan"
+                  date="21-05"
+                  voca="Winter Break"
+                />
+                <AcademicCard month="Mar" date="23-29" voca="Spring break" />
+                <AcademicCard month="Jun" date="06" voca="summer break begin" />
+              </div>
             </div>
           </div>
         </div>

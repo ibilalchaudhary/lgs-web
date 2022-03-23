@@ -63,7 +63,7 @@ export default function OurCampus() {
               Cannal Campus
             </div>
             <Link
-              to="/primary-school"
+              to="/canal-campus-middle-school"
               onClick={() => {
                 window.scrollTo({
                   top: 0,
@@ -71,6 +71,33 @@ export default function OurCampus() {
                 });
               }}
               className="campus__main__container__content__left__entry"
+            >
+              Middle School
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-arrow-right"
+              >
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </Link>
+            <Link
+              to="/canal-campus-primary-school"
+              onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
+              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__senior"
             >
               Primary School
               <svg
@@ -90,34 +117,7 @@ export default function OurCampus() {
               </svg>
             </Link>
             <Link
-              to="/senior-school"
-              onClick={() => {
-                window.scrollTo({
-                  top: 0,
-                  behavior: "smooth",
-                });
-              }}
-              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__senior"
-            >
-              Senior School
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-arrow-right"
-              >
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </Link>
-            <Link
-              to="/senior-school-a-level"
+              to="/canal-campus-senior-school-a-level"
               onClick={() => {
                 window.scrollTo({
                   top: 0,
@@ -144,7 +144,7 @@ export default function OurCampus() {
               </svg>
             </Link>
             <Link
-              to="/senior-school-o-level"
+              to="/canal-campus-senior-school-o-level"
               onClick={() => {
                 window.scrollTo({
                   top: 0,
@@ -176,7 +176,7 @@ export default function OurCampus() {
               UN-Cannal Campus
             </div>
             <Link
-              to="/primary-school"
+              to="/middle-school"
               onClick={() => {
                 window.scrollTo({
                   top: 0,
@@ -185,7 +185,7 @@ export default function OurCampus() {
               }}
               className="campus__main__container__content__left__entry"
             >
-              Primary School
+              Middle School
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -203,7 +203,7 @@ export default function OurCampus() {
               </svg>
             </Link>
             <Link
-              to="/senior-school"
+              to="/primary-school"
               onClick={() => {
                 window.scrollTo({
                   top: 0,
@@ -212,7 +212,7 @@ export default function OurCampus() {
               }}
               className="campus__main__container__content__left__entry campus__main__container__content__left__entry__senior"
             >
-              Senior School
+              Primary School
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

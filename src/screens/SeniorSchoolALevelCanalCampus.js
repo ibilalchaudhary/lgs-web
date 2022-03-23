@@ -25,7 +25,7 @@ function SubjectBtn({ title }) {
   return <button className="cannal__campus__btn">Accounting</button>;
 }
 
-export default function PrimarySchool() {
+export default function SeniorSchoolALevelCanalCampus() {
   const [select, setSelect] = useState("Subject Choices");
   return (
     <>
@@ -40,6 +40,7 @@ export default function PrimarySchool() {
             <div className="cannal__campus__heading__wrapper">
               <div className="cannal__campus__sub__heading">CaNAL CAMPUS</div>
               <div className="cannal__campus__heading">Senior School</div>
+              <div className="cannal__campus__para">A Levels</div>
             </div>
           </div>
         </div>
@@ -55,7 +56,7 @@ export default function PrimarySchool() {
               />
               <div className="cannal__campus__container__wrapper__card__left__content__headings__wrapper">
                 <div className="cannal__campus__container__wrapper__card__left__content__heading">
-                  Mrs. Saltanat Bokhari
+                  Mr. Principal
                 </div>
                 <div className="cannal__campus__container__wrapper__card__left__content__para">
                   Director
@@ -64,14 +65,25 @@ export default function PrimarySchool() {
             </div>
           </div>
           <div className="cannal__campus__container__wrapper__card__right">
-            " I am delighted to offer you a warm welcome to LGS FSD. At LGS.
-            FSD, we view diversity as our biggest strength. We aim to inspire in
-            our students the curiosity to learn, the self-confidence to lead and
-            the compassion to serve. Our primary source of insight and energy is
-            our students’ validation, critique and innovative ideas. We mutually
-            guide and encourage one another to understand the importance of not
-            just academic achievement but also values of tolerance and respect.
-            I hope our website gives you a sense of our purpose and vision. "
+            We live in exciting and rapidly changing times; these times mean
+            that education is more important than ever. Education that prepares
+            young people to be able to be life-long learners, to be able to
+            adapt and adjust to the many changes they will face in their future.{" "}
+            <br />
+            At LGS, the growth of each individual student is a focus, we
+            recognise that as we 'work together and learn together' students
+            will be best able to achieve their potential. The co-operative
+            effort of students, parents and teachers is at the heart of the
+            learning pathways followed by our students and the outcomes they
+            achieve. We firmly believe that every student can experience success
+            and go on to graduate as a responsible, resilient and confident
+            young adult, well prepared to take charge of their future and to
+            become a productive member of the country. Our school prides itself
+            on the 'multiple learning outcomes' curricular and co-curricular
+            programs available to students, on the highly positive attitude and
+            behaviour of our students and on the constant focus by our
+            professional staff on developing, personalising and transforming
+            teaching approaches to best meet the needs of students
           </div>
         </div>
         <div className="cannal__campus__nav__wrapper">
@@ -93,66 +105,38 @@ export default function PrimarySchool() {
           />
         </div>
         {select === "Subject Choices" ? (
-          <>
-            <div className="primary__school__content">
-              <div className="primary__school__content__left">
-                <div className="primary__school__content__left__para">
-                  The subjects that are compulsory at the O-Level are:
-                </div>
-                <li className="primary__school__content__left__para">
-                  English
-                </li>
-                <li className="primary__school__content__left__para">Urdu</li>
-                <li className="primary__school__content__left__para">
-                  Pakistan Studies
-                </li>
-                <li className="primary__school__content__left__para">Math</li>
-                <li className="primary__school__content__left__para">
-                  Physics
-                </li>
-                <li className="primary__school__content__left__para">
-                  Biology
-                </li>
-              </div>
-              <div className="primary__school__content__right">
-                <div className="primary__school__content__right__para">
-                  Students are required to choose one subject from each group
-                  given above. If Art, ICT or Add. Maths clash with another
-                  subject a student wishes to take, extra classes may be made
-                  available after school if at least 12 students wish to take
-                  the respective subject. Students may not be allowed to drop
-                  out of after school classes once they have been scheduled.
-                </div>
-              </div>
-            </div>
-            <div className="primary__school__content__card">
-              <div className="primary__school__content__card__para">
-                In addition, Class 9 students are required to study World
-                Affairs. <br />
-                The elective subject choices available to Class 9 are broken
-                into three groups:
-              </div>
-              <li className="primary__school__content__card__li">
-                {" "}
-                Group 1: Physics or Sociology or Environmental Management
-              </li>
-              <li className="primary__school__content__card__li">
-                {" "}
-                Group 2: Chemistry or Art or Economics
-              </li>
-              <li className="primary__school__content__card__li">
-                {" "}
-                Group 3: Biology or Additional Maths or ICT
-              </li>
-              <div className="primary__school__content__card__para">
-                At the beginning of Class 10, students must finalise a minimum
-                of 8 O-Level subjects. In addition to the elective subjects
-                offered in Class 9, English Literature, World Affairs and Global
-                Perspectives are available as free-floating subjects that can be
-                taken with any combination.
-              </div>
-            </div>
-          </>
+          <div className="cannal__campus__btn__wrapper">
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+            <SubjectBtn />
+          </div>
         ) : null}
         {select === "Gallery" ? <PhotoGallery /> : null}
         {select === "Faculty Profiles" ? (

@@ -13,13 +13,13 @@ import OurCampus from "./screens/OurCampus";
 import OurSchool from "./screens/OurSchool";
 import Sports from "./screens/Sports";
 import Complaints from "./screens/Complaints";
-import SeniorSchool from "./screens/SeniorSchool";
 import CampusLife from "./screens/CampusLife";
 import Career from "./screens/Career";
-import SeniorSchoolALevel from "./screens/SeniorSchoolALevel";
-import SeniorSchoolOLevel from "./screens/SeniorSchoolOLevel";
-import PrimarySchool from "./screens/PrimarySchool";
 import CounsellingCenter from "./screens/CounsellingCenter";
+import PrimarySchoolCanalCampus from "./screens/PrimarySchoolCanalCampus";
+import MiddleSchoolCanalCampus from "./screens/MiddleSchoolCanalCampus";
+import SeniorSchoolALevelCanalCampus from "./screens/SeniorSchoolALevelCanalCampus";
+import SeniorSchoolOLevelCanalCampus from "./screens/SeniorSchoolOLevelCanalCampus";
 
 function App() {
   return (
@@ -37,10 +37,22 @@ function App() {
         <Route path="/alumini" element={<Alumini />} />
         <Route path="/sports" element={<Sports />} />
         <Route path="/complaints" element={<Complaints />} />
-        <Route path="/senior-school-a-level" element={<SeniorSchoolALevel />} />
-        <Route path="/senior-school-o-level" element={<SeniorSchoolOLevel />} />
-        <Route path="/senior-school" element={<PrimarySchool />} />
-        <Route path="/primary-school" element={<SeniorSchool />} />
+        <Route
+          path="/canal-campus-senior-school-a-level"
+          element={<SeniorSchoolALevelCanalCampus />}
+        />
+        <Route
+          path="/canal-campus-senior-school-o-level"
+          element={<SeniorSchoolOLevelCanalCampus />}
+        />
+        <Route
+          path="/canal-campus-middle-school"
+          element={<MiddleSchoolCanalCampus />}
+        />
+        <Route
+          path="/canal-campus-primary-school"
+          element={<PrimarySchoolCanalCampus />}
+        />
         <Route path="/career" element={<Career />} />
         <Route path="/counselling-center" element={<CounsellingCenter />} />
       </Routes>

@@ -29,7 +29,7 @@ function SubjectBtn({ title }) {
   return <button className="cannal__campus__btn">Accounting</button>;
 }
 
-export default function SeniorSchool() {
+export default function PrimarySchoolCanalCampus() {
   const [select, setSelect] = useState("Subject Choices");
   return (
     <>
@@ -43,7 +43,12 @@ export default function SeniorSchool() {
           <div className="our__school__container__overlay__content">
             <div className="cannal__campus__heading__wrapper">
               <div className="cannal__campus__sub__heading">CaNAL CAMPUS</div>
-              <div className="cannal__campus__heading">Primary School</div>
+              <div
+                style={{ color: "#F9CC09" }}
+                className="cannal__campus__heading"
+              >
+                Primary School
+              </div>
             </div>
           </div>
         </div>
