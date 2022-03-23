@@ -2,10 +2,17 @@ import React, { useState } from "react";
 import ourCampusBg from "../assets/ourCampusBg.png";
 import creativePic from "../assets/creativePic.png";
 import addmissionPic from "../assets/addmissionPic.png";
-import cannalCampusPricipalPic from "../assets/cannalCampusPricipalPic.png";
 import PhotoGallery from "../component/PhotoGallery";
 import NoticeBoardCard from "../component/NoticeBoardCard";
 import FacultyCard from "../component/FacultyCard";
+import pricipal_pic from "../assets/pricipal_pic.png";
+import zunaira from "../assets/zunaira.jpeg";
+import cannalCampusPricipalPic from "../assets/cannalCampusPricipalPic.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 function CampusNav({ title, select, setSelect }) {
   return (
@@ -21,6 +28,44 @@ function CampusNav({ title, select, setSelect }) {
     >
       {title}
     </button>
+  );
+}
+
+function PricipalCard({ img, title, designation, para }) {
+  return (
+    <>
+      <div className="cannal__campus__container__swiper__content">
+        <div className="cannal__campus__container__wrapper__card__left">
+          <div className="cannal__campus__container__wrapper__card__left__content">
+            <img
+              src={img}
+              alt="pricipal_pic"
+              className="cannal__campus__container__wrapper__card__left__content__img"
+            />
+            <div className="cannal__campus__container__wrapper__card__left__content__headings__wrapper">
+              <div
+                style={{ color: "#fff" }}
+                className="cannal__campus__container__wrapper__card__left__content__heading"
+              >
+                {title}
+              </div>
+              <div
+                style={{ color: "#fff" }}
+                className="cannal__campus__container__wrapper__card__left__content__para"
+              >
+                {designation}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          style={{ color: "#fff" }}
+          className="cannal__campus__container__wrapper__card__right"
+        >
+          "{para}"
+        </div>
+      </div>
+    </>
   );
 }
 
@@ -49,53 +94,45 @@ export default function SeniorSchoolOLevel105CCampus() {
           style={{ background: "#005DFF" }}
           className="cannal__campus__container__wrapper__card"
         >
-          <div className="cannal__campus__container__wrapper__card__left">
-            <div className="cannal__campus__container__wrapper__card__left__content">
-              <img
-                src={cannalCampusPricipalPic}
-                alt="pricipal_pic"
-                className="cannal__campus__container__wrapper__card__left__content__img"
-              />
-              <div className="cannal__campus__container__wrapper__card__left__content__headings__wrapper">
-                <div
-                  style={{ color: "#fff" }}
-                  className="cannal__campus__container__wrapper__card__left__content__heading"
-                >
-                  Uzma Mahmood
-                </div>
-                <div
-                  style={{ color: "#fff" }}
-                  className="cannal__campus__container__wrapper__card__left__content__para"
-                >
-                  Director
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ color: "#fff" }}
-            className="cannal__campus__container__wrapper__card__right"
+          <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 3500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={false}
+            modules={[Autoplay, Pagination, Navigation]}
+            className="mySwiper"
           >
-            We live in exciting and rapidly changing times; these times mean
-            that education is more important than ever. Education that prepares
-            young people to be able to be life-long learners, to be able to
-            adapt and adjust to the many changes they will face in their future.{" "}
-            <br />
-            At LGS, the growth of each individual student is a focus, we
-            recognise that as we 'work together and learn together' students
-            will be best able to achieve their potential. The co-operative
-            effort of students, parents and teachers is at the heart of the
-            learning pathways followed by our students and the outcomes they
-            achieve. We firmly believe that every student can experience success
-            and go on to graduate as a responsible, resilient and confident
-            young adult, well prepared to take charge of their future and to
-            become a productive member of the country. Our school prides itself
-            on the 'multiple learning outcomes' curricular and co-curricular
-            programs available to students, on the highly positive attitude and
-            behaviour of our students and on the constant focus by our
-            professional staff on developing, personalising and transforming
-            teaching approaches to best meet the needs of students
-          </div>
+            <SwiperSlide>
+              <PricipalCard
+                img={cannalCampusPricipalPic}
+                title="Mrs. Saltanat Bokhari"
+                designation="Director"
+                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <PricipalCard
+                img={pricipal_pic}
+                title="Mr. Principar"
+                designation="Principal"
+                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <PricipalCard
+                img={zunaira}
+                title="Zunaira Amjad"
+                designation="Director"
+                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
+              />
+            </SwiperSlide>
+          </Swiper>
         </div>
         <div className="cannal__campus__senior__nav__wrapper">
           <CampusNav

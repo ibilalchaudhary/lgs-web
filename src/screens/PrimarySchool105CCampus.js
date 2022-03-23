@@ -6,10 +6,17 @@ import libraryPic from "../assets/libraryPic.png";
 import musicandArtPic from "../assets/musicandArtPic.png";
 import schoolPic from "../assets/schoolPic.png";
 import addmissionPic from "../assets/addmissionPic.png";
-import cannalCampusPricipalPic from "../assets/cannalCampusPricipalPic.png";
 import PhotoGallery from "../component/PhotoGallery";
 import NoticeBoardCard from "../component/NoticeBoardCard";
 import FacultyCard from "../component/FacultyCard";
+import pricipal_pic from "../assets/pricipal_pic.png";
+import zunaira from "../assets/zunaira.jpeg";
+import cannalCampusPricipalPic from "../assets/cannalCampusPricipalPic.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 function CampusNav({ title, select, setSelect }) {
   return (
@@ -23,6 +30,35 @@ function CampusNav({ title, select, setSelect }) {
     >
       {title}
     </button>
+  );
+}
+
+function PricipalCard({ img, title, designation, para }) {
+  return (
+    <>
+      <div className="cannal__campus__container__swiper__content">
+        <div className="cannal__campus__container__wrapper__card__left">
+          <div className="cannal__campus__container__wrapper__card__left__content">
+            <img
+              src={img}
+              alt="pricipal_pic"
+              className="cannal__campus__container__wrapper__card__left__content__img"
+            />
+            <div className="cannal__campus__container__wrapper__card__left__content__headings__wrapper">
+              <div className="cannal__campus__container__wrapper__card__left__content__heading">
+                {title}
+              </div>
+              <div className="cannal__campus__container__wrapper__card__left__content__para">
+                {designation}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="cannal__campus__container__wrapper__card__right">
+          "{para}"
+        </div>
+      </div>
+    </>
   );
 }
 
@@ -55,33 +91,45 @@ export default function PrimarySchool105CCampus() {
           style={{ background: "#FFD934" }}
           className="cannal__campus__container__wrapper__card"
         >
-          <div className="cannal__campus__container__wrapper__card__left">
-            <div className="cannal__campus__container__wrapper__card__left__content">
-              <img
-                src={cannalCampusPricipalPic}
-                alt="pricipal_pic"
-                className="cannal__campus__container__wrapper__card__left__content__img"
+          <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 3500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={false}
+            modules={[Autoplay, Pagination, Navigation]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <PricipalCard
+                img={cannalCampusPricipalPic}
+                title="Mrs. Saltanat Bokhari"
+                designation="Director"
+                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
               />
-              <div className="cannal__campus__container__wrapper__card__left__content__headings__wrapper">
-                <div className="cannal__campus__container__wrapper__card__left__content__heading">
-                  Mrs. Saltanat Bokhari
-                </div>
-                <div className="cannal__campus__container__wrapper__card__left__content__para">
-                  Director
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="cannal__campus__container__wrapper__card__right">
-            " I am delighted to offer you a warm welcome to LGS FSD. At LGS.
-            FSD, we view diversity as our biggest strength. We aim to inspire in
-            our students the curiosity to learn, the self-confidence to lead and
-            the compassion to serve. Our primary source of insight and energy is
-            our students’ validation, critique and innovative ideas. We mutually
-            guide and encourage one another to understand the importance of not
-            just academic achievement but also values of tolerance and respect.
-            I hope our website gives you a sense of our purpose and vision. "
-          </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <PricipalCard
+                img={pricipal_pic}
+                title="Mr. Principar"
+                designation="Principal"
+                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <PricipalCard
+                img={zunaira}
+                title="Zunaira Amjad"
+                designation="Director"
+                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
+              />
+            </SwiperSlide>
+          </Swiper>
         </div>
         <div
           style={{ background: "#022B43" }}
