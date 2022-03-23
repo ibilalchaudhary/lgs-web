@@ -173,10 +173,10 @@ export default function OurCampus() {
           </div>
           <div className="campus__main__container__content__right">
             <div className="campus__main__container__content__left__heading">
-              UN-Cannal Campus
+              105-C Campus
             </div>
             <Link
-              to="/middle-school"
+              to="/105-c-campus-middle-school"
               onClick={() => {
                 window.scrollTo({
                   top: 0,
@@ -203,7 +203,7 @@ export default function OurCampus() {
               </svg>
             </Link>
             <Link
-              to="/primary-school"
+              to="/105-c-campus-primary-school"
               onClick={() => {
                 window.scrollTo({
                   top: 0,
@@ -230,7 +230,7 @@ export default function OurCampus() {
               </svg>
             </Link>
             <Link
-              to="/senior-school-a-level"
+              to="/105-c-campus-senior-school-a-level"
               onClick={() => {
                 window.scrollTo({
                   top: 0,
@@ -263,7 +263,7 @@ export default function OurCampus() {
                   behavior: "smooth",
                 });
               }}
-              to="/senior-school-o-level"
+              to="/105-c-campus-senior-school-o-level"
               className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
             >
               Senior School(O-Level)

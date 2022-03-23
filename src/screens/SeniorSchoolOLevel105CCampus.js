@@ -23,11 +23,8 @@ function CampusNav({ title, select, setSelect }) {
     </button>
   );
 }
-function SubjectBtn({ title }) {
-  return <button className="cannal__campus__btn">Accounting</button>;
-}
 
-export default function SeniorSchoolOLevel() {
+export default function SeniorSchoolOLevel105CCampus() {
   const [select, setSelect] = useState("Subject Choices");
   return (
     <>
@@ -40,7 +37,7 @@ export default function SeniorSchoolOLevel() {
         <div className="home__main__container__overlay">
           <div className="our__school__container__overlay__content">
             <div className="cannal__campus__heading__wrapper">
-              <div className="cannal__campus__sub__heading">105-C Campus</div>
+              <div className="cannal__campus__sub__heading">105-C CAMPUS</div>
               <div className="cannal__campus__heading">Senior School</div>
               <div className="cannal__campus__para">O Levels</div>
             </div>

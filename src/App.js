@@ -20,6 +20,10 @@ import PrimarySchoolCanalCampus from "./screens/PrimarySchoolCanalCampus";
 import MiddleSchoolCanalCampus from "./screens/MiddleSchoolCanalCampus";
 import SeniorSchoolALevelCanalCampus from "./screens/SeniorSchoolALevelCanalCampus";
 import SeniorSchoolOLevelCanalCampus from "./screens/SeniorSchoolOLevelCanalCampus";
+import MiddleSchool105CCampus from "./screens/MiddleSchool105CCampus";
+import PrimarySchool105CCampus from "./screens/PrimarySchool105CCampus";
+import SeniorSchoolALevel105CCampus from "./screens/SeniorSchoolALevel105CCampus";
+import SeniorSchoolOLevel105CCampus from "./screens/SeniorSchoolOLevel105CCampus";
 
 function App() {
   return (
@@ -42,16 +46,32 @@ function App() {
           element={<SeniorSchoolALevelCanalCampus />}
         />
         <Route
+          path="/105-c-campus-senior-school-a-level"
+          element={<SeniorSchoolALevel105CCampus />}
+        />
+        <Route
           path="/canal-campus-senior-school-o-level"
           element={<SeniorSchoolOLevelCanalCampus />}
+        />
+        <Route
+          path="/105-c-campus-senior-school-o-level"
+          element={<SeniorSchoolOLevel105CCampus />}
         />
         <Route
           path="/canal-campus-middle-school"
           element={<MiddleSchoolCanalCampus />}
         />
         <Route
+          path="/105-c-campus-middle-school"
+          element={<MiddleSchool105CCampus />}
+        />
+        <Route
           path="/canal-campus-primary-school"
           element={<PrimarySchoolCanalCampus />}
+        />
+        <Route
+          path="/105-c-campus-primary-school"
+          element={<PrimarySchool105CCampus />}
         />
         <Route path="/career" element={<Career />} />
         <Route path="/counselling-center" element={<CounsellingCenter />} />

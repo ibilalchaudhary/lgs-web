@@ -2759,7 +2759,7 @@ body {
 }
 .a__level__addmission {
   width: 100%;
-  max-width: 1360px;
+  max-width: 1440px;
   height: fit-content;
   padding: 4em 2em;
   background: #2b2b2b;
@@ -3680,7 +3680,9 @@ body {
     margin-left: 1em;
     width: 50%;
   }
-
+  .a__level__addmission {
+    max-width: calc(1440px - 10em);
+  }
   .our__story__main__container__content {
     max-width: calc(1440px - 10em);
   }
