@@ -5,6 +5,7 @@ import AlumniRegistrationsPic from "../assets/AlumniRegistrationsPic.png";
 import ReunionsPic from "../assets/ReunionsPic.png";
 import overviewPic from "../assets/overviewPic.png";
 import { Link } from "react-router-dom";
+import InputField from "../component/InputField";
 
 function AluminiGalleryCard({ title }) {
   return (
@@ -33,6 +34,14 @@ function AluminiGalleryCard({ title }) {
 }
 
 export default function Alumini() {
+  const genderOption = [
+    {
+      label: "Male",
+    },
+    {
+      label: "Female",
+    },
+  ];
   return (
     <>
       <div className="our__school__container">
@@ -186,7 +195,10 @@ export default function Alumini() {
               </div>
             </div>
           </div>
-          <div className="careers__content__section__card__international__explore">
+          <div
+            className="careers__content__section__card__international__explore"
+            style={{ marginBottom: "-5em" }}
+          >
             <img
               src={AlumniRegistrationsPic}
               alt="AlumniRegistrationsPic"
@@ -207,6 +219,104 @@ export default function Alumini() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="career__section__content" style={{ marginBottom: "5em" }}>
+        <div className="career__section__content__header">
+          <div
+            style={{ marginBottom: 20, fontSize: 14 }}
+            className="career__section__content__para"
+          >
+            If you are interested in applying for a job at Lahore Grammar
+            School, 55 Main Gulberg, Lahore, please fill in the form below and
+            attach your photograph and your resume.
+          </div>
+        </div>
+        <div className="career__section__content__input__row">
+          <InputField placeholder="Enter Name" label="Name" required={true} />
+          <InputField
+            placeholder="Enter Father name"
+            label="Father Name"
+            type="text"
+            required={true}
+          />
+        </div>
+        <div className="career__section__content__input__row">
+          <InputField placeholder="Enter Email" label="Email" required={true} />
+          <InputField
+            placeholder="Enter Phone No"
+            label="Phone No"
+            required={true}
+          />
+        </div>
+        <div className="career__section__content__input__row">
+          <InputField
+            placeholder="Enter Session"
+            label="Session"
+            required={true}
+          />
+          <InputField
+            placeholder="Enter Education"
+            label="Education"
+            required={true}
+          />
+        </div>
+        <div className="career__section__content__input__row">
+          <InputField
+            placeholder="Enter Name of University (Graduation)"
+            label="Name of University (Graduation)"
+            required={true}
+          />
+          <InputField
+            placeholder="Enter Name of University (Post-Graduation)"
+            label="Name of University (Post-Graduation)"
+            required={true}
+          />
+        </div>
+        <div className="career__section__content__input__row">
+          <InputField
+            placeholder="Enter Profession"
+            label="Profession"
+            required={true}
+          />
+          <InputField
+            placeholder="Enter Current Business Address"
+            label="Current Business Address"
+            required={true}
+          />
+        </div>
+        <div className="career__section__content__input__row">
+          <InputField
+            placeholder="Enter Where did life take you after LGS?"
+            label="Where did life take you after LGS?"
+            required={true}
+          />
+          <InputField
+            placeholder="Enter Fondest Memory of LGS?"
+            label="Fondest Memory of LGS?"
+            required={true}
+          />
+        </div>
+        <div className="career__section__content__header">
+          <div
+            style={{
+              marginBottom: 20,
+              marginTop: 20,
+              fontSize: 14,
+              color: "red",
+            }}
+            className="career__section__content__para"
+          >
+            * Limited seats available.
+          </div>
+          <div
+            style={{ marginBottom: 20, fontSize: 14 }}
+            className="career__section__content__para"
+          >
+            <span style={{ color: "red" }}>Please Note</span> - Event is only
+            for the Alumni. Students are requested to not register for event
+          </div>
+          <button6 class="section__btn__primary">Register</button6>
         </div>
       </div>
       <div

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ourCampusBg from "../assets/ourCampusBg.png";
-import pricipal_pic from "../assets/pricipal_pic.png";
 import zunaira from "../assets/zunaira.jpeg";
 import kanwal from "../assets/kanwal.jpeg";
 import contactPic from "../assets/contactPic.png";

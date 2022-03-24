@@ -12,8 +12,8 @@ import SPORTS from "../assets/SPORTS.png";
 import MEDIA from "../assets/MEDIA.png";
 import tech from "../assets/tech.png";
 import FORM from "../assets/FORM.png";
-import addmission_bg from "../assets/addmission_bg.png";
 import { Link } from "react-router-dom";
+
 function EventCard() {
   return (
     <div className="events__main__container__content__card">
@@ -199,7 +199,7 @@ export default function Home() {
                   and to be involved, responsible, respectful citizens of their
                   class, school and society.
                 </div>
-                <div className="about__main__container__content__right__enrollment__wrapper">
+                {/* <div className="about__main__container__content__right__enrollment__wrapper">
                   <div className="about__main__container__content__right__enrollment">
                     <div className="about__main__container__content__right__enrollment__title">
                       433
@@ -221,7 +221,7 @@ export default function Home() {
                     <span>Enrollments</span>
                     <span>2019</span>
                   </div>
-                </div>
+                </div> */}
               </>
             ) : null}
             {selected === "Senior School" ? (
@@ -238,7 +238,7 @@ export default function Home() {
                   and to be involved, responsible, respectful citizens of their
                   class, school and society.
                 </div>
-                <div className="about__main__container__content__right__enrollment__wrapper">
+                {/* <div className="about__main__container__content__right__enrollment__wrapper">
                   <div className="about__main__container__content__right__enrollment">
                     <div className="about__main__container__content__right__enrollment__title">
                       474
@@ -260,7 +260,7 @@ export default function Home() {
                     <span>Enrollments</span>
                     <span>2019</span>
                   </div>
-                </div>
+                </div> */}
               </>
             ) : null}
             {selected === "A-Levels" ? (
@@ -277,7 +277,7 @@ export default function Home() {
                   and to be involved, responsible, respectful citizens of their
                   class, school and society.
                 </div>
-                <div className="about__main__container__content__right__enrollment__wrapper">
+                {/* <div className="about__main__container__content__right__enrollment__wrapper">
                   <div className="about__main__container__content__right__enrollment">
                     <div className="about__main__container__content__right__enrollment__title">
                       421
@@ -299,7 +299,7 @@ export default function Home() {
                     <span>Enrollments</span>
                     <span>2019</span>
                   </div>
-                </div>
+                </div> */}
               </>
             ) : null}
           </div>

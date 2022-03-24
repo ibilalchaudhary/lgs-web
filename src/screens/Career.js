@@ -1,6 +1,5 @@
 import React from "react";
 import ourCampusBg from "../assets/ourCampusBg.png";
-import InputBox from "../component/InputBox";
 import InputField from "../component/InputField";
 import InputFile from "../component/InputFile";
 import InputRadio from "../component/InputRadio";
@@ -54,7 +53,10 @@ export default function Career() {
         </div>
       </div>
       <div className="career__section">
-        <div className="career__section__content">
+        <div
+          className="career__section__content"
+          style={{ marginBottom: "5em" }}
+        >
           <div className="career__section__content__header">
             <div
               style={{ marginBottom: 20, fontSize: 14 }}
@@ -74,7 +76,6 @@ export default function Career() {
               required={true}
             />
           </div>
-
           <div className="career__section__content__input__row">
             <InputField
               placeholder="Enter Phone"

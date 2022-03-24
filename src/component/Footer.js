@@ -292,7 +292,7 @@ export default function Footer() {
                 fill="url(#linear-gradient)"
               />
             </svg>
-            Canal Road Campus ; 105-C,Peoples Colony, Junior Branch
+            123-Canal Park, East Canal Road, Faisalabad
           </a>
         </div>
       </div>

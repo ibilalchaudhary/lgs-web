@@ -67,6 +67,7 @@ body {
 }
 .header_wrappernav_link {
   position: relative;
+  margin-left: 0.3em;
 }
 .header_wrappernavlink_input {
   position: absolute;
@@ -84,7 +85,7 @@ body {
   font-weight: 400;
   position: relative;
   padding: 0.7em 1.2em;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .header_wrappernavlink_input:hover ~ .header_wrappernavlink_content,
@@ -1711,6 +1712,7 @@ body {
   align-items: center;
   margin-bottom: 2em;
   position: relative;
+  flex-wrap: wrap;
 }
 .careers__content__section__card__international__explore {
   width: 100%;
@@ -2466,6 +2468,7 @@ body {
   color: #fff;
   font-weight: 500;
   margin-top: 0.7em;
+  text-transform: uppercase;
 }
 .from__the__pricipal__container__sub__heading {
   font-size: 16px;
@@ -4509,6 +4512,12 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .career__section__content__input__row {
+    flex-direction: column;
+  }
+  .career__section__content {
+    padding: 3em 0em;
+  }
   .campus__main__container__content__left__entry {
     width: calc(100% - 1em);
   }

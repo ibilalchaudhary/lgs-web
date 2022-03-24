@@ -3,6 +3,8 @@ import ourCampusBg from "../assets/ourCampusBg.png";
 import campusPic from "../assets/campusPic.png";
 import pricipal_pic from "../assets/pricipal_pic.png";
 import director_pic from "../assets/director.jpg";
+import AliaRehman from "../assets/AliaRehman.jpeg";
+import MeenaGul from "../assets/MeenaGul.jpeg";
 import { Link } from "react-router-dom";
 
 function AluminiGalleryCard({ title }) {
@@ -79,7 +81,7 @@ export default function AboutUs() {
                 className="from__the__pricipal__container__img"
               />
               <div className="from__the__pricipal__container__heading">
-                NOTE FROM THE Director
+                NOTE FROM THE DIRECTOR
               </div>
               <div className="from__the__pricipal__container__sub__heading">
                 Mrs. Saltanat Bokhari
@@ -94,6 +96,54 @@ export default function AboutUs() {
                 one another to understand the importance of not just academic
                 achievement but also values of tolerance and respect. I hope our
                 website gives you a sense of our purpose and vision. -
+              </div>
+            </div>
+            <div className="from__the__pricipal__container">
+              <img
+                src={MeenaGul}
+                alt="pricipal_pic"
+                className="from__the__pricipal__container__img"
+              />
+              <div className="from__the__pricipal__container__heading">
+                NOTE FROM THE Regional Director
+              </div>
+              <div className="from__the__pricipal__container__sub__heading">
+                Ms. Meena Gul
+              </div>
+              <div className="from__the__pricipal__container__para">
+                With an experience of more than 35 years as an educationist, Ms.
+                Meena Gul serves as a Regional Director at LGS Group of
+                Colleges. Through her leadership, Ms. Meena has been organising
+                and implementing training programs for staff aimed at achieving
+                their academic goals by the end of the year. Through weekly,
+                monthly and annual staff evaluation reports, a systematic
+                approach is taken while mentoring and training the staff members
+                of LGS Group of Colleges.
+              </div>
+            </div>
+            <div className="from__the__pricipal__container">
+              <img
+                src={AliaRehman}
+                alt="pricipal_pic"
+                className="from__the__pricipal__container__img"
+              />
+              <div className="from__the__pricipal__container__heading">
+                NOTE FROM THE Regional Ccoordinator
+              </div>
+              <div className="from__the__pricipal__container__sub__heading">
+                Mrs. Alia Rehman
+              </div>
+              <div className="from__the__pricipal__container__para">
+                What sets Lahore Grammar School Faisalabad apart is that its
+                students exude a strong commitment in developing a personal
+                responsibility in all pursuits and endeavours, striving to
+                achieve academic success, sporting prowess, artistic and
+                creative excellence and develop social as well as moral mind
+                set. Here, the student’s potential is nurtured in a stimulating
+                educational environment, inspiring them to achieve their goals.
+                Our students are encouraged to be resilient in their learning
+                and we at Lahore Grammar School, ensure that they are valued and
+                cared for.
               </div>
             </div>
             <div className="from__the__pricipal__container">
