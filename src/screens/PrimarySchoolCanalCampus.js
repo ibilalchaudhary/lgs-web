@@ -5,7 +5,7 @@ import presentationPic from "../assets/presentationPic.png";
 import libraryPic from "../assets/libraryPic.png";
 import musicandArtPic from "../assets/musicandArtPic.png";
 import schoolPic from "../assets/schoolPic.png";
-import addmissionPic from "../assets/addmissionPic.png";
+import SUBJECT from "../assets/SUBJECT.png";
 import PhotoGallery from "../component/PhotoGallery";
 import NoticeBoardCard from "../component/NoticeBoardCard";
 import FacultyCard from "../component/FacultyCard";
@@ -63,7 +63,7 @@ function PricipalCard({ img, title, designation, para }) {
 }
 
 export default function PrimarySchoolCanalCampus() {
-  const [select, setSelect] = useState("Subject Choices");
+  const [select, setSelect] = useState("Campus Life");
   return (
     <>
       <div className="our__school__container">
@@ -138,7 +138,7 @@ export default function PrimarySchoolCanalCampus() {
           <CampusNav
             select={select}
             setSelect={setSelect}
-            title="Subject Choices"
+            title="Campus Life"
           />
           <CampusNav title="Gallery" select={select} setSelect={setSelect} />
           <CampusNav
@@ -157,7 +157,7 @@ export default function PrimarySchoolCanalCampus() {
             setSelect={setSelect}
           />
         </div>
-        {select === "Subject Choices" ? (
+        {select === "Campus Life" ? (
           <div className="cannal__campus__primary__container">
             <div className="cannal__campus__senior__container__card">
               <div className="cannal__campus__senior__container__card__left">
@@ -172,7 +172,7 @@ export default function PrimarySchoolCanalCampus() {
                 </div>
               </div>
               <img
-                src={addmissionPic}
+                src={SUBJECT}
                 alt="addmissionPic"
                 className="cannal__campus__senior__container__card__left__img"
               />
