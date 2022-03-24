@@ -328,7 +328,7 @@ body {
 }
 .our__story__main__container__content__img {
   width: 450px;
-  aspect-ratio: 10/9;
+  aspect-ratio: 10/7;
   border-radius: 8px;
 }
 .events__main__container__heading {
@@ -1410,6 +1410,13 @@ body {
   border-radius: 14px;
   box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.1);
   margin: 4em 0em;
+  display: flex;
+}
+.aims__behaviour__policy__container__left {
+  flex: 1;
+}
+.aims__behaviour__policy__container__right {
+  height: 300px;
 }
 .behaviour__policy__container__heading {
   font-size: 24px;
@@ -3683,7 +3690,7 @@ body {
   width: 160px;
   height: 160px;
   background: #2b2b2b;
-  margin-top: 2.5em;
+  margin-top: 1em;
   margin-right: 1em;
   display: flex;
   flex-direction: column;
@@ -3922,7 +3929,7 @@ body {
     max-width: calc(1440px - 10em) !important;
   }
   .academic__main__container__content__entry__card {
-    margin-top: 7em;
+    margin-top: 0em;
   }
   .about__main__container__content__right__nav {
     font-size: 14.5px;
@@ -4406,6 +4413,9 @@ body {
   }
 }
 @media (max-width: 730px) {
+  .aims__behaviour__policy__container__right {
+    display: none;
+  }
   .campus__main__container__content__left__entry {
     width: calc(50% - 1em);
   }

@@ -1,15 +1,16 @@
 import React from "react";
-import Header from "../component/Header";
 import ourSchoolBg from "../assets/ourSchoolBg.png";
 import pricipal_pic from "../assets/pricipal_pic.png";
 import ourStoryPic from "../assets/ourStoryPic.png";
 import ourVisionPic from "../assets/ourVisionPic.png";
 import parentHandbookPic from "../assets/parentHandbookPic.png";
 import academicBg from "../assets/academicBg.png";
+import AIRMS from "../assets/AIRMS.png";
+import PARENTHANDBOOK from "../assets/PARENTHANDBOOK.png";
 import academicPic from "../assets/academicPic.png";
 import ParentsHandbook from "../assets/ParentsHandbook.pdf";
 import TermCalendar from "../assets/2ndTermCalendar.pdf";
-import director_pic from "../assets/director.jpg"
+import director_pic from "../assets/director.jpg";
 
 function AcademicCard({ month, date, voca }) {
   return (
@@ -232,7 +233,7 @@ export default function OurSchool() {
             </a>
           </div>
           <img
-            src={parentHandbookPic}
+            src={PARENTHANDBOOK}
             alt="parentHandbookPic"
             className="parents__handbook__main__container__img"
           />
@@ -322,33 +323,41 @@ export default function OurSchool() {
           community, and demonstrate strength and resilience.
         </div>
         <div className="aims__behaviour__policy__container">
-          <div className="behaviour__policy__container__heading__dark">
-            Aims of the Behaviour Policy
+          <div className="aims__behaviour__policy__container__left">
+            <div className="behaviour__policy__container__heading__dark">
+              Aims of the Behaviour Policy
+            </div>
+            <div className="behaviour__policy__container__para__dark">
+              <ul>
+                <li>To promote good behaviour;</li>
+                <li> To define and make clear school expectations;</li>
+                <li>
+                  To ensure that every student is able to benefit from all that
+                  the school has to offer;
+                </li>
+                <li>
+                  To provide a framework within which students may develop their
+                  own skills and interests whilst becoming responsible,
+                  courteous and tolerant members of their school community and
+                  society;
+                </li>
+                <li>
+                  To apprise students, faculty and parents of the school’s
+                  response to any lapses in behaviour expectations;
+                </li>
+                <li>
+                  To enable the Principal, Coordinators, and members of
+                  Administration and Faculty to carry out their responsibilities
+                  in maintaining order and discipline in the school.
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="behaviour__policy__container__para__dark">
-            <ul>
-              <li>To promote good behaviour;</li>
-              <li> To define and make clear school expectations;</li>
-              <li>
-                To ensure that every student is able to benefit from all that
-                the school has to offer;
-              </li>
-              <li>
-                To provide a framework within which students may develop their
-                own skills and interests whilst becoming responsible, courteous
-                and tolerant members of their school community and society;
-              </li>
-              <li>
-                To apprise students, faculty and parents of the school’s
-                response to any lapses in behaviour expectations;
-              </li>
-              <li>
-                To enable the Principal, Coordinators, and members of
-                Administration and Faculty to carry out their responsibilities
-                in maintaining order and discipline in the school.
-              </li>
-            </ul>
-          </div>
+          <img
+            src={AIRMS}
+            alt="AIRMS"
+            className="aims__behaviour__policy__container__right"
+          />
         </div>
 
         <div className="behaviour__policy__container__heading">
