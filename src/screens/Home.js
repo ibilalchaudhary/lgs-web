@@ -29,15 +29,14 @@ function EventCard() {
   );
 }
 
-function CampusLifeCard({ title, subtitle, img }) {
+function CampusLifeCard({ title, subtitle, img, href }) {
   return (
     <Link
-      to="/campus-life-details"
+      to="/campus-life"
       onClick={() => {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
+        setTimeout(() => {
+          document.getElementById(href).scrollIntoView();
+        }, 100);
       }}
       className="campus__life__main__container__content__card"
     >
@@ -314,32 +313,38 @@ export default function Home() {
             img={internationalExposure}
             title="International"
             subtitle="Exposure"
+            href="international"
           />
           <CampusLifeCard
             img={publicSpeaking}
             title="Public"
             subtitle="Speaking"
+            href="public"
           />
           <CampusLifeCard
             img={communityServiceImg}
             title="Community Service"
             subtitle="And The Enviroment"
+            href="community"
           />
           <CampusLifeCard
             img={tech}
             title="Science and"
             subtitle="Technology"
+            href="science"
           />
           <CampusLifeCard
             img={DRAMA}
             title="Drama, Music,"
             subtitle="And Languages"
+            href="drama"
           />
-          <CampusLifeCard img={SPORTS} title="Sports" />
+          <CampusLifeCard img={SPORTS} title="Sports" href="sports" />
           <CampusLifeCard
             img={MEDIA}
             title="Media"
             subtitle="and Publications"
+            href="media"
           />
         </div>
       </div>
