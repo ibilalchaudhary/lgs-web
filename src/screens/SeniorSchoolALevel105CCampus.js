@@ -28,7 +28,7 @@ function CampusNav({ title, select, setSelect }) {
 }
 
 function SubjectBtn({ title }) {
-  return <button className="cannal__campus__btn">Accounting</button>;
+  return <button className="cannal__campus__btn">{title}</button>;
 }
 
 function PricipalCard({ img, title, designation, para }) {
@@ -62,6 +62,19 @@ function PricipalCard({ img, title, designation, para }) {
 
 export default function SeniorSchoolALevel105CCampus() {
   const [select, setSelect] = useState("Subject Choices");
+  const subjectChoices = [
+    "Urdu",
+    "English",
+    "Mathematics",
+    "Science",
+    "Pak Studies",
+    "Islamiat",
+    "Arabic",
+    "Social Studies",
+    "Physics",
+    "Chemistry",
+    "Biology",
+  ];
   return (
     <>
       <div className="our__school__container">
@@ -142,36 +155,9 @@ export default function SeniorSchoolALevel105CCampus() {
         </div>
         {select === "Subject Choices" ? (
           <div className="cannal__campus__btn__wrapper">
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
-            <SubjectBtn />
+            {subjectChoices.map((subjectChoice) => (
+              <SubjectBtn title={subjectChoice} />
+            ))}
           </div>
         ) : null}
         {select === "Gallery" ? <PhotoGallery /> : null}
