@@ -29,6 +29,7 @@ import CampusLifeCardDetails from "./screens/CampusLifeCardDetails";
 import MediaAndPublicationDetails from "./screens/MediaAndPublicationDetails";
 import MetricSchoolCanalCampus from "./screens/MetricSchoolCanalCampus";
 import MetricSchool105CCampus from "./screens/MetricSchool105CCampus";
+import AboutUs from "./screens/AboutUs";
 
 function App() {
   return (
@@ -87,6 +88,7 @@ function App() {
           element={<PrimarySchool105CCampus />}
         />
         <Route path="/career" element={<Career />} />
+        <Route path="/about" element={<AboutUs />} />
         <Route path="/counselling-center" element={<CounsellingCenter />} />
         <Route path="/alumni-card-details" element={<AluminiCardDetails />} />
         <Route

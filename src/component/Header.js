@@ -114,6 +114,9 @@ export default function Header() {
             <NavLink to="/career" id="career" setIsNavOpen={setIsNavOpen}>
               Career
             </NavLink>
+            <NavLink to="/about" id="about" setIsNavOpen={setIsNavOpen}>
+              About Us
+            </NavLink>
             <NavLink
               to="/contact-us"
               id="contactus"

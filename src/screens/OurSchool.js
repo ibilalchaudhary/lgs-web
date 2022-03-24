@@ -1,6 +1,7 @@
 import React from "react";
 import ourSchoolBg from "../assets/ourSchoolBg.png";
 import pricipal_pic from "../assets/pricipal_pic.png";
+import director_pic from "../assets/director.jpg";
 import ourStoryPic from "../assets/ourStoryPic.png";
 import ourVisionPic from "../assets/ourVisionPic.png";
 import parentHandbookPic from "../assets/parentHandbookPic.png";
@@ -10,7 +11,6 @@ import PARENTHANDBOOK from "../assets/PARENTHANDBOOK.png";
 import academicPic from "../assets/academicPic.png";
 import ParentsHandbook from "../assets/ParentsHandbook.pdf";
 import TermCalendar from "../assets/2ndTermCalendar.pdf";
-import director_pic from "../assets/director.jpg";
 
 function AcademicCard({ month, date, voca }) {
   return (
