@@ -12,6 +12,17 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import {
+  AmmaraMohsin,
+  JunaidAkram,
+  KanwalShabaz,
+  NailaSalman,
+  Rabeeaomer,
+  RohanTariq,
+  SohailHaider,
+  TahirNaushad,
+  ZahidHussain,
+} from "../assets";
 
 function CampusNav({ title, select, setSelect }) {
   return (
@@ -89,50 +100,50 @@ export default function SeniorSchoolALevelCanalCampus() {
   ];
   const facultyList = [
     {
-      img: "",
+      img: SohailHaider,
       name: "Sohail Haider",
       subject:
         "A- Level Academic Coordinator, Qualification: MPhil in English Literature, Experience: 19 years, Subjects: Sociology A Level & English Language (IGCSE, GCE & A Levels)",
     },
     {
-      img: "",
+      img: JunaidAkram,
       name: "Junaid Akram",
       subject:
         "Accounting/Business 8 years of teaching experience in IGCSE, O level and A level",
     },
     {
-      img: "",
+      img: RohanTariq,
       name: "Rohan Tariq",
       subject: "Mathematics(O Levels & A Levels) Experience 8 Years",
     },
     {
-      img: "",
+      img: TahirNaushad,
       name: "Tahir Naushad",
       subject: "Urdu O & A-Level 21 years experience",
     },
     {
-      img: "",
+      img: KanwalShabaz,
       name: "Kanwal Shabazz",
       subject: "Phycology 8 years",
     },
     {
-      img: "",
+      img: ZahidHussain,
       name: "ZAHID HUSSAIN",
       subject: "BIOLOGY 18 YEARS",
     },
     {
-      img: "",
+      img: AmmaraMohsin,
       name: "Ammara Mohsin",
       subject: "Chemistry O & A Level 6 years of experience",
     },
     {
-      img: "",
+      img: Rabeeaomer,
       name: "Rabeea omer",
       subject:
         "Economics/ Business studies M-phill Economics 13 years of teaching experience in University  & O/A levels",
     },
     {
-      img: "",
+      img: NailaSalman,
       name: "Naila Salman",
       subject: "Chemistry O/A level 12 years",
     },

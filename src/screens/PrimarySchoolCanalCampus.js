@@ -19,6 +19,26 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import {
+  AnamIlyas,
+  AsmaBajwa,
+  DuaKhalid,
+  IramRizwan,
+  KashifManzoor,
+  KhatijaFazal,
+  KishwarShahazad,
+  MariaTayyab,
+  MarinaMunifKhan,
+  MUHAMMADSALMANALIDONA,
+  SalihaShafee,
+  SamanSarwar,
+  SaneaKhan,
+  SehrishAlvi,
+  SumbalWarsha,
+  TayebaAttaullah,
+  UmaraTariq,
+  UrvahMushtaq,
+} from "../assets";
 
 function CampusNav({ title, select, setSelect }) {
   return (
@@ -68,37 +88,37 @@ export default function PrimarySchoolCanalCampus() {
   const [select, setSelect] = useState("Campus Life");
   const facultyList = [
     {
-      img: "",
+      img: DuaKhalid,
       name: "Dua Khalid",
       subject: "Assistant Teacher",
     },
     {
-      img: "",
+      img: KashifManzoor,
       name: "Kashif Manzoor",
       subject: "IT teacher/ Network Administrator",
     },
     {
-      img: "",
+      img: AnamIlyas,
       name: "Anam Ilyas",
       subject: "Games teacher",
     },
     {
-      img: "",
+      img: UrvahMushtaq,
       name: "Urvah Mushtaq",
       subject: "Primary Teacher",
     },
     {
-      img: "",
+      img: MUHAMMADSALMANALIDONA,
       name: "MUHAMMAD SALMAN ALI DONA",
       subject: "Games teacher",
     },
     {
-      img: "",
+      img: MarinaMunifKhan,
       name: "Marina Munif Khan",
       subject: "Art Teacher",
     },
     {
-      img: "",
+      img: KhatijaFazal,
       name: "Khatija Fazal",
       subject: "Primary Teacher",
     },
@@ -108,57 +128,57 @@ export default function PrimarySchoolCanalCampus() {
       subject: "Urdu Teacher",
     },
     {
-      img: "",
+      img: SehrishAlvi,
       name: "Sehrish Alvi",
       subject: "Primary Teacher",
     },
     {
-      img: "",
+      img: SaneaKhan,
       name: "Sanea Khan",
       subject: "Montessori Teacher",
     },
     {
-      img: "",
+      img: AsmaBajwa,
       name: "Asma Bajwa",
       subject: "Library Teacher",
     },
     {
-      img: "",
+      img: SalihaShafee,
       name: "Saliha Shafee",
       subject: "",
     },
     {
-      img: "",
+      img: IramRizwan,
       name: "Iram Rizwan",
       subject: "Primary Teacher",
     },
     {
-      img: "",
+      img: TayebaAttaullah,
       name: "Tayeba Attaullah",
       subject: "",
     },
     {
-      img: "",
+      img: KishwarShahazad,
       name: "Kishwar Shahazad",
       subject: "Urdu Teacher",
     },
     {
-      img: "",
+      img: MariaTayyab,
       name: "Maria Tayyab",
       subject: "Maths teacher",
     },
     {
-      img: "",
+      img: SamanSarwar,
       name: "Saman Sarwar",
       subject: "Montessori teacher",
     },
     {
-      img: "",
+      img: UmaraTariq,
       name: "Umara Tariq",
       subject: "Urdu teacher",
     },
     {
-      img: "",
+      img: SumbalWarsha,
       name: "Sumbal Warsha",
       subject: "IT teacher",
     },

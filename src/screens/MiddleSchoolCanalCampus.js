@@ -12,6 +12,17 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import {
+  Aneelapervaiz,
+  FatimaShahid,
+  FatimaTahir,
+  MsShaistaChaudhary,
+  Saimamoazzam,
+  SanaHashmi,
+  SobiaIram,
+  TabassumYounas,
+  TahiraAbbas,
+} from "../assets";
 
 function CampusNav({ title, select, setSelect }) {
   return (
@@ -61,48 +72,48 @@ export default function MiddleSchoolCanalCampus() {
   const [select, setSelect] = useState("Subject Choices");
   const facultyList = [
     {
-      img: "",
+      img: TabassumYounas,
       name: "Tabassum Younas",
       subject: "M. A Urdu and Iqbaliat 12 years experience",
     },
     {
-      img: "",
+      img: FatimaShahid,
       name: "Fatima Shahid",
       subject: "BS ( Hons) in English literature and language .MA TEFL, B.Ed",
     },
     {
-      img: "",
+      img: TahiraAbbas,
       name: "Tahira Abbas",
       subject: "BS hons zoology ,b.ed 4 years of experience",
     },
     {
-      img: "",
+      img: Aneelapervaiz,
       name: "Aneela pervaiz",
       subject: "M.A Islamiat M.A Urdu(B.Ed,M.Ed) More than 10 year experience",
     },
     {
-      img: "",
+      img: SobiaIram,
       name: "Sobia Iram",
       subject:
         "Masters in English literature Masters in English linguistics Experience 9Years",
     },
     {
-      img: "",
+      img: MsShaistaChaudhary,
       name: "Ms Shaista Chaudhary",
       subject: "Masters in Secondary Education & English Literature",
     },
     {
-      img: "",
+      img: SanaHashmi,
       name: "Sana Hashmi",
       subject: "M.A(Education) 14 years of experience",
     },
     {
-      img: "",
+      img: Saimamoazzam,
       name: "Saima moazzam",
       subject: "Islamiat 19 years  experience",
     },
     {
-      img: "",
+      img: FatimaTahir,
       name: "Fatima Tahir",
       subject:
         "B.S(Hons), Certifications in MIS and Soft Skills, Programming in C, C++ and Data Management Experience:  8 year",
