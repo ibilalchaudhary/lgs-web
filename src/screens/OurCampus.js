@@ -1,14 +1,11 @@
 import React from "react";
 import ourCampusBg from "../assets/ourCampusBg.png";
 import eventPic from "../assets/eventPic.png";
-import campusPic from "../assets/campusPic.png";
 import primarySchool from "../assets/primarySchool.png";
 import middleSchool from "../assets/middleSchool.png";
 import seniorSchoolO from "../assets/seniorSchoolO.png";
 import seniorSchoolA from "../assets/seniorLevelA.png";
-import main_bg from "../assets/main_bg.png";
 import { Link } from "react-router-dom";
-import { ArrowRight } from "react-feather";
 
 function SportsCard() {
   return (
@@ -79,19 +76,7 @@ export default function OurCampus() {
                 <img src={primarySchool} alt="primarySchool" />
                 Primary School
               </Link>
-              <Link
-                to="/canal-campus-middle-school"
-                onClick={() => {
-                  window.scrollTo({
-                    top: 0,
-                    behavior: "smooth",
-                  });
-                }}
-                className="campus__main__container__content__left__entry"
-              >
-                <img src={middleSchool} alt="middleSchool" />
-                Middle School
-              </Link>
+
               <Link
                 to="/canal-campus-senior-school-o-level"
                 onClick={() => {
@@ -105,7 +90,6 @@ export default function OurCampus() {
                 <img src={seniorSchoolA} alt="seniorSchoolA" />
                 Senior School(O-Level)
               </Link>
-
               <Link
                 to="/canal-campus-Matric-school"
                 onClick={() => {
@@ -131,7 +115,7 @@ export default function OurCampus() {
                 className="campus__main__container__content__left__entry campus__main__container__content__left__entry__a__level"
               >
                 <img src={seniorSchoolO} alt="seniorSchoolO" />
-                Senior School(A-Level)
+                Senior School(A-Level)/Middle School
               </Link>
             </div>
           </div>
