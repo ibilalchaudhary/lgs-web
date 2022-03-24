@@ -4,6 +4,7 @@ import PhotoGallery from "../component/PhotoGallery";
 import NoticeBoardCard from "../component/NoticeBoardCard";
 import FacultyCard from "../component/FacultyCard";
 import pricipal_pic from "../assets/pricipal_pic.png";
+import irfanaAziz from "../assets/irfanaAziz.jpg";
 import zunaira from "../assets/zunaira.jpeg";
 import cannalCampusPricipalPic from "../assets/cannalCampusPricipalPic.png";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -62,17 +63,29 @@ function PricipalCard({ img, title, designation, para }) {
 export default function SeniorSchoolALevelCanalCampus() {
   const [select, setSelect] = useState("Subject Choices");
   const subjectChoices = [
-    "Urdu",
-    "English",
-    "Mathematics",
-    "Science",
-    "Pak Studies",
-    "Islamiat",
-    "Arabic",
-    "Social Studies",
-    "Physics",
-    "Chemistry",
+    "Accounting",
+    "IT",
+    "Computer Science",
+    "English Language",
+    "Global Perspectives",
     "Biology",
+    "Art & Design",
+    "Business",
+    "Economics",
+    "Thinking Skills",
+    "Environmental Management (AS)",
+    "Literature in English",
+    "Further Mathematics",
+    "Politics (Edexcel)",
+    "History",
+    "Urdu",
+    "Islamic Studies",
+    "Media Studies",
+    "Law",
+    "Psychology",
+    "Chemistry",
+    "Physics",
+    "Sociology",
   ];
   return (
     <>
@@ -110,26 +123,41 @@ export default function SeniorSchoolALevelCanalCampus() {
           >
             <SwiperSlide>
               <PricipalCard
-                img={cannalCampusPricipalPic}
-                title="Mrs. Saltanat Bokhari"
-                designation="Director"
-                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <PricipalCard
                 img={pricipal_pic}
-                title="Mr. Principar"
+                title="Mr. Imran Shahid"
                 designation="Principal"
-                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
+                para="It gives me immense pleasure and a feeling of sheer pride and accomplishment to address you as Principal of the prestigious Lahore Grammar school, Faisalabad, an institution that has striven to maintain high academic standards ever since its inception. Our commitment is to provide our students with an array of opportunities, both curricular and co-curricular, to help them attain their highest potentials.  
+
+                Our aim is not just giving our students an education that entitles them to a job but to nurture in them lifelong love for learning and inculcate in them values that will help them become kind, caring and responsible individuals.
+                
+                I feel privileged to be working with highly qualified and dedicated faculty always striving to provide students with the latest skills and knowledge to help them stand out in this ever evolving and fiercely competitive world. Our school life is vibrant with a variety of activities, happy noises of learning and positive energy.  
+                
+                I welcome you to LGS, Faisalabad and assure you that it will be our endeavour to make our students’ school life an enriching and memorable experience!"
               />
             </SwiperSlide>
             <SwiperSlide>
               <PricipalCard
-                img={zunaira}
-                title="Zunaira Amjad"
-                designation="Director"
-                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
+                img={irfanaAziz}
+                title="Mrs. Irfana Aziz"
+                designation="Vice Principal"
+                para="Welcome to the official website of Lahore Grammar School, Faisalabad; a prestigious institution that has been providing high quality learning opportunities and experiences to young minds of the city for more than two decades.            
+
+                We at LGS, Faisalabad strive to make education an enjoyable and enlightening process. Our school life is an excellent amalgamation of analytical, intellectual, and healthy physical growth of our students along with inculcating human values in them.
+                
+                We are also proud to have a faculty comprising of highly qualified individuals always doing their best to develop and nurture the young minds of today into well-rounded global citizens of tomorrow!"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <PricipalCard
+                img={cannalCampusPricipalPic}
+                title="Mr. Sohail Haider"
+                designation="A-Levels Coordinator"
+                para="We live in exciting and rapidly changing times; these times mean that education is more important than ever. Education that prepares young people to be able to be life-long learners, to be able to adapt and adjust to the many changes they will face in their future. 
+
+                At LGS, the growth of each individual student is a focus, we recognise that as we 'work together and learn together' students will be best able to achieve their potential.  The co-operative effort of students, parents and teachers is at the heart of the learning pathways followed by our students and the outcomes they achieve.
+                
+                We firmly believe that every student can experience success and go on to graduate as a responsible, resilient and confident young adult, well prepared to take charge of their future and to become a productive member of the country.
+                Our school prides itself on the 'multiple learning outcomes' curricular and co-curricular programs available to students, on the highly positive attitude and behavior of our students and on the constant focus by our professional staff on developing, personalising and transforming teaching approaches to best meet the needs of students."
               />
             </SwiperSlide>
           </Swiper>
