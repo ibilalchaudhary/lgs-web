@@ -2,7 +2,10 @@ import React from "react";
 import ourCampusBg from "../assets/ourCampusBg.png";
 import eventPic from "../assets/eventPic.png";
 import campusPic from "../assets/campusPic.png";
-import addmission_bg from "../assets/addmission_bg.png";
+import primarySchool from "../assets/primarySchool.png";
+import middleSchool from "../assets/middleSchool.png";
+import seniorSchoolO from "../assets/seniorSchoolO.png";
+import seniorSchoolA from "../assets/seniorLevelA.png";
 import main_bg from "../assets/main_bg.png";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "react-feather";
@@ -60,229 +63,147 @@ export default function OurCampus() {
         <div className="campus__main__container__content">
           <div className="campus__main__container__content__left">
             <div className="campus__main__container__content__left__heading">
-              Cannal Campus
+              Canal Campus
             </div>
-            <Link
-              to="/canal-campus-middle-school"
-              onClick={() => {
-                window.scrollTo({
-                  top: 0,
-                  behavior: "smooth",
-                });
-              }}
-              className="campus__main__container__content__left__entry"
-            >
-              Middle School
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-arrow-right"
+            <div className="campus__main__container__content__left__content">
+              <Link
+                to="/canal-campus-primary-school"
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__senior"
               >
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </Link>
-            <Link
-              to="/canal-campus-primary-school"
-              onClick={() => {
-                window.scrollTo({
-                  top: 0,
-                  behavior: "smooth",
-                });
-              }}
-              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__senior"
-            >
-              Primary School
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-arrow-right"
+                <img src={primarySchool} alt="primarySchool" />
+                Primary School
+              </Link>
+              <Link
+                to="/canal-campus-senior-school-o-level"
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
               >
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </Link>
-            <Link
-              to="/canal-campus-senior-school-a-level"
-              onClick={() => {
-                window.scrollTo({
-                  top: 0,
-                  behavior: "smooth",
-                });
-              }}
-              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__a__level"
-            >
-              Senior School(A-Level)
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-arrow-right"
+                <img src={seniorSchoolA} alt="seniorSchoolA" />
+                Senior School(O-Level)
+              </Link>
+              <Link
+                to="/canal-campus-middle-school"
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+                className="campus__main__container__content__left__entry"
               >
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </Link>
-            <Link
-              to="/canal-campus-senior-school-o-level"
-              onClick={() => {
-                window.scrollTo({
-                  top: 0,
-                  behavior: "smooth",
-                });
-              }}
-              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
-            >
-              Senior School(O-Level)
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-arrow-right"
+                <img src={middleSchool} alt="middleSchool" />
+                Middle School
+              </Link>
+              <Link
+                to="/canal-campus-senior-school-a-level"
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__a__level"
               >
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </Link>
+                <img src={seniorSchoolO} alt="seniorSchoolO" />
+                Senior School(A-Level)
+              </Link>
+              <Link
+                to="/canal-campus-metric-school"
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
+              >
+                <img src={middleSchool} alt="middleSchool" />
+                Metric School
+              </Link>
+            </div>
           </div>
           <div className="campus__main__container__content__right">
             <div className="campus__main__container__content__left__heading">
               105-C Campus
             </div>
-            <Link
-              to="/105-c-campus-middle-school"
-              onClick={() => {
-                window.scrollTo({
-                  top: 0,
-                  behavior: "smooth",
-                });
-              }}
-              className="campus__main__container__content__left__entry"
-            >
-              Middle School
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-arrow-right"
+            <div className="campus__main__container__content__left__content">
+              <Link
+                to="/105-c-campus-primary-school"
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__senior"
               >
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </Link>
-            <Link
-              to="/105-c-campus-primary-school"
-              onClick={() => {
-                window.scrollTo({
-                  top: 0,
-                  behavior: "smooth",
-                });
-              }}
-              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__senior"
-            >
-              Primary School
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-arrow-right"
+                <img src={primarySchool} alt="primarySchool" />
+                Primary School
+              </Link>
+              <Link
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+                to="/105-c-campus-senior-school-o-level"
+                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
               >
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </Link>
-            <Link
-              to="/105-c-campus-senior-school-a-level"
-              onClick={() => {
-                window.scrollTo({
-                  top: 0,
-                  behavior: "smooth",
-                });
-              }}
-              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__a__level"
-            >
-              Senior School(A-Level)
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-arrow-right"
+                <img src={seniorSchoolA} alt="seniorSchoolA" />
+                Senior School(O-Level)
+              </Link>
+              <Link
+                to="/105-c-campus-middle-school"
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+                className="campus__main__container__content__left__entry"
               >
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </Link>
-            <Link
-              onClick={() => {
-                window.scrollTo({
-                  top: 0,
-                  behavior: "smooth",
-                });
-              }}
-              to="/105-c-campus-senior-school-o-level"
-              className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
-            >
-              Senior School(O-Level)
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-arrow-right"
+                <img src={middleSchool} alt="middleSchool" />
+                Middle School
+              </Link>
+              <Link
+                to="/105-c-campus-senior-school-a-level"
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__a__level"
               >
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </Link>
+                <img src={seniorSchoolO} alt="seniorSchoolO" />
+                Senior School(A-Level)
+              </Link>
+              <Link
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+                to="/105-c-campus-metric-school"
+                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
+              >
+                <img src={middleSchool} alt="middleSchool" />
+                Metric School
+              </Link>
+            </div>
           </div>
         </div>
       </div>

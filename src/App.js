@@ -27,6 +27,8 @@ import SeniorSchoolOLevel105CCampus from "./screens/SeniorSchoolOLevel105CCampus
 import AluminiCardDetails from "./screens/AluminiCardDetails";
 import CampusLifeCardDetails from "./screens/CampusLifeCardDetails";
 import MediaAndPublicationDetails from "./screens/MediaAndPublicationDetails";
+import MetricSchoolCanalCampus from "./screens/MetricSchoolCanalCampus";
+import MetricSchool105CCampus from "./screens/MetricSchool105CCampus";
 
 function App() {
   return (
@@ -67,6 +69,14 @@ function App() {
         <Route
           path="/105-c-campus-middle-school"
           element={<MiddleSchool105CCampus />}
+        />
+        <Route
+          path="/canal-campus-metric-school"
+          element={<MetricSchoolCanalCampus />}
+        />
+        <Route
+          path="/105-c-campus-metric-school"
+          element={<MetricSchool105CCampus />}
         />
         <Route
           path="/canal-campus-primary-school"
