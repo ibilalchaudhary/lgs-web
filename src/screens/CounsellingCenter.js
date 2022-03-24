@@ -63,7 +63,7 @@ export default function CounsellingCenter() {
         </div>
       </div>
       <div className="events__main__container">
-        <div className="campus__main__container__content">
+        <div className="campus__main__container__content campus__main__container__content__reverse">
           <div className="campus__main__container__content__heading">
             introduction <span>Meet our Counselors</span>
           </div>

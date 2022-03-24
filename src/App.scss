@@ -357,6 +357,11 @@ body {
   margin-bottom: 4em;
 }
 
+.campus__main__container__content__reverse {
+  background-color: #ffffff;
+  flex-direction: row;
+  padding: 2em;
+}
 .campus__main__container__content__left {
   width: 100%;
   position: relative;
@@ -1979,6 +1984,7 @@ body {
   color: #fff;
 }
 .careers__content__section__card__community__service__right__heading {
+  margin-top: 1em;
   font-size: 22px;
   font-weight: 600;
   text-transform: uppercase;
