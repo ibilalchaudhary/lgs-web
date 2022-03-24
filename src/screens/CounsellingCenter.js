@@ -65,7 +65,7 @@ export default function CounsellingCenter() {
       <div className="events__main__container">
         <div className="campus__main__container__content campus__main__container__content__reverse">
           <div className="campus__main__container__content__heading">
-            introduction <span>Meet our Counselors</span>
+            introduction <span>Meet our Counsellors</span>
           </div>
           <div className="campus__main__container__content__counselling">
             <button className="campus__main__container__content__counselling__card">
@@ -81,13 +81,12 @@ export default function CounsellingCenter() {
                 style={{ color: "#005DFF", fontWeight: "500 " }}
                 className="campus__main__container__content__counselling__card__para"
               >
-                Career and Wellbeing Counselor
+                Career and Wellbeing Counsellor
               </div>
               <div className="campus__main__container__content__counselling__card__para">
-                Kanwal Shahbaz is a Careerv Counsellor, Psychologist, a social
-                scientist, and a Lecturer. She is a licensed CBT practitioner by
+                Kanwal Shahbaz is a Career Counsellor, Psychologist, a Social
+                Scientist, and a Lecturer. She is a licensed CBT practitioner by
                 Mills Psychology Canada. Currently, she is serving in the Lahore
-                Grammar School as a Career & Wellbeing Counselor.
               </div>
             </button>
             <button className="campus__main__container__content__counselling__card">
@@ -103,10 +102,10 @@ export default function CounsellingCenter() {
                 style={{ color: "#005DFF", fontWeight: "500 " }}
                 className="campus__main__container__content__counselling__card__para"
               >
-                Career Counselor
+                Career Counsellor
               </div>
               <div className="campus__main__container__content__counselling__card__para">
-                Zunaira Amjad is an IB certified counselor directly dealing the
+                Zunaira Amjad is an IB certified counsellor directly dealing the
                 educational and industrial activity-based profile of the
                 students.
               </div>
@@ -348,9 +347,7 @@ export default function CounsellingCenter() {
             </div>
             <div className="learning__developmet__section__content__card__entry__white">
               <b>Speaker</b>
-              <span style={{ textAlign: "right" }}>
-                Mr Sohail Cambridge Qualification Certified
-              </span>
+              <span style={{ textAlign: "right" }}>Mr Sohail Haider</span>
             </div>
             <div className="learning__developmet__section__content__card__entry__white">
               <b>Registration</b> <span>Free</span>
