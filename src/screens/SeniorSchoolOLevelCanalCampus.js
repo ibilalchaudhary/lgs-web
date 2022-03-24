@@ -87,6 +87,101 @@ export default function SeniorSchoolOLevelCanalCampus() {
     "Chemistry",
     "Biology/Computer Sciences",
   ];
+  const facultyList = [
+    {
+      img: "",
+      name: "MALIHA RABBANI",
+      subject: "MSC PHYSICS 15 YEARS",
+    },
+    {
+      img: "",
+      name: "SAJIDA TARIQ",
+      subject:
+        "M.A  (URDU & ISLAMIYAT). URDU O LEVEL SYLLABUS A & B. 10 YEAR Teaching Experience",
+    },
+    {
+      img: "",
+      name: "ZUBARIYA UMBREEN ABID",
+      subject: "Msc.Geography (PU) 25 years teaching experience",
+    },
+    {
+      img: "",
+      name: "Saira Nasir",
+      subject: "MSC Zoology, LLb. Teaching Experience: 13 years (O' level )",
+    },
+    {
+      img: "",
+      name: "Ambrin Asghar",
+      subject: "M Sc.Chemistry B.Ed More than 18 years teaching experience",
+    },
+    {
+      img: "",
+      name: "Lubna Sharoon",
+      subject: "MA English Literature 17 years of teaching O levels",
+    },
+    {
+      img: "",
+      name: "Rizwana Khalid",
+      subject: "M.A.(Urdu..Islamic Studies....Arabic..and B ed.) 15 years",
+    },
+    {
+      img: "",
+      name: "Robina Atif",
+      subject: "M.A Education  M.ed, M.A Urdu B.ed Experience: 20 years",
+    },
+    {
+      img: "",
+      name: "Tahira Sajjad",
+      subject:
+        "Coordinator matric M.A English, B.ed, Dip Tefl Experience years 15",
+    },
+    {
+      img: "",
+      name: "Amar Zia",
+      subject: "MBA (IT) 14 year’s experience",
+    },
+    {
+      img: "",
+      name: "Fozia Batool",
+      subject: "3. M.Phil (HRM) Experience! 10 Years in teaching",
+    },
+    {
+      img: "",
+      name: "Saadia naz",
+      subject: "MSC zoology 6 years of experience",
+    },
+    {
+      img: "",
+      name: "Rida Nadeem",
+      subject: "MPhil Chemistry (specialisation in Organic Chemistry). 5 years",
+    },
+    {
+      img: "",
+      name: "Fazeel Noor",
+      subject:
+        "Electrical Engineer Specialised subjects Mathematics and Physics of O Level and Matriculation",
+    },
+    {
+      img: "",
+      name: "Tayyaba Jabeen",
+      subject: "Masters in English +B.Ed 15 years",
+    },
+    {
+      img: "",
+      name: "Zahid hussain",
+      subject: "Teaching experience 18 years",
+    },
+    {
+      img: "",
+      name: "Ehsan ul haq",
+      subject: "B.Ed , M.Ed, B.Sc Hons. 30 year’s experience",
+    },
+    {
+      img: "",
+      name: "Seemab Adnan",
+      subject: "Mathematics Experience : 18years",
+    },
+  ];
   return (
     <>
       <div className="our__school__container">
@@ -371,18 +466,9 @@ export default function SeniorSchoolOLevelCanalCampus() {
           <>
             <div className="faculty__section__heading">Faculty Profiles</div>
             <div className="faculty__section__card__wrapper">
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
+              {facultyList.map((item) => (
+                <FacultyCard data={item} />
+              ))}
             </div>
           </>
         ) : null}

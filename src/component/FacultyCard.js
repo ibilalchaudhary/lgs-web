@@ -1,7 +1,7 @@
 import React from "react";
 import facultyPic from "../assets/facultyPic.png";
 
-export default function FacultyCard() {
+export default function FacultyCard({ data }) {
   return (
     <button className="faculty__section__card">
       <div className="faculty__section__card__filler"></div>
@@ -12,15 +12,8 @@ export default function FacultyCard() {
       />
 
       <div className="faculty__section__card__para__wrapper">
-        <div className="faculty__section__card__heading">
-          Ms. Natasha Sohail
-        </div>
-        <div className="faculty__section__card__para">
-          <span>Subject:</span> Psychology
-        </div>
-        <div className="faculty__section__card__para">
-          BS Honours in Applied Psychology, Beaconhouse National University
-        </div>
+        <div className="faculty__section__card__heading">{data.name}</div>
+        <div className="faculty__section__card__para">{data.subject}</div>
       </div>
     </button>
   );

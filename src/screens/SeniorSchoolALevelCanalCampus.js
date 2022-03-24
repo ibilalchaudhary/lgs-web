@@ -87,7 +87,71 @@ export default function SeniorSchoolALevelCanalCampus() {
     "Physics",
     "Sociology",
   ];
-
+  const facultyList = [
+    {
+      img: "",
+      name: "Sohail Haider",
+      subject:
+        "A- Level Academic Coordinator, Qualification: MPhil in English Literature, Experience: 19 years, Subjects: Sociology A Level & English Language (IGCSE, GCE & A Levels)",
+    },
+    {
+      img: "",
+      name: "Junaid Akram",
+      subject:
+        "Accounting/Business 8 years of teaching experience in IGCSE, O level and A level",
+    },
+    {
+      img: "",
+      name: "Rohan Tariq",
+      subject: "Mathematics(O Levels & A Levels) Experience 8 Years",
+    },
+    {
+      img: "",
+      name: "Tahir Naushad",
+      subject: "Urdu O & A-Level 21 years experience",
+    },
+    {
+      img: "",
+      name: "Kanwal Shabazz",
+      subject: "Phycology 8 years",
+    },
+    {
+      img: "",
+      name: "ZAHID HUSSAIN",
+      subject: "BIOLOGY 18 YEARS",
+    },
+    {
+      img: "",
+      name: "Ammara Mohsin",
+      subject: "Chemistry O & A Level 6 years of experience",
+    },
+    {
+      img: "",
+      name: "Rabeea omer",
+      subject:
+        "Economics/ Business studies M-phill Economics 13 years of teaching experience in University  & O/A levels",
+    },
+    {
+      img: "",
+      name: "Naila Salman",
+      subject: "Chemistry O/A level 12 years",
+    },
+    {
+      img: "",
+      name: "Ghulam Abbas Saqib",
+      subject: "Mathematics O and A level  experience 15 years",
+    },
+    {
+      img: "",
+      name: "Ali Nadeem Shibli",
+      subject: "Law English Lang and Literature 6 years O/A levels",
+    },
+    {
+      img: "",
+      name: "Umar Bilal",
+      subject: "Business 14 years O/A Levels",
+    },
+  ];
   return (
     <>
       <div className="our__school__container">
@@ -194,18 +258,9 @@ export default function SeniorSchoolALevelCanalCampus() {
           <>
             <div className="faculty__section__heading">Faculty Profiles</div>
             <div className="faculty__section__card__wrapper">
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
+              {facultyList.map((item) => (
+                <FacultyCard data={item} />
+              ))}
             </div>
           </>
         ) : null}

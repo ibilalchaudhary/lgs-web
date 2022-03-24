@@ -58,6 +58,55 @@ function PricipalCard({ img, title, designation, para }) {
 
 export default function MetricSchoolCanalCampus() {
   const [select, setSelect] = useState("Subject Choices");
+  const facultyList = [
+    {
+      img: "",
+      name: "Tabassum Younas",
+      subject: "M. A Urdu and Iqbaliat 12 years experience",
+    },
+    {
+      img: "",
+      name: "Fatima Shahid",
+      subject: "BS ( Hons) in English literature and language .MA TEFL, B.Ed",
+    },
+    {
+      img: "",
+      name: "Tahira Abbas",
+      subject: "BS hons zoology ,b.ed 4 years of experience",
+    },
+    {
+      img: "",
+      name: "Aneela pervaiz",
+      subject: "M.A Islamiat M.A Urdu(B.Ed,M.Ed) More than 10 year experience",
+    },
+    {
+      img: "",
+      name: "Sobia Iram",
+      subject:
+        "Masters in English literature Masters in English linguistics Experience 9Years",
+    },
+    {
+      img: "",
+      name: "Ms Shaista Chaudhary",
+      subject: "Masters in Secondary Education & English Literature",
+    },
+    {
+      img: "",
+      name: "Sana Hashmi",
+      subject: "M.A(Education) 14 years of experience",
+    },
+    {
+      img: "",
+      name: "Saima moazzam",
+      subject: "Islamiat 19 years  experience",
+    },
+    {
+      img: "",
+      name: "Fatima Tahir",
+      subject:
+        "B.S(Hons), Certifications in MIS and Soft Skills, Programming in C, C++ and Data Management Experience:  8 year",
+    },
+  ];
   return (
     <>
       <div className="our__school__container">
@@ -207,18 +256,9 @@ export default function MetricSchoolCanalCampus() {
           <>
             <div className="faculty__section__heading">Faculty Profiles</div>
             <div className="faculty__section__card__wrapper">
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
+              {facultyList.map((item) => (
+                <FacultyCard data={item} />
+              ))}
             </div>
           </>
         ) : null}

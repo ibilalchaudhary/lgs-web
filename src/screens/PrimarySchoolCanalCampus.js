@@ -66,6 +66,103 @@ function PricipalCard({ img, title, designation, para }) {
 
 export default function PrimarySchoolCanalCampus() {
   const [select, setSelect] = useState("Campus Life");
+  const facultyList = [
+    {
+      img: "",
+      name: "Dua Khalid",
+      subject: "Assistant Teacher",
+    },
+    {
+      img: "",
+      name: "Kashif Manzoor",
+      subject: "IT teacher/ Network Administrator",
+    },
+    {
+      img: "",
+      name: "Anam Ilyas",
+      subject: "Games teacher",
+    },
+    {
+      img: "",
+      name: "Urvah Mushtaq",
+      subject: "Primary Teacher",
+    },
+    {
+      img: "",
+      name: "MUHAMMAD SALMAN ALI DONA",
+      subject: "Games teacher",
+    },
+    {
+      img: "",
+      name: "Marina Munif Khan",
+      subject: "Art Teacher",
+    },
+    {
+      img: "",
+      name: "Khatija Fazal",
+      subject: "Primary Teacher",
+    },
+    {
+      img: "",
+      name: "Nimra Riaz",
+      subject: "Urdu Teacher",
+    },
+    {
+      img: "",
+      name: "Sehrish Alvi",
+      subject: "Primary Teacher",
+    },
+    {
+      img: "",
+      name: "Sanea Khan",
+      subject: "Montessori Teacher",
+    },
+    {
+      img: "",
+      name: "Asma Bajwa",
+      subject: "Library Teacher",
+    },
+    {
+      img: "",
+      name: "Saliha Shafee",
+      subject: "",
+    },
+    {
+      img: "",
+      name: "Iram Rizwan",
+      subject: "Primary Teacher",
+    },
+    {
+      img: "",
+      name: "Tayeba Attaullah",
+      subject: "",
+    },
+    {
+      img: "",
+      name: "Kishwar Shahazad",
+      subject: "Urdu Teacher",
+    },
+    {
+      img: "",
+      name: "Maria Tayyab",
+      subject: "Maths teacher",
+    },
+    {
+      img: "",
+      name: "Saman Sarwar",
+      subject: "Montessori teacher",
+    },
+    {
+      img: "",
+      name: "Umara Tariq",
+      subject: "Urdu teacher",
+    },
+    {
+      img: "",
+      name: "Sumbal Warsha",
+      subject: "IT teacher",
+    },
+  ];
   return (
     <>
       <div className="our__school__container">
@@ -323,18 +420,9 @@ export default function PrimarySchoolCanalCampus() {
           <>
             <div className="faculty__section__heading">Faculty Profiles</div>
             <div className="faculty__section__card__wrapper">
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
+              {facultyList.map((item) => (
+                <FacultyCard data={item} />
+              ))}
             </div>
           </>
         ) : null}
