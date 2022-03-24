@@ -4,6 +4,14 @@ import eventPic from "../assets/eventPic.png";
 import schoolPic from "../assets/schoolPic.png";
 import aboutPic from "../assets/aboutPic.png";
 import campusPic from "../assets/campusPic.png";
+import communityServiceImg from "../assets/comunityService.png";
+import internationalExposure from "../assets/internationalExposure.png";
+import publicSpeaking from "../assets/publicSpeaking.png";
+import DRAMA from "../assets/DRAMA.png";
+import SPORTS from "../assets/SPORTS.png";
+import MEDIA from "../assets/MEDIA.png";
+import tech from "../assets/tech.png";
+import FORM from "../assets/FORM.png";
 import addmission_bg from "../assets/addmission_bg.png";
 import { Link } from "react-router-dom";
 function EventCard() {
@@ -21,7 +29,7 @@ function EventCard() {
   );
 }
 
-function CampusLifeCard({ title, subtitle }) {
+function CampusLifeCard({ title, subtitle, img }) {
   return (
     <Link
       to="/campus-life-details"
@@ -34,7 +42,7 @@ function CampusLifeCard({ title, subtitle }) {
       className="campus__life__main__container__content__card"
     >
       <img
-        src={campusPic}
+        src={img ? img : campusPic}
         alt="campusPic"
         className="campus__life__main__container__content__card__img"
       />
@@ -303,34 +311,34 @@ export default function Home() {
         </div>
         <div className="campus__life__main__container__content">
           <CampusLifeCard
-            title="International
-"
+            img={internationalExposure}
+            title="International"
             subtitle="Exposure"
           />
           <CampusLifeCard
-            title="Public
-"
+            img={publicSpeaking}
+            title="Public"
             subtitle="Speaking"
           />
           <CampusLifeCard
-            title="Comunnity Service 
-"
+            img={communityServiceImg}
+            title="Community Service"
             subtitle="And The Enviroment"
           />
           <CampusLifeCard
-            title="Science and 
-"
+            img={tech}
+            title="Science and"
             subtitle="Technology"
           />
           <CampusLifeCard
-            title="Drama, Music, 
-"
+            img={DRAMA}
+            title="Drama, Music,"
             subtitle="And Languages"
           />
-          <CampusLifeCard title="Sports" />
+          <CampusLifeCard img={SPORTS} title="Sports" />
           <CampusLifeCard
-            title="Media 
-"
+            img={MEDIA}
+            title="Media"
             subtitle="and Publications"
           />
         </div>
@@ -356,7 +364,7 @@ export default function Home() {
         </div>
         <div className="addmission__main__container__content">
           <img
-            src={addmission_bg}
+            src={FORM}
             alt="addmission_bg"
             className="addmission__main__container__content__img"
           />
