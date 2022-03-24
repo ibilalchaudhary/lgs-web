@@ -502,6 +502,8 @@ export default function Admissions() {
             />
             <div className="addmission__requirment__section__content__right">
               <div className="addmission__requirment__section__content__right__para animate__animated animate__fadeInRight">
+                <b style={{ fontSize: 18 }}>General Science:</b>
+                <br />
                 General Science(Admissions into Grade 9)
                 <br />
                 <a
@@ -542,6 +544,8 @@ export default function Admissions() {
             />
             <div className="addmission__requirment__section__content__right">
               <div className="addmission__requirment__section__content__right__para animate__animated animate__fadeInRight">
+                <b style={{ fontSize: 18 }}>Physics:</b>
+                <br />
                 <a href={Physics} style={{ color: "#242424" }} target="_blank">
                   Click here for Physics
                   <svg
@@ -561,6 +565,8 @@ export default function Admissions() {
                     <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
                   </svg>
                 </a>
+                <br />
+                <b style={{ fontSize: 18 }}>Chemistry:</b>
                 <br />
                 <a
                   href={Chemistry}
@@ -585,6 +591,8 @@ export default function Admissions() {
                     <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
                   </svg>
                 </a>
+                <br />
+                <b style={{ fontSize: 18 }}>Biology:</b>
                 <br />
                 <a href={Biology} style={{ color: "#242424" }} target="_blank">
                   Click here for Biology

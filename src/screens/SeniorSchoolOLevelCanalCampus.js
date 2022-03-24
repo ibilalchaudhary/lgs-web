@@ -347,7 +347,7 @@ export default function SeniorSchoolOLevelCanalCampus() {
                 marginBottom: -30,
               }}
             >
-              Compalsory Subjects
+              Compulsory Subjects
             </div>
             <div className="cannal__campus__btn__wrapper">
               {matricCompalsorySubjectChoices.map((subjectChoice) => (

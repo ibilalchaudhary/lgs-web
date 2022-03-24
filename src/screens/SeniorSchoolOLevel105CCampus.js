@@ -350,7 +350,7 @@ export default function SeniorSchoolOLevel105CCampus() {
         {select === "Global perspectives & Thinking skills" ? (
           <div className="global__skill__section">
             <div className="global__skill__section__heading">
-              Global perspectives & Thinking skills
+              Global Perspectives & Thinking Skills
             </div>
             <div className="global__skill__section__para">
               Interested in taking a ground-breaking course stretching across

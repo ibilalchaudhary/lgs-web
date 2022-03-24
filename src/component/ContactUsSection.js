@@ -59,8 +59,9 @@ export default function ContactUsSection() {
           </form>
           <div className="contact__us__main__container__overlay__content__map">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.1151111002946!2d73.10139811514794!3d31.410954431405937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922680e447c274b%3A0x9c84073af7e37170!2sLahore%20Grammar%20School%2C%20Shahrahe%20Faisal%2C%20D%20Ground%20Block%20B%20People&#39;s%20Colony%20No%201%2C%20Faisalabad%2C%20Punjab!5e0!3m2!1sen!2s!4v1644349815423!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d870143.0614934689!2d73.2308772!3d31.5791484!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392268e32412f851%3A0xd441d41668a45797!2sLahore%20Grammar%20School!5e0!3m2!1sen!2s!4v1648135880375!5m2!1sen!2s"
               style={{ borderRadius: 30, border: "none" }}
+              loading="lazy"
             />
           </div>
         </div>

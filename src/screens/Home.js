@@ -12,18 +12,23 @@ import SPORTS from "../assets/SPORTS.png";
 import MEDIA from "../assets/MEDIA.png";
 import tech from "../assets/tech.png";
 import FORM from "../assets/FORM.png";
+import glits from "../assets/glits.jpeg";
+import Colorfestival from "../assets/Colorfestival.jpeg";
+import springbreak from "../assets/springbreak.jpeg";
+import alevelplacement from "../assets/alevelplacement.jpeg";
+import internationplacement from "../assets/internationplacement.jpeg";
 import { Link } from "react-router-dom";
 
-function EventCard() {
+function EventCard({ title, img }) {
   return (
     <div className="events__main__container__content__card">
       <img
-        src={eventPic}
+        src={img}
         alt="eventPic"
         className="events__main__container__content__card__img"
       />
       <div className="events__main__container__content__card__overlay">
-        News Heading Here
+        {title}
       </div>
     </div>
   );
@@ -97,11 +102,14 @@ export default function Home() {
       <div className="events__main__container">
         <div className="events__main__container__heading">News & Events</div>
         <div className="events__main__container__content">
-          <EventCard />
-          <EventCard />
-          <EventCard />
-          <EventCard />
-          <EventCard />
+          <EventCard title="Spring break" img={springbreak} />
+          <EventCard title="A levels farewell" img={alevelplacement} />
+          <EventCard title="Color festival" img={Colorfestival} />
+          <EventCard
+            title="International placements"
+            img={internationplacement}
+          />
+          <EventCard title="Glits" img={glits} />
         </div>
       </div>
       <div className="news__main__section">

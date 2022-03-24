@@ -897,6 +897,11 @@ body {
 .contact__us__main__container__overlay__content__new__entry span {
   color: #f9cc09;
   font-weight: 600;
+  flex: 1;
+}
+.contact__us__main__container__overlay__content__new__entry a{
+  color: white;
+  text-decoration: none;
 }
 .contact__us__main__container__overlay__content__form {
   width: 50%;

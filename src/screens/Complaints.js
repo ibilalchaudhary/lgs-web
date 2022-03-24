@@ -179,31 +179,46 @@ export default function Complaints() {
             </div>
             <div className="contact__us__main__container__overlay__content__new__entry__wrapper">
               <div className="contact__us__main__container__overlay__content__new__entry">
-                <span>Principal</span> Mrs. Nasrene Shah : principal@lgs.edu.pk
+                <span>Principal</span>Imran Shahid–
+                <a href="mailto:imranshahid@lgsfsd.edu.pk">
+                  imranshahid@lgsfsd.edu.pk
+                </a>
               </div>
               <div className="contact__us__main__container__overlay__content__new__entry">
-                <span>Middle School Coordinator</span> Mrs. Nasrene Shah :
-                principal@lgs.edu.pk
+                <span>Vice Principal</span>Irfana Aziz–
+                <a href="mailto:irfanaaziz@lgsfsd.edu.pk">
+                  irfanaaziz@lgsfsd.edu.pk
+                </a>
               </div>
               <div className="contact__us__main__container__overlay__content__new__entry">
-                <span>Middle School Administrator </span> Mrs. Nasrene Shah :
-                principal@lgs.edu.pk
+                <span>Middle School Coordinator (Girls)</span>Ayesha Gilani-
+                <a href="mailto:ayeshagilani@lgsfsd.edu.pk">
+                  ayeshagilani@lgsfsd.edu.pk
+                </a>
               </div>
               <div className="contact__us__main__container__overlay__content__new__entry">
-                <span>O Level Academic Coordinator</span> Mrs. Nasrene Shah :
-                principal@lgs.edu.pk
+                <span>Middle School Coordinator (Boys)</span>Kiran Nabeel-
+                <a href="mailto:kirannabeel@lgsfsd.edu.pk">
+                  kirannabeel@lgsfsd.edu.pk
+                </a>
               </div>
               <div className="contact__us__main__container__overlay__content__new__entry">
-                <span>Senior School Administrator</span> Mrs. Nasrene Shah :
-                principal@lgs.edu.pk
+                <span>Pre and Primary School Head</span>Shazia Zabiullah-
+                <a href="mailto:shaziaabiullah@lgsfsd.edu.pk">
+                  shaziaabiullah@lgsfsd.edu.pk
+                </a>
               </div>
               <div className="contact__us__main__container__overlay__content__new__entry">
-                <span>Head of A Level</span> Mrs. Nasrene Shah :
-                principal@lgs.edu.pk
+                <span>Head of A Level</span>Sohail Haider-
+                <a href="mailto:sohailhaider@lgsfsd.edu.pk">
+                  sohailhaider@lgsfsd.edu.pk
+                </a>
               </div>
               <div className="contact__us__main__container__overlay__content__new__entry">
-                <span>Student Affairs Coordinator </span> Mrs. Nasrene Shah :
-                principal@lgs.edu.pk
+                <span>Student Affairs Coordinato</span>Uzma Masood-
+                <a href="mailto:studentaffairs@lgsfsd.edu.pk">
+                  studentaffairs@lgsfsd.edu.pk
+                </a>
               </div>
             </div>
           </div>
