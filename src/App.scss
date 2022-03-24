@@ -608,6 +608,7 @@ body {
 }
 .news__main__section__content {
   padding: 2em;
+  width: 100%;
   background: #022b43;
   border: 2px solid #022b43;
   border-radius: 12px;
@@ -2972,6 +2973,7 @@ body {
 .cannal__campus__btn {
   padding: 0.7em 2em;
   font-size: 15px;
+  margin-right: 2em;
   color: #2b2b2b;
   height: 100px;
   font-weight: 600;
@@ -3001,10 +3003,11 @@ body {
 .cannal__campus__btn__wrapper {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 2em;
+  margin-right: -2em;
 }
 .faculty__section__heading {
   font-size: 28px;
@@ -4512,6 +4515,9 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .cannal__campus__btn__wrapper {
+    margin-right: 0em;
+  }
   .career__section__content__input__row {
     flex-direction: column;
   }

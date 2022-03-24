@@ -108,16 +108,10 @@ export default function Home() {
         <div className="news__main__section__content">
           <div className="news__main__section__header">
             <div className="news__main__section__heading">LATEST NEWS</div>
-            <div className="news__main__section__date">7 Dec 2022</div>
+            <div className="news__main__section__date">24 MAR 2022</div>
           </div>
           <div className="news__main__section__paragraph">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates
-            esse quod ullam dolores quisquam cupiditate libero quia ratione?
-            Voluptatem pariatur debitis eveniet ut placeat eaque eligendi
-            tempora sunt facilis. Veniam, facilis delectus. Tempore eaque magni
-            earum unde minus dolores quisquam qui reprehenderit, odit neque
-            porro! Voluptatum voluptates sunt sint id. Consequuntur aperiam
-            dicta amet vero nisi voluptates sint veniam quam.
+            Spring Break from 25th March to 4th April, 2022.
           </div>
         </div>
       </div>
