@@ -69,8 +69,24 @@ function PricipalCard({ img, title, designation, para }) {
   );
 }
 
+function SubjectBtn({ title }) {
+  return <button className="cannal__campus__btn">{title}</button>;
+}
+
 export default function SeniorSchoolOLevelCanalCampus() {
-  const [select, setSelect] = useState("Subject Choices");
+  const [select, setSelect] = useState("O-Level Subject Choices");
+  const matricCompalsorySubjectChoices = [
+    "English",
+    "Urdu",
+    "Mathematics",
+    "Islamiat",
+    "Pakistan Studies",
+  ];
+  const matricScienceSubjectChoices = [
+    "Physics",
+    "Chemistry",
+    "Biology/Computer Sciences",
+  ];
   return (
     <>
       <div className="our__school__container">
@@ -84,7 +100,7 @@ export default function SeniorSchoolOLevelCanalCampus() {
             <div className="cannal__campus__heading__wrapper">
               <div className="cannal__campus__sub__heading">CaNAL CAMPUS</div>
               <div className="cannal__campus__heading">Senior School</div>
-              <div className="cannal__campus__para">O Levels</div>
+              <div className="cannal__campus__para">O-Level/Matric</div>
             </div>
           </div>
         </div>
@@ -149,7 +165,12 @@ export default function SeniorSchoolOLevelCanalCampus() {
           <CampusNav
             select={select}
             setSelect={setSelect}
-            title="Subject Choices"
+            title="O-Level Subject Choices"
+          />
+          <CampusNav
+            select={select}
+            setSelect={setSelect}
+            title="Matric Subject Choices"
           />
           <CampusNav title="Gallery" select={select} setSelect={setSelect} />
           <CampusNav
@@ -168,7 +189,7 @@ export default function SeniorSchoolOLevelCanalCampus() {
             setSelect={setSelect}
           />
         </div>
-        {select === "Subject Choices" ? (
+        {select === "O-Level Subject Choices" ? (
           <div className="cannal__campus__senior__container">
             <div className="cannal__campus__senior__container__card">
               <div className="cannal__campus__senior__container__card__left">
@@ -315,6 +336,35 @@ export default function SeniorSchoolOLevelCanalCampus() {
               />
             </div>
           </div>
+        ) : null}
+        {select === "Matric Subject Choices" ? (
+          <>
+            <div
+              style={{
+                fontSize: 16,
+                fontWeight: "bold",
+                marginTop: 40,
+                marginBottom: -30,
+              }}
+            >
+              Compalsory Subjects
+            </div>
+            <div className="cannal__campus__btn__wrapper">
+              {matricCompalsorySubjectChoices.map((subjectChoice) => (
+                <SubjectBtn title={subjectChoice} />
+              ))}
+            </div>
+            <div
+              style={{ fontSize: 16, fontWeight: "bold", marginBottom: -30 }}
+            >
+              Science Subjects
+            </div>
+            <div className="cannal__campus__btn__wrapper">
+              {matricScienceSubjectChoices.map((subjectChoice) => (
+                <SubjectBtn title={subjectChoice} />
+              ))}
+            </div>
+          </>
         ) : null}
         {select === "Gallery" ? <PhotoGallery /> : null}
         {select === "Faculty Profiles" ? (

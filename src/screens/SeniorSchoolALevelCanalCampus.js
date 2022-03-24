@@ -87,18 +87,7 @@ export default function SeniorSchoolALevelCanalCampus() {
     "Physics",
     "Sociology",
   ];
-  const matricCompalsorySubjectChoices = [
-    "English",
-    "Urdu",
-    "Mathematics",
-    "Islamiat",
-    "Pakistan Studies",
-  ];
-  const matricScienceSubjectChoices = [
-    "Physics",
-    "Chemistry",
-    "Biology/Computer Sciences",
-  ];
+
   return (
     <>
       <div className="our__school__container">
@@ -178,13 +167,9 @@ export default function SeniorSchoolALevelCanalCampus() {
           <CampusNav
             select={select}
             setSelect={setSelect}
-            title="A-LEVEL Subject Choices"
+            title="Subject Choices"
           />
-          <CampusNav
-            select={select}
-            setSelect={setSelect}
-            title="Matric Subject Choices"
-          />
+
           <CampusNav title="Gallery" select={select} setSelect={setSelect} />
           <CampusNav
             title="Faculty Profiles"
@@ -197,41 +182,12 @@ export default function SeniorSchoolALevelCanalCampus() {
             setSelect={setSelect}
           />
         </div>
-        {select === "A-LEVEL Subject Choices" ? (
+        {select === "Subject Choices" ? (
           <div className="cannal__campus__btn__wrapper">
             {subjectChoices.map((subjectChoice) => (
               <SubjectBtn title={subjectChoice} />
             ))}
           </div>
-        ) : null}
-        {select === "Matric Subject Choices" ? (
-          <>
-            <div
-              style={{
-                fontSize: 16,
-                fontWeight: "bold",
-                marginTop: 40,
-                marginBottom: -30,
-              }}
-            >
-              Compalsory Subjects
-            </div>
-            <div className="cannal__campus__btn__wrapper">
-              {matricCompalsorySubjectChoices.map((subjectChoice) => (
-                <SubjectBtn title={subjectChoice} />
-              ))}
-            </div>
-            <div
-              style={{ fontSize: 16, fontWeight: "bold", marginBottom: -30 }}
-            >
-              Science Subjects
-            </div>
-            <div className="cannal__campus__btn__wrapper">
-              {matricScienceSubjectChoices.map((subjectChoice) => (
-                <SubjectBtn title={subjectChoice} />
-              ))}
-            </div>
-          </>
         ) : null}
         {select === "Gallery" ? <PhotoGallery /> : null}
         {select === "Faculty Profiles" ? (
