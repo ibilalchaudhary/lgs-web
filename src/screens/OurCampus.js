@@ -151,19 +151,7 @@ export default function OurCampus() {
                 <img src={primarySchool} alt="primarySchool" />
                 Primary School
               </Link>
-              <Link
-                onClick={() => {
-                  window.scrollTo({
-                    top: 0,
-                    behavior: "smooth",
-                  });
-                }}
-                to="/105-c-campus-senior-school-o-level"
-                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
-              >
-                <img src={seniorSchoolA} alt="seniorSchoolA" />
-                Senior School(O-Level)
-              </Link>
+
               <Link
                 to="/105-c-campus-middle-school"
                 onClick={() => {
@@ -176,32 +164,6 @@ export default function OurCampus() {
               >
                 <img src={middleSchool} alt="middleSchool" />
                 Middle School
-              </Link>
-              <Link
-                to="/105-c-campus-senior-school-a-level"
-                onClick={() => {
-                  window.scrollTo({
-                    top: 0,
-                    behavior: "smooth",
-                  });
-                }}
-                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__a__level"
-              >
-                <img src={seniorSchoolO} alt="seniorSchoolO" />
-                Senior School(A-Level)
-              </Link>
-              <Link
-                onClick={() => {
-                  window.scrollTo({
-                    top: 0,
-                    behavior: "smooth",
-                  });
-                }}
-                to="/105-c-campus-metric-school"
-                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
-              >
-                <img src={middleSchool} alt="middleSchool" />
-                Metric School
               </Link>
             </div>
           </div>
