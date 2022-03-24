@@ -12,8 +12,6 @@ import PhotoGallery from "../component/PhotoGallery";
 import NoticeBoardCard from "../component/NoticeBoardCard";
 import FacultyCard from "../component/FacultyCard";
 import pricipal_pic from "../assets/pricipal_pic.png";
-import zunaira from "../assets/zunaira.jpeg";
-import cannalCampusPricipalPic from "../assets/cannalCampusPricipalPic.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";

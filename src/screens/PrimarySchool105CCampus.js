@@ -17,6 +17,36 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import {
+  AmarZia,
+  AmbrinAsghar,
+  AsmaUmer,
+  AyeshaLiaqat,
+  FatimaHaroon,
+  FazeelNoor,
+  FoziaBatool,
+  HinaShakeel,
+  HiraYameen,
+  LubnaSharoon,
+  MALIHARABBANI,
+  MsAyeshaFarhan,
+  MsMunazaGill,
+  MsShaziaMubashir,
+  RidaNadeem,
+  RizwanaKhalid,
+  RobinaAtif,
+  SaadiaNaz,
+  SaimaNawaz,
+  SairaJahanzaib,
+  SairaNasir,
+  SAJIDATARIQ,
+  ShumailaNaz,
+  SobiaGulamNabi,
+  TahiraSajjad,
+  TayyabaJabeen,
+  ZahidHussain,
+  ZUBARIYAUMBREENABID,
+} from "../assets";
 
 function CampusNav({ title, select, setSelect }) {
   return (
@@ -64,6 +94,73 @@ function PricipalCard({ img, title, designation, para }) {
 
 export default function PrimarySchool105CCampus() {
   const [select, setSelect] = useState("Campus Life");
+  const facultyList = [
+    {
+      img: AsmaUmer,
+      name: "ASMA OMER",
+      subject: "B.A",
+    },
+    {
+      img: AyeshaLiaqat,
+      name: "AYESHA LIAQUAT",
+      subject: "M.A (TEFL)",
+    },
+    {
+      img: FatimaHaroon,
+      name: "FATIMA HAROON",
+      subject: "B.A (Hons) Mass Communication",
+    },
+    {
+      img: HinaShakeel,
+      name: "HINA SHAKEEL",
+      subject: "B.A",
+    },
+    {
+      img: "",
+      name: "FIRDOUS RANI",
+      subject: "M.SC Socialogy + B.ED",
+    },
+    {
+      img: MsAyeshaFarhan,
+      name: "AYESHA FARHAN",
+      subject: "Masters in English Literature",
+    },
+    {
+      img: MsShaziaMubashir,
+      name: "SHAZIA MUBASHAR",
+      subject: "Masters in Education",
+    },
+    {
+      img: MsMunazaGill,
+      name: "MUNAZZA",
+      subject: "B.A + B. ED, Masters in Polical Science",
+    },
+    {
+      img: SaimaNawaz,
+      name: "SAIMA NAWAZ",
+      subject: "M. Phil Education",
+    },
+    {
+      img: SairaJahanzaib,
+      name: "SAIRA JAHANZEB",
+      subject: "B.A",
+    },
+    {
+      img: ShumailaNaz,
+      name: "SHUMAILA NAZ",
+      subject: "B. SC Double Maths",
+    },
+    {
+      img: SobiaGulamNabi,
+      name: "SOBIA GHULAM NABI",
+      subject: "M.A Urdu Lit + B. ED",
+    },
+    {
+      img: HiraYameen,
+      name: "HIRA YAMEEN",
+      subject: "Maters in Eng. Literature & Linguistics",
+    },
+  ];
   return (
     <>
       <div className="our__school__container">
@@ -311,18 +408,9 @@ export default function PrimarySchool105CCampus() {
           <>
             <div className="faculty__section__heading">Faculty Profiles</div>
             <div className="faculty__section__card__wrapper">
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
+              {facultyList.map((item) => (
+                <FacultyCard data={item} />
+              ))}
             </div>
           </>
         ) : null}

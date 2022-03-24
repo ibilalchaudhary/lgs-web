@@ -1,5 +1,5 @@
 import React from "react";
-import ourSchoolBg from "../assets/ourSchoolBg.png";
+import ourSchoolBg from "../assets/ourSchoolBg.jpg";
 import pricipal_pic from "../assets/pricipal_pic.png";
 import director_pic from "../assets/director.jpg";
 import ourStoryPic from "../assets/ourStoryPic.png";
