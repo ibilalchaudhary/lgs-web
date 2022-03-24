@@ -95,14 +95,14 @@ export default function Header() {
               Campus Life
             </NavLink>
             <NavLink to="/alumini" id="alumini" setIsNavOpen={setIsNavOpen}>
-              Alumini
+              Alumni
             </NavLink>
             <NavLink
               to="/counselling-center"
               id="counselling-center"
               setIsNavOpen={setIsNavOpen}
             >
-              Counselling
+              Counseling
             </NavLink>
             <NavLink
               to="/complaints"

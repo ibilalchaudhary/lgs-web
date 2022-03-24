@@ -80,19 +80,6 @@ export default function OurCampus() {
                 Primary School
               </Link>
               <Link
-                to="/canal-campus-senior-school-o-level"
-                onClick={() => {
-                  window.scrollTo({
-                    top: 0,
-                    behavior: "smooth",
-                  });
-                }}
-                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
-              >
-                <img src={seniorSchoolA} alt="seniorSchoolA" />
-                Senior School(O-Level)
-              </Link>
-              <Link
                 to="/canal-campus-middle-school"
                 onClick={() => {
                   window.scrollTo({
@@ -106,6 +93,34 @@ export default function OurCampus() {
                 Middle School
               </Link>
               <Link
+                to="/canal-campus-senior-school-o-level"
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
+              >
+                <img src={seniorSchoolA} alt="seniorSchoolA" />
+                Senior School(O-Level)
+              </Link>
+
+              <Link
+                to="/canal-campus-Matric-school"
+                onClick={() => {
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
+              >
+                <img src={middleSchool} alt="middleSchool" />
+                Matric School
+              </Link>
+
+              <Link
                 to="/canal-campus-senior-school-a-level"
                 onClick={() => {
                   window.scrollTo({
@@ -117,19 +132,6 @@ export default function OurCampus() {
               >
                 <img src={seniorSchoolO} alt="seniorSchoolO" />
                 Senior School(A-Level)
-              </Link>
-              <Link
-                to="/canal-campus-metric-school"
-                onClick={() => {
-                  window.scrollTo({
-                    top: 0,
-                    behavior: "smooth",
-                  });
-                }}
-                className="campus__main__container__content__left__entry campus__main__container__content__left__entry__o__level"
-              >
-                <img src={middleSchool} alt="middleSchool" />
-                Metric School
               </Link>
             </div>
           </div>

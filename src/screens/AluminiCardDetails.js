@@ -38,7 +38,7 @@ export default function AluminiCardDetails() {
                 style={{ fontSize: 34 }}
                 className="our__school__overlay__content__heading"
               >
-                Alumini Gallery
+                Alumni Gallery
               </div>
             </div>
           </div>

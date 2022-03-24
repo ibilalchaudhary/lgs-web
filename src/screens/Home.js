@@ -87,9 +87,9 @@ export default function Home() {
           <div className="home__main__container__overlay__content">
             <div className="home__main__container__overlay__content__heading">
               <span>Welcome To</span>
-              LAHORE GRAMMER SCHOOL
+              LAHORE GRAMMAR SCHOOL
               <div className="home__main__container__overlay__content__heading__buttom__text">
-                Faisalabad Compus
+                Faisalabad Campus
               </div>
             </div>
           </div>

@@ -284,11 +284,15 @@ export default function OurSchool() {
               <div className="academic__main__container__content__entry__wrapper">
                 <AcademicCard
                   month="Dec-Jan"
-                  date="21-05"
+                  date="25-06"
                   voca="Winter Break"
                 />
-                <AcademicCard month="Mar" date="23-29" voca="Spring break" />
-                <AcademicCard month="Jun" date="06" voca="summer break begin" />
+                <AcademicCard
+                  month="March-April"
+                  date="25-04"
+                  voca="Spring break"
+                />
+                <AcademicCard month="May" date="27" voca="Summer break" />
               </div>
             </div>
           </div>

@@ -5,6 +5,8 @@ import presentationPic from "../assets/presentationPic.png";
 import libraryPic from "../assets/libraryPic.png";
 import musicandArtPic from "../assets/musicandArtPic.png";
 import schoolPic from "../assets/schoolPic.png";
+import irfanaAziz from "../assets/irfanaAziz.jpg";
+import shaziaZubiullah from "../assets/shaziaZubiullah.jpg";
 import SUBJECT from "../assets/SUBJECT.png";
 import PhotoGallery from "../component/PhotoGallery";
 import NoticeBoardCard from "../component/NoticeBoardCard";
@@ -107,26 +109,36 @@ export default function PrimarySchoolCanalCampus() {
           >
             <SwiperSlide>
               <PricipalCard
-                img={cannalCampusPricipalPic}
-                title="Mrs. Saltanat Bokhari"
-                designation="Director"
-                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <PricipalCard
                 img={pricipal_pic}
-                title="Mr. Principar"
+                title="Mr. Imran Shahid"
                 designation="Principal"
-                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
+                para="It gives me immense pleasure and a feeling of sheer pride and accomplishment to address you as Principal of the prestigious Lahore Grammar school, Faisalabad, an institution that has striven to maintain high academic standards ever since its inception. Our commitment is to provide our students with an array of opportunities, both curricular and co-curricular, to help them attain their highest potentials.  
+
+                Our aim is not just giving our students an education that entitles them to a job but to nurture in them lifelong love for learning and inculcate in them values that will help them become kind, caring and responsible individuals.
+                
+                I feel privileged to be working with highly qualified and dedicated faculty always striving to provide students with the latest skills and knowledge to help them stand out in this ever evolving and fiercely competitive world. Our school life is vibrant with a variety of activities, happy noises of learning and positive energy.  
+                
+                I welcome you to LGS, Faisalabad and assure you that it will be our endeavour to make our students’ school life an enriching and memorable experience!"
               />
             </SwiperSlide>
             <SwiperSlide>
               <PricipalCard
-                img={zunaira}
-                title="Zunaira Amjad"
-                designation="Director"
-                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
+                img={irfanaAziz}
+                title="Mrs. Irfana Aziz"
+                designation="Vice Principal"
+                para="Welcome to the official website of Lahore Grammar School, Faisalabad; a prestigious institution that has been providing high quality learning opportunities and experiences to young minds of the city for more than two decades.            
+
+                We at LGS, Faisalabad strive to make education an enjoyable and enlightening process. Our school life is an excellent amalgamation of analytical, intellectual, and healthy physical growth of our students along with inculcating human values in them.
+                
+                We are also proud to have a faculty comprising of highly qualified individuals always doing their best to develop and nurture the young minds of today into well-rounded global citizens of tomorrow!"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <PricipalCard
+                img={shaziaZubiullah}
+                title="Mrs. Shazia Zabiullah"
+                designation="Head of Pre & Primary years"
+                para="Our aim is to provide a meaningful child centred, play based environment that builds life skills, independence, confidence and resilience to support each child in achieving their potential and to make a smooth transition to school and society itself"
               />
             </SwiperSlide>
           </Swiper>
