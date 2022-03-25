@@ -3,6 +3,8 @@ import ourCampusBg from "../assets/ourCampusBg.png";
 import InputField from "../component/InputField";
 import InputFile from "../component/InputFile";
 import InputRadio from "../component/InputRadio";
+import InputTextArea from "../component/InputTextArea";
+import SelectBox from "../component/SelectBox";
 
 const genderOption = [
   {
@@ -99,7 +101,11 @@ export default function Career() {
           <InputFile label="Upload Picture" required={true} />
 
           <div className="input__form__headings">Academic History</div>
-          <div className="input__form__sub__heading">Schooling</div>
+          <div className="input__form__sub__header">
+            <div className="input__form__sub__heading">Schooling</div>
+            <button className="input__form__sub__header__btn">Add</button>
+          </div>
+
           <div className="career__section__content__input__row">
             <InputField
               placeholder="Enter Name"
@@ -113,11 +119,88 @@ export default function Career() {
             />
           </div>
           <InputField
-            placeholder="Enter Classes"
+            placeholder="Enter year"
             label="Years Attended"
             required={true}
             type="date"
           />
+          <div className="input__form__sub__header">
+            <div className="input__form__sub__heading">College/University</div>
+            <button className="input__form__sub__header__btn">Add</button>
+          </div>
+
+          <div className="career__section__content__input__row">
+            <InputField
+              placeholder="Enter title"
+              label="Degree/Diploma attained"
+              required={true}
+            />
+            <InputField
+              placeholder="Enter Name"
+              label="Name of Institiution"
+              required={true}
+            />
+          </div>
+          <InputField
+            placeholder="Enter years"
+            label="Years Attended"
+            required={true}
+            type="date"
+          />
+          <div className="input__form__sub__header">
+            <div className="input__form__sub__heading">Experience</div>
+            <button className="input__form__sub__header__btn">Add</button>
+          </div>
+          <div className="career__section__content__input__row">
+            <InputField
+              placeholder="Enter Name"
+              label="Institution"
+              required={true}
+            />
+            <InputField
+              placeholder="Enter Address"
+              label="Address"
+              required={true}
+            />
+          </div>
+          <div className="career__section__content__input__row">
+            <InputField
+              placeholder="Enter Date"
+              label="Date of Employment"
+              required={true}
+              type="date"
+            />
+            <InputField
+              placeholder="Enter reason"
+              label="Reason for Leaving"
+              required={true}
+            />
+          </div>
+          <InputField
+            placeholder="Enter subjects"
+            label="What subject would you like to teach?"
+            required={true}
+          />
+          <SelectBox
+            required={true}
+            placeholder="Select choice"
+            label="At what level would you like to teach?"
+          />
+          <InputTextArea
+            placeholder="Enter Details"
+            label="Additional Information:"
+            required={true}
+          />
+          <div
+            style={{ width: "30%" }}
+            className="career__section__content__input__row"
+          >
+            <InputFile label="Cover Letter" required={true} />
+            <InputFile label="Upload CV" required={true} />
+          </div>
+          <div className="input__form__btn__wrapper">
+            <button className="input__form__btn">Submit</button>
+          </div>
         </div>
       </div>
     </>

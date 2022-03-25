@@ -3781,6 +3781,7 @@ body {
   padding: 0.5em;
   outline: none;
   font-size: 14px;
+  transition: 300ms ease-in-out;
 }
 .start__up__container__form__input__box__field {
   height: 45px;
@@ -3791,7 +3792,7 @@ body {
 .start__up__container__form__input__box__text__area:focus {
   transition: 300ms ease-in-out;
   border-color: #005dff;
-  border-bottom-width: 2px;
+  border-bottom-width: 1px;
 }
 .start__up__container__form__input__box__radio__label {
   font-size: 14px;
@@ -3804,10 +3805,9 @@ body {
   padding: 1em 2em;
 }
 .input__form__sub__heading {
-  font-size: 18px;
+  font-size: 20px;
   color: #000000;
-  font-weight: 600;
-  padding: 0.5em 3em;
+  font-weight: 700;
 }
 .start__up__container__form__input__box__radio__input {
   position: absolute; // take it out of document flow
@@ -3911,6 +3911,48 @@ body {
   width: 100%;
   height: 100%;
 }
+.input__form__sub__header__btn {
+  padding: 0.8em 3em;
+  background: #005dff;
+  border-radius: 30px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.input__form__sub__header__btn:hover {
+  background: #0045bb;
+  transition: 300ms ease-in-out;
+}
+.input__form__btn {
+  padding: 1em 3em;
+  background: #005dff;
+  border-radius: 30px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+}
+.input__form__btn:hover {
+  background: #0045bb;
+  transition: 300ms ease-in-out;
+}
+.input__form__btn__wrapper {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 3em;
+  margin: 0px auto;
+}
+.input__form__sub__header {
+  width: 100%;
+  padding: 0.5em 2.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
 @media (max-width: 1440px) {
   .home__main__container__overlay__content__heading {
     font-size: 38px;
@@ -3941,6 +3983,9 @@ body {
     max-width: calc(1440px - 10em);
   }
   .admissions__content__section {
+    max-width: calc(1440px - 10em);
+  }
+  .career__section__content {
     max-width: calc(1440px - 10em);
   }
   .campus__life__container__new {
@@ -4518,6 +4563,9 @@ body {
   .cannal__campus__nav__senior {
     margin-top: 1em;
   }
+  .input__form__btn__wrapper {
+    width: 100%;
+  }
 }
 @media (max-width: 600px) {
   .cannal__campus__btn__wrapper {
@@ -4777,5 +4825,11 @@ body {
   }
   .about__main__container__content__right__nav {
     font-size: 13.5px;
+  }
+  .career__section__content__input__row {
+    width: 100% !important;
+  }
+  .input__form__sub__header__btn {
+    padding: 0.7em 2em;
   }
 }

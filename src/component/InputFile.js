@@ -6,10 +6,11 @@ export default function InputFile({
   required,
   description,
   options,
+  style,
 }) {
   const [image, setImage] = useState("");
   return (
-    <div className="start__up__container__form__input__box">
+    <div style={style} className="start__up__container__form__input__box">
       <div className="start__up__container__form__input__box__label">
         {label}{" "}
         <div className="start__up__container__form__input__box__label__required">
