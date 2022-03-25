@@ -30,6 +30,7 @@ import MediaAndPublicationDetails from "./screens/MediaAndPublicationDetails";
 import MetricSchoolCanalCampus from "./screens/MetricSchoolCanalCampus";
 import MetricSchool105CCampus from "./screens/MetricSchool105CCampus";
 import AboutUs from "./screens/AboutUs";
+import ChallanForm from "./screens/ChallanForm";
 
 function App() {
   return (
@@ -99,6 +100,7 @@ function App() {
           path="/media-publications-details"
           element={<MediaAndPublicationDetails />}
         />
+        <Route path="/challan-form" element={<ChallanForm />} />
       </Routes>
       <ContactUsSection />
       <Footer />
