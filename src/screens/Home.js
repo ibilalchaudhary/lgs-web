@@ -103,12 +103,9 @@ export default function Home() {
         <div className="events__main__container__heading">News & Events</div>
         <div className="events__main__container__content">
           <EventCard title="Spring break" img={springbreak} />
-          <EventCard title="A levels farewell" img={alevelplacement} />
+          <EventCard title="A levels farewell" img={internationplacement} />
           <EventCard title="Color festival" img={Colorfestival} />
-          <EventCard
-            title="International placements"
-            img={internationplacement}
-          />
+          <EventCard title="International placements" img={alevelplacement} />
           <EventCard title="Glits" img={glits} />
         </div>
       </div>
