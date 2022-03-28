@@ -132,9 +132,8 @@ export default function Admissions() {
             </li>
             <div className="admissions__content__section__btn__wrapper">
               <button className="section__btn__primary">
-                Registration Form
+                Registration / Admission Form
               </button>
-              <button className="section__btn__scondary">Admission Form</button>
             </div>
           </div>
           <img
@@ -670,7 +669,9 @@ export default function Admissions() {
               complete documents, a member of our Admission Office will get in
               touch for further processing.
             </div>
-            <button className="section__btn__primary">Registration Form</button>
+            <button className="section__btn__primary">
+              Registration / Admission Form
+            </button>
           </div>
           <div className="a__level__addmission__content__entry">
             <div className="a__level__addmission__content__entry__row"></div>

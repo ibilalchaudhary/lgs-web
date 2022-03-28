@@ -17,36 +17,20 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import {
-  AmarZia,
-  AmbrinAsghar,
   AsmaUmer,
   AyeshaLiaqat,
   defaultPic,
   FatimaHaroon,
-  FazeelNoor,
-  FoziaBatool,
   HinaShakeel,
   HiraYameen,
-  LubnaSharoon,
-  MALIHARABBANI,
   MsAyeshaFarhan,
   MsFizzaIfftikhar,
   MsMunazaGill,
   MsShaziaMubashir,
-  RidaNadeem,
-  RizwanaKhalid,
-  RobinaAtif,
-  SaadiaNaz,
   SaimaNawaz,
   SairaJahanzaib,
-  SairaNasir,
-  SAJIDATARIQ,
   ShumailaNaz,
   SobiaGulamNabi,
-  TahiraSajjad,
-  TayyabaJabeen,
-  ZahidHussain,
-  ZUBARIYAUMBREENABID,
 } from "../assets";
 
 function CampusNav({ title, select, setSelect }) {

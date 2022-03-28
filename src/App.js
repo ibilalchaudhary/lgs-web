@@ -23,8 +23,6 @@ import SeniorSchoolALevelCanalCampus from "./screens/SeniorSchoolALevelCanalCamp
 import SeniorSchoolOLevelCanalCampus from "./screens/SeniorSchoolOLevelCanalCampus";
 import MiddleSchool105CCampus from "./screens/MiddleSchool105CCampus";
 import PrimarySchool105CCampus from "./screens/PrimarySchool105CCampus";
-import SeniorSchoolALevel105CCampus from "./screens/SeniorSchoolALevel105CCampus";
-import SeniorSchoolOLevel105CCampus from "./screens/SeniorSchoolOLevel105CCampus";
 import AluminiCardDetails from "./screens/AluminiCardDetails";
 import CampusLifeCardDetails from "./screens/CampusLifeCardDetails";
 import MediaAndPublicationDetails from "./screens/MediaAndPublicationDetails";
@@ -54,17 +52,10 @@ function App() {
           path="/canal-campus-senior-school-a-level"
           element={<SeniorSchoolALevelCanalCampus />}
         />
-        <Route
-          path="/105-c-campus-senior-school-a-level"
-          element={<SeniorSchoolALevel105CCampus />}
-        />
+
         <Route
           path="/canal-campus-senior-school-o-level"
           element={<SeniorSchoolOLevelCanalCampus />}
-        />
-        <Route
-          path="/105-c-campus-senior-school-o-level"
-          element={<SeniorSchoolOLevel105CCampus />}
         />
         <Route
           path="/canal-campus-middle-school"

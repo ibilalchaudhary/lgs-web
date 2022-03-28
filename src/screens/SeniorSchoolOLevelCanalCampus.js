@@ -16,7 +16,6 @@ import "swiper/css/navigation";
 import {
   AmarZia,
   AmbrinAsghar,
-  AmmaraMohsin,
   Ehsanulhaq,
   FazeelNoor,
   FoziaBatool,

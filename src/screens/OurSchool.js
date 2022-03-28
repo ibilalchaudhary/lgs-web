@@ -10,25 +10,7 @@ import PARENTHANDBOOK from "../assets/PARENTHANDBOOK.png";
 import academicPic from "../assets/academicPic.png";
 import ParentsHandbook from "../assets/ParentsHandbook.pdf";
 import TermCalendar from "../assets/2ndTermCalendar.pdf";
-
-function AcademicCard({ month, date, voca }) {
-  return (
-    <div className="academic__main__container__content__entry__card">
-      <div className="academic__main__container__content__entry__card__para">
-        {month}
-      </div>
-      <div className="academic__main__container__content__entry__card__heading">
-        {date}
-      </div>
-      <div
-        style={{ color: "#FACD09" }}
-        className="academic__main__container__content__entry__card__para"
-      >
-        {voca}
-      </div>
-    </div>
-  );
-}
+import AcademicCard from "../component/AcademicCard";
 
 export default function OurSchool() {
   return (
@@ -244,7 +226,6 @@ export default function OurSchool() {
           </div>
         </div>
       </div>
-
       <div className="academic__main__container">
         <div className="academic__main__container__content">
           <img
@@ -270,7 +251,6 @@ export default function OurSchool() {
               >
                 Download
               </a>
-
               <img
                 src={academicPic}
                 alt="academicPic"

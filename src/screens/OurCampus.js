@@ -1,26 +1,10 @@
 import React from "react";
 import ourCampusBg from "../assets/ourCampusBg.jpg";
-import eventPic from "../assets/eventPic.png";
 import primarySchool from "../assets/primarySchool.png";
 import middleSchool from "../assets/middleSchool.png";
 import seniorSchoolO from "../assets/seniorSchoolO.png";
 import seniorSchoolA from "../assets/seniorLevelA.png";
 import { Link } from "react-router-dom";
-
-function SportsCard() {
-  return (
-    <div className="sports__main__container__content__card">
-      <img
-        src={eventPic}
-        alt="eventPic"
-        className="sports__main__container__content__card__img"
-      />
-      <div className="sports__main__container__content__card__overlay">
-        Football
-      </div>
-    </div>
-  );
-}
 
 export default function OurCampus() {
   return (
