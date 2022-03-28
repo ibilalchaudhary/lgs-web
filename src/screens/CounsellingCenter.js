@@ -4,24 +4,21 @@ import zunaira from "../assets/zunaira.jpeg";
 import kanwal from "../assets/kanwal.jpeg";
 import contactPic from "../assets/contactPic.png";
 
-function ChoiceBtn({ title, select, setSelect, id }) {
+function ChoiceBtn({ title, onClick, id }) {
   return (
-    <div
-      className={
-        select === id
-          ? "personalized__section__form__container__left__content__right__btn__select"
-          : "personalized__section__form__container__left__content__right__btn"
-      }
-    >
+    <div className="personalized__section__form__container__left__content__right__btn">
       <input
-        id={id}
+        name={
+          "personalized__section__form__container__left__content__right__btn" +
+          id
+        }
         type="radio"
-        onChange={() => {
-          setSelect(id);
-        }}
-        defaultChecked={select === id ? id : false}
+        className="personalized__section__form__container__left__content__right__btn__input"
+        onClick={onClick}
       />
-      {title}
+      <div className="personalized__section__form__container__left__content__right__btn__content">
+        {title}
+      </div>
     </div>
   );
 }
@@ -43,7 +40,13 @@ function InputChoice({ select, setSelect }) {
 }
 
 export default function CounsellingCenter() {
+  const [id1Value, setId1Value] = useState(0);
+  const [id2Value, setId2Value] = useState(0);
+  const [id3Value, setId3Value] = useState(0);
+  const [id4Value, setId4Value] = useState(0);
+  const [id5Value, setId5Value] = useState(0);
   const [select, setSelect] = useState(false);
+  const [checked, setChecked] = useState(false);
   return (
     <>
       <div className="our__school__container">
@@ -197,8 +200,20 @@ export default function CounsellingCenter() {
               I am pleasant most of the time
             </div>
             <div className="personalized__section__form__container__left__content__right">
-              <InputChoice select={select} setSelect={setSelect} />
-              <InputChoice select={select} setSelect={setSelect} />
+              <ChoiceBtn
+                id="1"
+                title="1"
+                onClick={() => {
+                  setId1Value(1);
+                }}
+              />
+              <ChoiceBtn
+                id="1"
+                title="2"
+                onClick={() => {
+                  setId1Value(2);
+                }}
+              />
             </div>
           </div>
           <div className="personalized__section__form__container__left__content">
@@ -207,16 +222,18 @@ export default function CounsellingCenter() {
             </div>
             <div className="personalized__section__form__container__left__content__right">
               <ChoiceBtn
-                id="3"
+                id="2"
                 title="1"
-                select={select}
-                setSelect={setSelect}
+                onClick={() => {
+                  setId2Value(1);
+                }}
               />
               <ChoiceBtn
-                id="4"
+                id="2"
                 title="2"
-                select={select}
-                setSelect={setSelect}
+                onClick={() => {
+                  setId2Value(2);
+                }}
               />
             </div>
           </div>
@@ -226,16 +243,18 @@ export default function CounsellingCenter() {
             </div>
             <div className="personalized__section__form__container__left__content__right">
               <ChoiceBtn
-                id="5"
+                id="3"
                 title="1"
-                select={select}
-                setSelect={setSelect}
+                onClick={() => {
+                  setId3Value(1);
+                }}
               />
               <ChoiceBtn
-                id="6"
+                id="3"
                 title="2"
-                select={select}
-                setSelect={setSelect}
+                onClick={() => {
+                  setId3Value(2);
+                }}
               />
             </div>
           </div>
@@ -245,16 +264,18 @@ export default function CounsellingCenter() {
             </div>
             <div className="personalized__section__form__container__left__content__right">
               <ChoiceBtn
-                id="7"
+                id="4"
                 title="1"
-                select={select}
-                setSelect={setSelect}
+                onClick={() => {
+                  setId4Value(1);
+                }}
               />
               <ChoiceBtn
-                id="8"
+                id="4"
                 title="2"
-                select={select}
-                setSelect={setSelect}
+                onClick={() => {
+                  setId4Value(2);
+                }}
               />
             </div>
           </div>
@@ -264,17 +285,29 @@ export default function CounsellingCenter() {
             </div>
             <div className="personalized__section__form__container__left__content__right">
               <ChoiceBtn
-                id="10"
+                id="5"
                 title="1"
-                select={select}
-                setSelect={setSelect}
+                onClick={() => {
+                  setId5Value(1);
+                }}
               />
               <ChoiceBtn
-                id="11"
+                id="5"
                 title="2"
-                select={select}
-                setSelect={setSelect}
+                onClick={() => {
+                  setId5Value(2);
+                }}
               />
+            </div>
+          </div>
+          <div className="personalized__section__form__container__left__content">
+            <div className="personalized__section__form__container__left__content__heading"></div>
+            <div
+              className="personalized__section__form__container__left__content__heading"
+              style={{ fontSize: 18 }}
+            >
+              Your Score is{" "}
+              {id1Value + id2Value + id3Value + id4Value + id5Value}
             </div>
           </div>
           <div className="personalized__section__form__container__left__footer">
@@ -437,19 +470,48 @@ export default function CounsellingCenter() {
                     <span>Email:</span> psykanwal@gmail.com
                   </div>
                   <div className="international__office__content__left__sub__para">
-                    <span>Mon-Fri:</span> 5:00 PM – 8:00 PM
+                    You can make offline appointments:
                   </div>
-                  <div className="international__office__content__left__sub__para">
-                    You can make offline appointment
+                  <div
+                    className="international__office__content__left__sub__para"
+                    style={{ display: "flex" }}
+                  >
+                    <div
+                      className="international__office__content__left__sub__para"
+                      style={{ marginRight: 10 }}
+                    >
+                      Online
+                    </div>
+                    <label class="switch">
+                      <input
+                        type="checkbox"
+                        onChange={(e) => {
+                          setChecked(e.target.checked);
+                        }}
+                      />
+                      <span class="slider round"></span>
+                    </label>
+                    <div
+                      className="international__office__content__left__sub__para"
+                      style={{ marginLeft: 10 }}
+                    >
+                      Offline
+                    </div>
                   </div>
+
                   <div className="international__office__content__left__sub__para">
                     Visiting hours
                   </div>
                   <div className="international__office__content__left__sub__para">
-                    Mon-Fri
-                  </div>
-                  <div className="international__office__content__left__sub__para">
-                    5:00 PM – 8:00 PM
+                    {checked ? (
+                      <>
+                        <span>Mon-Fri:</span> 5PM - 8PM
+                      </>
+                    ) : (
+                      <>
+                        <span>Mon-Fri:</span> 8AM- 2PM
+                      </>
+                    )}
                   </div>
                 </div>
               </div>

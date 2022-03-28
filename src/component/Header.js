@@ -112,7 +112,7 @@ export default function Header() {
               Complaints
             </NavLink>
             <NavLink to="/career" id="career" setIsNavOpen={setIsNavOpen}>
-              Career
+              Careers
             </NavLink>
             <NavLink to="/about" id="about" setIsNavOpen={setIsNavOpen}>
               About Us
