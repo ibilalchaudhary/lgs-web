@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ourCampusBg from "../assets/ourCampusBg.png";
+import ourCampusBg from "../assets/ourCampusBg.jpg";
 import pricipal_pic from "../assets/pricipal_pic.png";
 import zunaira from "../assets/zunaira.jpeg";
 import cannalCampusPricipalPic from "../assets/cannalCampusPricipalPic.png";

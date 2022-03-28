@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ourCampusBg from "../assets/ourCampusBg.png";
+import ourCampusBg from "../assets/ourCampusBg.jpg";
 import PhotoGallery from "../component/PhotoGallery";
 import NoticeBoardCard from "../component/NoticeBoardCard";
 import FacultyCard from "../component/FacultyCard";

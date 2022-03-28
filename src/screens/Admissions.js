@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ourCampusBg from "../assets/ourCampusBg.png";
+import ourCampusBg from "../assets/ourCampusBg.jpg";
 import eventPic from "../assets/eventPic.png";
 import addmissionPic from "../assets/addmissionPic.png";
 import AlumniRegistrationsPic from "../assets/AlumniRegistrationsPic.png";
@@ -680,10 +680,16 @@ export default function Admissions() {
               up A Level office:
             </div>
             <div
-              style={{ color: "#F9CC09" }}
+              style={{ color: "#F9CC09", margin: 0 }}
               className="a__level__addmission__content__entry__para"
             >
-              Mrs. Kanwal: +923348387824
+              Mrs. Kanwal
+            </div>
+            <div className="a__level__addmission__content__entry__para__contact">
+              +923348387824
+            </div>
+            <div className="a__level__addmission__content__entry__para__contact">
+              kanwalshahbaz@lgsfsd.edu.pk
             </div>
           </div>
         </div>

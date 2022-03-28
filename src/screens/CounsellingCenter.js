@@ -1,24 +1,27 @@
 import React, { useState } from "react";
-import ourCampusBg from "../assets/ourCampusBg.png";
+import ourCampusBg from "../assets/ourCampusBg.jpg";
 import zunaira from "../assets/zunaira.jpeg";
 import kanwal from "../assets/kanwal.jpeg";
 import contactPic from "../assets/contactPic.png";
 
 function ChoiceBtn({ title, select, setSelect, id }) {
   return (
-    <button
-      id={id}
-      onClick={() => {
-        setSelect(id);
-      }}
-      className={
-        select === id
-          ? "personalized__section__form__container__left__content__right__btn__select"
-          : "personalized__section__form__container__left__content__right__btn"
-      }
-    >
+    <div>
+      <input
+        id={id}
+        type="radio"
+        onChange={() => {
+          setSelect(id);
+        }}
+        defaultChecked={select === id ? id : false}
+        className={
+          select === id
+            ? "personalized__section__form__container__left__content__right__btn__select"
+            : "personalized__section__form__container__left__content__right__btn"
+        }
+      />
       {title}
-    </button>
+    </div>
   );
 }
 
@@ -377,7 +380,7 @@ export default function CounsellingCenter() {
           </div>
         </div>
       </div>
-      <div className=" international__office__container">
+      <div className="international__office__container">
         <img
           src={contactPic}
           alt="contactPic"

@@ -1,5 +1,5 @@
 import React from "react";
-import ourCampusBg from "../assets/ourCampusBg.png";
+import ourCampusBg from "../assets/ourCampusBg.jpg";
 import InputField from "../component/InputField";
 import InputFile from "../component/InputFile";
 import InputRadio from "../component/InputRadio";

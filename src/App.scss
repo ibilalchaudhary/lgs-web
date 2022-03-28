@@ -2503,7 +2503,7 @@ body {
 }
 
 .campus__life__container__new__header__entry {
-  font-size: 13px;
+  font-size: 12px;
   color: #2b2b2b;
   font-weight: 600;
   text-transform: uppercase;
@@ -3141,6 +3141,11 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 3em;
+}
+.a__level__addmission__content__entry__para__contact {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 0.2em;
 }
 .global__skill__section__heading {
   font-size: 26px;
@@ -4135,6 +4140,9 @@ table.challan__table thead {
   .contact__us__main__container {
     height: 100vh;
   }
+  .international__office__container {
+    height: 100vh;
+  }
 }
 @media (max-width: 1250px) {
   .campus__main__container__content__right::before {
@@ -4972,5 +4980,12 @@ table.challan__table thead {
   }
   .input__form__sub__header__btn {
     padding: 0.7em 2em;
+  }
+  .public__speak__new__content__btn {
+    font-size: 12px;
+  }
+  .public__speak__new__content,
+  .science__technology__new__content {
+    padding: 1em;
   }
 }

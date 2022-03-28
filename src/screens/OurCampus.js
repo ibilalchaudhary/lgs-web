@@ -1,5 +1,5 @@
 import React from "react";
-import ourCampusBg from "../assets/ourCampusBg.png";
+import ourCampusBg from "../assets/ourCampusBg.jpg";
 import eventPic from "../assets/eventPic.png";
 import primarySchool from "../assets/primarySchool.png";
 import middleSchool from "../assets/middleSchool.png";

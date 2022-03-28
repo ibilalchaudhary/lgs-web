@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ourCampusBg from "../assets/ourCampusBg.png";
+import ourCampusBg from "../assets/ourCampusBg.jpg";
 
 function FAQQuestions({ data }) {
   return (
