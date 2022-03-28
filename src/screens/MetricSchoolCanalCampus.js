@@ -72,7 +72,7 @@ export default function MetricSchoolCanalCampus() {
     {
       img: "",
       name: "Tahira Abbas",
-      subject: "BS hons zoology ,b.ed 4 years of experience",
+      subject: "BS hons zoology, b.ed 4 years of experience",
     },
     {
       img: "",
@@ -135,7 +135,7 @@ export default function MetricSchoolCanalCampus() {
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
-              delay: 3500,
+              delay: 8500,
               disableOnInteraction: false,
             }}
             pagination={{

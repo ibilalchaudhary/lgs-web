@@ -2470,10 +2470,10 @@ body {
   border-radius: 180px;
 }
 .from__the__pricipal__container__heading {
-  font-size: 18px;
-  color: #fff;
+  font-size: 16px;
+  color: #f9cc09;
   font-weight: 500;
-  margin-top: 0.7em;
+  margin: 0.7em 0em;
   text-transform: uppercase;
 }
 .from__the__pricipal__container__sub__heading {
@@ -3040,7 +3040,7 @@ body {
   margin-top: 4em;
 }
 .faculty__section__card {
-  width: 32%;
+  width: 23.5%;
   height: fit-content;
   min-height: 300px;
   background: #fff;
@@ -3053,7 +3053,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   cursor: pointer;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   transition: 400ms all ease-in-out;
 }
 .faculty__section__card:hover {
@@ -4132,6 +4132,9 @@ table.challan__table thead {
   .about__main__container__content__right__nav {
     font-size: 14.5px;
   }
+  .contact__us__main__container {
+    height: 100vh;
+  }
 }
 @media (max-width: 1250px) {
   .campus__main__container__content__right::before {
@@ -4236,7 +4239,7 @@ table.challan__table thead {
     padding: 1em;
   }
   .faculty__section__card {
-    width: 48%;
+    width: 32%;
   }
   .cannal__campus__senior__container__card__subject {
     flex-direction: column;
@@ -4488,6 +4491,9 @@ table.challan__table thead {
   }
 }
 @media (max-width: 850px) {
+  .faculty__section__card {
+    width: 48%;
+  }
   .campus__main__container__content__left__entry {
     width: calc(33% - 1em);
   }

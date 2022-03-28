@@ -149,11 +149,9 @@ export default function OurSchool() {
             alt="pricipal_pic"
             className="from__the__pricipal__container__img"
           />
+
           <div className="from__the__pricipal__container__heading">
-            NOTE FROM THE Director
-          </div>
-          <div className="from__the__pricipal__container__sub__heading">
-            Mrs. Saltanat Bokhari
+            Mrs. Saltanat Bokhari - Director
           </div>
           <div className="from__the__pricipal__container__para">
             I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD,
@@ -172,11 +170,9 @@ export default function OurSchool() {
             alt="pricipal_pic"
             className="from__the__pricipal__container__img"
           />
+
           <div className="from__the__pricipal__container__heading">
-            NOTE FROM THE PRINCIPAL
-          </div>
-          <div className="from__the__pricipal__container__sub__heading">
-            Imran Shahid
+            Mr. Imran Shahid - Principal
           </div>
           <div className="from__the__pricipal__container__para">
             It gives me immense pleasure and a feeling of sheer pride and

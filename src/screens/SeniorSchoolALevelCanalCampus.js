@@ -187,7 +187,7 @@ export default function SeniorSchoolALevelCanalCampus() {
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
-              delay: 3500,
+              delay: 8500,
               disableOnInteraction: false,
             }}
             pagination={{

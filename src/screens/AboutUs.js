@@ -80,11 +80,9 @@ export default function AboutUs() {
                 alt="pricipal_pic"
                 className="from__the__pricipal__container__img"
               />
+
               <div className="from__the__pricipal__container__heading">
-                NOTE FROM THE DIRECTOR
-              </div>
-              <div className="from__the__pricipal__container__sub__heading">
-                Mrs. Saltanat Bokhari
+                Mrs. Saltanat Bokhari - DIRECTOR
               </div>
               <div className="from__the__pricipal__container__para">
                 I am delighted to offer you a warm welcome to LGS FSD. At LGS.
@@ -104,11 +102,9 @@ export default function AboutUs() {
                 alt="pricipal_pic"
                 className="from__the__pricipal__container__img"
               />
+
               <div className="from__the__pricipal__container__heading">
-                NOTE FROM THE Regional Director
-              </div>
-              <div className="from__the__pricipal__container__sub__heading">
-                Ms. Meena Gul
+                Ms. Meena Gul - Regional Director
               </div>
               <div className="from__the__pricipal__container__para">
                 With an experience of more than 35 years as an educationist, Ms.
@@ -127,11 +123,9 @@ export default function AboutUs() {
                 alt="pricipal_pic"
                 className="from__the__pricipal__container__img"
               />
+
               <div className="from__the__pricipal__container__heading">
-                NOTE FROM THE Regional Ccoordinator
-              </div>
-              <div className="from__the__pricipal__container__sub__heading">
-                Mrs. Alia Rehman
+                Mrs. Alia Rehman - Regional Ccoordinator
               </div>
               <div className="from__the__pricipal__container__para">
                 What sets Lahore Grammar School Faisalabad apart is that its
@@ -152,11 +146,9 @@ export default function AboutUs() {
                 alt="pricipal_pic"
                 className="from__the__pricipal__container__img"
               />
+
               <div className="from__the__pricipal__container__heading">
-                NOTE FROM THE PRINCIPAL
-              </div>
-              <div className="from__the__pricipal__container__sub__heading">
-                Imran Shahid
+                Imran Shahid - PRINCIPAL
               </div>
               <div className="from__the__pricipal__container__para">
                 It gives me immense pleasure and a feeling of sheer pride and
