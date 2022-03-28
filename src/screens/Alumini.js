@@ -229,14 +229,6 @@ export default function Alumini() {
           >
             Alumni Registration Form
           </div>
-          <div
-            style={{ marginBottom: 20, fontSize: 14 }}
-            className="career__section__content__para"
-          >
-            If you are interested in applying for a job at Lahore Grammar
-            School, 55 Main Gulberg, Faisalabad. Please fill in the form below
-            and attach your photograph and your resume.
-          </div>
         </div>
         <div className="career__section__content__input__row">
           <InputField placeholder="Enter Name" label="Name" required={true} />

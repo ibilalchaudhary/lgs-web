@@ -69,3 +69,4 @@ export { default as SaimaNawaz } from "./PrimarySchool/SaimaNawaz.jpg";
 export { default as SairaJahanzaib } from "./PrimarySchool/SairaJahanzaib.jpg";
 export { default as ShumailaNaz } from "./PrimarySchool/ShumailaNaz.jpg";
 export { default as SobiaGulamNabi } from "./PrimarySchool/SobiaGulamNabi.jpg";
+export { default as defaultPic } from "./PrimarySchool/default.jpeg";

@@ -21,6 +21,7 @@ import {
   AmbrinAsghar,
   AsmaUmer,
   AyeshaLiaqat,
+  defaultPic,
   FatimaHaroon,
   FazeelNoor,
   FoziaBatool,
@@ -29,6 +30,7 @@ import {
   LubnaSharoon,
   MALIHARABBANI,
   MsAyeshaFarhan,
+  MsFizzaIfftikhar,
   MsMunazaGill,
   MsShaziaMubashir,
   RidaNadeem,
@@ -159,6 +161,226 @@ export default function PrimarySchool105CCampus() {
       name: "HIRA YAMEEN",
       subject: "Maters in Eng. Literature & Linguistics",
     },
+    {
+      img: "",
+      name: "Anum Saeed",
+      subject: "B. Com + M.A Eng + ACCA (2-Level)",
+    },
+    {
+      img: "",
+      name: "Asma Omer",
+      subject: "B.A",
+    },
+    {
+      img: "",
+      name: "Attiya Jabbar",
+      subject: "M.A Eng",
+    },
+    {
+      img: "",
+      name: "Ayesha Liaquat",
+      subject: "M.A (TEFL)",
+    },
+    {
+      img: "",
+      name: "Ayesha Tahir",
+      subject: "B.A",
+    },
+    {
+      img: "",
+      name: "Batool Iftikhar",
+      subject: "M.SC Statistics + B. ED",
+    },
+    {
+      img: "",
+      name: "Chanda Rani",
+      subject: "M.SC Economics",
+    },
+    {
+      img: "",
+      name: "Farhana Ejaz",
+      subject: "M.A Islamiyat + B.ED Arabic",
+    },
+    {
+      img: "",
+      name: "Fatima Haroon",
+      subject: "B.A (Hons) Mass Communication",
+    },
+    {
+      img: "",
+      name: "Firdous Rani",
+      subject: "M.Sc. Socialogy  + B.ED",
+    },
+    {
+      img: "",
+      name: "Hafiza Hira Ajmal",
+      subject: "BS. (Hons) Zoology",
+    },
+    {
+      img: "",
+      name: "Hina Shakeel",
+      subject: "B.A",
+    },
+    {
+      img: "",
+      name: "Hira Yameen",
+      subject: "Maters in Eng. Literature & Linguistics",
+    },
+    {
+      img: "",
+      name: "Parvez Masih",
+      subject: "B.A",
+    },
+    {
+      img: "",
+      name: "Mamoona Komal",
+      subject: "BS - IT",
+    },
+    {
+      img: "",
+      name: "Rida Sarwar",
+      subject: "M. PHIL Bio Informatics + B. ED",
+    },
+    {
+      img: "",
+      name: "Sadia Sami Sahni",
+      subject: "B.SC",
+    },
+    {
+      img: "",
+      name: "Saeeda Kaukab",
+      subject: "M.A Eng + B. ED",
+    },
+    {
+      img: "",
+      name: "Saima Imdad",
+      subject: "General Certificate of Education",
+    },
+    {
+      img: "",
+      name: "Saima Nawaz",
+      subject: "M. Phil Education",
+    },
+    {
+      img: "",
+      name: "Saira Jahanzeb",
+      subject: "B.A",
+    },
+    {
+      img: "",
+      name: "Saira Rauf",
+      subject: "M.SC Pak Studies",
+    },
+    {
+      img: "",
+      name: "Samara Zahoor",
+      subject: "M. SC Computer Science",
+    },
+    {
+      img: "",
+      name: "Shumaila Naz",
+      subject: "B. SC Double Maths",
+    },
+    {
+      img: "",
+      name: "Sobia Ghulam Nabi",
+      subject: "M.A Urdu Lit + B. ED",
+    },
+    {
+      img: "",
+      name: "Somia Anwar",
+      subject: "B.A + B. ED",
+    },
+    {
+      img: "",
+      name: "Zunaira Arshad",
+      subject: "M.Sc Mathematics",
+    },
+    {
+      img: "",
+      name: "Mrs. Munaza",
+      subject: "",
+    },
+    {
+      img: "",
+      name: "Khurram Yasmin",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Aizah Razi",
+      subject: "MBA (Finance)",
+    },
+    {
+      img: "",
+      name: "Bakhtawar Tariq",
+      subject: "B. SC Double Maths & Physics",
+    },
+    {
+      img: "",
+      name: "Faiza Saeed",
+      subject: "B.A",
+    },
+    {
+      img: "",
+      name: "Ghazala Shaheen",
+      subject: "M.A Eng + M. ED + M.A TEFL",
+    },
+    {
+      img: "",
+      name: "Horeb Nauman",
+      subject: "",
+    },
+    {
+      img: "",
+      name: "Iqra Khalid",
+      subject: "BS. Psychology",
+    },
+    {
+      img: "",
+      name: "Irum Yawar",
+      subject: "M.SC + B. ED",
+    },
+    {
+      img: "",
+      name: "Mehwash Sultan",
+      subject: "M. Phil Eng Literature",
+    },
+    {
+      img: "",
+      name: "Nazish Arif",
+      subject: "B.SC, M. Phill Education",
+    },
+    {
+      img: "",
+      name: "Noreen Raheel Faisal",
+      subject: "B. SC + B. ED",
+    },
+    {
+      img: "",
+      name: "Rabia Azam",
+      subject: "M. Phil Bio Chemistry",
+    },
+    {
+      img: "",
+      name: "Sadia Noreen",
+      subject: "B. SC- M.A (Urdu) + B. ED",
+    },
+    {
+      img: "",
+      name: "Shamim Tahir",
+      subject: "M.A + B. ED",
+    },
+    {
+      img: "",
+      name: "Tahreem Shaukat",
+      subject: "M.A Urdu + B. ED",
+    },
+    {
+      img: "",
+      name: "Tooba Ijaz",
+      subject: "",
+    },
   ];
   return (
     <>
@@ -171,7 +393,7 @@ export default function PrimarySchool105CCampus() {
         <div className="home__main__container__overlay">
           <div className="our__school__container__overlay__content">
             <div className="cannal__campus__heading__wrapper">
-              <div className="cannal__campus__sub__heading">105-C CAMPUS</div>
+              <div className="cannal__campus__sub__heading">105 CAMPUS</div>
               <div
                 style={{ color: "#F9CC09" }}
                 className="cannal__campus__heading"
@@ -225,6 +447,50 @@ export default function PrimarySchool105CCampus() {
                 We at LGS, Faisalabad strive to make education an enjoyable and enlightening process. Our school life is an excellent amalgamation of analytical, intellectual, and healthy physical growth of our students along with inculcating human values in them.
                 
                 We are also proud to have a faculty comprising of highly qualified individuals always doing their best to develop and nurture the young minds of today into well-rounded global citizens of tomorrow!"
+              />
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <PricipalCard
+                img={MsFizzaIfftikhar}
+                title="Ms Fizza Iftikhar"
+                designation="Preschool coordinator"
+                para="Preschool is the first step of child in learning process. A child is limited to schooling but the learner is for life.LGS empower children to become a lifelong learners by nurturing a learner's mindset. We facilitate their learning process by providing the necessary environment and resources, monitoring progress, and encouraging learners to become problems solvers. We are a community of lifelong learners where teachers are facilitators not instructors."
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <PricipalCard
+                img={defaultPic}
+                title="Ms Mamona Rasheed"
+                designation="Class 3_4 coordinator"
+                para="The progress of any country depends on the thinking style of the students and their specific attitude towards discipline and learning. Discipline in learner's life ensures peace and harmony which in turn offers impetus to the forces of progress and prosperity. At LGS , the idea of basic education is learning by doing. Activity based learning relieves the tension of adolescence and enable the students to be a productive member of the society. LGS has proved that education is an act of acquiring knowledge. Academics of LGS open new ways of thinking and meditation for students."
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <PricipalCard
+                img={MsAyeshaFarhan}
+                title="Ayesha Farhan"
+                designation="Branch Head"
+                para='Lahore Grammar School Faisalabad shares the vision  " ILM SAY DIL O DEMAG ROSHAN"- knowledge enlightens the heart and mind. To turn this vision into a reality, we at LGS provide quality education to our learners.
+
+                Learning is not about memorising, learning is about being mindful and inorder to achieve this goal, school offers activity based learning in an encouraging and friendly environment,  supervised by professionally trained teachers. A comprehensively structured curriculum covering all the basic subjects is taught in well equipped classrooms.
+                
+                A meaningful education is not only about academic achievements, its also about polishing the unique potential of every child on his way to becoming a confident, successful and happy individual, who can meet the challenges of a rapidly changing world.
+                
+                At LGS, students not only excel in academics but they also receive a well rounded exposure. Students have the opportunity to participate on the stage ,work in the IT labs, performing STEM activities and learning interactively, in the sports fields and on the debate platforms, winning laurels for the school.
+                
+                With every passing day, we, as a team, are establishing our position in winning the confidence of our parent body. The outstanding achievements, both academics and extra curricular, are a proof. We hope this journey and progress continues.'
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <PricipalCard
+                img={MsMunazaGill}
+                title="Ms Munazza"
+                designation="Class 1_2 coordinator"
+                para="learning is a process that leads to change, which occurs as a result of experience and increases the potential for improved performance and future learning. The change in the learner may happen at the level of knowledge, attitude of behavior. As a result of learning learners come to see concepts, ideas,
+                and/or the world differently. Learning is not something done to students, but rather something students themselves do. It is the direct result of how students interpret and respond to their experiences.
+                At The Lahore Grammar School we are trying to move one step ahead towards making our children independent. We are trying to motivate our students to be a critical thinker, a good analyzer and more important to be a productive citizen of this ever changing global- society.
+                The school is striving hard to make the best possible efforts to develop strong values with the combination of curricular and co-curricular activities in the children. The school is fully devoted to groom the students for the challenges of tomorrow  by providing them practical based education."
               />
             </SwiperSlide>
           </Swiper>

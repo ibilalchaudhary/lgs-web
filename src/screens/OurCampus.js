@@ -120,7 +120,7 @@ export default function OurCampus() {
           </div>
           <div className="campus__main__container__content__right">
             <div className="campus__main__container__content__left__heading">
-              105-C Campus
+              105 Campus
             </div>
             <div className="campus__main__container__content__left__content">
               <Link
@@ -136,7 +136,6 @@ export default function OurCampus() {
                 <img src={primarySchool} alt="primarySchool" />
                 Primary School
               </Link>
-
               <Link
                 to="/105-c-campus-middle-school"
                 onClick={() => {

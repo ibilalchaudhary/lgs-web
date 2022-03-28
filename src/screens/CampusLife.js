@@ -136,7 +136,7 @@ export default function CampusLife() {
             href="#media"
           />
         </div>
-        <div
+        <section
           id="international"
           className="international__explore__contain__new"
         >
@@ -164,8 +164,8 @@ export default function CampusLife() {
             alt="internetExplorePicNew"
             className="international__explore__contain__new__img"
           />
-        </div>
-        <div id="public" className="public__speak__new">
+        </section>
+        <section id="public" className="public__speak__new">
           <img
             src={publicSpeakNew}
             alt="publicSpeakNew"
@@ -210,8 +210,11 @@ export default function CampusLife() {
               </div>
             </div>
           </div>
-        </div>
-        <div id="community" className="community__and__enviroment__container">
+        </section>
+        <section
+          id="community"
+          className="community__and__enviroment__container"
+        >
           <div className="international__explore__contain__new__left__heading">
             COMMUNITY SERVICE
             <span>AND THE ENVIRONMENT</span>
@@ -231,8 +234,8 @@ export default function CampusLife() {
             and custodial staff to support and assist them with tuition fees,
             books and uniforms for their children.
           </div>
-        </div>
-        <div id="science" className="science__technology__new">
+        </section>
+        <section id="science" className="science__technology__new">
           <div className="science__technology__new__content">
             <div className="public__speak__new__content__container">
               <div className="international__explore__contain__new__left__heading">
@@ -279,8 +282,8 @@ export default function CampusLife() {
             alt="scienceTechPic"
             className="public__speak__new__img"
           />
-        </div>
-        <div id="drama" className="drama__music__container">
+        </section>
+        <section id="drama" className="drama__music__container">
           <img
             src={dramaPic}
             alt="dramaPic"
@@ -330,8 +333,8 @@ export default function CampusLife() {
               </button>
             </div>
           </div>
-        </div>
-        <div id="sports" className="sports__container">
+        </section>
+        <section id="sports" className="sports__container">
           <div className="drama__music__container__content">
             <div className="international__explore__contain__new__left__heading">
               Sports
@@ -371,9 +374,9 @@ export default function CampusLife() {
             alt="sportsPic"
             className="sports__container__img"
           />
-        </div>
+        </section>
       </div>
-      <div id="media" className="media__heading">
+      {/* <div id="media" className="media__heading">
         Media and Publications
       </div>
       <div className="careers__content__section__campus__life">
@@ -383,7 +386,7 @@ export default function CampusLife() {
           <MediaPublicationCard />
           <MediaPublicationCard />
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

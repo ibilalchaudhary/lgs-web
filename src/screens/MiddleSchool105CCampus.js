@@ -129,7 +129,7 @@ export default function MiddleSchool105CCampus() {
         <div className="home__main__container__overlay">
           <div className="our__school__container__overlay__content">
             <div className="cannal__campus__heading__wrapper">
-              <div className="cannal__campus__sub__heading">105-C CAMPUS</div>
+              <div className="cannal__campus__sub__heading">105 CAMPUS</div>
               <div
                 style={{ color: "#F9CC09" }}
                 className="cannal__campus__heading"
@@ -186,7 +186,7 @@ export default function MiddleSchool105CCampus() {
               <PricipalCard
                 img={HurramYasmin}
                 title="Hurram Yasmin"
-                designation="Middle School Coordinator 105C"
+                designation="Middle School Coordinator"
                 para="Lahore Grammar School provides students with great opportunities to inquire, learn, and explore. Other than educational excellence, LGS provides you with a wonderful opportunity to discover your unique talents and gifts. There are outstanding athletic teams, musical programs, debating society, and other extracurricular activities that will help you to learn more about yourself and to develop friendships that may last a lifetime. Take a chance by getting involved and trying something new. Middle school is unlike any other time in your life. Study hard, challenge yourself, set high goals, and enjoy yourself. We are very fortunate to have a great school with great students and teachers. Make this time some of the most important and productive years of your life."
               />
             </SwiperSlide>
