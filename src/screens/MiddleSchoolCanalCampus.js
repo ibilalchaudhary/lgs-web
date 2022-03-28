@@ -118,6 +118,81 @@ export default function MiddleSchoolCanalCampus() {
       subject:
         "B.S(Hons), Certifications in MIS and Soft Skills, Programming in C, C++ and Data Management Experience:  8 year",
     },
+    {
+      img: "",
+      name: "Amir Zia",
+      subject: "MBA (IT)",
+    },
+    {
+      img: "",
+      name: "Asmara Inayat Niazi",
+      subject: "Master in Economics, B.Ed",
+    },
+    {
+      img: "",
+      name: "Fazeel Noor",
+      subject: "B.S (Elect. Engg)",
+    },
+    {
+      img: "",
+      name: "Nimra Riaz",
+      subject: "M.Phil (Microbiology)",
+    },
+    {
+      img: "",
+      name: "Sobia Iram",
+      subject: "M.A (Eng), M.A (Eng Lit & Ling)",
+    },
+    {
+      img: "",
+      name: "Sonia Umair",
+      subject: "M.Sc (Chem), B.Ed",
+    },
+    {
+      img: "",
+      name: "Ayesha Gillani",
+      subject: "",
+    },
+    {
+      img: "",
+      name: "Hafiza Saima Tahir",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Ismat Tahira",
+      subject: "B.Sc (Chem Botnay) MA (Education)",
+    },
+    {
+      img: "",
+      name: "Kausar Naeem",
+      subject: "B.Sc Math, MBA HRM, B.Ed",
+    },
+    {
+      img: "",
+      name: "Sabir Ali",
+      subject: "F.A",
+    },
+    {
+      img: "",
+      name: "Sadia Kausar",
+      subject: "M.A (Eng. Lit. & Lang.), B.Ed",
+    },
+    {
+      img: "",
+      name: "Sadia Naz",
+      subject: "M.Sc. (Bio) B,Ed",
+    },
+    {
+      img: "",
+      name: "Shabana Razzaq",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Shaista Chaudhary",
+      subject: "M.A (Eng Lit. &  Secondary Edu)",
+    },
   ];
   return (
     <>

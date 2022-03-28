@@ -202,6 +202,126 @@ export default function SeniorSchoolOLevelCanalCampus() {
       name: "Seemab Adnan",
       subject: "Mathematics Experience : 18years",
     },
+    {
+      img: "",
+      name: "Tahira Tabassum",
+      subject: "",
+    },
+    {
+      img: "",
+      name: "Uzma Jafar",
+      subject: "",
+    },
+    {
+      img: "",
+      name: "Ashab Feryaz Ahmed",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Fazeel Noor",
+      subject: "B.S (Elect. Engg)",
+    },
+    {
+      img: "",
+      name: "Junaid Akram",
+      subject: "B.A",
+    },
+    {
+      img: "",
+      name: "Kashif Manzoor",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Lubna Sharoon",
+      subject: "M.A (Eng)",
+    },
+    {
+      img: "",
+      name: "Muhammad Furqan",
+      subject: "Master in (Eng. History) B.Ed",
+    },
+    {
+      img: "",
+      name: "Muhammad Salman Ali",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Muhammad Shameel",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Muhammad Umer Virk",
+      subject: "MBA (HRM)",
+    },
+    {
+      img: "",
+      name: "Muhammad Waseem Akhtar",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Sajid Mahmood",
+      subject: "M.A (Isl & Arabic), B.Ed",
+    },
+    {
+      img: "",
+      name: "Sehrish Alvi",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Javaid Iqbal",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Maleeha Rabbani",
+      subject: "MSC Physics",
+    },
+    {
+      img: "",
+      name: "Naila Salman",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Rizwana Kausar",
+      subject: "M.A (Urdu, Islamiyat, Arabic) B.Ed",
+    },
+    {
+      img: "",
+      name: "Saima Moazam",
+      subject: "M.A (Islamiyat), MBA",
+    },
+    {
+      img: "",
+      name: "Saira Nasir",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Sumara Hanif",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Syeda Maryyum",
+      subject: "M.Sc (Math), B.Ed",
+    },
+    {
+      img: "",
+      name: "Tehmina Hanif",
+      subject: "M.A (Eng)",
+    },
+    {
+      img: "",
+      name: "Zubaria Umbreen Abid",
+      subject: "B.Sc.",
+    },
   ];
   return (
     <>
