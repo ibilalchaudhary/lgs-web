@@ -685,12 +685,19 @@ export default function Admissions() {
             >
               Mrs. Kanwal
             </div>
-            <div className="a__level__addmission__content__entry__para__contact">
+            <a
+              href="tel:+923348387824"
+              className="a__level__addmission__content__entry__para__contact"
+            >
               +923348387824
-            </div>
-            <div className="a__level__addmission__content__entry__para__contact">
+            </a>
+            <br />
+            <a
+              href="mailto:kanwalshahbaz@lgsfsd.edu.pk"
+              className="a__level__addmission__content__entry__para__contact"
+            >
               kanwalshahbaz@lgsfsd.edu.pk
-            </div>
+            </a>
           </div>
         </div>
       </div>

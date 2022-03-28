@@ -128,22 +128,19 @@ export default function Home() {
             </div>
             <div className="our__school__main__container__paragragh">
               In 1979, Lahore Grammar School opened its doors to a handful of
-              students with 55 Main established as its first branch. We’ve come
-              a long way since then! From the very beginning, however, the
-              philosophy of the school has been to combine collaborative
-              learning, critical and logical thinking skills and a diverse
-              co-curricular program to help create a more balanced, well-rounded
-              individual, with interests and ideas, a questioning mind and a
-              genuine love for learning. Today, Lahore Grammar School provides
-              education to girls till A Level. It has extended its network to
-              cater to the needs of the middle-income group in its Landmark
-              Schools. LGS has branches in Islamabad, Karachi, Peshawar, Quetta,
-              Multan, Gujranwala, Sialkot, Faisalabad and Gujrat. It offers
-              quality education to the low-income group through the Lahore
-              Education Society School, entirely supported and funded by LGS.
-              However, please note that this website caters only to schools
-              under the stewardship of Director and Principal, Mrs. Nasrene
-              Shah- namely LGS 31 FCC, LGS 30 Main and LGS 55 Main.
+              students. We’ve come a long way since then! From the very
+              beginning, however, the philosophy of the school has been to
+              combine collaborative learning, critical and logical thinking
+              skills and a diverse co-curricular program to help create a more
+              balanced, well-rounded individual, with interests and ideas, a
+              questioning mind and a genuine love for learning. Today, Lahore
+              Grammar School provides education to students till A Level. It has
+              extended its network to cater to the needs of the middle-income
+              group in its Landmark Schools. LGS has branches in Islamabad,
+              Karachi, Peshawar, Quetta, Multan, Gujranwala, Sialkot, Faisalabad
+              and Gujrat. It offers quality education to the low-income group
+              through the Lahore Education Society School, entirely supported
+              and funded by LGS.
             </div>
           </div>
           <div className="our__school__main__container__right">

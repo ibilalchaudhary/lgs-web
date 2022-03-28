@@ -3145,7 +3145,8 @@ body {
 .a__level__addmission__content__entry__para__contact {
   font-size: 14px;
   color: #fff;
-  margin-top: 0.2em;
+  margin-top: 0.3em;
+  text-decoration: none;
 }
 .global__skill__section__heading {
   font-size: 26px;
@@ -3439,6 +3440,37 @@ body {
   font-size: 15px;
   font-weight: 500;
   cursor: pointer;
+}
+.swings__mood__choices {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.swings__mood__choices__content {
+  background: transparent;
+  border: 3px solid #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.swings__mood__choices__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.swings__mood__choices__input:checked ~ .swings__mood__choices__content {
+  border: 3px solid #f9cc09;
+  color: #f9cc09;
 }
 .personalized__section__form__container__left__content__right__btn__select {
   background: transparent;

@@ -6,7 +6,13 @@ import contactPic from "../assets/contactPic.png";
 
 function ChoiceBtn({ title, select, setSelect, id }) {
   return (
-    <div>
+    <div
+      className={
+        select === id
+          ? "personalized__section__form__container__left__content__right__btn__select"
+          : "personalized__section__form__container__left__content__right__btn"
+      }
+    >
       <input
         id={id}
         type="radio"
@@ -14,19 +20,30 @@ function ChoiceBtn({ title, select, setSelect, id }) {
           setSelect(id);
         }}
         defaultChecked={select === id ? id : false}
-        className={
-          select === id
-            ? "personalized__section__form__container__left__content__right__btn__select"
-            : "personalized__section__form__container__left__content__right__btn"
-        }
       />
       {title}
     </div>
   );
 }
 
+function InputChoice({ select, setSelect }) {
+  return (
+    <div className="swings__mood__choices">
+      <input
+        type="radio"
+        defaultChecked={select ? true : false}
+        onChange={() => {
+          setSelect(true);
+        }}
+        className="swings__mood__choices__input"
+      />
+      <div className="swings__mood__choices__content">1</div>
+    </div>
+  );
+}
+
 export default function CounsellingCenter() {
-  const [select, setSelect] = useState("");
+  const [select, setSelect] = useState(false);
   return (
     <>
       <div className="our__school__container">
@@ -180,18 +197,8 @@ export default function CounsellingCenter() {
               I am pleasant most of the time
             </div>
             <div className="personalized__section__form__container__left__content__right">
-              <ChoiceBtn
-                id="1"
-                title="1"
-                select={select}
-                setSelect={setSelect}
-              />
-              <ChoiceBtn
-                id="2"
-                title="2"
-                select={select}
-                setSelect={setSelect}
-              />
+              <InputChoice select={select} setSelect={setSelect} />
+              <InputChoice select={select} setSelect={setSelect} />
             </div>
           </div>
           <div className="personalized__section__form__container__left__content">
