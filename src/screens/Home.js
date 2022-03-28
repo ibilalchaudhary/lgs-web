@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import main_bg from "../assets/main_bg.png";
-import eventPic from "../assets/eventPic.png";
+import main_video from "../assets/main_video.gif";
 import schoolPic from "../assets/schoolPic.png";
 import aboutPic from "../assets/aboutPic.png";
 import campusPic from "../assets/campusPic.png";
@@ -83,8 +82,8 @@ export default function Home() {
     <>
       <div className="home__main__container">
         <img
-          src={main_bg}
-          alt="main_bg"
+          src={main_video}
+          alt="main_video"
           className="home__main__container__img"
         />
         <div className="home__main__container__overlay">

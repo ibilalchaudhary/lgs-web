@@ -3,14 +3,25 @@ import ourCampusBg from "../assets/ourCampusBg.jpg";
 import PhotoGallery from "../component/PhotoGallery";
 import NoticeBoardCard from "../component/NoticeBoardCard";
 import FacultyCard from "../component/FacultyCard";
+import irfanaAziz from "../assets/irfanaAziz.jpg";
 import pricipal_pic from "../assets/pricipal_pic.png";
-import zunaira from "../assets/zunaira.jpeg";
-import cannalCampusPricipalPic from "../assets/cannalCampusPricipalPic.png";
+import HurramYasmin from "../assets/HurramYasmin.jpeg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import {
+  Aneelapervaiz,
+  FatimaShahid,
+  FatimaTahir,
+  MsShaistaChaudhary,
+  Saimamoazzam,
+  SanaHashmi,
+  SobiaIram,
+  TabassumYounas,
+  TahiraAbbas,
+} from "../assets";
 
 function CampusNav({ title, select, setSelect }) {
   return (
@@ -58,6 +69,55 @@ function PricipalCard({ img, title, designation, para }) {
 
 export default function MiddleSchool105CCampus() {
   const [select, setSelect] = useState("Subject Choices");
+  const facultyList = [
+    {
+      img: TabassumYounas,
+      name: "Tabassum Younas",
+      subject: "M. A Urdu and Iqbaliat 12 years experience",
+    },
+    {
+      img: FatimaShahid,
+      name: "Fatima Shahid",
+      subject: "BS ( Hons) in English literature and language .MA TEFL, B.Ed",
+    },
+    {
+      img: TahiraAbbas,
+      name: "Tahira Abbas",
+      subject: "BS hons zoology, b.ed 4 years of experience",
+    },
+    {
+      img: Aneelapervaiz,
+      name: "Aneela pervaiz",
+      subject: "M.A Islamiat M.A Urdu(B.Ed,M.Ed) More than 10 year experience",
+    },
+    {
+      img: SobiaIram,
+      name: "Sobia Iram",
+      subject:
+        "Masters in English literature Masters in English linguistics Experience 9Years",
+    },
+    {
+      img: MsShaistaChaudhary,
+      name: "Ms Shaista Chaudhary",
+      subject: "Masters in Secondary Education & English Literature",
+    },
+    {
+      img: SanaHashmi,
+      name: "Sana Hashmi",
+      subject: "M.A(Education) 14 years of experience",
+    },
+    {
+      img: Saimamoazzam,
+      name: "Saima moazzam",
+      subject: "Islamiat 19 years  experience",
+    },
+    {
+      img: FatimaTahir,
+      name: "Fatima Tahir",
+      subject:
+        "B.S(Hons), Certifications in MIS and Soft Skills, Programming in C, C++ and Data Management Experience:  8 year",
+    },
+  ];
   return (
     <>
       <div className="our__school__container">
@@ -98,26 +158,36 @@ export default function MiddleSchool105CCampus() {
           >
             <SwiperSlide>
               <PricipalCard
-                img={cannalCampusPricipalPic}
-                title="Mrs. Saltanat Bokhari"
-                designation="Director"
-                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <PricipalCard
                 img={pricipal_pic}
-                title="Mr. Principar"
+                title="Mr. Imran Shahid"
                 designation="Principal"
-                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
+                para="It gives me immense pleasure and a feeling of sheer pride and accomplishment to address you as Principal of the prestigious Lahore Grammar school, Faisalabad, an institution that has striven to maintain high academic standards ever since its inception. Our commitment is to provide our students with an array of opportunities, both curricular and co-curricular, to help them attain their highest potentials.  
+
+                Our aim is not just giving our students an education that entitles them to a job but to nurture in them lifelong love for learning and inculcate in them values that will help them become kind, caring and responsible individuals.
+                
+                I feel privileged to be working with highly qualified and dedicated faculty always striving to provide students with the latest skills and knowledge to help them stand out in this ever evolving and fiercely competitive world. Our school life is vibrant with a variety of activities, happy noises of learning and positive energy.  
+                
+                I welcome you to LGS, Faisalabad and assure you that it will be our endeavour to make our students’ school life an enriching and memorable experience!"
               />
             </SwiperSlide>
             <SwiperSlide>
               <PricipalCard
-                img={zunaira}
-                title="Zunaira Amjad"
-                designation="Director"
-                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
+                img={irfanaAziz}
+                title="Mrs. Irfana Aziz"
+                designation="Vice Principal"
+                para="Welcome to the official website of Lahore Grammar School, Faisalabad; a prestigious institution that has been providing high quality learning opportunities and experiences to young minds of the city for more than two decades.            
+
+                We at LGS, Faisalabad strive to make education an enjoyable and enlightening process. Our school life is an excellent amalgamation of analytical, intellectual, and healthy physical growth of our students along with inculcating human values in them.
+                
+                We are also proud to have a faculty comprising of highly qualified individuals always doing their best to develop and nurture the young minds of today into well-rounded global citizens of tomorrow!"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <PricipalCard
+                img={HurramYasmin}
+                title="Hurram Yasmin"
+                designation="Middle School Coordinator 105C"
+                para="Lahore Grammar School provides students with great opportunities to inquire, learn, and explore. Other than educational excellence, LGS provides you with a wonderful opportunity to discover your unique talents and gifts. There are outstanding athletic teams, musical programs, debating society, and other extracurricular activities that will help you to learn more about yourself and to develop friendships that may last a lifetime. Take a chance by getting involved and trying something new. Middle school is unlike any other time in your life. Study hard, challenge yourself, set high goals, and enjoy yourself. We are very fortunate to have a great school with great students and teachers. Make this time some of the most important and productive years of your life."
               />
             </SwiperSlide>
           </Swiper>
@@ -207,18 +277,9 @@ export default function MiddleSchool105CCampus() {
           <>
             <div className="faculty__section__heading">Faculty Profiles</div>
             <div className="faculty__section__card__wrapper">
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
-              <FacultyCard />
+              {facultyList.map((item) => (
+                <FacultyCard data={item} />
+              ))}
             </div>
           </>
         ) : null}
