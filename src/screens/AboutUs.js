@@ -84,17 +84,6 @@ export default function AboutUs() {
               <div className="from__the__pricipal__container__heading">
                 Mrs. Saltanat Bokhari - DIRECTOR
               </div>
-              <div className="from__the__pricipal__container__para">
-                I am delighted to offer you a warm welcome to LGS FSD. At LGS.
-                FSD, we view diversity as our biggest strength. We aim to
-                inspire in our students the curiosity to learn, the
-                self-confidence to lead and the compassion to serve. Our primary
-                source of insight and energy is our students’ validation,
-                critique and innovative ideas. We mutually guide and encourage
-                one another to understand the importance of not just academic
-                achievement but also values of tolerance and respect. I hope our
-                website gives you a sense of our purpose and vision. -
-              </div>
             </div>
             <div className="from__the__pricipal__container">
               <img
@@ -125,7 +114,7 @@ export default function AboutUs() {
               />
 
               <div className="from__the__pricipal__container__heading">
-                Mrs. Alia Rehman - Regional Ccoordinator
+                Mrs. Alia Rehman - Regional Coordinator
               </div>
               <div className="from__the__pricipal__container__para">
                 What sets Lahore Grammar School Faisalabad apart is that its
