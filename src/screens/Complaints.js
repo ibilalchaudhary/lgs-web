@@ -1,7 +1,5 @@
 import React from "react";
 import ourCampusBg from "../assets/ourCampusBg.jpg";
-import eventPic from "../assets/eventPic.png";
-import campusPic from "../assets/campusPic.png";
 import addmission_bg from "../assets/addmission_bg.png";
 import contactPic from "../assets/contactPic.png";
 

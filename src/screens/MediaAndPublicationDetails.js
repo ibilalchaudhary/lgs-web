@@ -1,8 +1,5 @@
 import React from "react";
 import ourCampusBg from "../assets/ourCampusBg.jpg";
-import campusPic from "../assets/campusPic.png";
-import AlumniRegistrationsPic from "../assets/AlumniRegistrationsPic.png";
-import ReunionsPic from "../assets/ReunionsPic.png";
 import overviewPic from "../assets/overviewPic.png";
 import PhotoGallery from "../component/PhotoGallery";
 

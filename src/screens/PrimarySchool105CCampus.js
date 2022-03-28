@@ -168,18 +168,8 @@ export default function PrimarySchool105CCampus() {
     },
     {
       img: "",
-      name: "Asma Omer",
-      subject: "B.A",
-    },
-    {
-      img: "",
       name: "Attiya Jabbar",
       subject: "M.A Eng",
-    },
-    {
-      img: "",
-      name: "Ayesha Liaquat",
-      subject: "M.A (TEFL)",
     },
     {
       img: "",
@@ -203,28 +193,8 @@ export default function PrimarySchool105CCampus() {
     },
     {
       img: "",
-      name: "Fatima Haroon",
-      subject: "B.A (Hons) Mass Communication",
-    },
-    {
-      img: "",
-      name: "Firdous Rani",
-      subject: "M.Sc. Socialogy  + B.ED",
-    },
-    {
-      img: "",
       name: "Hafiza Hira Ajmal",
       subject: "BS. (Hons) Zoology",
-    },
-    {
-      img: "",
-      name: "Hina Shakeel",
-      subject: "B.A",
-    },
-    {
-      img: "",
-      name: "Hira Yameen",
-      subject: "Maters in Eng. Literature & Linguistics",
     },
     {
       img: "",
@@ -256,16 +226,7 @@ export default function PrimarySchool105CCampus() {
       name: "Saima Imdad",
       subject: "General Certificate of Education",
     },
-    {
-      img: "",
-      name: "Saima Nawaz",
-      subject: "M. Phil Education",
-    },
-    {
-      img: "",
-      name: "Saira Jahanzeb",
-      subject: "B.A",
-    },
+
     {
       img: "",
       name: "Saira Rauf",
@@ -278,16 +239,6 @@ export default function PrimarySchool105CCampus() {
     },
     {
       img: "",
-      name: "Shumaila Naz",
-      subject: "B. SC Double Maths",
-    },
-    {
-      img: "",
-      name: "Sobia Ghulam Nabi",
-      subject: "M.A Urdu Lit + B. ED",
-    },
-    {
-      img: "",
       name: "Somia Anwar",
       subject: "B.A + B. ED",
     },
@@ -295,11 +246,6 @@ export default function PrimarySchool105CCampus() {
       img: "",
       name: "Zunaira Arshad",
       subject: "M.Sc Mathematics",
-    },
-    {
-      img: "",
-      name: "Mrs. Munaza",
-      subject: "",
     },
     {
       img: "",

@@ -5,7 +5,6 @@ import NoticeBoardCard from "../component/NoticeBoardCard";
 import FacultyCard from "../component/FacultyCard";
 import pricipal_pic from "../assets/pricipal_pic.png";
 import irfanaAziz from "../assets/irfanaAziz.jpg";
-import zunaira from "../assets/zunaira.jpeg";
 import cannalCampusPricipalPic from "../assets/cannalCampusPricipalPic.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
@@ -161,6 +160,21 @@ export default function SeniorSchoolALevelCanalCampus() {
       img: "",
       name: "Umar Bilal",
       subject: "Business 14 years O/A Levels",
+    },
+    {
+      img: "",
+      name: "Jawaad Bin Mansoor",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Muhammad Shafiq",
+      subject: "M.Sc. (Phy)",
+    },
+    {
+      img: "",
+      name: "Muhammad Shahzad Miran",
+      subject: "B.A",
     },
   ];
   return (

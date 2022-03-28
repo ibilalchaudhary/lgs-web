@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import ourCampusBg from "../assets/ourCampusBg.jpg";
-import creativePic from "../assets/creativePic.png";
-import addmissionPic from "../assets/SUBJECT.png";
-import irfanaAziz from "../assets/irfanaAziz.jpg";
 import PhotoGallery from "../component/PhotoGallery";
 import NoticeBoardCard from "../component/NoticeBoardCard";
 import FacultyCard from "../component/FacultyCard";
 import pricipal_pic from "../assets/pricipal_pic.png";
 import uzmaMasood from "../assets/uzmaMasood.jpeg";
+import ourCampusBg from "../assets/ourCampusBg.jpg";
+import creativePic from "../assets/creativePic.png";
+import addmissionPic from "../assets/SUBJECT.png";
+import irfanaAziz from "../assets/irfanaAziz.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";

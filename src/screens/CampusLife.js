@@ -1,38 +1,10 @@
 import React, { useState } from "react";
 import ourCampusBg from "../assets/ourCampusBg.jpg";
-import campusPic from "../assets/campusPic.png";
 import internetExplorePicNew from "../assets/internetExplorePicNew.png";
 import publicSpeakNew from "../assets/publicSpeakNew.png";
 import scienceTechPic from "../assets/scienceTechPic.png";
 import dramaPic from "../assets/dramaPic.png";
 import sportsPic from "../assets/sportsPic.png";
-import { Link } from "react-router-dom";
-
-function MediaPublicationCard() {
-  return (
-    <Link
-      to="/media-publications-details"
-      onClick={() => {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
-      }}
-      className="campus__life__main__container__content__card"
-    >
-      <img
-        src={campusPic}
-        alt="campusPic"
-        className="campus__life__main__container__content__card__img"
-      />
-      <div className="campus__life__main__container__content__card__overlay">
-        <div className="campus__life__main__container__content__card__overlay__heading">
-          New Heading Here
-        </div>
-      </div>
-    </Link>
-  );
-}
 
 function NavEntry({ title, selected, setSelected, href }) {
   return (

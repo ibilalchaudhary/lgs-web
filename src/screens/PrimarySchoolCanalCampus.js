@@ -180,6 +180,66 @@ export default function PrimarySchoolCanalCampus() {
       name: "Sumbal Warsha",
       subject: "IT teacher",
     },
+    {
+      img: "",
+      name: "Javeria Shafqat",
+      subject: "MBA (HRM)",
+    },
+    {
+      img: "",
+      name: "Khadija Fazal",
+      subject: "Master in Clothing & Textile Design, B.S",
+    },
+    {
+      img: "",
+      name: "Mehwish Hussain",
+      subject: "M.A (Eng. Lit. & Linguistics), M.A (TEFL)",
+    },
+    {
+      img: "",
+      name: "Saba Nauman",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Asma Hafeez",
+      subject: "B.Sc",
+    },
+    {
+      img: "",
+      name: "Hassan Raza",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Maria Tayyab",
+      subject: "B.Sc (Math Stats)",
+    },
+    {
+      img: "",
+      name: "Marina Monif Khan",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Saghira Amber",
+      subject: "M. Phil (Urdu)",
+    },
+    {
+      img: "",
+      name: "Saneea Khan",
+      subject: "B.Sc.",
+    },
+    {
+      img: "",
+      name: "Umara Tariq",
+      subject: "M.A Urdu",
+    },
+    {
+      img: "",
+      name: "Urvah Mushtaq",
+      subject: "B.Sc.",
+    },
   ];
   return (
     <>

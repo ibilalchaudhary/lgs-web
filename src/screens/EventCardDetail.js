@@ -3,7 +3,7 @@ import ourCampusBg from "../assets/ourCampusBg.jpg";
 import overviewPic from "../assets/overviewPic.png";
 import PhotoGallery from "../component/PhotoGallery";
 
-export default function AluminiCardDetails() {
+export default function EventCardDetail() {
   return (
     <>
       <div className="our__school__container">
@@ -35,7 +35,7 @@ export default function AluminiCardDetails() {
                 style={{ fontSize: 34 }}
                 className="our__school__overlay__content__heading"
               >
-                Alumni Gallery
+                News & Events
               </div>
             </div>
           </div>

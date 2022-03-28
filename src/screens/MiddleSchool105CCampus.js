@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import ourCampusBg from "../assets/ourCampusBg.jpg";
 import PhotoGallery from "../component/PhotoGallery";
 import NoticeBoardCard from "../component/NoticeBoardCard";
 import FacultyCard from "../component/FacultyCard";
 import irfanaAziz from "../assets/irfanaAziz.jpg";
 import pricipal_pic from "../assets/pricipal_pic.png";
 import HurramYasmin from "../assets/HurramYasmin.jpeg";
+import ourCampusBg from "../assets/ourCampusBg.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";

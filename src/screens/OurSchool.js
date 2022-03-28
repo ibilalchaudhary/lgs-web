@@ -4,7 +4,6 @@ import pricipal_pic from "../assets/pricipal_pic.png";
 import director_pic from "../assets/director.jpg";
 import ourStoryPic from "../assets/ourStoryPic.png";
 import ourVisionPic from "../assets/ourVisionPic.png";
-import parentHandbookPic from "../assets/parentHandbookPic.png";
 import academicBg from "../assets/academicBg.png";
 import AIRMS from "../assets/AIRMS.png";
 import PARENTHANDBOOK from "../assets/PARENTHANDBOOK.png";

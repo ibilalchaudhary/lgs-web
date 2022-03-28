@@ -1,37 +1,9 @@
 import React from "react";
 import ourCampusBg from "../assets/ourCampusBg.jpg";
-import campusPic from "../assets/campusPic.png";
 import pricipal_pic from "../assets/pricipal_pic.png";
 import director_pic from "../assets/director.jpg";
 import AliaRehman from "../assets/AliaRehman.jpeg";
 import MeenaGul from "../assets/MeenaGul.jpeg";
-import { Link } from "react-router-dom";
-
-function AluminiGalleryCard({ title }) {
-  return (
-    <Link
-      to="/alumni-card-details"
-      onClick={() => {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
-      }}
-      className="campus__life__main__container__content__card"
-    >
-      <img
-        src={campusPic}
-        alt="campusPic"
-        className="campus__life__main__container__content__card__img"
-      />
-      <div className="campus__life__main__container__content__card__overlay">
-        <div className="campus__life__main__container__content__card__overlay__heading">
-          {title}
-        </div>
-      </div>
-    </Link>
-  );
-}
 
 export default function AboutUs() {
   return (

@@ -16,11 +16,17 @@ import Colorfestival from "../assets/Colorfestival.jpeg";
 import springbreak from "../assets/springbreak.jpeg";
 import alevelplacement from "../assets/alevelplacement.jpeg";
 import internationplacement from "../assets/internationplacement.jpeg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-function EventCard({ title, img }) {
+function EventCard({ title, img, to }) {
+  const navigate = useNavigate();
   return (
-    <div className="events__main__container__content__card">
+    <div
+      className="events__main__container__content__card"
+      onClick={() => {
+        navigate(to);
+      }}
+    >
       <img
         src={img}
         alt="eventPic"
@@ -101,11 +107,27 @@ export default function Home() {
       <div className="events__main__container">
         <div className="events__main__container__heading">News & Events</div>
         <div className="events__main__container__content">
-          <EventCard title="Spring break" img={springbreak} />
-          <EventCard title="A levels farewell" img={internationplacement} />
-          <EventCard title="Color festival" img={Colorfestival} />
-          <EventCard title="International placements" img={alevelplacement} />
-          <EventCard title="Glits" img={glits} />
+          <EventCard
+            title="Spring break"
+            img={springbreak}
+            to="/event_detail"
+          />
+          <EventCard
+            title="A levels farewell"
+            img={internationplacement}
+            to="/event_detail"
+          />
+          <EventCard
+            title="Color festival"
+            img={Colorfestival}
+            to="/event_detail"
+          />
+          <EventCard
+            title="International placements"
+            img={alevelplacement}
+            to="/event_detail"
+          />
+          <EventCard title="Glits" img={glits} to="/event_detail" />
         </div>
       </div>
       <div className="news__main__section">
