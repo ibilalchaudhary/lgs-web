@@ -17,6 +17,7 @@ import Biology from "../assets/Biology.pdf";
 import Physics from "../assets/Physics.pdf";
 import AdmissionProcedure from "../assets/AdmissionProcedure.pdf";
 import "animate.css";
+import {useNavigate} from "react-router-dom"
 
 function SportsCard() {
   return (
@@ -75,6 +76,7 @@ function AddmissionNav({ title, selectedAdmin, setSelectedAdmin }) {
 export default function Admissions() {
   const [selected, setSelected] = useState("Middle School");
   const [selectedAdmin, setSelectedAdmin] = useState("Mathematics");
+  const navigate = useNavigate()
   return (
     <>
       <div className="our__school__container">
@@ -131,7 +133,16 @@ export default function Admissions() {
               Receipt of paid registration fee (Rs 2000)
             </li>
             <div className="admissions__content__section__btn__wrapper">
-              <button className="section__btn__primary">
+              <button
+                className="section__btn__primary"
+                onClick={() => {
+                  navigate("/admissions/form");
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+              >
                 Registration / Admission Form
               </button>
             </div>
@@ -669,7 +680,16 @@ export default function Admissions() {
               complete documents, a member of our Admission Office will get in
               touch for further processing.
             </div>
-            <button className="section__btn__primary">
+            <button
+              className="section__btn__primary"
+              onClick={() => {
+                navigate("/admissions/form");
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
+            >
               Registration / Admission Form
             </button>
           </div>
