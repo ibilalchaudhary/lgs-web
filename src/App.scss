@@ -4202,6 +4202,64 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+.start__up__container__form__input__box__content__upload__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.start__up__container__form__input__box__content__upload {
+  background-color: #0045bb;
+  border-radius: 50px;
+  height: 40px;
+  width: 150px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 1em;
+}
+.start__up__container__form__input__box__content__upload__btn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  cursor: pointer;
+}
+.start__up__container__form__input__box__content__upload__uploaded {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 10px;
+}
+.start__up__container__form__input__box__content__upload__uploaded__close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  padding: 0em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0045bb;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.start__up__container__form__input__box__content__upload__uploaded__close:hover {
+  transition: 300ms ease-in-out;
+  background-color: red;
+}
+.start__up__container__form__input__box__content__upload__uploaded__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 2px solid #0045bb;
+}
 @media (max-width: 1440px) {
   .home__main__container__overlay__content__heading {
     font-size: 38px;

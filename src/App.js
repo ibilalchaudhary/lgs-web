@@ -31,6 +31,7 @@ import MetricSchool105CCampus from "./screens/MetricSchool105CCampus";
 import AboutUs from "./screens/AboutUs";
 import ChallanForm from "./screens/ChallanForm";
 import EventCardDetail from "./screens/EventCardDetail";
+import RegistrationAdmissionForm from "./screens/RegistrationAdmissionForm";
 
 function App() {
   return (
@@ -42,6 +43,10 @@ function App() {
         <Route path="/our-campus" element={<OurCampus />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/admissions" element={<Admissions />} />
+        <Route
+          path="/admissions/form"
+          element={<RegistrationAdmissionForm />}
+        />
         <Route path="/campus-life" element={<CampusLife />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/faq-details" element={<FaqDetails />} />
