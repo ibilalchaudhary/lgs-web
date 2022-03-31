@@ -4020,15 +4020,15 @@ body {
   align-items: center;
 }
 .challan__container {
-  width: 1150px;
+  width: 1650px;
   height: 1100px;
   display: flex;
   justify-content: space-between;
-  padding: 0em 0.5em;
+  padding: 2em;
 }
 .challan__component {
   width: 32%;
-  padding: 1em 0em;
+  padding: 1em 0.5em;
 }
 .challan__component__header__logo {
   width: 55px;
@@ -4134,6 +4134,9 @@ table.challan__table thead {
   color: #000;
   font-weight: 600;
   margin: 0.7em 0em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .challan__component__sub__total span {
   font-weight: normal;
@@ -4259,6 +4262,16 @@ input:checked + .slider:before {
   height: 100%;
   border-radius: 10px;
   border: 2px solid #0045bb;
+}
+.challan__form__wrapper {
+  width: 100%;
+  height: fit-content;
+  min-height: 100vh;
+  padding: 8em 0em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 1440px) {
   .home__main__container__overlay__content__heading {

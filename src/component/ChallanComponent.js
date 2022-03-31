@@ -76,6 +76,18 @@ export default function ChallanComponent({ type }) {
             <td>17,352</td>
           </tr>
           <tr>
+            <td>Admission fee</td>
+            <td>3,000</td>
+          </tr>
+          <tr>
+            <td>Registration fee</td>
+            <td>3,352</td>
+          </tr>
+          <tr>
+            <td>Security fee</td>
+            <td>15,000</td>
+          </tr>
+          <tr>
             <td>Grand Total</td>
             <td>17,352</td>
           </tr>
