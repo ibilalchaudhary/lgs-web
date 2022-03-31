@@ -314,7 +314,7 @@ export default function Alumini() {
             <span style={{ color: "red" }}>Please Note</span> - Event is only
             for the Alumni. Students are requested to not register for event
           </div>
-          <button6 class="section__btn__primary">Register</button6>
+          <button6 className="section__btn__primary">Register</button6>
         </div>
       </div>
       <div

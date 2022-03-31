@@ -51,10 +51,10 @@ export default function Footer() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-instagram"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="feather feather-instagram"
               >
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
@@ -73,10 +73,10 @@ export default function Footer() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="feather feather-linkedin"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="feather feather-linkedin"
               >
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                 <rect x="2" y="9" width="4" height="12"></rect>
@@ -216,8 +216,8 @@ export default function Footer() {
                   y2="1"
                   gradientUnits="objectBoundingBox"
                 >
-                  <stop offset="0" stop-color="#1a1a1a" />
-                  <stop offset="1" stop-color="#373737" />
+                  <stop offset="0" stopColor="#1a1a1a" />
+                  <stop offset="1" stopColor="#373737" />
                 </linearGradient>
               </defs>
               <path
@@ -248,8 +248,8 @@ export default function Footer() {
                   y2="1"
                   gradientUnits="objectBoundingBox"
                 >
-                  <stop offset="0" stop-color="#1a1a1a" />
-                  <stop offset="1" stop-color="#373737" />
+                  <stop offset="0" stopColor="#1a1a1a" />
+                  <stop offset="1" stopColor="#373737" />
                 </linearGradient>
               </defs>
               <path
@@ -280,8 +280,8 @@ export default function Footer() {
                   y2="1"
                   gradientUnits="objectBoundingBox"
                 >
-                  <stop offset="0" stop-color="#1a1a1a" />
-                  <stop offset="1" stop-color="#373737" />
+                  <stop offset="0" stopColor="#1a1a1a" />
+                  <stop offset="1" stopColor="#373737" />
                 </linearGradient>
               </defs>
               <path

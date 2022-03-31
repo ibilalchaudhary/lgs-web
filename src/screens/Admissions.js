@@ -17,7 +17,7 @@ import Biology from "../assets/Biology.pdf";
 import Physics from "../assets/Physics.pdf";
 import AdmissionProcedure from "../assets/AdmissionProcedure.pdf";
 import "animate.css";
-import {useNavigate} from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 
 function SportsCard() {
   return (
@@ -76,7 +76,7 @@ function AddmissionNav({ title, selectedAdmin, setSelectedAdmin }) {
 export default function Admissions() {
   const [selected, setSelected] = useState("Middle School");
   const [selectedAdmin, setSelectedAdmin] = useState("Mathematics");
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <>
       <div className="our__school__container">
@@ -404,10 +404,10 @@ export default function Admissions() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-link"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="feather feather-link"
                       style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
                     >
                       <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
@@ -425,10 +425,10 @@ export default function Admissions() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-link"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="feather feather-link"
                       style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
                     >
                       <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
@@ -446,10 +446,10 @@ export default function Admissions() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-link"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="feather feather-link"
                       style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
                     >
                       <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
@@ -467,10 +467,10 @@ export default function Admissions() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-link"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="feather feather-link"
                       style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
                     >
                       <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
@@ -488,10 +488,10 @@ export default function Admissions() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="feather feather-link"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="feather feather-link"
                       style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
                     >
                       <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
@@ -529,10 +529,10 @@ export default function Admissions() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-link"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="feather feather-link"
                     style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
                   >
                     <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
@@ -565,10 +565,10 @@ export default function Admissions() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-link"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="feather feather-link"
                     style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
                   >
                     <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
@@ -591,10 +591,10 @@ export default function Admissions() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-link"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="feather feather-link"
                     style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
                   >
                     <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
@@ -613,10 +613,10 @@ export default function Admissions() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-link"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="feather feather-link"
                     style={{ marginLeft: ".5em", marginBottom: "-.15em" }}
                   >
                     <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>

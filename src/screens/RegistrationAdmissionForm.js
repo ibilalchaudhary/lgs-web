@@ -46,15 +46,36 @@ function Upload() {
 }
 
 export default function Alumini() {
-  const genderOption = [
-    {
-      label: "Male",
-    },
-    {
-      label: "Female",
-    },
-  ];
-  const [isChecked, setIschecked] = useState(false);
+  const [branchName, setBranchName] = useState("");
+  const [name, setName] = useState("");
+  const [gender, setGender] = useState("");
+  const [dateOfBrith, setDateOfBirth] = useState("");
+  const [placeOfBirth, setPlaceOfBirth] = useState("");
+  const [classInWhichAdmission, setClassInWhichAdmission] = useState("");
+  const [fatherNameAddress, setFatherNameAddress] = useState("");
+  const [fatherProfession, setFatherProfession] = useState("");
+  const [fatherTel, setFatherTel] = useState("");
+  const [fatherOff, setFatherOff] = useState("");
+  const [fatherMob, setFatherMob] = useState("");
+  const [fatherCNIC, setFatherCNIC] = useState("");
+  const [motherNameAddress, setMotherNameAddress] = useState("");
+  const [motherProfession, setMotherProfession] = useState("");
+  const [motherTel, setMotherTel] = useState("");
+  const [motherOff, setMotherOff] = useState("");
+  const [motherMob, setMotherMob] = useState("");
+  const [motherCNIC, setMotherCNIC] = useState("");
+  const [guardianNameAddress, setGuardianNameAddress] = useState("");
+  const [guardianProfession, setGuardianProfession] = useState("");
+  const [guardianTel, setGuardianTel] = useState("");
+  const [guardianOff, setGuardianOff] = useState("");
+  const [guardianMob, setGuardianMob] = useState("");
+  const [guardianCNIC, setGuardianCNIC] = useState("");
+  const [nationalityOfParents, setNationalityOfParents] = useState("");
+  const [nameOfPreviousSchool, setNameOfPreviousSchool] = useState("");
+  const [previousClass, setPreviousClass] = useState("");
+  const [siblingInLGS, setSiblingInLGS] = useState("");
+  const [siblingInLGSClass, setSiblingInLGSClass] = useState("");
+
   return (
     <>
       <div className="our__school__container" style={{ height: "300px" }}>
@@ -74,18 +95,36 @@ export default function Alumini() {
           </div>
         </div>
       </div>
-      <div
+      <form
         className="career__section__content"
         style={{ marginBottom: "5em", marginTop: "5em" }}
       >
         <div className="career__section__content__input__row">
           <InputField
-            label="Child's full name (in capital letters)"
+            label="Name Of Branch"
             required={true}
+            onChange={(e) => {
+              setBranchName(e.target.value);
+            }}
           />
         </div>
         <div className="career__section__content__input__row">
-          <InputField label="Exact date of birth" required={true} />
+          <InputField
+            label="Child's full name (in capital letters)"
+            required={true}
+            onChange={(e) => {
+              setName(e.target.value);
+            }}
+          />
+        </div>
+        <div className="career__section__content__input__row">
+          <InputField
+            label="Exact date of birth"
+            required={true}
+            onChange={(e) => {
+              setDateOfBirth(e.target.value);
+            }}
+          />
           <div className="start__up__container__form__input__box">
             <div className="start__up__container__form__input__box__label">
               Gender
@@ -98,106 +137,220 @@ export default function Alumini() {
               style={{ marginTop: "1em" }}
             >
               <CheckBox
-                value={isChecked === "Male"}
+                value={gender === "Male"}
                 label="Male"
                 labelColor="#242424"
                 checkedColor="#005dff"
                 unCheckedColor="#f6f6f6"
                 iconColor="#ffffff"
                 onChange={() => {
-                  setIschecked("Male");
+                  setGender("Male");
                 }}
               />
               <div style={{ marginRight: "2em" }}></div>
               <CheckBox
-                value={isChecked === "Female"}
+                value={gender === "Female"}
                 label="Female"
                 labelColor="#242424"
                 checkedColor="#005dff"
                 unCheckedColor="#f6f6f6"
                 iconColor="#ffffff"
                 onChange={() => {
-                  setIschecked("Female");
+                  setGender("Female");
                 }}
               />
             </div>
           </div>
         </div>
         <div className="career__section__content__input__row">
-          <InputField label="Place of Birth" required={true} />
+          <InputField
+            label="Place of Birth"
+            required={true}
+            onChange={(e) => {
+              setPlaceOfBirth(e.target.value);
+            }}
+          />
           <InputField
             label="Class in which admission is desired"
             required={true}
+            onChange={(e) => {
+              setClassInWhichAdmission(e.target.value);
+            }}
           />
         </div>
         <div className="career__section__content__input__row">
-          <InputField label="Father's name and address" required={true} />
+          <InputField
+            label="Father's name and address"
+            required={true}
+            onChange={(e) => {
+              setFatherNameAddress(e.target.value);
+            }}
+          />
         </div>
         <div className="career__section__content__input__row">
           <InputField
             label="Father's profession / occupation"
             required={true}
+            onChange={(e) => {
+              setFatherProfession(e.target.value);
+            }}
           />
         </div>
         <div className="career__section__content__input__row">
-          <InputField label="Tel" required={true} />
-          <InputField label="Tel off" />
-          <InputField label="Mob" />
+          <InputField
+            label="Tel"
+            required={true}
+            onChange={(e) => {
+              setFatherTel(e.target.value);
+            }}
+          />
+          <InputField
+            label="Tel off"
+            onChange={(e) => {
+              setFatherOff(e.target.value);
+            }}
+          />
+          <InputField
+            label="Mob"
+            onChange={(e) => {
+              setFatherMob(e.target.value);
+            }}
+          />
         </div>
         <div className="career__section__content__input__row">
-          <InputField label="Father's CNIC" required={true} />
+          <InputField
+            label="Father's CNIC"
+            required={true}
+            onChange={(e) => {
+              setFatherCNIC(e.target.value);
+            }}
+          />
         </div>
         <div className="career__section__content__input__row">
-          <InputField label="Mother's name and address" required={true} />
+          <InputField
+            label="Mother's name and address"
+            required={true}
+            onChange={(e) => {
+              setMotherNameAddress(e.target.value);
+            }}
+          />
         </div>
         <div className="career__section__content__input__row">
           <InputField
             label="Mother's profession / occupation"
             required={true}
+            onChange={(e) => {
+              setMotherProfession(e.target.value);
+            }}
           />
         </div>
         <div className="career__section__content__input__row">
-          <InputField label="Tel" required={true} />
-          <InputField label="Tel off" />
-          <InputField label="Mob" />
+          <InputField
+            label="Tel"
+            required={true}
+            onChange={(e) => {
+              setMotherTel(e.target.value);
+            }}
+          />
+          <InputField
+            label="Tel off"
+            onChange={(e) => {
+              setMotherOff(e.target.value);
+            }}
+          />
+          <InputField
+            label="Mob"
+            onChange={(e) => {
+              setMotherMob(e.target.value);
+            }}
+          />
         </div>
         <div className="career__section__content__input__row">
-          <InputField label="Mother's CNIC" required={true} />
+          <InputField
+            label="Mother's CNIC"
+            required={true}
+            onChange={(e) => {
+              setMotherCNIC(e.target.value);
+            }}
+          />
         </div>
         <div className="career__section__content__input__row">
-          <InputField label="Guardian's name and address" />
+          <InputField
+            label="Guardian's name and address"
+            onChange={(e) => {
+              setGuardianNameAddress(e.target.value);
+            }}
+          />
         </div>
         <div className="career__section__content__input__row">
-          <InputField label="Guardian's profession / occupation" />
+          <InputField
+            label="Guardian's profession / occupation"
+            onChange={(e) => {
+              setGuardianProfession(e.target.value);
+            }}
+          />
         </div>
         <div className="career__section__content__input__row">
-          <InputField label="Tel" />
-          <InputField label="Tel off" />
-          <InputField label="Mob" />
+          <InputField
+            label="Tel"
+            onChange={(e) => {
+              setGuardianTel(e.target.value);
+            }}
+          />
+          <InputField
+            label="Tel off"
+            onChange={(e) => {
+              setGuardianOff(e.target.value);
+            }}
+          />
+          <InputField
+            label="Mob"
+            onChange={(e) => {
+              setGuardianMob(e.target.value);
+            }}
+          />
         </div>
         <div className="career__section__content__input__row">
-          <InputField label="Nationality of parents" required={true} />
+          <InputField
+            label="Nationality of parents"
+            required={true}
+            onChange={(e) => {
+              setNationalityOfParents(e.target.value);
+            }}
+          />
         </div>
         <div className="career__section__content__input__row">
           <InputField
             label="Name of previous nursery / school"
             required={true}
+            onChange={(e) => {
+              setNameOfPreviousSchool(e.target.value);
+            }}
           />
         </div>
         <div className="career__section__content__input__row">
           <InputField
             label="Class previously studying in and date of promotion"
             required={true}
+            onChange={(e) => {
+              setPreviousClass(e.target.value);
+            }}
           />
         </div>
         <div className="career__section__content__input__row">
           <InputField
             label="Brother/sister studying in any LGS branch"
             required={true}
+            onChange={(e) => {
+              setSiblingInLGS(e.target.value);
+            }}
           />
           <InputField
             label="Class of Brother/sister studying in any LGS branch"
             required={true}
+            onChange={(e) => {
+              setSiblingInLGSClass(e.target.value);
+            }}
           />
         </div>
         <div className="career__section__content__input__row">
@@ -239,13 +392,13 @@ export default function Alumini() {
           }}
         >
           <button
-            class="section__btn__primary"
+            className="section__btn__primary"
             style={{ padding: "1em 3em", marginRight: "0em" }}
           >
             Register
           </button>
         </div>
-      </div>
+      </form>
     </>
   );
 }

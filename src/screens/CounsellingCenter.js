@@ -482,14 +482,14 @@ export default function CounsellingCenter() {
                     >
                       Online
                     </div>
-                    <label class="switch">
+                    <label className="switch">
                       <input
                         type="checkbox"
                         onChange={(e) => {
                           setChecked(e.target.checked);
                         }}
                       />
-                      <span class="slider round"></span>
+                      <span className="slider round"></span>
                     </label>
                     <div
                       className="international__office__content__left__sub__para"

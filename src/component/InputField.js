@@ -6,6 +6,7 @@ export default function InputField({
   required,
   description,
   type,
+  onChange,
 }) {
   return (
     <div className="start__up__container__form__input__box">
@@ -24,6 +25,7 @@ export default function InputField({
         <input
           type={type ? type : "text"}
           required={required}
+          onChange={onChange}
           placeholder={placeholder ? placeholder : "Enter " + label}
           className="start__up__container__form__input__box__field"
         />

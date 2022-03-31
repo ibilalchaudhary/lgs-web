@@ -63,7 +63,7 @@ export default function ChallanComponent({ type }) {
           Fee For: <span> Jan 2022</span>
         </div>
       </div>
-      <table class="challan__table">
+      <table className="challan__table">
         <thead>
           <tr>
             <th>PARTICULARS</th>
