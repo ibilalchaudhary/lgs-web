@@ -4,7 +4,7 @@ import campusPic from "../assets/campusPic.png";
 import AlumniRegistrationsPic from "../assets/AlumniRegistrationsPic.png";
 import ReunionsPic from "../assets/ReunionsPic.png";
 import overviewPic from "../assets/overviewPic.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import InputField from "../component/InputField";
 import CheckBox from "react-checkbox-css";
 import { useState } from "react";
@@ -46,6 +46,7 @@ function Upload() {
 }
 
 export default function Alumini() {
+  const navigate = useNavigate();
   const [branchName, setBranchName] = useState("");
   const [name, setName] = useState("");
   const [gender, setGender] = useState("");
@@ -75,6 +76,48 @@ export default function Alumini() {
   const [previousClass, setPreviousClass] = useState("");
   const [siblingInLGS, setSiblingInLGS] = useState("");
   const [siblingInLGSClass, setSiblingInLGSClass] = useState("");
+
+  function handleSubmit() {
+    localStorage.setItem(
+      "registerdata",
+      JSON.stringify([
+        {
+          branchName: branchName,
+          name: name,
+          gender: gender,
+          dateOfBrith: dateOfBrith,
+          placeOfBirth: placeOfBirth,
+          classInWhichAdmission: classInWhichAdmission,
+          fatherNameAddress: fatherNameAddress,
+          fatherProfession: fatherProfession,
+          fatherTel: fatherTel,
+          fatherOff: fatherOff,
+          fatherMob: fatherMob,
+          fatherCNIC: fatherCNIC,
+          motherNameAddress: motherNameAddress,
+          motherProfession: motherProfession,
+          motherTel: motherTel,
+          motherOff: motherOff,
+          motherMob: motherMob,
+          motherCNIC: motherCNIC,
+          guardianNameAddress: guardianNameAddress,
+          guardianProfession: guardianProfession,
+          guardianTel: guardianTel,
+          guardianOff: guardianOff,
+          guardianMob: guardianMob,
+          guardianCNIC: guardianCNIC,
+          nationalityOfParents: nationalityOfParents,
+          nameOfPreviousSchool: nameOfPreviousSchool,
+          previousClass: previousClass,
+          siblingInLGS: siblingInLGS,
+          siblingInLGSClass: siblingInLGSClass,
+        },
+      ])
+    );
+    // console.log("ok");
+    // console.log(localStorage.getItem("registerdata"));
+    navigate("/forms");
+  }
 
   return (
     <>
@@ -392,6 +435,7 @@ export default function Alumini() {
           }}
         >
           <button
+            onClick={handleSubmit}
             className="section__btn__primary"
             style={{ padding: "1em 3em", marginRight: "0em" }}
           >

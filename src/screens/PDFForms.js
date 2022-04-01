@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Pdf from "react-to-pdf";
 import AddmissionFormPDF from "../component/AddmissionFormPDF";
 import ChallanComponent from "../component/ChallanComponent";
@@ -13,9 +13,13 @@ export default function PDFForms({ setIsPDF }) {
   const refChllanForm = React.createRef();
   const refRegistrationForm = React.createRef();
   const refAddmissionFrom = React.createRef();
-
+  const [registerData, setRegisterData] = useState();
+  console.log(registerData);
   useEffect(() => {
     setIsPDF(true);
+    // console.log(localStorage.getItem("registerdata"));
+    setRegisterData(JSON.parse(localStorage.getItem("registerdata")));
+
     return () => {
       setIsPDF(false);
     };
@@ -59,18 +63,16 @@ export default function PDFForms({ setIsPDF }) {
             )}
           </Pdf>
         </div>
-
+        <div className="challan__container" ref={refRegistrationForm}>
+          <RegistrationFormPDF data={registerData} />
+        </div>
+        <div className="challan__container" ref={refAddmissionFrom}>
+          <AddmissionFormPDF data={registerData} />
+        </div>
         <div className="challan__container" ref={refChllanForm}>
           <ChallanComponent type="Bank Copy" />
           <ChallanComponent type="School Copy" />
           <ChallanComponent type="Student Copy" />
-        </div>
-
-        <div className="challan__container" ref={refRegistrationForm}>
-          <RegistrationFormPDF />
-        </div>
-        <div className="challan__container" ref={refAddmissionFrom}>
-          <AddmissionFormPDF />
         </div>
       </div>
     </>
