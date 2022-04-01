@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.scss";
 import ContactUsSection from "./component/ContactUsSection";
@@ -29,14 +29,16 @@ import MediaAndPublicationDetails from "./screens/MediaAndPublicationDetails";
 import MetricSchoolCanalCampus from "./screens/MetricSchoolCanalCampus";
 import MetricSchool105CCampus from "./screens/MetricSchool105CCampus";
 import AboutUs from "./screens/AboutUs";
-import ChallanForm from "./screens/ChallanForm";
 import EventCardDetail from "./screens/EventCardDetail";
 import RegistrationAdmissionForm from "./screens/RegistrationAdmissionForm";
+import PDFForms from "./screens/PDFForms";
 
 function App() {
+  const [isPDF, setIsPDF] = useState(false);
   return (
     <>
-      <Header />
+      {isPDF ? null : <Header />}
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/our-school" element={<OurSchool />} />
@@ -99,10 +101,10 @@ function App() {
           path="/media-publications-details"
           element={<MediaAndPublicationDetails />}
         />
-        <Route path="/challan-form" element={<ChallanForm />} />
+        <Route path="/forms" element={<PDFForms setIsPDF={setIsPDF} />} />
       </Routes>
-      <ContactUsSection />
-      <Footer />
+      {isPDF ? null : <ContactUsSection />}
+      {isPDF ? null : <Footer />}
     </>
   );
 }

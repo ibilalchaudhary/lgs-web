@@ -4020,8 +4020,8 @@ body {
   align-items: center;
 }
 .challan__container {
-  width: 1650px;
-  height: 1100px;
+  width: 1360px;
+  height: 1300px;
   display: flex;
   justify-content: space-between;
   padding: 2em;
@@ -4267,11 +4267,188 @@ input:checked + .slider:before {
   width: 100%;
   height: fit-content;
   min-height: 100vh;
-  padding: 8em 0em;
+  padding: 4em 0em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.challan__form__btn__wrapper {
+  display: flex;
+  align-items: center;
+}
+.registration__form {
+  width: 100%;
+  height: fit-content;
+  padding: 2em;
+}
+.registration__form__header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.registration__form__header__content__heading {
+  font-size: 22px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0.2em 0em;
+}
+.registration__form__header__content__sub__heading {
+  font-size: 18px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.registration__form__header__img {
+  margin-right: 1.5em;
+  width: 60px;
+}
+.registration__form__header__content {
+  text-align: center;
+}
+.registration__form__table {
+  width: 100%;
+  border: 1px solid #000;
+  margin-top: 1em;
+  padding: 0;
+}
+.registration__form__name {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 2em;
+}
+.registration__form__name span {
+  font-weight: normal;
+  margin-left: 0.5em;
+  position: relative;
+}
+.registration__form__name span::after {
+  position: absolute;
+  content: "";
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #000;
+}
+.registration__form__table__entry {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.7em;
+  position: relative;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+.registration__form__table__entry span {
+  font-weight: normal;
+  margin-left: 0.5em;
+}
+.registration__form__table__entry__secondary__entry {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  min-width: 250px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  margin-left: 3em;
+}
+.registration__form__table__entry__secondary__entry span {
+  font-weight: normal;
+  margin-left: 0.5em;
+}
+.registration__form__table__entry::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #000;
+}
+.registration__form__table__entry:last-child::after {
+  display: none;
+}
+.registration__form__table__entry__secondary {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 6em;
+}
+.registration__form__table__entry__secondary::before {
+  position: absolute;
+  left: -20px;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background: #000;
+  content: "";
+}
+.registration__form__date__table {
+  padding: 0.5em;
+  border: 1px solid #000;
+}
+.registration__form__middle__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 1em;
+}
+.registration__form__signature__table {
+  width: 300px;
+  height: 120px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.registration__form__signature__table__content {
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+.registration__form__footer {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #000;
+  margin-top: 1em;
+}
+.registration__form__footer__entry {
+  font-size: 14px;
+  color: #000;
+  position: relative;
+  margin-left: 2em;
+  margin-top: 0.4em;
+}
+.registration__form__footer__entry::after {
+  position: absolute;
+  content: "";
+  left: -20px;
+  top: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #000;
+}
+.registration__form__undertaking__heading {
+  font-size: 22px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 0.5em;
+}
+.registration__form__undertaking__para {
+  font-size: 14px;
+  color: #000;
+  margin-top: 0.2em;
+  margin-bottom: 3em;
 }
 @media (max-width: 1440px) {
   .home__main__container__overlay__content__heading {
