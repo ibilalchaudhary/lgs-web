@@ -2534,7 +2534,7 @@ body {
 .international__explore__contain__new {
   width: 100%;
   height: fit-content;
-  margin: 6em 0em;
+  padding: 8em 0em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2564,11 +2564,11 @@ body {
 .public__speak__new {
   width: 100%;
   height: fit-content;
+  padding: 8em 0em;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin: 2em 0em;
 }
 .public__speak__new__content {
   position: absolute;
@@ -2614,8 +2614,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 4em 0em;
-  margin-top: 6em;
+  padding: 10em 0em;
 }
 .science__technology__new {
   width: 100%;
@@ -2624,7 +2623,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   position: relative;
-  margin: 6em 0em;
+  padding: 8em 0em;
 }
 .science__technology__new__content {
   position: absolute;
@@ -2641,12 +2640,13 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin: 6em 0em;
+  padding: 8em 0em;
 }
 .sports__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 4em 0em;
   width: 100%;
 }
 .drama__music__container__img {

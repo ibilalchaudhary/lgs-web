@@ -112,9 +112,7 @@ export default function Alumini() {
     );
     console.log("ok");
     console.log(localStorage.getItem("registerdata"));
-    setTimeout(() => {
-      navigate("/forms");
-    }, 300);
+    navigate("/forms");
   }
 
   return (

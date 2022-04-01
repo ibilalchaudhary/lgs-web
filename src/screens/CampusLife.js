@@ -100,13 +100,13 @@ export default function CampusLife() {
             title="Sports"
             href="#sports"
           />
-          <NavEntry
+          {/* <NavEntry
             selected={selected}
             setSelected={setSelected}
             title="Social Media
             and Publications"
             href="#media"
-          />
+          /> */}
         </div>
         <section
           id="international"
@@ -137,7 +137,7 @@ export default function CampusLife() {
             className="international__explore__contain__new__img"
           />
         </section>
-        <section id="public" className="public__speak__new">
+        <div id="public" className="public__speak__new">
           <img
             src={publicSpeakNew}
             alt="publicSpeakNew"
@@ -182,7 +182,7 @@ export default function CampusLife() {
               </div>
             </div>
           </div>
-        </section>
+        </div>
         <section
           id="community"
           className="community__and__enviroment__container"

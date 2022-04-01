@@ -4,6 +4,7 @@ import pricipal_pic from "../assets/pricipal_pic.png";
 import director_pic from "../assets/director.jpg";
 import AliaRehman from "../assets/AliaRehman.jpeg";
 import MeenaGul from "../assets/MeenaGul.jpeg";
+import irfanaAziz from "../assets/irfanaAziz.jpg";
 
 export default function AboutUs() {
   return (
@@ -134,6 +135,32 @@ export default function AboutUs() {
                 <br />I welcome you to LGS, Faisalabad and assure you that it
                 will be our endeavor to make our students’ school life an
                 enriching and memorable experience!
+              </div>
+            </div>
+
+            <div className="from__the__pricipal__container">
+              <img
+                src={irfanaAziz}
+                alt="irfanaAziz"
+                className="from__the__pricipal__container__img"
+              />
+
+              <div className="from__the__pricipal__container__heading">
+                Mrs. Irfana Aziz - VICE PRINCIPAL
+              </div>
+              <div className="from__the__pricipal__container__para">
+                Welcome to the official website of Lahore Grammar School,
+                Faisalabad; a prestigious institution that has been providing
+                high quality learning opportunities and experiences to young
+                minds of the city for more than two decades. We at LGS,
+                Faisalabad strive to make education an enjoyable and
+                enlightening process. Our school life is an excellent
+                amalgamation of analytical, intellectual, and healthy physical
+                growth of our students along with inculcating human values in
+                them. We are also proud to have a faculty comprising of highly
+                qualified individuals always doing their best to develop and
+                nurture the young minds of today into well-rounded global
+                citizens of tomorrow!
               </div>
             </div>
           </div>
