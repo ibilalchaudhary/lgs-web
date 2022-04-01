@@ -1,10 +1,6 @@
 import React from "react";
 import ourCampusBg from "../assets/ourCampusBg.jpg";
-import campusPic from "../assets/campusPic.png";
-import AlumniRegistrationsPic from "../assets/AlumniRegistrationsPic.png";
-import ReunionsPic from "../assets/ReunionsPic.png";
-import overviewPic from "../assets/overviewPic.png";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import InputField from "../component/InputField";
 import CheckBox from "react-checkbox-css";
 import { useState } from "react";
@@ -114,9 +110,11 @@ export default function Alumini() {
         },
       ])
     );
-    // console.log("ok");
-    // console.log(localStorage.getItem("registerdata"));
-    navigate("/forms");
+    console.log("ok");
+    console.log(localStorage.getItem("registerdata"));
+    setTimeout(() => {
+      navigate("/forms");
+    }, 300);
   }
 
   return (
@@ -162,6 +160,7 @@ export default function Alumini() {
         </div>
         <div className="career__section__content__input__row">
           <InputField
+            type="date"
             label="Exact date of birth"
             required={true}
             onChange={(e) => {

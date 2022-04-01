@@ -13,13 +13,47 @@ export default function PDFForms({ setIsPDF }) {
   const refChllanForm = React.createRef();
   const refRegistrationForm = React.createRef();
   const refAddmissionFrom = React.createRef();
-  const [registerData, setRegisterData] = useState();
+  const [registerData, setRegisterData] = useState([
+    {
+      branchName: "",
+      name: "",
+      gender: "",
+      dateOfBrith: "",
+      placeOfBirth: "",
+      classInWhichAdmission: "",
+      fatherNameAddress: "",
+      fatherProfession: "",
+      fatherTel: "",
+      fatherOff: "",
+      fatherMob: "",
+      fatherCNIC: "",
+      motherNameAddress: "",
+      motherProfession: "",
+      motherTel: "",
+      motherOff: "",
+      motherMob: "",
+      motherCNIC: "",
+      guardianNameAddress: "",
+      guardianProfession: "",
+      guardianTel: "",
+      guardianOff: "",
+      guardianMob: "",
+      guardianCNIC: "",
+      nationalityOfParents: "",
+      nameOfPreviousSchool: "",
+      previousClass: "",
+      siblingInLGS: "",
+      siblingInLGSClass: "",
+    },
+  ]);
   console.log(registerData);
+
+  useEffect(() => {
+    setRegisterData(JSON.parse(localStorage.getItem("registerdata")));
+  }, []);
+
   useEffect(() => {
     setIsPDF(true);
-    // console.log(localStorage.getItem("registerdata"));
-    setRegisterData(JSON.parse(localStorage.getItem("registerdata")));
-
     return () => {
       setIsPDF(false);
     };
@@ -32,7 +66,7 @@ export default function PDFForms({ setIsPDF }) {
           <Pdf
             targetRef={refChllanForm}
             options={options}
-            filename="challan-form.pdf"
+            filename="challan form.pdf"
           >
             {({ toPdf }) => (
               <button onClick={toPdf} className="section__btn__primary">
@@ -43,7 +77,7 @@ export default function PDFForms({ setIsPDF }) {
           <Pdf
             targetRef={refRegistrationForm}
             options={options}
-            filename="challan-form.pdf"
+            filename="registration form.pdf"
           >
             {({ toPdf }) => (
               <button onClick={toPdf} className="section__btn__primary">
@@ -54,7 +88,7 @@ export default function PDFForms({ setIsPDF }) {
           <Pdf
             targetRef={refAddmissionFrom}
             options={options}
-            filename="challan-form.pdf"
+            filename="admission form.pdf"
           >
             {({ toPdf }) => (
               <button onClick={toPdf} className="section__btn__primary">
