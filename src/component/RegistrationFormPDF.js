@@ -172,8 +172,8 @@ export default function RegistrationFormPDF() {
           provided.
         </div>
         <div className="registration__form__footer__entry">
-          To finalize admission a birth / school leaving certificate must be
-          provided
+          The company reserves the right to utilize the security deposit at its
+          role discretion till refunded.
         </div>
       </div>
     </div>
