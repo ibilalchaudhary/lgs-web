@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import ourCampusBg from "../assets/ourCampusBg.jpg";
-import pricipal_pic from "../assets/pricipal_pic.png";
-import zunaira from "../assets/zunaira.jpeg";
 import cannalCampusPricipalPic from "../assets/cannalCampusPricipalPic.png";
 import PhotoGallery from "../component/PhotoGallery";
 import NoticeBoardCard from "../component/NoticeBoardCard";
@@ -153,22 +151,14 @@ export default function MetricSchoolCanalCampus() {
                 para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
               />
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <PricipalCard
                 img={pricipal_pic}
                 title="Mr. Principar"
                 designation="Principal"
                 para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
               />
-            </SwiperSlide>
-            <SwiperSlide>
-              <PricipalCard
-                img={zunaira}
-                title="Zunaira Amjad"
-                designation="Director"
-                para="I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD, we view diversity as our biggest strength. We aim to inspire in our students the curiosity to learn, the self-confidence to lead and the compassion to serve. Our primary source of insight and energy is our students’ validation, critique and innovative ideas. We mutually guide and encourage one another to understand the importance of not just academic achievement but also values of tolerance and respect. I hope our website gives you a sense of our purpose and vision."
-              />
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
         <div className="cannal__campus__nav__wrapper">

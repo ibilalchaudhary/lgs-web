@@ -7,6 +7,8 @@ export default function InputField({
   description,
   type,
   onChange,
+  list,
+  listName,
 }) {
   return (
     <div className="start__up__container__form__input__box">
@@ -28,7 +30,13 @@ export default function InputField({
           onChange={onChange}
           placeholder={placeholder ? placeholder : "Enter " + label}
           className="start__up__container__form__input__box__field"
+          list={listName + "s"}
+          name={listName}
+          id={listName}
         />
+        <datalist id={listName + "s"}>
+          {list && list.map((item) => <option value={item} />)}
+        </datalist>
       </div>
     </div>
   );

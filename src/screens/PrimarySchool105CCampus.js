@@ -9,8 +9,6 @@ import SUBJECT from "../assets/SUBJECT.png";
 import PhotoGallery from "../component/PhotoGallery";
 import NoticeBoardCard from "../component/NoticeBoardCard";
 import FacultyCard from "../component/FacultyCard";
-import pricipal_pic from "../assets/pricipal_pic.png";
-import irfanaAziz from "../assets/irfanaAziz.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
@@ -353,7 +351,7 @@ export default function PrimarySchool105CCampus() {
             modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper"
           >
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <PricipalCard
                 img={pricipal_pic}
                 title="Mr. Imran Shahid"
@@ -378,8 +376,7 @@ export default function PrimarySchool105CCampus() {
                 
                 We are also proud to have a faculty comprising of highly qualified individuals always doing their best to develop and nurture the young minds of today into well-rounded global citizens of tomorrow!"
               />
-            </SwiperSlide>
-
+            </SwiperSlide> */}
             <SwiperSlide>
               <PricipalCard
                 img={MsFizzaIfftikhar}

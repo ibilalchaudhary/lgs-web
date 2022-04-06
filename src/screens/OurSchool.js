@@ -53,27 +53,36 @@ export default function OurSchool() {
               Our Story
             </div>
             <div className="our__story__main__container__content__left__paragraph">
-              Lahore Grammar School was established in 1979. The nationalization
-              of educational institutions in Pakistan had led to an alarming
-              decline in the standards of instruction and facilities being
-              provided in most schools and colleges. Interventions in the realm
-              of education were consequently critical to arrest this abysmal
-              state of affairs. In 1978, the Pakistani Government announced that
-              it would welcome initiatives in the educational sector. Taking
-              advantage of this, a group of women from varied professional
-              backgrounds, including education, and with the shared objective of
-              contributing in this field, decided to set up a girls school.
-            </div>
-            <div className="our__story__main__container__content__left__paragraph">
-              In 1979, therefore, Lahore Grammar School was established when 55
-              Main opened its doors to a handful of students. We’ve come a long
-              way since then!
-            </div>
-            <div className="our__story__main__container__content__left__paragraph">
+              Lahore Grammar School, Faisalabad first opened its doors in 1999
+              with quality education as its prime objective. Since then, the
+              school has been trailblazing the existing academic landscape of
+              the city through excellence in education. Today, we are a vastly
+              enriched school with numerous facilities and a thriving campus
+              life.
+              <br />
+              <br />
+              We combine critical and logical thinking skills and a diverse
+              co-curricular program to inculcate a genuine love for learning in
+              our students. With our proud legacy of nurturing multitudinous
+              youngsters into well-rounded, enlightened individuals, we believe
+              only sky is our limit.
+              <br />
+              <br />
               The school is affiliated with the Cambridge Board of International
-              Examinations for the O and A Level programs. The grading system
-              applied in the senior levels is in line with the specifications of
-              the Board.
+              Examinations for the O and A Level programs and Board of
+              Intermediate and Secondary Education for Matriculation to provide
+              our students with excellent progression routes to higher
+              education. We are committed to facilitate our students with
+              challenging academic programs for cohesive transition between
+              grade levels from primary to middle and ultimately their high
+              school.
+              <br />
+              <br />
+              Our students are our pride and we proactively support them to
+              nurture their innate talents through various clubs and societies.
+              Over years, our graduating students have been placed in the best
+              foreign and national universities and that is a reflection of the
+              success of our academic life.
             </div>
           </div>
           <img

@@ -1,7 +1,8 @@
 import React from "react";
 import logo from "../assets/logo.svg";
 
-export default function ChallanComponent({ type }) {
+export default function ChallanComponent({ type, data }) {
+  console.log(data);
   return (
     <div className="challan__component">
       <div className="challan__component__header">
@@ -36,10 +37,10 @@ export default function ChallanComponent({ type }) {
       </div>
       <div className="challan__component__row">
         <div className="challan__component__row__entry__left">
-          Name: <span> John Doe</span>
+          Name: <span> {data.name}</span>
         </div>
         <div className="challan__component__row__entry__right">
-          Due Date: <span> 17-Dec-2021</span>
+          Due Date: <span> {data.dateOfBrith}</span>
         </div>
       </div>
       <div className="challan__component__row">
@@ -47,12 +48,12 @@ export default function ChallanComponent({ type }) {
           Reg No: <span> lgs240202100055</span>
         </div>
         <div className="challan__component__row__entry__right">
-          Bill Month: <span> Jan 2022</span>
+          Bill Month: <span> {Date.now()}</span>
         </div>
       </div>
       <div className="challan__component__row">
         <div className="challan__component__row__entry__left">
-          Class: <span> Grade</span>
+          Class: <span> {data.classInWhichAdmission}</span>
         </div>
         <div className="challan__component__row__entry__right">
           Concession: <span>N/A</span>
@@ -60,7 +61,7 @@ export default function ChallanComponent({ type }) {
       </div>
       <div className="challan__component__row">
         <div className="challan__component__row__entry__left">
-          Fee For: <span> Jan 2022</span>
+          Fee For: <span> {Date.now()}</span>
         </div>
       </div>
       <table className="challan__table">

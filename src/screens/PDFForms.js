@@ -104,9 +104,9 @@ export default function PDFForms({ setIsPDF }) {
           <AddmissionFormPDF data={registerData} />
         </div>
         <div className="challan__container" ref={refChllanForm}>
-          <ChallanComponent type="Bank Copy" />
-          <ChallanComponent type="School Copy" />
-          <ChallanComponent type="Student Copy" />
+          <ChallanComponent type="Bank Copy" data={registerData} />
+          <ChallanComponent type="School Copy" data={registerData} />
+          <ChallanComponent type="Student Copy" data={registerData} />
         </div>
       </div>
     </>

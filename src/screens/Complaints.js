@@ -188,7 +188,7 @@ export default function Complaints() {
                   irfanaaziz@lgsfsd.edu.pk
                 </a>
               </div>
-              <div className="contact__us__main__container__overlay__content__new__entry">
+              {/* <div className="contact__us__main__container__overlay__content__new__entry">
                 <span>Middle School Coordinator (Girls)</span>Ayesha Gilani -
                 <a href="mailto:ayeshagilani@lgsfsd.edu.pk">
                   ayeshagilani@lgsfsd.edu.pk
@@ -211,7 +211,7 @@ export default function Complaints() {
                 <a href="mailto:sohailhaider@lgsfsd.edu.pk">
                   sohailhaider@lgsfsd.edu.pk
                 </a>
-              </div>
+              </div> */}
               <div className="contact__us__main__container__overlay__content__new__entry">
                 <span>Student Affairs Coordinator</span>Kanwal Shahbaz -
                 <a href="mailto:studentaffairs@lgsfsd.edu.pk">

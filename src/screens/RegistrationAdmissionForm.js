@@ -145,6 +145,8 @@ export default function Alumini() {
             onChange={(e) => {
               setBranchName(e.target.value);
             }}
+            listName="nameofbranch"
+            list={["Canal Campus", "105 Campus"]}
           />
         </div>
         <div className="career__section__content__input__row">
@@ -216,6 +218,23 @@ export default function Alumini() {
             onChange={(e) => {
               setClassInWhichAdmission(e.target.value);
             }}
+            listName="classDesiered"
+            list={[
+              "Playgroup",
+              "Prep",
+              "One",
+              "Two",
+              "Three",
+              "Four",
+              "Five",
+              "Six",
+              "Seven",
+              "Eighth",
+              "Matric",
+              "O Level",
+              "As",
+              "A2",
+            ]}
           />
         </div>
         <div className="career__section__content__input__row">
@@ -238,20 +257,20 @@ export default function Alumini() {
         </div>
         <div className="career__section__content__input__row">
           <InputField
-            label="Tel"
+            label="Father's Tel"
             required={true}
             onChange={(e) => {
               setFatherTel(e.target.value);
             }}
           />
           <InputField
-            label="Tel off"
+            label="Father's Tel off"
             onChange={(e) => {
               setFatherOff(e.target.value);
             }}
           />
           <InputField
-            label="Mob"
+            label="Father's Mob"
             onChange={(e) => {
               setFatherMob(e.target.value);
             }}
@@ -286,20 +305,20 @@ export default function Alumini() {
         </div>
         <div className="career__section__content__input__row">
           <InputField
-            label="Tel"
+            label="Mother's Tel"
             required={true}
             onChange={(e) => {
               setMotherTel(e.target.value);
             }}
           />
           <InputField
-            label="Tel off"
+            label="Mother's Tel off"
             onChange={(e) => {
               setMotherOff(e.target.value);
             }}
           />
           <InputField
-            label="Mob"
+            label="Mother's Mob"
             onChange={(e) => {
               setMotherMob(e.target.value);
             }}
@@ -332,19 +351,19 @@ export default function Alumini() {
         </div>
         <div className="career__section__content__input__row">
           <InputField
-            label="Tel"
+            label="Guardian's Tel"
             onChange={(e) => {
               setGuardianTel(e.target.value);
             }}
           />
           <InputField
-            label="Tel off"
+            label="Guardian's Tel off"
             onChange={(e) => {
               setGuardianOff(e.target.value);
             }}
           />
           <InputField
-            label="Mob"
+            label="Guardian's Mob"
             onChange={(e) => {
               setGuardianMob(e.target.value);
             }}
@@ -384,6 +403,8 @@ export default function Alumini() {
             onChange={(e) => {
               setSiblingInLGS(e.target.value);
             }}
+            listName="nameofbranch"
+            list={["Canal Campus", "105 Campus"]}
           />
           <InputField
             label="Class of Brother/sister studying in any LGS branch"
@@ -391,6 +412,23 @@ export default function Alumini() {
             onChange={(e) => {
               setSiblingInLGSClass(e.target.value);
             }}
+            listName="classOfSibling"
+            list={[
+              "Playgroup",
+              "Prep",
+              "One",
+              "Two",
+              "Three",
+              "Four",
+              "Five",
+              "Six",
+              "Seven",
+              "Eighth",
+              "Matric",
+              "O Level",
+              "As",
+              "A2",
+            ]}
           />
         </div>
         <div className="career__section__content__input__row">
