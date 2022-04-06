@@ -2451,18 +2451,30 @@ body {
   font-weight: 500;
   color: #fff;
 }
-.from__the__pricipal__container {
+.from__the__pricipal__container__wrapper {
   width: 100%;
   max-width: 1260px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  margin: 2em auto;
+}
+.from__the__pricipal__container {
+  width: 32%;
+  display: flex;
+
   align-items: center;
   text-align: center;
   flex-direction: column;
-  height: fit-content;
-  padding: 4em 2em;
-  margin: 0px auto;
-  color: #fff;
+  padding: 2em;
+  border-radius: 20px;
+  color: #242424;
+  background-color: white;
+  margin-right: 2%;
+  margin-bottom: 2em;
+}
+.from__the__pricipal__container:nth-child(3) {
+  margin-right: 0em;
 }
 .from__the__pricipal__container__img {
   width: 180px;
@@ -2472,7 +2484,7 @@ body {
 .from__the__pricipal__container__heading {
   font-size: 16px;
   color: #f9cc09;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0.7em 0em;
   text-transform: uppercase;
 }
@@ -2483,8 +2495,8 @@ body {
   margin: 0.4em 0em;
 }
 .from__the__pricipal__container__para {
-  font-size: 14px;
-  color: #ffffff;
+  font-size: 13px;
+  color: #242424;
 }
 .campus__life__container__new {
   width: 100%;
@@ -4859,6 +4871,18 @@ input:checked + .slider:before {
   .faculty__section__card {
     width: 48%;
   }
+  .from__the__pricipal__container {
+    width: 48%;
+  }
+  .from__the__pricipal__container:nth-child(3) {
+    margin-right: 2%;
+  }
+  .from__the__pricipal__container:nth-child(2) {
+    margin-right: 0em;
+  }
+  .from__the__pricipal__container:nth-child(4) {
+    margin-right: 0em;
+  }
   .campus__main__container__content__left__entry {
     width: calc(33% - 1em);
   }
@@ -5074,6 +5098,14 @@ input:checked + .slider:before {
   }
 }
 @media (max-width: 600px) {
+  .from__the__pricipal__container__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .from__the__pricipal__container {
+    width: 90%;
+    margin-right: 0em;
+  }
   .cannal__campus__btn__wrapper {
     margin-right: 0em;
   }

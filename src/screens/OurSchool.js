@@ -5,6 +5,10 @@ import director_pic from "../assets/director.jpg";
 import ourStoryPic from "../assets/ourStoryPic.png";
 import ourVisionPic from "../assets/ourVisionPic.png";
 import academicBg from "../assets/academicBg.png";
+import ourCampusBg from "../assets/ourCampusBg.jpg";
+import AliaRehman from "../assets/AliaRehman.jpeg";
+import MeenaGul from "../assets/MeenaGul.jpeg";
+import irfanaAziz from "../assets/irfanaAziz.jpg";
 import AIRMS from "../assets/AIRMS.png";
 import PARENTHANDBOOK from "../assets/PARENTHANDBOOK.png";
 import academicPic from "../assets/academicPic.png";
@@ -132,61 +136,131 @@ export default function OurSchool() {
             </div>
           </div>
         </div>
+        <div className="from__the__pricipal__container__wrapper">
+          <div className="from__the__pricipal__container">
+            <img
+              src={director_pic}
+              alt="pricipal_pic"
+              className="from__the__pricipal__container__img"
+            />
 
-        <div className="from__the__pricipal__container">
-          <img
-            src={director_pic}
-            alt="pricipal_pic"
-            className="from__the__pricipal__container__img"
-          />
+            <div className="from__the__pricipal__container__heading">
+              Mrs. Saltanat Bokhari - Director
+            </div>
+            <div className="from__the__pricipal__container__para">
+              I am delighted to offer you a warm welcome to LGS FSD. At LGS.
+              FSD, we view diversity as our biggest strength. We aim to inspire
+              in our students the curiosity to learn, the self-confidence to
+              lead and the compassion to serve. Our primary source of insight
+              and energy is our students’ validation, critique and innovative
+              ideas. We mutually guide and encourage one another to understand
+              the importance of not just academic achievement but also values of
+              tolerance and respect. I hope our website gives you a sense of our
+              purpose and vision. -
+            </div>
+          </div>
+          <div className="from__the__pricipal__container">
+            <img
+              src={MeenaGul}
+              alt="pricipal_pic"
+              className="from__the__pricipal__container__img"
+            />
 
-          <div className="from__the__pricipal__container__heading">
-            Mrs. Saltanat Bokhari - Director
+            <div className="from__the__pricipal__container__heading">
+              Ms. Meena Gul - Regional Director
+            </div>
+            <div className="from__the__pricipal__container__para">
+              What sets Lahore Grammar School Faisalabad apart is that its
+              students exude a strong commitment in developing a personal
+              responsibility in all pursuits and endeavours, striving to achieve
+              academic success, sporting prowess, artistic and creative
+              excellence and develop social as well as moral mind set. Here, the
+              student’s potential is nurtured in a stimulating educational
+              environment, inspiring them to achieve their goals. Our students
+              are encouraged to be resilient in their learning and we at Lahore
+              Grammar School, ensure that they are valued and cared for.
+            </div>
           </div>
-          <div className="from__the__pricipal__container__para">
-            I am delighted to offer you a warm welcome to LGS FSD. At LGS. FSD,
-            we view diversity as our biggest strength. We aim to inspire in our
-            students the curiosity to learn, the self-confidence to lead and the
-            compassion to serve. Our primary source of insight and energy is our
-            students’ validation, critique and innovative ideas. We mutually
-            guide and encourage one another to understand the importance of not
-            just academic achievement but also values of tolerance and respect.
-            I hope our website gives you a sense of our purpose and vision. -
-          </div>
-        </div>
-        <div className="from__the__pricipal__container">
-          <img
-            src={pricipal_pic}
-            alt="pricipal_pic"
-            className="from__the__pricipal__container__img"
-          />
+          <div className="from__the__pricipal__container">
+            <img
+              src={AliaRehman}
+              alt="pricipal_pic"
+              className="from__the__pricipal__container__img"
+            />
 
-          <div className="from__the__pricipal__container__heading">
-            Mr. Imran Shahid - Principal
+            <div className="from__the__pricipal__container__heading">
+              Mrs. Alia Rehman - Regional Coordinator
+            </div>
+            <div className="from__the__pricipal__container__para">
+              What sets Lahore Grammar School Faisalabad apart is that its
+              students exude a strong commitment in developing a personal
+              responsibility in all pursuits and endeavours, striving to achieve
+              academic success, sporting prowess, artistic and creative
+              excellence and develop social as well as moral mind set. Here, the
+              student’s potential is nurtured in a stimulating educational
+              environment, inspiring them to achieve their goals. Our students
+              are encouraged to be resilient in their learning and we at Lahore
+              Grammar School, ensure that they are valued and cared for.
+            </div>
           </div>
-          <div className="from__the__pricipal__container__para">
-            It gives me immense pleasure and a feeling of sheer pride and
-            accomplishment to address you as Principal of the prestigious Lahore
-            Grammar school, Faisalabad, an institution that has striven to
-            maintain high academic standards ever since its inception. Our
-            commitment is to provide our students with an array of
-            opportunities, both curricular and co-curricular, to help them
-            attain their highest potentials.
-            <br />
-            <br /> Our aim is not just giving our students an education that
-            entitles them to a job but to nurture in them lifelong love for
-            learning and inculcate in them values that will help them become
-            kind, caring and responsible individuals.
-            <br />
-            <br />I feel privileged to be working with highly qualified and
-            dedicated faculty always striving to provide students with the
-            latest skills and knowledge to help them stand out in this ever
-            evolving and fiercely competitive world. Our school life is vibrant
-            with a variety of activities, happy noises of learning and positive
-            energy.
-            <br />I welcome you to LGS, Faisalabad and assure you that it will
-            be our endeavor to make our students’ school life an enriching and
-            memorable experience!
+          <div className="from__the__pricipal__container">
+            <img
+              src={pricipal_pic}
+              alt="pricipal_pic"
+              className="from__the__pricipal__container__img"
+            />
+
+            <div className="from__the__pricipal__container__heading">
+              Mr. Imran Shahid - Principal
+            </div>
+            <div className="from__the__pricipal__container__para">
+              It gives me immense pleasure and a feeling of sheer pride and
+              accomplishment to address you as Principal of the prestigious
+              Lahore Grammar school, Faisalabad, an institution that has striven
+              to maintain high academic standards ever since its inception. Our
+              commitment is to provide our students with an array of
+              opportunities, both curricular and co-curricular, to help them
+              attain their highest potentials.
+              <br />
+              <br /> Our aim is not just giving our students an education that
+              entitles them to a job but to nurture in them lifelong love for
+              learning and inculcate in them values that will help them become
+              kind, caring and responsible individuals.
+              <br />
+              <br />I feel privileged to be working with highly qualified and
+              dedicated faculty always striving to provide students with the
+              latest skills and knowledge to help them stand out in this ever
+              evolving and fiercely competitive world. Our school life is
+              vibrant with a variety of activities, happy noises of learning and
+              positive energy.
+              <br />I welcome you to LGS, Faisalabad and assure you that it will
+              be our endeavor to make our students’ school life an enriching and
+              memorable experience!
+            </div>
+          </div>
+          <div className="from__the__pricipal__container">
+            <img
+              src={irfanaAziz}
+              alt="pricipal_pic"
+              className="from__the__pricipal__container__img"
+            />
+
+            <div className="from__the__pricipal__container__heading">
+              Mrs. Irfana Aziz - VICE PRINCIPAL
+            </div>
+            <div className="from__the__pricipal__container__para">
+              Welcome to the official website of Lahore Grammar School,
+              Faisalabad; a prestigious institution that has been providing high
+              quality learning opportunities and experiences to young minds of
+              the city for more than two decades. We at LGS, Faisalabad strive
+              to make education an enjoyable and enlightening process. Our
+              school life is an excellent amalgamation of analytical,
+              intellectual, and healthy physical growth of our students along
+              with inculcating human values in them. We are also proud to have a
+              faculty comprising of highly qualified individuals always doing
+              their best to develop and nurture the young minds of today into
+              well-rounded global citizens of tomorrow!
+            </div>
           </div>
         </div>
         <div className="parents__handbook__main__container">
