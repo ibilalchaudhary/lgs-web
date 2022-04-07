@@ -189,7 +189,7 @@ export default function OurSchool() {
             />
 
             <div className="from__the__pricipal__container__heading">
-              Mrs. Alia Rehman - Regional Coordinator
+              Mrs. Alia Noman - Regional Coordinator
             </div>
             <div className="from__the__pricipal__container__para">
               What sets Lahore Grammar School Faisalabad apart is that its
